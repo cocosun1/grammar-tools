@@ -539,6 +539,816 @@
         "Employees might work longer on the four days, reducing the benefit.",
         "Coordination with clients or global teams could be harder."
       ]
+    },
+    {
+      "id": "arg-31",
+      "prompt_en": "Do you agree or disagree: Parents should limit children's screen time to less than two hours per day.",
+      "topic": "society",
+      "questionType": "agree_disagree",
+      "argumentsOneSide": [
+        "Reduces eye strain and promotes physical activity.",
+        "Improves sleep quality and attention spans.",
+        "Encourages real-world social interaction.",
+        "May reduce exposure to inappropriate content."
+      ],
+      "argumentsOtherSide": [
+        "Screen time can be educational when supervised.",
+        "Strict limits may cause conflict and rebellion.",
+        "Some children need screens for schoolwork.",
+        "Two hours may be arbitrary; quality matters more."
+      ]
+    },
+    {
+      "id": "arg-32",
+      "prompt_en": "Which is better: learning from books or learning from videos?",
+      "topic": "education",
+      "questionType": "comparison",
+      "argumentsOneSide": [
+        "Books allow deeper focus and note-taking.",
+        "Videos can show processes and demonstrations.",
+        "Books are portable and don't require devices.",
+        "Videos can be paused and replayed."
+      ],
+      "argumentsOtherSide": [
+        "Books may be outdated; videos can be updated.",
+        "Videos suit visual learners better.",
+        "Books develop reading comprehension.",
+        "Videos can be more engaging for some."
+      ]
+    },
+    {
+      "id": "arg-33",
+      "prompt_en": "What are the advantages and disadvantages of living in a foreign country?",
+      "topic": "life",
+      "questionType": "advantages_disadvantages",
+      "argumentsOneSide": [
+        "Exposure to new cultures and languages.",
+        "Career and networking opportunities.",
+        "Personal growth and independence.",
+        "Broader perspective on global issues."
+      ],
+      "argumentsOtherSide": [
+        "Homesickness and cultural adjustment.",
+        "Distance from family and friends.",
+        "Possible language barriers.",
+        "Different healthcare and legal systems."
+      ]
+    },
+    {
+      "id": "arg-34",
+      "prompt_en": "Why do some people prefer to work alone rather than in teams?",
+      "topic": "work",
+      "questionType": "explain_phenomenon",
+      "argumentsOneSide": [
+        "More control over process and pace.",
+        "Avoids conflicts and coordination overhead.",
+        "Better for focused, independent tasks.",
+        "Less time spent in meetings."
+      ],
+      "argumentsOtherSide": [
+        "Teams bring diverse ideas and skills.",
+        "Collaboration can improve outcomes.",
+        "Working alone may feel isolating.",
+        "Some tasks require teamwork."
+      ]
+    },
+    {
+      "id": "arg-35",
+      "prompt_en": "Do you agree or disagree: College education should be free for everyone.",
+      "topic": "education",
+      "questionType": "agree_disagree",
+      "argumentsOneSide": [
+        "Removes financial barriers to higher education.",
+        "Benefits society through a more educated workforce.",
+        "Reduces student debt and stress.",
+        "Equalizes opportunities across income levels."
+      ],
+      "argumentsOtherSide": [
+        "Taxpayers may not want to fund all degrees.",
+        "Could lead to overcrowding or lower quality.",
+        "Not everyone needs or wants college.",
+        "Other priorities (e.g. healthcare) may need funding."
+      ]
+    },
+    {
+      "id": "arg-36",
+      "prompt_en": "What are the advantages and disadvantages of electric vehicles?",
+      "topic": "environment",
+      "questionType": "advantages_disadvantages",
+      "argumentsOneSide": [
+        "Lower emissions and reduced air pollution.",
+        "Lower fuel and maintenance costs over time.",
+        "Quieter and smoother driving experience.",
+        "Supports transition to renewable energy."
+      ],
+      "argumentsOtherSide": [
+        "Higher upfront cost and limited range.",
+        "Charging infrastructure not yet universal.",
+        "Battery production has environmental impact.",
+        "Long charging times compared to refueling."
+      ]
+    },
+    {
+      "id": "arg-37",
+      "prompt_en": "Do you agree or disagree: Social media companies should censor misinformation.",
+      "topic": "media",
+      "questionType": "agree_disagree",
+      "argumentsOneSide": [
+        "Protects public health and safety.",
+        "Reduces spread of harmful false claims.",
+        "Platforms have responsibility as publishers.",
+        "Helps maintain trust in information."
+      ],
+      "argumentsOtherSide": [
+        "Raises concerns about free speech.",
+        "Who decides what is misinformation?",
+        "May lead to over-censorship or bias.",
+        "Users can fact-check themselves."
+      ]
+    },
+    {
+      "id": "arg-38",
+      "prompt_en": "Which is more important: job satisfaction or a high salary?",
+      "topic": "work",
+      "questionType": "comparison",
+      "argumentsOneSide": [
+        "Satisfaction affects mental health and well-being.",
+        "Meaningful work leads to better performance.",
+        "Money alone does not bring happiness.",
+        "Burnout from unsatisfying work is costly."
+      ],
+      "argumentsOtherSide": [
+        "Salary enables financial security and lifestyle.",
+        "High pay can reduce stress about money.",
+        "Satisfaction may not pay the bills.",
+        "Both matter; balance is ideal."
+      ]
+    },
+    {
+      "id": "arg-39",
+      "prompt_en": "Why do people volunteer their time for charitable causes?",
+      "topic": "society",
+      "questionType": "explain_phenomenon",
+      "argumentsOneSide": [
+        "Sense of purpose and fulfillment.",
+        "Desire to give back to community.",
+        "Social connection and belonging.",
+        "Personal growth and new skills."
+      ],
+      "argumentsOtherSide": [
+        "Obligation or social pressure.",
+        "Resume building or career networking.",
+        "Religious or cultural values.",
+        "Addressing issues they care about."
+      ]
+    },
+    {
+      "id": "arg-40",
+      "prompt_en": "Do you agree or disagree: Governments should ban single-use plastics.",
+      "topic": "environment",
+      "questionType": "agree_disagree",
+      "argumentsOneSide": [
+        "Reduces plastic pollution and marine harm.",
+        "Encourages reusable alternatives.",
+        "Lowers long-term environmental costs.",
+        "Aligns with sustainability goals."
+      ],
+      "argumentsOtherSide": [
+        "Alternatives may be more expensive.",
+        "Enforcement and compliance challenges.",
+        "Some uses (e.g. medical) may need plastic.",
+        "Industry and jobs may be affected."
+      ]
+    },
+    {
+      "id": "arg-41",
+      "prompt_en": "What are the advantages and disadvantages of remote work for companies?",
+      "topic": "business",
+      "questionType": "advantages_disadvantages",
+      "argumentsOneSide": [
+        "Lower office costs and overhead.",
+        "Access to global talent pool.",
+        "Increased productivity for some roles.",
+        "Reduces commute-related stress."
+      ],
+      "argumentsOtherSide": [
+        "Less collaboration and team bonding.",
+        "Harder to monitor and manage.",
+        "Communication challenges across time zones.",
+        "Some roles require in-person presence."
+      ]
+    },
+    {
+      "id": "arg-42",
+      "prompt_en": "Do you agree or disagree: Standardized tests are a good measure of student ability.",
+      "topic": "education",
+      "questionType": "agree_disagree",
+      "argumentsOneSide": [
+        "Provides objective, comparable data.",
+        "Prepares students for timed assessments.",
+        "Identifies gaps in curriculum.",
+        "Used for college admissions and placement."
+      ],
+      "argumentsOtherSide": [
+        "Does not capture creativity or critical thinking.",
+        "Test anxiety can skew results.",
+        "Teaching to the test narrows learning.",
+        "Socioeconomic factors affect performance."
+      ]
+    },
+    {
+      "id": "arg-43",
+      "prompt_en": "Why do some cultures value punctuality more than others?",
+      "topic": "culture",
+      "questionType": "explain_phenomenon",
+      "argumentsOneSide": [
+        "Industrial and business norms.",
+        "Collective vs. individual time orientation.",
+        "Historical and religious influences.",
+        "Urban vs. rural pace of life."
+      ],
+      "argumentsOtherSide": [
+        "Globalization is changing attitudes.",
+        "Punctuality signals respect.",
+        "Flexible time may reduce stress.",
+        "Context (work vs. social) matters."
+      ]
+    },
+    {
+      "id": "arg-44",
+      "prompt_en": "Do you agree or disagree: Athletes and entertainers are paid too much.",
+      "topic": "society",
+      "questionType": "agree_disagree",
+      "argumentsOneSide": [
+        "Essential workers (e.g. nurses) earn less.",
+        "Market demand drives salaries.",
+        "Celebrities have limited social value.",
+        "Income inequality is exacerbated."
+      ],
+      "argumentsOtherSide": [
+        "They generate revenue and entertainment.",
+        "Short careers justify high pay.",
+        "Market determines value.",
+        "Taxes redistribute wealth."
+      ]
+    },
+    {
+      "id": "arg-45",
+      "prompt_en": "Which is better: print newspapers or online news?",
+      "topic": "media",
+      "questionType": "comparison",
+      "argumentsOneSide": [
+        "Print supports local journalism.",
+        "Reduces screen time.",
+        "Longer-form, curated content.",
+        "No paywall or algorithm."
+      ],
+      "argumentsOtherSide": [
+        "Online is instant and updatable.",
+        "More accessible and shareable.",
+        "Multimedia and interactive.",
+        "Environmentally lighter."
+      ]
+    },
+    {
+      "id": "arg-46",
+      "prompt_en": "Do you agree or disagree: Parents should limit children's screen time to less than two hours per day.",
+      "topic": "society",
+      "questionType": "agree_disagree",
+      "argumentsOneSide": [
+        "Reduces eye strain and promotes physical activity.",
+        "Improves sleep quality and attention spans.",
+        "Encourages real-world social interaction.",
+        "May reduce exposure to inappropriate content."
+      ],
+      "argumentsOtherSide": [
+        "Screen time can be educational when supervised.",
+        "Strict limits may cause conflict and rebellion.",
+        "Some children need screens for schoolwork.",
+        "Two hours may be arbitrary; quality matters more."
+      ]
+    },
+    {
+      "id": "arg-47",
+      "prompt_en": "Which is better: learning from books or learning from videos?",
+      "topic": "education",
+      "questionType": "comparison",
+      "argumentsOneSide": [
+        "Books allow deeper focus and note-taking.",
+        "Videos can show processes and demonstrations.",
+        "Books are portable and don't require devices.",
+        "Videos can be paused and replayed."
+      ],
+      "argumentsOtherSide": [
+        "Books may be outdated; videos can be updated.",
+        "Videos suit visual learners better.",
+        "Books develop reading comprehension.",
+        "Videos can be more engaging for some."
+      ]
+    },
+    {
+      "id": "arg-48",
+      "prompt_en": "What are the advantages and disadvantages of living in a foreign country?",
+      "topic": "life",
+      "questionType": "advantages_disadvantages",
+      "argumentsOneSide": [
+        "Exposure to new cultures and languages.",
+        "Career and networking opportunities.",
+        "Personal growth and independence.",
+        "Broader perspective on global issues."
+      ],
+      "argumentsOtherSide": [
+        "Homesickness and cultural adjustment.",
+        "Distance from family and friends.",
+        "Possible language barriers.",
+        "Different healthcare and legal systems."
+      ]
+    },
+    {
+      "id": "arg-49",
+      "prompt_en": "Why do some people prefer to work alone rather than in teams?",
+      "topic": "work",
+      "questionType": "explain_phenomenon",
+      "argumentsOneSide": [
+        "More control over process and pace.",
+        "Avoids conflicts and coordination overhead.",
+        "Better for focused, independent tasks.",
+        "Less time spent in meetings."
+      ],
+      "argumentsOtherSide": [
+        "Teams bring diverse ideas and skills.",
+        "Collaboration can improve outcomes.",
+        "Working alone may feel isolating.",
+        "Some tasks require teamwork."
+      ]
+    },
+    {
+      "id": "arg-50",
+      "prompt_en": "Do you agree or disagree: College education should be free for everyone.",
+      "topic": "education",
+      "questionType": "agree_disagree",
+      "argumentsOneSide": [
+        "Removes financial barriers to higher education.",
+        "Benefits society through a more educated workforce.",
+        "Reduces student debt and stress.",
+        "Equalizes opportunities across income levels."
+      ],
+      "argumentsOtherSide": [
+        "Taxpayers may not want to fund all degrees.",
+        "Could lead to overcrowding or lower quality.",
+        "Not everyone needs or wants college.",
+        "Other priorities (e.g. healthcare) may need funding."
+      ]
+    },
+    {
+      "id": "arg-51",
+      "prompt_en": "What are the advantages and disadvantages of electric vehicles?",
+      "topic": "environment",
+      "questionType": "advantages_disadvantages",
+      "argumentsOneSide": [
+        "Lower emissions and reduced air pollution.",
+        "Lower fuel and maintenance costs over time.",
+        "Quieter and smoother driving experience.",
+        "Supports transition to renewable energy."
+      ],
+      "argumentsOtherSide": [
+        "Higher upfront cost and limited range.",
+        "Charging infrastructure not yet universal.",
+        "Battery production has environmental impact.",
+        "Long charging times compared to refueling."
+      ]
+    },
+    {
+      "id": "arg-52",
+      "prompt_en": "Do you agree or disagree: Social media companies should censor misinformation.",
+      "topic": "media",
+      "questionType": "agree_disagree",
+      "argumentsOneSide": [
+        "Protects public health and safety.",
+        "Reduces spread of harmful false claims.",
+        "Platforms have responsibility as publishers.",
+        "Helps maintain trust in information."
+      ],
+      "argumentsOtherSide": [
+        "Raises concerns about free speech.",
+        "Who decides what is misinformation?",
+        "May lead to over-censorship or bias.",
+        "Users can fact-check themselves."
+      ]
+    },
+    {
+      "id": "arg-53",
+      "prompt_en": "Which is more important: job satisfaction or a high salary?",
+      "topic": "work",
+      "questionType": "comparison",
+      "argumentsOneSide": [
+        "Satisfaction affects mental health and well-being.",
+        "Meaningful work leads to better performance.",
+        "Money alone does not bring happiness.",
+        "Burnout from unsatisfying work is costly."
+      ],
+      "argumentsOtherSide": [
+        "Salary enables financial security and lifestyle.",
+        "High pay can reduce stress about money.",
+        "Satisfaction may not pay the bills.",
+        "Both matter; balance is ideal."
+      ]
+    },
+    {
+      "id": "arg-54",
+      "prompt_en": "Why do people volunteer their time for charitable causes?",
+      "topic": "society",
+      "questionType": "explain_phenomenon",
+      "argumentsOneSide": [
+        "Sense of purpose and fulfillment.",
+        "Desire to give back to community.",
+        "Social connection and belonging.",
+        "Personal growth and new skills."
+      ],
+      "argumentsOtherSide": [
+        "Obligation or social pressure.",
+        "Resume building or career networking.",
+        "Religious or cultural values.",
+        "Addressing issues they care about."
+      ]
+    },
+    {
+      "id": "arg-55",
+      "prompt_en": "Do you agree or disagree: Governments should ban single-use plastics.",
+      "topic": "environment",
+      "questionType": "agree_disagree",
+      "argumentsOneSide": [
+        "Reduces plastic pollution and marine harm.",
+        "Encourages reusable alternatives.",
+        "Lowers long-term environmental costs.",
+        "Aligns with sustainability goals."
+      ],
+      "argumentsOtherSide": [
+        "Alternatives may be more expensive.",
+        "Enforcement and compliance challenges.",
+        "Some uses (e.g. medical) may need plastic.",
+        "Industry and jobs may be affected."
+      ]
+    },
+    {
+      "id": "arg-56",
+      "prompt_en": "What are the advantages and disadvantages of remote work for companies?",
+      "topic": "business",
+      "questionType": "advantages_disadvantages",
+      "argumentsOneSide": [
+        "Lower office costs and overhead.",
+        "Access to global talent pool.",
+        "Increased productivity for some roles.",
+        "Reduces commute-related stress."
+      ],
+      "argumentsOtherSide": [
+        "Less collaboration and team bonding.",
+        "Harder to monitor and manage.",
+        "Communication challenges across time zones.",
+        "Some roles require in-person presence."
+      ]
+    },
+    {
+      "id": "arg-57",
+      "prompt_en": "Do you agree or disagree: Standardized tests are a good measure of student ability.",
+      "topic": "education",
+      "questionType": "agree_disagree",
+      "argumentsOneSide": [
+        "Provides objective, comparable data.",
+        "Prepares students for timed assessments.",
+        "Identifies gaps in curriculum.",
+        "Used for college admissions and placement."
+      ],
+      "argumentsOtherSide": [
+        "Does not capture creativity or critical thinking.",
+        "Test anxiety can skew results.",
+        "Teaching to the test narrows learning.",
+        "Socioeconomic factors affect performance."
+      ]
+    },
+    {
+      "id": "arg-58",
+      "prompt_en": "Why do some cultures value punctuality more than others?",
+      "topic": "culture",
+      "questionType": "explain_phenomenon",
+      "argumentsOneSide": [
+        "Industrial and business norms.",
+        "Collective vs. individual time orientation.",
+        "Historical and religious influences.",
+        "Urban vs. rural pace of life."
+      ],
+      "argumentsOtherSide": [
+        "Globalization is changing attitudes.",
+        "Punctuality signals respect.",
+        "Flexible time may reduce stress.",
+        "Context (work vs. social) matters."
+      ]
+    },
+    {
+      "id": "arg-59",
+      "prompt_en": "Do you agree or disagree: Athletes and entertainers are paid too much.",
+      "topic": "society",
+      "questionType": "agree_disagree",
+      "argumentsOneSide": [
+        "Essential workers (e.g. nurses) earn less.",
+        "Market demand drives salaries.",
+        "Celebrities have limited social value.",
+        "Income inequality is exacerbated."
+      ],
+      "argumentsOtherSide": [
+        "They generate revenue and entertainment.",
+        "Short careers justify high pay.",
+        "Market determines value.",
+        "Taxes redistribute wealth."
+      ]
+    },
+    {
+      "id": "arg-60",
+      "prompt_en": "Which is better: print newspapers or online news?",
+      "topic": "media",
+      "questionType": "comparison",
+      "argumentsOneSide": [
+        "Print supports local journalism.",
+        "Reduces screen time.",
+        "Longer-form, curated content.",
+        "No paywall or algorithm."
+      ],
+      "argumentsOtherSide": [
+        "Online is instant and updatable.",
+        "More accessible and shareable.",
+        "Multimedia and interactive.",
+        "Environmentally lighter."
+      ]
+    },
+    {
+      "id": "arg-61",
+      "prompt_en": "Do you agree or disagree: Parents should limit children's screen time to less than two hours per day.",
+      "topic": "society",
+      "questionType": "agree_disagree",
+      "argumentsOneSide": [
+        "Reduces eye strain and promotes physical activity.",
+        "Improves sleep quality and attention spans.",
+        "Encourages real-world social interaction.",
+        "May reduce exposure to inappropriate content."
+      ],
+      "argumentsOtherSide": [
+        "Screen time can be educational when supervised.",
+        "Strict limits may cause conflict and rebellion.",
+        "Some children need screens for schoolwork.",
+        "Two hours may be arbitrary; quality matters more."
+      ]
+    },
+    {
+      "id": "arg-62",
+      "prompt_en": "Which is better: learning from books or learning from videos?",
+      "topic": "education",
+      "questionType": "comparison",
+      "argumentsOneSide": [
+        "Books allow deeper focus and note-taking.",
+        "Videos can show processes and demonstrations.",
+        "Books are portable and don't require devices.",
+        "Videos can be paused and replayed."
+      ],
+      "argumentsOtherSide": [
+        "Books may be outdated; videos can be updated.",
+        "Videos suit visual learners better.",
+        "Books develop reading comprehension.",
+        "Videos can be more engaging for some."
+      ]
+    },
+    {
+      "id": "arg-63",
+      "prompt_en": "What are the advantages and disadvantages of living in a foreign country?",
+      "topic": "life",
+      "questionType": "advantages_disadvantages",
+      "argumentsOneSide": [
+        "Exposure to new cultures and languages.",
+        "Career and networking opportunities.",
+        "Personal growth and independence.",
+        "Broader perspective on global issues."
+      ],
+      "argumentsOtherSide": [
+        "Homesickness and cultural adjustment.",
+        "Distance from family and friends.",
+        "Possible language barriers.",
+        "Different healthcare and legal systems."
+      ]
+    },
+    {
+      "id": "arg-64",
+      "prompt_en": "Why do some people prefer to work alone rather than in teams?",
+      "topic": "work",
+      "questionType": "explain_phenomenon",
+      "argumentsOneSide": [
+        "More control over process and pace.",
+        "Avoids conflicts and coordination overhead.",
+        "Better for focused, independent tasks.",
+        "Less time spent in meetings."
+      ],
+      "argumentsOtherSide": [
+        "Teams bring diverse ideas and skills.",
+        "Collaboration can improve outcomes.",
+        "Working alone may feel isolating.",
+        "Some tasks require teamwork."
+      ]
+    },
+    {
+      "id": "arg-65",
+      "prompt_en": "Do you agree or disagree: College education should be free for everyone.",
+      "topic": "education",
+      "questionType": "agree_disagree",
+      "argumentsOneSide": [
+        "Removes financial barriers to higher education.",
+        "Benefits society through a more educated workforce.",
+        "Reduces student debt and stress.",
+        "Equalizes opportunities across income levels."
+      ],
+      "argumentsOtherSide": [
+        "Taxpayers may not want to fund all degrees.",
+        "Could lead to overcrowding or lower quality.",
+        "Not everyone needs or wants college.",
+        "Other priorities (e.g. healthcare) may need funding."
+      ]
+    },
+    {
+      "id": "arg-66",
+      "prompt_en": "What are the advantages and disadvantages of electric vehicles?",
+      "topic": "environment",
+      "questionType": "advantages_disadvantages",
+      "argumentsOneSide": [
+        "Lower emissions and reduced air pollution.",
+        "Lower fuel and maintenance costs over time.",
+        "Quieter and smoother driving experience.",
+        "Supports transition to renewable energy."
+      ],
+      "argumentsOtherSide": [
+        "Higher upfront cost and limited range.",
+        "Charging infrastructure not yet universal.",
+        "Battery production has environmental impact.",
+        "Long charging times compared to refueling."
+      ]
+    },
+    {
+      "id": "arg-67",
+      "prompt_en": "Do you agree or disagree: Social media companies should censor misinformation.",
+      "topic": "media",
+      "questionType": "agree_disagree",
+      "argumentsOneSide": [
+        "Protects public health and safety.",
+        "Reduces spread of harmful false claims.",
+        "Platforms have responsibility as publishers.",
+        "Helps maintain trust in information."
+      ],
+      "argumentsOtherSide": [
+        "Raises concerns about free speech.",
+        "Who decides what is misinformation?",
+        "May lead to over-censorship or bias.",
+        "Users can fact-check themselves."
+      ]
+    },
+    {
+      "id": "arg-68",
+      "prompt_en": "Which is more important: job satisfaction or a high salary?",
+      "topic": "work",
+      "questionType": "comparison",
+      "argumentsOneSide": [
+        "Satisfaction affects mental health and well-being.",
+        "Meaningful work leads to better performance.",
+        "Money alone does not bring happiness.",
+        "Burnout from unsatisfying work is costly."
+      ],
+      "argumentsOtherSide": [
+        "Salary enables financial security and lifestyle.",
+        "High pay can reduce stress about money.",
+        "Satisfaction may not pay the bills.",
+        "Both matter; balance is ideal."
+      ]
+    },
+    {
+      "id": "arg-69",
+      "prompt_en": "Why do people volunteer their time for charitable causes?",
+      "topic": "society",
+      "questionType": "explain_phenomenon",
+      "argumentsOneSide": [
+        "Sense of purpose and fulfillment.",
+        "Desire to give back to community.",
+        "Social connection and belonging.",
+        "Personal growth and new skills."
+      ],
+      "argumentsOtherSide": [
+        "Obligation or social pressure.",
+        "Resume building or career networking.",
+        "Religious or cultural values.",
+        "Addressing issues they care about."
+      ]
+    },
+    {
+      "id": "arg-70",
+      "prompt_en": "Do you agree or disagree: Governments should ban single-use plastics.",
+      "topic": "environment",
+      "questionType": "agree_disagree",
+      "argumentsOneSide": [
+        "Reduces plastic pollution and marine harm.",
+        "Encourages reusable alternatives.",
+        "Lowers long-term environmental costs.",
+        "Aligns with sustainability goals."
+      ],
+      "argumentsOtherSide": [
+        "Alternatives may be more expensive.",
+        "Enforcement and compliance challenges.",
+        "Some uses (e.g. medical) may need plastic.",
+        "Industry and jobs may be affected."
+      ]
+    },
+    {
+      "id": "arg-71",
+      "prompt_en": "What are the advantages and disadvantages of remote work for companies?",
+      "topic": "business",
+      "questionType": "advantages_disadvantages",
+      "argumentsOneSide": [
+        "Lower office costs and overhead.",
+        "Access to global talent pool.",
+        "Increased productivity for some roles.",
+        "Reduces commute-related stress."
+      ],
+      "argumentsOtherSide": [
+        "Less collaboration and team bonding.",
+        "Harder to monitor and manage.",
+        "Communication challenges across time zones.",
+        "Some roles require in-person presence."
+      ]
+    },
+    {
+      "id": "arg-72",
+      "prompt_en": "Do you agree or disagree: Standardized tests are a good measure of student ability.",
+      "topic": "education",
+      "questionType": "agree_disagree",
+      "argumentsOneSide": [
+        "Provides objective, comparable data.",
+        "Prepares students for timed assessments.",
+        "Identifies gaps in curriculum.",
+        "Used for college admissions and placement."
+      ],
+      "argumentsOtherSide": [
+        "Does not capture creativity or critical thinking.",
+        "Test anxiety can skew results.",
+        "Teaching to the test narrows learning.",
+        "Socioeconomic factors affect performance."
+      ]
+    },
+    {
+      "id": "arg-73",
+      "prompt_en": "Why do some cultures value punctuality more than others?",
+      "topic": "culture",
+      "questionType": "explain_phenomenon",
+      "argumentsOneSide": [
+        "Industrial and business norms.",
+        "Collective vs. individual time orientation.",
+        "Historical and religious influences.",
+        "Urban vs. rural pace of life."
+      ],
+      "argumentsOtherSide": [
+        "Globalization is changing attitudes.",
+        "Punctuality signals respect.",
+        "Flexible time may reduce stress.",
+        "Context (work vs. social) matters."
+      ]
+    },
+    {
+      "id": "arg-74",
+      "prompt_en": "Do you agree or disagree: Athletes and entertainers are paid too much.",
+      "topic": "society",
+      "questionType": "agree_disagree",
+      "argumentsOneSide": [
+        "Essential workers (e.g. nurses) earn less.",
+        "Market demand drives salaries.",
+        "Celebrities have limited social value.",
+        "Income inequality is exacerbated."
+      ],
+      "argumentsOtherSide": [
+        "They generate revenue and entertainment.",
+        "Short careers justify high pay.",
+        "Market determines value.",
+        "Taxes redistribute wealth."
+      ]
+    },
+    {
+      "id": "arg-75",
+      "prompt_en": "Which is better: print newspapers or online news?",
+      "topic": "media",
+      "questionType": "comparison",
+      "argumentsOneSide": [
+        "Print supports local journalism.",
+        "Reduces screen time.",
+        "Longer-form, curated content.",
+        "No paywall or algorithm."
+      ],
+      "argumentsOtherSide": [
+        "Online is instant and updatable.",
+        "More accessible and shareable.",
+        "Multimedia and interactive.",
+        "Environmentally lighter."
+      ]
     }
   ]
 }

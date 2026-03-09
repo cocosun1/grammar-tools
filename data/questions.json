@@ -682,10 +682,10 @@
     "module_name_zh": "一般现在时",
     "type": "sentence_correction",
     "instruction_zh": "请修改以下句子中的错误",
-    "explanation_zh": "第三人称单数作主语时，谓语动词要加 -s 或 -es，go 变为 goes。",
+    "explanation_zh": "They 是第三人称复数，谓语用原形 go；proceed/duration 改为 go/day。",
     "difficulty": 1,
     "question_en": "They proceed to institution every duration.",
-    "answer": "They goes to institution every day."
+    "answer": "They go to institution every day."
   },
   {
     "id": "q022",
@@ -862,6 +862,7 @@
     "difficulty": 1,
     "question_en": "She ____ to London final period.",
     "options": [
+      "went",
       "proceed",
       "proceeded"
     ],
@@ -878,6 +879,7 @@
     "difficulty": 1,
     "question_en": "He ____ to Paris final period.",
     "options": [
+      "went",
       "proceed",
       "proceeded"
     ],
@@ -894,6 +896,7 @@
     "difficulty": 1,
     "question_en": "They ____ to Tokyo final period.",
     "options": [
+      "went",
       "proceed",
       "proceeded"
     ],
@@ -1422,6 +1425,7 @@
     "difficulty": 1,
     "question_en": "She ____ her homework already.",
     "options": [
+      "has finished",
       "completed",
       "has completed"
     ],
@@ -1438,6 +1442,7 @@
     "difficulty": 1,
     "question_en": "He ____ her research already.",
     "options": [
+      "has finished",
       "completed",
       "has completed"
     ],
@@ -1454,6 +1459,7 @@
     "difficulty": 1,
     "question_en": "They ____ her exercise already.",
     "options": [
+      "has finished",
       "completed",
       "has completed"
     ],
@@ -2434,6 +2440,7 @@
     "difficulty": 1,
     "question_en": "I don't have ____ milk left.",
     "options": [
+      "much",
       "numerous",
       "substantial"
     ],
@@ -2450,6 +2457,7 @@
     "difficulty": 1,
     "question_en": "We don't have ____ milk left.",
     "options": [
+      "much",
       "numerous",
       "substantial"
     ],
@@ -2466,6 +2474,7 @@
     "difficulty": 1,
     "question_en": "He don't have ____ milk left.",
     "options": [
+      "much",
       "numerous",
       "substantial"
     ],
@@ -2889,6 +2898,7 @@
     "explanation_zh": "Numerous 后接复数名词，person 的复数为 people（不规则）。",
     "difficulty": 2,
     "options": [
+      "Numerous individuals were there.",
       "Numerous person were present.",
       "Numerous individuals were present.",
       "Numerous persons were present."
@@ -3073,6 +3083,7 @@
     "explanation_zh": "A few 后接复数，duration 的复数为 durations（元音 + y 直接加 -s）。",
     "difficulty": 1,
     "options": [
+      "I will remain for a few days.",
       "I will remain for a few duration.",
       "I will remain for a few durations.",
       "I will remain for a few daies."
@@ -3089,6 +3100,7 @@
     "explanation_zh": "A few 后接复数，duration 的复数为 durations（元音 + y 直接加 -s）。",
     "difficulty": 1,
     "options": [
+      "We will remain for a few days.",
       "We will remain for a few duration.",
       "We will remain for a few durations.",
       "We will remain for a few daies."
@@ -3105,6 +3117,7 @@
     "explanation_zh": "A few 后接复数，duration 的复数为 durations（元音 + y 直接加 -s）。",
     "difficulty": 1,
     "options": [
+      "He will remain for a few days.",
       "He will remain for a few duration.",
       "He will remain for a few durations.",
       "He will remain for a few daies."
@@ -3390,7 +3403,7 @@
     "module_name_zh": "冠词 (a / an / the)",
     "type": "sentence_correction",
     "instruction_zh": "请修改以下句子中的错误",
-    "explanation_zh": "idea 以元音音素开头，用 an。",
+    "explanation_zh": "interesting 以元音音素开头，用 an。",
     "difficulty": 1,
     "question_en": "That is a interesting concept.",
     "answer": "That is an interesting concept."
@@ -3602,7 +3615,7 @@
     "module_name_zh": "冠词 (a / an / the)",
     "type": "sentence_correction",
     "instruction_zh": "请修改以下句子中的错误",
-    "explanation_zh": "再次提到前文出现的 book，用 the。",
+    "explanation_zh": "再次提到前文出现的 publication，用 the。",
     "difficulty": 1,
     "question_en": "She provided me a publication. A publication was highly useful.",
     "answer": "She provided me a publication. The publication was highly useful."
@@ -3614,7 +3627,7 @@
     "module_name_zh": "冠词 (a / an / the)",
     "type": "sentence_correction",
     "instruction_zh": "请修改以下句子中的错误",
-    "explanation_zh": "再次提到前文出现的 gift，用 the。",
+    "explanation_zh": "再次提到前文出现的 publication，用 the。",
     "difficulty": 1,
     "question_en": "He provided me a publication. A publication was highly useful.",
     "answer": "He provided me a publication. The publication was highly useful."
@@ -3626,7 +3639,7 @@
     "module_name_zh": "冠词 (a / an / the)",
     "type": "sentence_correction",
     "instruction_zh": "请修改以下句子中的错误",
-    "explanation_zh": "再次提到前文出现的 magazine，用 the。",
+    "explanation_zh": "再次提到前文出现的 publication，用 the。",
     "difficulty": 1,
     "question_en": "They provided me a publication. A publication was highly useful.",
     "answer": "They provided me a publication. The publication was highly useful."
@@ -3689,6 +3702,7 @@
     "explanation_zh": "第一次提到用 a，第二次特指用 the。",
     "difficulty": 1,
     "options": [
+      "There was a cat in the garden. The cat was black.",
       "Present was a cat in the garden. A cat was black.",
       "Present was a cat in the garden. The cat was black.",
       "Present was the cat in the garden. The cat was black."
@@ -3705,6 +3719,7 @@
     "explanation_zh": "第一次提到用 a，第二次特指用 the。",
     "difficulty": 1,
     "options": [
+      "There was a dog in the garden. The dog was black.",
       "Present was a dog in the garden. A dog was black.",
       "Present was a dog in the garden. The dog was black.",
       "Present was the dog in the garden. The dog was black."
@@ -3721,6 +3736,7 @@
     "explanation_zh": "第一次提到用 a，第二次特指用 the。",
     "difficulty": 1,
     "options": [
+      "There was a bird in the garden. The bird was black.",
       "Present was a bird in the garden. A bird was black.",
       "Present was a bird in the garden. The bird was black.",
       "Present was the bird in the garden. The bird was black."
@@ -3750,9 +3766,9 @@
     "module_name_zh": "冠词 (a / an / the)",
     "type": "sentence_correction",
     "instruction_zh": "请修改以下句子中的错误",
-    "explanation_zh": "test 以元音音素开头，用 an。",
+    "explanation_zh": "assessment 以元音音素开头，用 an。",
     "difficulty": 1,
-    "question_en": "She passed an assessment previously.",
+    "question_en": "She passed a assessment previously.",
     "answer": "She passed an assessment previously."
   },
   {
@@ -3762,9 +3778,9 @@
     "module_name_zh": "冠词 (a / an / the)",
     "type": "sentence_correction",
     "instruction_zh": "请修改以下句子中的错误",
-    "explanation_zh": "test 以元音音素开头，用 an。",
+    "explanation_zh": "assessment 以元音音素开头，用 an。",
     "difficulty": 1,
-    "question_en": "He passed an assessment previously.",
+    "question_en": "He passed a assessment previously.",
     "answer": "He passed an assessment previously."
   },
   {
@@ -3774,9 +3790,9 @@
     "module_name_zh": "冠词 (a / an / the)",
     "type": "sentence_correction",
     "instruction_zh": "请修改以下句子中的错误",
-    "explanation_zh": "test 以元音音素开头，用 an。",
+    "explanation_zh": "assessment 以元音音素开头，用 an。",
     "difficulty": 1,
-    "question_en": "They passed an assessment previously.",
+    "question_en": "They passed a assessment previously.",
     "answer": "They passed an assessment previously."
   },
   {
@@ -4417,6 +4433,7 @@
     "instruction_zh": "请选择正确的词",
     "question_en": "____ information is available.",
     "options": [
+      "Much",
       "Substantial",
       "Numerous"
     ],
@@ -5066,14 +5083,14 @@
     "module_name_zh": "一般现在时",
     "type": "sentence_choice",
     "instruction_zh": "请选择语法正确的句子",
-    "explanation_zh": "第三人称单数否定用 doesn't。",
+    "explanation_zh": "They 是第三人称复数，否定用 don't。",
     "difficulty": 1,
     "options": [
       "They don't recognize.",
       "They doesn't recognize.",
       "They not recognize."
     ],
-    "answer": "They doesn't recognize."
+    "answer": "They don't recognize."
   },
   {
     "id": "q173",
@@ -5301,6 +5318,7 @@
     "instruction_zh": "请选择正确的词",
     "question_en": "He ____ home late.",
     "options": [
+      "came",
       "arrived",
       "comes"
     ],
@@ -5318,6 +5336,7 @@
     "difficulty": 1,
     "question_en": "She ____ home late.",
     "options": [
+      "came",
       "got",
       "comes"
     ],
@@ -5334,6 +5353,7 @@
     "difficulty": 1,
     "question_en": "She ____ home late.",
     "options": [
+      "came",
       "reached",
       "comes"
     ],
@@ -5557,6 +5577,7 @@
     "instruction_zh": "请选择正确的词",
     "question_en": "We ____ next week.",
     "options": [
+      "will go",
       "will proceed",
       "proceeded"
     ],
@@ -12637,6 +12658,7 @@
     "difficulty": 1,
     "question_en": "They don't have ____ milk left.",
     "options": [
+      "much",
       "numerous",
       "substantial"
     ],
@@ -12737,6 +12759,7 @@
     "difficulty": 1,
     "question_en": "She don't have ____ milk left.",
     "options": [
+      "much",
       "numerous",
       "substantial"
     ],
@@ -13301,10 +13324,10 @@
     "module_name_zh": "一般现在时",
     "type": "sentence_correction",
     "instruction_zh": "请修改以下句子中的错误",
-    "explanation_zh": "第三人称单数作主语时，谓语动词要加 -s 或 -es，go 变为 goes。",
+    "explanation_zh": "We 是第一人称复数，谓语用原形 go；proceed/duration 改为 go/day。",
     "difficulty": 1,
     "question_en": "We proceed to institution every duration.",
-    "answer": "We goes to institution every day."
+    "answer": "We go to institution every day."
   },
   {
     "id": "q-exp-mod5-003",
@@ -13313,10 +13336,10 @@
     "module_name_zh": "一般现在时",
     "type": "sentence_correction",
     "instruction_zh": "请修改以下句子中的错误",
-    "explanation_zh": "第三人称单数否定用 doesn't。",
+    "explanation_zh": "I 是第一人称单数，否定用 don't + 动词原形。",
     "difficulty": 1,
-    "question_en": "I don't appreciate it.",
-    "answer": "I doesn't appreciate it."
+    "question_en": "I doesn't appreciate it.",
+    "answer": "I don't appreciate it."
   },
   {
     "id": "q-exp-mod5-004",
@@ -13365,10 +13388,10 @@
     "module_name_zh": "一般现在时",
     "type": "sentence_correction",
     "instruction_zh": "请修改以下句子中的错误",
-    "explanation_zh": "第三人称单数作主语时，谓语动词要加 -s 或 -es，go 变为 goes。",
+    "explanation_zh": "I 是第一人称单数，谓语用原形 go（第三人称单数才加 -s）；proceed/duration 改为 go/day。",
     "difficulty": 1,
     "question_en": "I proceed to institution every duration.",
-    "answer": "I goes to institution every day."
+    "answer": "I go to institution every day."
   },
   {
     "id": "q-exp-mod5-008",
@@ -13389,10 +13412,10 @@
     "module_name_zh": "一般现在时",
     "type": "sentence_correction",
     "instruction_zh": "请修改以下句子中的错误",
-    "explanation_zh": "第三人称单数否定用 doesn't。",
+    "explanation_zh": "We 是第一人称复数，否定用 don't + 动词原形。",
     "difficulty": 1,
-    "question_en": "We don't appreciate it.",
-    "answer": "We doesn't appreciate it."
+    "question_en": "We doesn't appreciate it.",
+    "answer": "We don't appreciate it."
   },
   {
     "id": "q-exp-mod5-010",
@@ -13602,9 +13625,9 @@
     "difficulty": 1,
     "type": "sentence_correction",
     "instruction_zh": "请修改以下句子中的错误",
-    "question_en": "They don't appreciate it.",
-    "answer": "They doesn't appreciate it.",
-    "explanation_zh": "第三人称单数否定用 doesn't。"
+    "question_en": "They doesn't appreciate it.",
+    "answer": "They don't appreciate it.",
+    "explanation_zh": "They 是第三人称复数，否定用 don't + 动词原形。"
   },
   {
     "id": "q-exp-mod5-026",
@@ -13681,6 +13704,7 @@
     "difficulty": 1,
     "question_en": "They ____ to London final period.",
     "options": [
+      "went",
       "proceed",
       "proceeded"
     ],
@@ -13713,6 +13737,7 @@
     "difficulty": 1,
     "question_en": "We ____ home late.",
     "options": [
+      "came",
       "reached",
       "comes"
     ],
@@ -13729,6 +13754,7 @@
     "difficulty": 1,
     "question_en": "We ____ to Paris final period.",
     "options": [
+      "went",
       "proceed",
       "proceeded"
     ],
@@ -13757,6 +13783,7 @@
     "difficulty": 1,
     "question_en": "We ____ to London final period.",
     "options": [
+      "went",
       "proceed",
       "proceeded"
     ],
@@ -13773,6 +13800,7 @@
     "difficulty": 1,
     "question_en": "I ____ home late.",
     "options": [
+      "came",
       "got",
       "comes"
     ],
@@ -13789,6 +13817,7 @@
     "difficulty": 1,
     "question_en": "He ____ to London final period.",
     "options": [
+      "went",
       "proceed",
       "proceeded"
     ],
@@ -13805,6 +13834,7 @@
     "difficulty": 1,
     "question_en": "He ____ to Tokyo final period.",
     "options": [
+      "went",
       "proceed",
       "proceeded"
     ],
@@ -13853,6 +13883,7 @@
     "difficulty": 1,
     "question_en": "They ____ home late.",
     "options": [
+      "came",
       "reached",
       "comes"
     ],
@@ -13881,6 +13912,7 @@
     "difficulty": 1,
     "question_en": "We ____ to Tokyo final period.",
     "options": [
+      "went",
       "proceed",
       "proceeded"
     ],
@@ -13913,6 +13945,7 @@
     "difficulty": 1,
     "question_en": "I ____ to Paris final period.",
     "options": [
+      "went",
       "proceed",
       "proceeded"
     ],
@@ -13941,6 +13974,7 @@
     "difficulty": 1,
     "question_en": "She ____ to Tokyo final period.",
     "options": [
+      "went",
       "proceed",
       "proceeded"
     ],
@@ -13985,6 +14019,7 @@
     "difficulty": 1,
     "question_en": "I ____ to London final period.",
     "options": [
+      "went",
       "proceed",
       "proceeded"
     ],
@@ -14033,6 +14068,7 @@
     "difficulty": 1,
     "question_en": "I ____ to Tokyo final period.",
     "options": [
+      "went",
       "proceed",
       "proceeded"
     ],
@@ -14049,6 +14085,7 @@
     "difficulty": 1,
     "question_en": "She ____ to Paris final period.",
     "options": [
+      "went",
       "proceed",
       "proceeded"
     ],
@@ -14097,6 +14134,7 @@
     "difficulty": 1,
     "question_en": "They ____ to Paris final period.",
     "options": [
+      "went",
       "proceed",
       "proceeded"
     ],
@@ -14789,6 +14827,7 @@
     "difficulty": 1,
     "question_en": "We ____ her research already.",
     "options": [
+      "has finished",
       "completed",
       "has completed"
     ],
@@ -14805,6 +14844,7 @@
     "difficulty": 1,
     "question_en": "She ____ her research already.",
     "options": [
+      "has finished",
       "completed",
       "has completed"
     ],
@@ -14821,6 +14861,7 @@
     "difficulty": 1,
     "question_en": "She ____ her exercise already.",
     "options": [
+      "has finished",
       "completed",
       "has completed"
     ],
@@ -14897,6 +14938,7 @@
     "difficulty": 1,
     "question_en": "He ____ her exercise already.",
     "options": [
+      "has finished",
       "completed",
       "has completed"
     ],
@@ -14913,6 +14955,7 @@
     "difficulty": 1,
     "question_en": "I ____ her exercise already.",
     "options": [
+      "has finished",
       "completed",
       "has completed"
     ],
@@ -14929,6 +14972,7 @@
     "difficulty": 1,
     "question_en": "He ____ her homework already.",
     "options": [
+      "has finished",
       "completed",
       "has completed"
     ],
@@ -14945,6 +14989,7 @@
     "difficulty": 1,
     "question_en": "We ____ her homework already.",
     "options": [
+      "has finished",
       "completed",
       "has completed"
     ],
@@ -14973,6 +15018,7 @@
     "difficulty": 1,
     "question_en": "I ____ her research already.",
     "options": [
+      "has finished",
       "completed",
       "has completed"
     ],
@@ -14989,6 +15035,7 @@
     "difficulty": 1,
     "question_en": "We ____ her exercise already.",
     "options": [
+      "has finished",
       "completed",
       "has completed"
     ],
@@ -15005,6 +15052,7 @@
     "difficulty": 1,
     "question_en": "I ____ her homework already.",
     "options": [
+      "has finished",
       "completed",
       "has completed"
     ],
@@ -15021,6 +15069,7 @@
     "difficulty": 1,
     "question_en": "They ____ her homework already.",
     "options": [
+      "has finished",
       "completed",
       "has completed"
     ],
@@ -15037,6 +15086,7 @@
     "difficulty": 1,
     "question_en": "They ____ her research already.",
     "options": [
+      "has finished",
       "completed",
       "has completed"
     ],
@@ -15124,6 +15174,7 @@
     "instruction_zh": "请选择正确的词",
     "question_en": "She ____ next week.",
     "options": [
+      "will go",
       "will proceed",
       "proceeded"
     ],
@@ -15156,6 +15207,7 @@
     "instruction_zh": "请选择正确的词",
     "question_en": "He ____ next week.",
     "options": [
+      "will go",
       "will proceed",
       "proceeded"
     ],
@@ -15188,6 +15240,7 @@
     "instruction_zh": "请选择正确的词",
     "question_en": "They ____ next week.",
     "options": [
+      "will go",
       "will proceed",
       "proceeded"
     ],
@@ -15220,6 +15273,7 @@
     "instruction_zh": "请选择正确的词",
     "question_en": "I ____ next week.",
     "options": [
+      "will go",
       "will proceed",
       "proceeded"
     ],
@@ -16819,14 +16873,14 @@
     "module_name_zh": "一般现在时",
     "type": "sentence_choice",
     "instruction_zh": "请选择语法正确的句子",
-    "explanation_zh": "第三人称单数否定用 doesn't + 动词原形。",
+    "explanation_zh": "We 是第一人称复数，否定用 don't + 动词原形。",
     "difficulty": 1,
     "options": [
       "We don't appreciate coffee.",
       "We doesn't appreciate coffee.",
       "We not appreciate coffee."
     ],
-    "answer": "We doesn't appreciate coffee."
+    "answer": "We don't appreciate coffee."
   },
   {
     "id": "q-exp-mod5-002",

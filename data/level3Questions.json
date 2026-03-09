@@ -165,6 +165,7 @@
       "explanation_zh": " sheep 单复数同形；geese 复数。",
       "difficulty": 3,
       "options": [
+        "There are three sheep and five geese in the field.",
         "Present are three sheep and five goose in the field.",
         "Present are three sheep and five geese in the field.",
         "Present are three sheeps and five geese in the field."
@@ -344,6 +345,7 @@
       "difficulty": 3,
       "question_en": "There is ____ equipment in the lab that we require to check.",
       "options": [
+        "much",
         "substantial",
         "numerous"
       ],
@@ -662,6 +664,7 @@
       "difficulty": 3,
       "question_en": "He ____ home late final night after the session concluded.",
       "options": [
+        "came",
         "arrived",
         "comes"
       ],
@@ -686,6 +689,7 @@
       "difficulty": 3,
       "question_en": "I ____ him a publication that I had completed reading.",
       "options": [
+        "gave",
         "provide",
         "provided"
       ],
@@ -700,6 +704,7 @@
       "difficulty": 3,
       "question_en": "We ____ to Beijing last week when the conference was held.",
       "options": [
+        "went",
         "proceed",
         "proceeded"
       ],
@@ -728,6 +733,7 @@
       "difficulty": 3,
       "question_en": "He ____ a correspondence that she obtained the subsequent duration.",
       "options": [
+        "wrote",
         "compose",
         "composed"
       ],
@@ -752,6 +758,7 @@
       "difficulty": 3,
       "question_en": "They ____ in London for three periods before they moved.",
       "options": [
+        "lived",
         "reside",
         "resided"
       ],
@@ -766,6 +773,7 @@
       "difficulty": 3,
       "question_en": "She ____ a cake that everyone enjoyed.",
       "options": [
+        "made",
         "create",
         "created"
       ],
@@ -780,6 +788,7 @@
       "difficulty": 3,
       "question_en": "He ____ work previously at nine o'clock.",
       "options": [
+        "started",
         "commence",
         "commenced"
       ],
@@ -1088,6 +1097,7 @@
       "difficulty": 3,
       "question_en": "He ____ the homework that was due previously.",
       "options": [
+        "has finished",
         "has completed",
         "completed"
       ],
@@ -1102,6 +1112,7 @@
       "difficulty": 3,
       "question_en": "I ____ present for five periods since I moved.",
       "options": [
+        "have lived",
         "have resided",
         "resided"
       ],
@@ -1154,6 +1165,7 @@
       "difficulty": 3,
       "question_en": "We ____ before, at the conference final period.",
       "options": [
+        "have met",
         "have encountered",
         "encountered"
       ],
@@ -1198,6 +1210,7 @@
       "difficulty": 3,
       "question_en": "We ____ subsequent week when the holiday starts.",
       "options": [
+        "will go",
         "will proceed",
         "proceed"
       ],
@@ -1212,6 +1225,7 @@
       "difficulty": 3,
       "question_en": "She ____ if you invite her.",
       "options": [
+        "will come",
         "will arrive",
         "comes"
       ],
@@ -1236,6 +1250,7 @@
       "difficulty": 3,
       "question_en": "I ____ you subsequently when I have period.",
       "options": [
+        "will call",
         "will contact",
         "contact"
       ],
@@ -1249,6 +1264,7 @@
       "explanation_zh": " will get married；Will you graduate。",
       "difficulty": 3,
       "options": [
+        "They will obtain married subsequent month. Will you graduate subsequent year?",
         "They will obtain married subsequent month. Will you graduate subsequent period?",
         "They will obtain married subsequent month. Do you graduate subsequent period?",
         "They will obtain married subsequent month. Will you graduates subsequent period?"
@@ -1264,6 +1280,7 @@
       "difficulty": 3,
       "question_en": "The session ____ at three, as scheduled.",
       "options": [
+        "will start",
         "will commence",
         "starts"
       ],
@@ -1302,6 +1319,7 @@
       "difficulty": 3,
       "question_en": "We ____ soon, so please wait.",
       "options": [
+        "will come",
         "will arrive",
         "arrive"
       ],
@@ -1733,130 +1751,1482 @@
     }
   ],
   "14": [
-    {"id":"l3q131","type":"fill_choice","instruction_zh":"请选择正确的地点介词","explanation_zh":"小地点用 at。","difficulty":3,"question_en":"I will wait for you ____ the station.","options":["at","on","in"],"answer":"at","module_name_zh":"介词：地点"},
-    {"id":"l3q132","type":"fill_choice","instruction_zh":"请选择正确的地点介词","explanation_zh":"表面用 on。","difficulty":3,"question_en":"The keys are ____ the table.","options":["at","on","in"],"answer":"on","module_name_zh":"介词：地点"},
-    {"id":"l3q133","type":"fill_choice","instruction_zh":"请选择正确的地点介词","explanation_zh":"国家用 in。","difficulty":3,"question_en":"They traveled ____ Japan last year.","options":["at","on","in"],"answer":"in","module_name_zh":"介词：地点"},
-    {"id":"l3q134","type":"sentence_correction","instruction_zh":"请修改以下句子中的错误","explanation_zh":"表面用 on。","difficulty":3,"question_en":"The document is at the desk.","answer":"The document is on the desk.","module_name_zh":"介词：地点"},
-    {"id":"l3q135","type":"fill_choice","instruction_zh":"请选择正确的地点介词","explanation_zh":"at home 固定搭配。","difficulty":3,"question_en":"She is ____ home.","options":["at","on","in"],"answer":"at","module_name_zh":"介词：地点"},
-    {"id":"l3q136","type":"fill_choice","instruction_zh":"请选择正确的地点介词","explanation_zh":"楼层用 on。","difficulty":3,"question_en":"We reside ____ the second floor.","options":["at","on","in"],"answer":"on","module_name_zh":"介词：地点"},
-    {"id":"l3q137","type":"sentence_choice","instruction_zh":"请选择语法正确的句子","explanation_zh":"at the station；in London。","difficulty":3,"options":["She arrived at the station in London.","She arrived on the station in London.","She arrived at the station on London."],"answer":"She arrived at the station in London.","module_name_zh":"介词：地点"},
-    {"id":"l3q138","type":"fill_choice","instruction_zh":"请选择正确的地点介词","explanation_zh":"城市用 in。","difficulty":3,"question_en":"She was born ____ Beijing.","options":["at","on","in"],"answer":"in","module_name_zh":"介词：地点"},
-    {"id":"l3q139","type":"fill_choice","instruction_zh":"请选择正确的地点介词","explanation_zh":"街道用 on。","difficulty":3,"question_en":"The store is ____ Main Street.","options":["at","on","in"],"answer":"on","module_name_zh":"介词：地点"},
-    {"id":"l3q140","type":"sentence_correction","instruction_zh":"请修改以下句子中的错误","explanation_zh":"国家用 in。","difficulty":3,"question_en":"She lives at China.","answer":"She lives in China.","module_name_zh":"介词：地点"}
+    {
+      "id": "l3q131",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确的地点介词",
+      "explanation_zh": "小地点用 at。",
+      "difficulty": 3,
+      "question_en": "I will wait for you ____ the station.",
+      "options": [
+        "at",
+        "on",
+        "in"
+      ],
+      "answer": "at",
+      "module_name_zh": "介词：地点"
+    },
+    {
+      "id": "l3q132",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确的地点介词",
+      "explanation_zh": "表面用 on。",
+      "difficulty": 3,
+      "question_en": "The keys are ____ the table.",
+      "options": [
+        "at",
+        "on",
+        "in"
+      ],
+      "answer": "on",
+      "module_name_zh": "介词：地点"
+    },
+    {
+      "id": "l3q133",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确的地点介词",
+      "explanation_zh": "国家用 in。",
+      "difficulty": 3,
+      "question_en": "They traveled ____ Japan last year.",
+      "options": [
+        "at",
+        "on",
+        "in"
+      ],
+      "answer": "in",
+      "module_name_zh": "介词：地点"
+    },
+    {
+      "id": "l3q134",
+      "type": "sentence_correction",
+      "instruction_zh": "请修改以下句子中的错误",
+      "explanation_zh": "表面用 on。",
+      "difficulty": 3,
+      "question_en": "The document is at the desk.",
+      "answer": "The document is on the desk.",
+      "module_name_zh": "介词：地点"
+    },
+    {
+      "id": "l3q135",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确的地点介词",
+      "explanation_zh": "at home 固定搭配。",
+      "difficulty": 3,
+      "question_en": "She is ____ home.",
+      "options": [
+        "at",
+        "on",
+        "in"
+      ],
+      "answer": "at",
+      "module_name_zh": "介词：地点"
+    },
+    {
+      "id": "l3q136",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确的地点介词",
+      "explanation_zh": "楼层用 on。",
+      "difficulty": 3,
+      "question_en": "We reside ____ the second floor.",
+      "options": [
+        "at",
+        "on",
+        "in"
+      ],
+      "answer": "on",
+      "module_name_zh": "介词：地点"
+    },
+    {
+      "id": "l3q137",
+      "type": "sentence_choice",
+      "instruction_zh": "请选择语法正确的句子",
+      "explanation_zh": "at the station；in London。",
+      "difficulty": 3,
+      "options": [
+        "She arrived at the station in London.",
+        "She arrived on the station in London.",
+        "She arrived at the station on London."
+      ],
+      "answer": "She arrived at the station in London.",
+      "module_name_zh": "介词：地点"
+    },
+    {
+      "id": "l3q138",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确的地点介词",
+      "explanation_zh": "城市用 in。",
+      "difficulty": 3,
+      "question_en": "She was born ____ Beijing.",
+      "options": [
+        "at",
+        "on",
+        "in"
+      ],
+      "answer": "in",
+      "module_name_zh": "介词：地点"
+    },
+    {
+      "id": "l3q139",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确的地点介词",
+      "explanation_zh": "街道用 on。",
+      "difficulty": 3,
+      "question_en": "The store is ____ Main Street.",
+      "options": [
+        "at",
+        "on",
+        "in"
+      ],
+      "answer": "on",
+      "module_name_zh": "介词：地点"
+    },
+    {
+      "id": "l3q140",
+      "type": "sentence_correction",
+      "instruction_zh": "请修改以下句子中的错误",
+      "explanation_zh": "国家用 in。",
+      "difficulty": 3,
+      "question_en": "She lives at China.",
+      "answer": "She lives in China.",
+      "module_name_zh": "介词：地点"
+    }
   ],
   "15": [
-    {"id":"l3q141","type":"fill_choice","instruction_zh":"请选择正确的介词","explanation_zh":"listen to 固定搭配。","difficulty":3,"question_en":"She is listening ____ music.","options":["at","to","for"],"answer":"to","module_name_zh":"常见介词搭配"},
-    {"id":"l3q142","type":"fill_choice","instruction_zh":"请选择正确的介词","explanation_zh":"interested in 固定搭配。","difficulty":3,"question_en":"He is interested ____ science.","options":["in","at","for"],"answer":"in","module_name_zh":"常见介词搭配"},
-    {"id":"l3q143","type":"sentence_correction","instruction_zh":"请修改以下句子中的错误","explanation_zh":"listen to 固定搭配。","difficulty":3,"question_en":"Please listen the instructor.","answer":"Please listen to the instructor.","module_name_zh":"常见介词搭配"},
-    {"id":"l3q144","type":"fill_choice","instruction_zh":"请选择正确的介词","explanation_zh":"key to 固定搭配。","difficulty":3,"question_en":"The key ____ success is persistence.","options":["for","to","of"],"answer":"to","module_name_zh":"常见介词搭配"},
-    {"id":"l3q145","type":"fill_choice","instruction_zh":"请选择正确的介词","explanation_zh":"depend on 固定搭配。","difficulty":3,"question_en":"The outcome depends ____ your effort.","options":["in","on","at"],"answer":"on","module_name_zh":"常见介词搭配"},
-    {"id":"l3q146","type":"sentence_choice","instruction_zh":"请选择语法正确的句子","explanation_zh":"interested in；good at。","difficulty":3,"options":["She is interested in art and good at painting.","She is interested at art and good in painting.","She is interested in art and good in painting."],"answer":"She is interested in art and good at painting.","module_name_zh":"常见介词搭配"},
-    {"id":"l3q147","type":"fill_choice","instruction_zh":"请选择正确的介词","explanation_zh":"satisfied with 固定搭配。","difficulty":3,"question_en":"She is satisfied ____ the outcome.","options":["in","with","for"],"answer":"with","module_name_zh":"常见介词搭配"},
-    {"id":"l3q148","type":"fill_choice","instruction_zh":"请选择正确的介词","explanation_zh":"pay attention to 固定搭配。","difficulty":3,"question_en":"Please pay attention ____ the details.","options":["to","at","for"],"answer":"to","module_name_zh":"常见介词搭配"},
-    {"id":"l3q149","type":"sentence_correction","instruction_zh":"请修改以下句子中的错误","explanation_zh":"wait for 固定搭配。","difficulty":3,"question_en":"I am waiting the bus.","answer":"I am waiting for the bus.","module_name_zh":"常见介词搭配"},
-    {"id":"l3q150","type":"fill_choice","instruction_zh":"请选择正确的介词","explanation_zh":"solution to 固定搭配。","difficulty":3,"question_en":"We need a solution ____ this issue.","options":["for","to","of"],"answer":"to","module_name_zh":"常见介词搭配"}
+    {
+      "id": "l3q141",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确的介词",
+      "explanation_zh": "listen to 固定搭配。",
+      "difficulty": 3,
+      "question_en": "She is listening ____ music.",
+      "options": [
+        "at",
+        "to",
+        "for"
+      ],
+      "answer": "to",
+      "module_name_zh": "常见介词搭配"
+    },
+    {
+      "id": "l3q142",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确的介词",
+      "explanation_zh": "interested in 固定搭配。",
+      "difficulty": 3,
+      "question_en": "He is interested ____ science.",
+      "options": [
+        "in",
+        "at",
+        "for"
+      ],
+      "answer": "in",
+      "module_name_zh": "常见介词搭配"
+    },
+    {
+      "id": "l3q143",
+      "type": "sentence_correction",
+      "instruction_zh": "请修改以下句子中的错误",
+      "explanation_zh": "listen to 固定搭配。",
+      "difficulty": 3,
+      "question_en": "Please listen the instructor.",
+      "answer": "Please listen to the instructor.",
+      "module_name_zh": "常见介词搭配"
+    },
+    {
+      "id": "l3q144",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确的介词",
+      "explanation_zh": "key to 固定搭配。",
+      "difficulty": 3,
+      "question_en": "The key ____ success is persistence.",
+      "options": [
+        "for",
+        "to",
+        "of"
+      ],
+      "answer": "to",
+      "module_name_zh": "常见介词搭配"
+    },
+    {
+      "id": "l3q145",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确的介词",
+      "explanation_zh": "depend on 固定搭配。",
+      "difficulty": 3,
+      "question_en": "The outcome depends ____ your effort.",
+      "options": [
+        "in",
+        "on",
+        "at"
+      ],
+      "answer": "on",
+      "module_name_zh": "常见介词搭配"
+    },
+    {
+      "id": "l3q146",
+      "type": "sentence_choice",
+      "instruction_zh": "请选择语法正确的句子",
+      "explanation_zh": "interested in；good at。",
+      "difficulty": 3,
+      "options": [
+        "She is interested in art and good at painting.",
+        "She is interested at art and good in painting.",
+        "She is interested in art and good in painting."
+      ],
+      "answer": "She is interested in art and good at painting.",
+      "module_name_zh": "常见介词搭配"
+    },
+    {
+      "id": "l3q147",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确的介词",
+      "explanation_zh": "satisfied with 固定搭配。",
+      "difficulty": 3,
+      "question_en": "She is satisfied ____ the outcome.",
+      "options": [
+        "in",
+        "with",
+        "for"
+      ],
+      "answer": "with",
+      "module_name_zh": "常见介词搭配"
+    },
+    {
+      "id": "l3q148",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确的介词",
+      "explanation_zh": "pay attention to 固定搭配。",
+      "difficulty": 3,
+      "question_en": "Please pay attention ____ the details.",
+      "options": [
+        "to",
+        "at",
+        "for"
+      ],
+      "answer": "to",
+      "module_name_zh": "常见介词搭配"
+    },
+    {
+      "id": "l3q149",
+      "type": "sentence_correction",
+      "instruction_zh": "请修改以下句子中的错误",
+      "explanation_zh": "wait for 固定搭配。",
+      "difficulty": 3,
+      "question_en": "I am waiting the bus.",
+      "answer": "I am waiting for the bus.",
+      "module_name_zh": "常见介词搭配"
+    },
+    {
+      "id": "l3q150",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确的介词",
+      "explanation_zh": "solution to 固定搭配。",
+      "difficulty": 3,
+      "question_en": "We need a solution ____ this issue.",
+      "options": [
+        "for",
+        "to",
+        "of"
+      ],
+      "answer": "to",
+      "module_name_zh": "常见介词搭配"
+    }
   ],
   "16": [
-    {"id":"l3q151","type":"fill_choice","instruction_zh":"请选择正确形式","explanation_zh":"修饰动词用副词。","difficulty":3,"question_en":"She runs ____.","options":["quick","quickly"],"answer":"quickly","module_name_zh":"形容词 vs 副词"},
-    {"id":"l3q152","type":"fill_choice","instruction_zh":"请选择正确形式","explanation_zh":"系动词后接形容词。","difficulty":3,"question_en":"She looks ____ today.","options":["happily","happy"],"answer":"happy","module_name_zh":"形容词 vs 副词"},
-    {"id":"l3q153","type":"fill_choice","instruction_zh":"请选择正确形式","explanation_zh":"speak 后接副词 well。","difficulty":3,"question_en":"She speaks English ____.","options":["good","well"],"answer":"well","module_name_zh":"形容词 vs 副词"},
-    {"id":"l3q154","type":"sentence_correction","instruction_zh":"请修改以下句子中的错误","explanation_zh":"修饰动词用副词。","difficulty":3,"question_en":"She works very quick.","answer":"She works very quickly.","module_name_zh":"形容词 vs 副词"},
-    {"id":"l3q155","type":"sentence_correction","instruction_zh":"请修改以下句子中的错误","explanation_zh":"look 系动词后接形容词。","difficulty":3,"question_en":"She looks beautifully.","answer":"She looks beautiful.","module_name_zh":"形容词 vs 副词"},
-    {"id":"l3q156","type":"fill_choice","instruction_zh":"请选择正确形式","explanation_zh":"work hard 固定搭配。","difficulty":3,"question_en":"She works ____.","options":["hard","hardly"],"answer":"hard","module_name_zh":"形容词 vs 副词"},
-    {"id":"l3q157","type":"fill_choice","instruction_zh":"请选择正确形式","explanation_zh":"sound 系动词后接形容词。","difficulty":3,"question_en":"The music sounds ____.","options":["beautiful","beautifully"],"answer":"beautiful","module_name_zh":"形容词 vs 副词"},
-    {"id":"l3q158","type":"sentence_choice","instruction_zh":"请选择语法正确的句子","explanation_zh":"runs quickly；looks beautiful。","difficulty":3,"options":["She runs quickly and looks beautiful.","She runs quick and looks beautiful.","She runs quickly and looks beautifully."],"answer":"She runs quickly and looks beautiful.","module_name_zh":"形容词 vs 副词"},
-    {"id":"l3q159","type":"fill_choice","instruction_zh":"请选择正确形式","explanation_zh":"feel 系动词后接形容词。","difficulty":3,"question_en":"I feel ____.","options":["tired","tiredly"],"answer":"tired","module_name_zh":"形容词 vs 副词"},
-    {"id":"l3q160","type":"fill_choice","instruction_zh":"请选择正确形式","explanation_zh":"do well 固定搭配。","difficulty":3,"question_en":"He did ____ on the test.","options":["good","well"],"answer":"well","module_name_zh":"形容词 vs 副词"}
+    {
+      "id": "l3q151",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确形式",
+      "explanation_zh": "修饰动词用副词。",
+      "difficulty": 3,
+      "question_en": "She runs ____.",
+      "options": [
+        "quick",
+        "quickly"
+      ],
+      "answer": "quickly",
+      "module_name_zh": "形容词 vs 副词"
+    },
+    {
+      "id": "l3q152",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确形式",
+      "explanation_zh": "系动词后接形容词。",
+      "difficulty": 3,
+      "question_en": "She looks ____ today.",
+      "options": [
+        "happily",
+        "happy"
+      ],
+      "answer": "happy",
+      "module_name_zh": "形容词 vs 副词"
+    },
+    {
+      "id": "l3q153",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确形式",
+      "explanation_zh": "speak 后接副词 well。",
+      "difficulty": 3,
+      "question_en": "She speaks English ____.",
+      "options": [
+        "good",
+        "well"
+      ],
+      "answer": "well",
+      "module_name_zh": "形容词 vs 副词"
+    },
+    {
+      "id": "l3q154",
+      "type": "sentence_correction",
+      "instruction_zh": "请修改以下句子中的错误",
+      "explanation_zh": "修饰动词用副词。",
+      "difficulty": 3,
+      "question_en": "She works very quick.",
+      "answer": "She works very quickly.",
+      "module_name_zh": "形容词 vs 副词"
+    },
+    {
+      "id": "l3q155",
+      "type": "sentence_correction",
+      "instruction_zh": "请修改以下句子中的错误",
+      "explanation_zh": "look 系动词后接形容词。",
+      "difficulty": 3,
+      "question_en": "She looks beautifully.",
+      "answer": "She looks beautiful.",
+      "module_name_zh": "形容词 vs 副词"
+    },
+    {
+      "id": "l3q156",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确形式",
+      "explanation_zh": "work hard 固定搭配。",
+      "difficulty": 3,
+      "question_en": "She works ____.",
+      "options": [
+        "hard",
+        "hardly"
+      ],
+      "answer": "hard",
+      "module_name_zh": "形容词 vs 副词"
+    },
+    {
+      "id": "l3q157",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确形式",
+      "explanation_zh": "sound 系动词后接形容词。",
+      "difficulty": 3,
+      "question_en": "The music sounds ____.",
+      "options": [
+        "beautiful",
+        "beautifully"
+      ],
+      "answer": "beautiful",
+      "module_name_zh": "形容词 vs 副词"
+    },
+    {
+      "id": "l3q158",
+      "type": "sentence_choice",
+      "instruction_zh": "请选择语法正确的句子",
+      "explanation_zh": "runs quickly；looks beautiful。",
+      "difficulty": 3,
+      "options": [
+        "She runs quickly and looks beautiful.",
+        "She runs quick and looks beautiful.",
+        "She runs quickly and looks beautifully."
+      ],
+      "answer": "She runs quickly and looks beautiful.",
+      "module_name_zh": "形容词 vs 副词"
+    },
+    {
+      "id": "l3q159",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确形式",
+      "explanation_zh": "feel 系动词后接形容词。",
+      "difficulty": 3,
+      "question_en": "I feel ____.",
+      "options": [
+        "tired",
+        "tiredly"
+      ],
+      "answer": "tired",
+      "module_name_zh": "形容词 vs 副词"
+    },
+    {
+      "id": "l3q160",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确形式",
+      "explanation_zh": "do well 固定搭配。",
+      "difficulty": 3,
+      "question_en": "He did ____ on the test.",
+      "options": [
+        "good",
+        "well"
+      ],
+      "answer": "well",
+      "module_name_zh": "形容词 vs 副词"
+    }
   ],
   "17": [
-    {"id":"l3q161","type":"fill_choice","instruction_zh":"请选择正确的动词","explanation_zh":"make a decision 固定搭配。","difficulty":3,"question_en":"She needs to ____ a decision.","options":["make","do","take"],"answer":"make","module_name_zh":"常见动词搭配"},
-    {"id":"l3q162","type":"fill_choice","instruction_zh":"请选择正确的动词","explanation_zh":"take a break 固定搭配。","difficulty":3,"question_en":"I need to ____ a break.","options":["make","do","take"],"answer":"take","module_name_zh":"常见动词搭配"},
-    {"id":"l3q163","type":"sentence_correction","instruction_zh":"请修改以下句子中的错误","explanation_zh":"take a break 固定搭配。","difficulty":3,"question_en":"Let's make a break.","answer":"Let's take a break.","module_name_zh":"常见动词搭配"},
-    {"id":"l3q164","type":"fill_choice","instruction_zh":"请选择正确的动词","explanation_zh":"have a meeting 固定搭配。","difficulty":3,"question_en":"We will ____ a meeting at 3pm.","options":["have","make","take"],"answer":"have","module_name_zh":"常见动词搭配"},
-    {"id":"l3q165","type":"fill_choice","instruction_zh":"请选择正确的动词","explanation_zh":"pay attention 固定搭配。","difficulty":3,"question_en":"Please ____ attention to the screen.","options":["have","make","pay"],"answer":"pay","module_name_zh":"常见动词搭配"},
-    {"id":"l3q166","type":"sentence_choice","instruction_zh":"请选择语法正确的句子","explanation_zh":"make a decision；have a meeting。","difficulty":3,"options":["We made a decision and will have a meeting.","We did a decision and will have a meeting.","We made a decision and will make a meeting."],"answer":"We made a decision and will have a meeting.","module_name_zh":"常见动词搭配"},
-    {"id":"l3q167","type":"fill_choice","instruction_zh":"请选择正确的动词","explanation_zh":"make progress 固定搭配。","difficulty":3,"question_en":"She is ____ progress.","options":["making","doing","taking"],"answer":"making","module_name_zh":"常见动词搭配"},
-    {"id":"l3q168","type":"fill_choice","instruction_zh":"请选择正确的动词","explanation_zh":"take place 固定搭配。","difficulty":3,"question_en":"The meeting will ____ place tomorrow.","options":["make","do","take"],"answer":"take","module_name_zh":"常见动词搭配"},
-    {"id":"l3q169","type":"sentence_correction","instruction_zh":"请修改以下句子中的错误","explanation_zh":"have breakfast 固定搭配。","difficulty":3,"question_en":"I make breakfast every morning.","answer":"I have breakfast every morning.","module_name_zh":"常见动词搭配"},
-    {"id":"l3q170","type":"fill_choice","instruction_zh":"请选择正确的动词","explanation_zh":"give advice 固定搭配。","difficulty":3,"question_en":"She ____ me some advice.","options":["gave","made","had"],"answer":"gave","module_name_zh":"常见动词搭配"}
+    {
+      "id": "l3q161",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确的动词",
+      "explanation_zh": "make a decision 固定搭配。",
+      "difficulty": 3,
+      "question_en": "She needs to ____ a decision.",
+      "options": [
+        "make",
+        "do",
+        "take"
+      ],
+      "answer": "make",
+      "module_name_zh": "常见动词搭配"
+    },
+    {
+      "id": "l3q162",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确的动词",
+      "explanation_zh": "take a break 固定搭配。",
+      "difficulty": 3,
+      "question_en": "I need to ____ a break.",
+      "options": [
+        "make",
+        "do",
+        "take"
+      ],
+      "answer": "take",
+      "module_name_zh": "常见动词搭配"
+    },
+    {
+      "id": "l3q163",
+      "type": "sentence_correction",
+      "instruction_zh": "请修改以下句子中的错误",
+      "explanation_zh": "take a break 固定搭配。",
+      "difficulty": 3,
+      "question_en": "Let's make a break.",
+      "answer": "Let's take a break.",
+      "module_name_zh": "常见动词搭配"
+    },
+    {
+      "id": "l3q164",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确的动词",
+      "explanation_zh": "have a meeting 固定搭配。",
+      "difficulty": 3,
+      "question_en": "We will ____ a meeting at 3pm.",
+      "options": [
+        "have",
+        "make",
+        "take"
+      ],
+      "answer": "have",
+      "module_name_zh": "常见动词搭配"
+    },
+    {
+      "id": "l3q165",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确的动词",
+      "explanation_zh": "pay attention 固定搭配。",
+      "difficulty": 3,
+      "question_en": "Please ____ attention to the screen.",
+      "options": [
+        "have",
+        "make",
+        "pay"
+      ],
+      "answer": "pay",
+      "module_name_zh": "常见动词搭配"
+    },
+    {
+      "id": "l3q166",
+      "type": "sentence_choice",
+      "instruction_zh": "请选择语法正确的句子",
+      "explanation_zh": "make a decision；have a meeting。",
+      "difficulty": 3,
+      "options": [
+        "We made a decision and will have a meeting.",
+        "We did a decision and will have a meeting.",
+        "We made a decision and will make a meeting."
+      ],
+      "answer": "We made a decision and will have a meeting.",
+      "module_name_zh": "常见动词搭配"
+    },
+    {
+      "id": "l3q167",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确的动词",
+      "explanation_zh": "make progress 固定搭配。",
+      "difficulty": 3,
+      "question_en": "She is ____ progress.",
+      "options": [
+        "making",
+        "doing",
+        "taking"
+      ],
+      "answer": "making",
+      "module_name_zh": "常见动词搭配"
+    },
+    {
+      "id": "l3q168",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确的动词",
+      "explanation_zh": "take place 固定搭配。",
+      "difficulty": 3,
+      "question_en": "The meeting will ____ place tomorrow.",
+      "options": [
+        "make",
+        "do",
+        "take"
+      ],
+      "answer": "take",
+      "module_name_zh": "常见动词搭配"
+    },
+    {
+      "id": "l3q169",
+      "type": "sentence_correction",
+      "instruction_zh": "请修改以下句子中的错误",
+      "explanation_zh": "have breakfast 固定搭配。",
+      "difficulty": 3,
+      "question_en": "I make breakfast every morning.",
+      "answer": "I have breakfast every morning.",
+      "module_name_zh": "常见动词搭配"
+    },
+    {
+      "id": "l3q170",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确的动词",
+      "explanation_zh": "give advice 固定搭配。",
+      "difficulty": 3,
+      "question_en": "She ____ me some advice.",
+      "options": [
+        "gave",
+        "made",
+        "had"
+      ],
+      "answer": "gave",
+      "module_name_zh": "常见动词搭配"
+    }
   ],
   "18": [
-    {"id":"l3q171","type":"fill_choice","instruction_zh":"请选择正确形式","explanation_zh":"arrive at 固定搭配。","difficulty":3,"question_en":"She arrived ____ the station.","options":["at","to","(no preposition)"],"answer":"at","module_name_zh":"基础句型结构"},
-    {"id":"l3q172","type":"sentence_choice","instruction_zh":"请选择语法正确的句子","explanation_zh":"完整主谓结构。","difficulty":3,"options":["She works in a hospital.","Because she works.","When she works."],"answer":"She works in a hospital.","module_name_zh":"基础句型结构"},
-    {"id":"l3q173","type":"sentence_choice","instruction_zh":"请选择语法正确的句子","explanation_zh":"不及物动词不直接接宾语。","difficulty":3,"options":["She arrives.","She arrives the station.","She arrives to the station."],"answer":"She arrives.","module_name_zh":"基础句型结构"},
-    {"id":"l3q174","type":"sentence_correction","instruction_zh":"请修改以下句子中的错误","explanation_zh":"listen to 固定搭配。","difficulty":3,"question_en":"Please listen the instructor.","answer":"Please listen to the instructor.","module_name_zh":"基础句型结构"},
-    {"id":"l3q175","type":"fill_choice","instruction_zh":"请选择正确形式","explanation_zh":"wait for 固定搭配。","difficulty":3,"question_en":"I am waiting ____ the bus.","options":["for","to","(no preposition)"],"answer":"for","module_name_zh":"基础句型结构"},
-    {"id":"l3q176","type":"fill_choice","instruction_zh":"请选择正确形式","explanation_zh":"depend on 固定搭配。","difficulty":3,"question_en":"Success depends ____ effort.","options":["on","from","to"],"answer":"on","module_name_zh":"基础句型结构"},
-    {"id":"l3q177","type":"sentence_choice","instruction_zh":"请选择语法正确的句子","explanation_zh":"主谓宾补结构。","difficulty":3,"options":["The outcome made her happy.","The outcome made her happily.","The outcome made she happy."],"answer":"The outcome made her happy.","module_name_zh":"基础句型结构"},
-    {"id":"l3q178","type":"fill_choice","instruction_zh":"请选择正确形式","explanation_zh":"look at 固定搭配。","difficulty":3,"question_en":"Please look ____ the board.","options":["at","to","(no preposition)"],"answer":"at","module_name_zh":"基础句型结构"},
-    {"id":"l3q179","type":"fill_choice","instruction_zh":"请选择正确形式","explanation_zh":"belong to 固定搭配。","difficulty":3,"question_en":"This belongs ____ me.","options":["to","for","with"],"answer":"to","module_name_zh":"基础句型结构"},
-    {"id":"l3q180","type":"sentence_correction","instruction_zh":"请修改以下句子中的错误","explanation_zh":"reach 及物，直接接宾语。","difficulty":3,"question_en":"She reached to the station.","answer":"She reached the station.","module_name_zh":"基础句型结构"}
+    {
+      "id": "l3q171",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确形式",
+      "explanation_zh": "arrive at 固定搭配。",
+      "difficulty": 3,
+      "question_en": "She arrived ____ the station.",
+      "options": [
+        "at",
+        "to",
+        "(no preposition)"
+      ],
+      "answer": "at",
+      "module_name_zh": "基础句型结构"
+    },
+    {
+      "id": "l3q172",
+      "type": "sentence_choice",
+      "instruction_zh": "请选择语法正确的句子",
+      "explanation_zh": "完整主谓结构。",
+      "difficulty": 3,
+      "options": [
+        "She works in a hospital.",
+        "Because she works.",
+        "When she works."
+      ],
+      "answer": "She works in a hospital.",
+      "module_name_zh": "基础句型结构"
+    },
+    {
+      "id": "l3q173",
+      "type": "sentence_choice",
+      "instruction_zh": "请选择语法正确的句子",
+      "explanation_zh": "不及物动词不直接接宾语。",
+      "difficulty": 3,
+      "options": [
+        "She arrives.",
+        "She arrives the station.",
+        "She arrives to the station."
+      ],
+      "answer": "She arrives.",
+      "module_name_zh": "基础句型结构"
+    },
+    {
+      "id": "l3q174",
+      "type": "sentence_correction",
+      "instruction_zh": "请修改以下句子中的错误",
+      "explanation_zh": "listen to 固定搭配。",
+      "difficulty": 3,
+      "question_en": "Please listen the instructor.",
+      "answer": "Please listen to the instructor.",
+      "module_name_zh": "基础句型结构"
+    },
+    {
+      "id": "l3q175",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确形式",
+      "explanation_zh": "wait for 固定搭配。",
+      "difficulty": 3,
+      "question_en": "I am waiting ____ the bus.",
+      "options": [
+        "for",
+        "to",
+        "(no preposition)"
+      ],
+      "answer": "for",
+      "module_name_zh": "基础句型结构"
+    },
+    {
+      "id": "l3q176",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确形式",
+      "explanation_zh": "depend on 固定搭配。",
+      "difficulty": 3,
+      "question_en": "Success depends ____ effort.",
+      "options": [
+        "on",
+        "from",
+        "to"
+      ],
+      "answer": "on",
+      "module_name_zh": "基础句型结构"
+    },
+    {
+      "id": "l3q177",
+      "type": "sentence_choice",
+      "instruction_zh": "请选择语法正确的句子",
+      "explanation_zh": "主谓宾补结构。",
+      "difficulty": 3,
+      "options": [
+        "The outcome made her happy.",
+        "The outcome made her happily.",
+        "The outcome made she happy."
+      ],
+      "answer": "The outcome made her happy.",
+      "module_name_zh": "基础句型结构"
+    },
+    {
+      "id": "l3q178",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确形式",
+      "explanation_zh": "look at 固定搭配。",
+      "difficulty": 3,
+      "question_en": "Please look ____ the board.",
+      "options": [
+        "at",
+        "to",
+        "(no preposition)"
+      ],
+      "answer": "at",
+      "module_name_zh": "基础句型结构"
+    },
+    {
+      "id": "l3q179",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确形式",
+      "explanation_zh": "belong to 固定搭配。",
+      "difficulty": 3,
+      "question_en": "This belongs ____ me.",
+      "options": [
+        "to",
+        "for",
+        "with"
+      ],
+      "answer": "to",
+      "module_name_zh": "基础句型结构"
+    },
+    {
+      "id": "l3q180",
+      "type": "sentence_correction",
+      "instruction_zh": "请修改以下句子中的错误",
+      "explanation_zh": "reach 及物，直接接宾语。",
+      "difficulty": 3,
+      "question_en": "She reached to the station.",
+      "answer": "She reached the station.",
+      "module_name_zh": "基础句型结构"
+    }
   ],
   "19": [
-    {"id":"l3q191","type":"fill_choice","instruction_zh":"请选择正确形式","explanation_zh":"In my opinion 固定搭配。","difficulty":3,"question_en":"____, we should wait.","options":["In my opinion","I am think","From my opinion"],"answer":"In my opinion","module_name_zh":"观点表达"},
-    {"id":"l3q192","type":"sentence_choice","instruction_zh":"请选择语法正确的句子","explanation_zh":"I think 引出观点，用一般现在时。","difficulty":3,"options":["I think it works.","I am think it works.","I thinking it works."],"answer":"I think it works.","module_name_zh":"观点表达"},
-    {"id":"l3q193","type":"sentence_correction","instruction_zh":"请修改以下句子中的错误","explanation_zh":"It seems to me that 固定结构。","difficulty":3,"question_en":"It seem to me that we need more time.","answer":"It seems to me that we need more time.","module_name_zh":"观点表达"},
-    {"id":"l3q194","type":"fill_choice","instruction_zh":"请选择正确形式","explanation_zh":"From my point of view 固定搭配。","difficulty":3,"question_en":"____, this approach is better.","options":["From my point of view","In my point of view","From my opinion"],"answer":"From my point of view","module_name_zh":"观点表达"},
-    {"id":"l3q195","type":"sentence_choice","instruction_zh":"请选择语法正确的句子","explanation_zh":"避免 In my opinion 与 I think 重复。","difficulty":3,"options":["I think the plan is good.","In my opinion, I think the plan is good.","I am think the plan is good."],"answer":"I think the plan is good.","module_name_zh":"观点表达"}
+    {
+      "id": "l3q191",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确形式",
+      "explanation_zh": "In my opinion 固定搭配。",
+      "difficulty": 3,
+      "question_en": "____, we should wait.",
+      "options": [
+        "In my opinion",
+        "I am think",
+        "From my opinion"
+      ],
+      "answer": "In my opinion",
+      "module_name_zh": "观点表达"
+    },
+    {
+      "id": "l3q192",
+      "type": "sentence_choice",
+      "instruction_zh": "请选择语法正确的句子",
+      "explanation_zh": "I think 引出观点，用一般现在时。",
+      "difficulty": 3,
+      "options": [
+        "I think it works.",
+        "I am think it works.",
+        "I thinking it works."
+      ],
+      "answer": "I think it works.",
+      "module_name_zh": "观点表达"
+    },
+    {
+      "id": "l3q193",
+      "type": "sentence_correction",
+      "instruction_zh": "请修改以下句子中的错误",
+      "explanation_zh": "It seems to me that 固定结构。",
+      "difficulty": 3,
+      "question_en": "It seem to me that we need more time.",
+      "answer": "It seems to me that we need more time.",
+      "module_name_zh": "观点表达"
+    },
+    {
+      "id": "l3q194",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确形式",
+      "explanation_zh": "From my point of view 固定搭配。",
+      "difficulty": 3,
+      "question_en": "____, this approach is better.",
+      "options": [
+        "From my point of view",
+        "In my point of view",
+        "From my opinion"
+      ],
+      "answer": "From my point of view",
+      "module_name_zh": "观点表达"
+    },
+    {
+      "id": "l3q195",
+      "type": "sentence_choice",
+      "instruction_zh": "请选择语法正确的句子",
+      "explanation_zh": "避免 In my opinion 与 I think 重复。",
+      "difficulty": 3,
+      "options": [
+        "I think the plan is good.",
+        "In my opinion, I think the plan is good.",
+        "I am think the plan is good."
+      ],
+      "answer": "I think the plan is good.",
+      "module_name_zh": "观点表达"
+    }
   ],
   "23": [
-    {"id":"l3q181","type":"fill_choice","instruction_zh":"请选择正确形式","explanation_zh":"arrive 不及物，用 arrive at。","difficulty":3,"question_en":"She arrived ____ the station at 9.","options":["at","to","(no preposition)"],"answer":"at","module_name_zh":"及物动词 vs 不及物动词"},
-    {"id":"l3q182","type":"sentence_choice","instruction_zh":"请选择语法正确的句子","explanation_zh":"listen to 固定搭配。","difficulty":3,"options":["Listen to me.","Listen me.","Listen at me."],"answer":"Listen to me.","module_name_zh":"及物动词 vs 不及物动词"},
-    {"id":"l3q183","type":"sentence_correction","instruction_zh":"请修改以下句子中的错误","explanation_zh":"listen to 固定搭配。","difficulty":3,"question_en":"Please listen the teacher.","answer":"Please listen to the teacher.","module_name_zh":"及物动词 vs 不及物动词"},
-    {"id":"l3q184","type":"fill_choice","instruction_zh":"请选择正确形式","explanation_zh":"wait for 固定搭配。","difficulty":3,"question_en":"I am waiting ____ my friend.","options":["for","to","at"],"answer":"for","module_name_zh":"及物动词 vs 不及物动词"},
-    {"id":"l3q185","type":"sentence_correction","instruction_zh":"请修改以下句子中的错误","explanation_zh":"reach 及物，直接接宾语。","difficulty":3,"question_en":"She reached to the station.","answer":"She reached the station.","module_name_zh":"及物动词 vs 不及物动词"},
-    {"id":"l3q186","type":"sentence_choice","instruction_zh":"请选择语法正确的句子","explanation_zh":"及物动词 like 须带宾语。","difficulty":3,"options":["She likes coffee.","She likes.","She likes to coffee."],"answer":"She likes coffee.","module_name_zh":"及物动词 vs 不及物动词"},
-    {"id":"l3q187","type":"fill_choice","instruction_zh":"请选择正确形式","explanation_zh":"depend on 固定搭配。","difficulty":3,"question_en":"Success depends ____ hard work.","options":["on","to","for"],"answer":"on","module_name_zh":"及物动词 vs 不及物动词"},
-    {"id":"l3q188","type":"sentence_correction","instruction_zh":"请修改以下句子中的错误","explanation_zh":"look at 固定搭配。","difficulty":3,"question_en":"Look the board.","answer":"Look at the board.","module_name_zh":"及物动词 vs 不及物动词"},
-    {"id":"l3q189","type":"fill_choice","instruction_zh":"请选择正确形式","explanation_zh":"belong to 固定搭配。","difficulty":3,"question_en":"This book belongs ____ me.","options":["to","for","with"],"answer":"to","module_name_zh":"及物动词 vs 不及物动词"},
-    {"id":"l3q190","type":"sentence_correction","instruction_zh":"请修改以下句子中的错误","explanation_zh":"belong to 固定搭配。","difficulty":3,"question_en":"This bag belongs me.","answer":"This bag belongs to me.","module_name_zh":"及物动词 vs 不及物动词"}
+    {
+      "id": "l3q181",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确形式",
+      "explanation_zh": "arrive 不及物，用 arrive at。",
+      "difficulty": 3,
+      "question_en": "She arrived ____ the station at 9.",
+      "options": [
+        "at",
+        "to",
+        "(no preposition)"
+      ],
+      "answer": "at",
+      "module_name_zh": "及物动词 vs 不及物动词"
+    },
+    {
+      "id": "l3q182",
+      "type": "sentence_choice",
+      "instruction_zh": "请选择语法正确的句子",
+      "explanation_zh": "listen to 固定搭配。",
+      "difficulty": 3,
+      "options": [
+        "Listen to me.",
+        "Listen me.",
+        "Listen at me."
+      ],
+      "answer": "Listen to me.",
+      "module_name_zh": "及物动词 vs 不及物动词"
+    },
+    {
+      "id": "l3q183",
+      "type": "sentence_correction",
+      "instruction_zh": "请修改以下句子中的错误",
+      "explanation_zh": "listen to 固定搭配。",
+      "difficulty": 3,
+      "question_en": "Please listen the teacher.",
+      "answer": "Please listen to the teacher.",
+      "module_name_zh": "及物动词 vs 不及物动词"
+    },
+    {
+      "id": "l3q184",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确形式",
+      "explanation_zh": "wait for 固定搭配。",
+      "difficulty": 3,
+      "question_en": "I am waiting ____ my friend.",
+      "options": [
+        "for",
+        "to",
+        "at"
+      ],
+      "answer": "for",
+      "module_name_zh": "及物动词 vs 不及物动词"
+    },
+    {
+      "id": "l3q185",
+      "type": "sentence_correction",
+      "instruction_zh": "请修改以下句子中的错误",
+      "explanation_zh": "reach 及物，直接接宾语。",
+      "difficulty": 3,
+      "question_en": "She reached to the station.",
+      "answer": "She reached the station.",
+      "module_name_zh": "及物动词 vs 不及物动词"
+    },
+    {
+      "id": "l3q186",
+      "type": "sentence_choice",
+      "instruction_zh": "请选择语法正确的句子",
+      "explanation_zh": "及物动词 like 须带宾语。",
+      "difficulty": 3,
+      "options": [
+        "She likes coffee.",
+        "She likes.",
+        "She likes to coffee."
+      ],
+      "answer": "She likes coffee.",
+      "module_name_zh": "及物动词 vs 不及物动词"
+    },
+    {
+      "id": "l3q187",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确形式",
+      "explanation_zh": "depend on 固定搭配。",
+      "difficulty": 3,
+      "question_en": "Success depends ____ hard work.",
+      "options": [
+        "on",
+        "to",
+        "for"
+      ],
+      "answer": "on",
+      "module_name_zh": "及物动词 vs 不及物动词"
+    },
+    {
+      "id": "l3q188",
+      "type": "sentence_correction",
+      "instruction_zh": "请修改以下句子中的错误",
+      "explanation_zh": "look at 固定搭配。",
+      "difficulty": 3,
+      "question_en": "Look the board.",
+      "answer": "Look at the board.",
+      "module_name_zh": "及物动词 vs 不及物动词"
+    },
+    {
+      "id": "l3q189",
+      "type": "fill_choice",
+      "instruction_zh": "请选择正确形式",
+      "explanation_zh": "belong to 固定搭配。",
+      "difficulty": 3,
+      "question_en": "This book belongs ____ me.",
+      "options": [
+        "to",
+        "for",
+        "with"
+      ],
+      "answer": "to",
+      "module_name_zh": "及物动词 vs 不及物动词"
+    },
+    {
+      "id": "l3q190",
+      "type": "sentence_correction",
+      "instruction_zh": "请修改以下句子中的错误",
+      "explanation_zh": "belong to 固定搭配。",
+      "difficulty": 3,
+      "question_en": "This bag belongs me.",
+      "answer": "This bag belongs to me.",
+      "module_name_zh": "及物动词 vs 不及物动词"
+    }
   ],
   "24": [
-    {"id":"l3q241","type":"fill_choice","instruction_zh":"Identify the main clause","explanation_zh":"主句包含完整的主谓结构。","difficulty":2,"question_en":"In \"Although the experiment failed, the researchers learned valuable information\", the main clause is:","options":["the researchers learned valuable information","Although the experiment failed","the experiment"],"answer":"the researchers learned valuable information","module_name_zh":"复杂句型结构"},
-    {"id":"l3q242","type":"sentence_choice","instruction_zh":"Choose the sentence backbone","explanation_zh":"主干是主句核心。","difficulty":2,"options":["The book explores climate change.","The book was published in 2020.","The book has sold copies."],"answer":"The book explores climate change.","module_name_zh":"复杂句型结构"},
-    {"id":"l3q243","type":"fill_choice","instruction_zh":"Choose the core meaning","explanation_zh":"去掉次要信息保留主干。","difficulty":2,"question_en":"Core of \"Students who study regularly tend to perform better\":","options":["Students who study regularly tend to perform better.","Students tend to perform.","Study regularly."],"answer":"Students who study regularly tend to perform better.","module_name_zh":"复杂句型结构"},
-    {"id":"l3q244","type":"sentence_choice","instruction_zh":"Identify the main clause","explanation_zh":"主句有完整主谓。","difficulty":2,"options":["everyone left the room","When the meeting ended","a few stayed"],"answer":"everyone left the room","module_name_zh":"复杂句型结构"},
-    {"id":"l3q245","type":"fill_choice","instruction_zh":"Choose the main idea","explanation_zh":"主句表达主要动作。","difficulty":2,"question_en":"Main idea of \"The concert went ahead as scheduled\"","options":["The concert went ahead as scheduled.","The concert had been planned.","Despite the rain."],"answer":"The concert went ahead as scheduled.","module_name_zh":"复杂句型结构"},
-    {"id":"l3q246","type":"sentence_choice","instruction_zh":"Choose the backbone","explanation_zh":"主干=主+谓+核心信息。","difficulty":2,"options":["Technology has changed how people communicate.","In recent years, technology.","Smartphones have changed."],"answer":"Technology has changed how people communicate.","module_name_zh":"复杂句型结构"},
-    {"id":"l3q247","type":"fill_choice","instruction_zh":"Main clause in \"If you finish early, you may leave\"","explanation_zh":"主句是结果部分。","difficulty":2,"options":["you may leave","If you finish early","finish early"],"answer":"you may leave","module_name_zh":"复杂句型结构"},
-    {"id":"l3q248","type":"sentence_choice","instruction_zh":"Remove extra detail, keep core","explanation_zh":"定语从句可删去。","difficulty":2,"options":["The professor teaches economics at the university.","The professor has won awards.","Who has won teaches."],"answer":"The professor teaches economics at the university.","module_name_zh":"复杂句型结构"},
-    {"id":"l3q249","type":"fill_choice","instruction_zh":"Main clause","explanation_zh":"主句是 others prefer tea。","difficulty":2,"question_en":"In \"While some prefer coffee, others prefer tea\", the main clause is:","options":["others prefer tea","Some prefer coffee","While some prefer"],"answer":"others prefer tea","module_name_zh":"复杂句型结构"},
-    {"id":"l3q250","type":"fill_choice","instruction_zh":"Main clause","explanation_zh":"主句谓语是 shows。","difficulty":2,"question_en":"The report shows a rise in sales. Main clause:","options":["The report shows a rise in sales.","The report was released.","Which was released."],"answer":"The report shows a rise in sales.","module_name_zh":"复杂句型结构"}
+    {
+      "id": "l3q241",
+      "type": "fill_choice",
+      "instruction_zh": "Identify the main clause",
+      "explanation_zh": "主句包含完整的主谓结构。",
+      "difficulty": 2,
+      "question_en": "In \"Although the experiment failed, the researchers learned valuable information\", the main clause is:",
+      "options": [
+        "the researchers learned valuable information",
+        "Although the experiment failed",
+        "the experiment"
+      ],
+      "answer": "the researchers learned valuable information",
+      "module_name_zh": "复杂句型结构"
+    },
+    {
+      "id": "l3q242",
+      "type": "sentence_choice",
+      "instruction_zh": "Choose the sentence backbone",
+      "explanation_zh": "主干是主句核心。",
+      "difficulty": 2,
+      "options": [
+        "The book explores climate change.",
+        "The book was published in 2020.",
+        "The book has sold copies."
+      ],
+      "answer": "The book explores climate change.",
+      "module_name_zh": "复杂句型结构"
+    },
+    {
+      "id": "l3q243",
+      "type": "fill_choice",
+      "instruction_zh": "Choose the core meaning",
+      "explanation_zh": "去掉次要信息保留主干。",
+      "difficulty": 2,
+      "question_en": "Core of \"Students who study regularly tend to perform better\":",
+      "options": [
+        "Students who study regularly tend to perform better.",
+        "Students tend to perform.",
+        "Study regularly."
+      ],
+      "answer": "Students who study regularly tend to perform better.",
+      "module_name_zh": "复杂句型结构"
+    },
+    {
+      "id": "l3q244",
+      "type": "sentence_choice",
+      "instruction_zh": "Identify the main clause",
+      "explanation_zh": "主句有完整主谓。",
+      "difficulty": 2,
+      "options": [
+        "everyone left the room",
+        "When the meeting ended",
+        "a few stayed"
+      ],
+      "answer": "everyone left the room",
+      "module_name_zh": "复杂句型结构"
+    },
+    {
+      "id": "l3q245",
+      "type": "fill_choice",
+      "instruction_zh": "Choose the main idea",
+      "explanation_zh": "主句表达主要动作。",
+      "difficulty": 2,
+      "question_en": "Main idea of \"The concert went ahead as scheduled\"",
+      "options": [
+        "The concert went ahead as scheduled.",
+        "The concert had been planned.",
+        "Despite the rain."
+      ],
+      "answer": "The concert went ahead as scheduled.",
+      "module_name_zh": "复杂句型结构"
+    },
+    {
+      "id": "l3q246",
+      "type": "sentence_choice",
+      "instruction_zh": "Choose the backbone",
+      "explanation_zh": "主干=主+谓+核心信息。",
+      "difficulty": 2,
+      "options": [
+        "Technology has changed how people communicate.",
+        "In recent years, technology.",
+        "Smartphones have changed."
+      ],
+      "answer": "Technology has changed how people communicate.",
+      "module_name_zh": "复杂句型结构"
+    },
+    {
+      "id": "l3q247",
+      "type": "fill_choice",
+      "instruction_zh": "Main clause in \"If you finish early, you may leave\"",
+      "explanation_zh": "主句是结果部分。",
+      "difficulty": 2,
+      "options": [
+        "you may leave",
+        "If you finish early",
+        "finish early"
+      ],
+      "answer": "you may leave",
+      "module_name_zh": "复杂句型结构"
+    },
+    {
+      "id": "l3q248",
+      "type": "sentence_choice",
+      "instruction_zh": "Remove extra detail, keep core",
+      "explanation_zh": "定语从句可删去。",
+      "difficulty": 2,
+      "options": [
+        "The professor teaches economics at the university.",
+        "The professor has won awards.",
+        "Who has won teaches."
+      ],
+      "answer": "The professor teaches economics at the university.",
+      "module_name_zh": "复杂句型结构"
+    },
+    {
+      "id": "l3q249",
+      "type": "fill_choice",
+      "instruction_zh": "Main clause",
+      "explanation_zh": "主句是 others prefer tea。",
+      "difficulty": 2,
+      "question_en": "In \"While some prefer coffee, others prefer tea\", the main clause is:",
+      "options": [
+        "others prefer tea",
+        "Some prefer coffee",
+        "While some prefer"
+      ],
+      "answer": "others prefer tea",
+      "module_name_zh": "复杂句型结构"
+    },
+    {
+      "id": "l3q250",
+      "type": "fill_choice",
+      "instruction_zh": "Main clause",
+      "explanation_zh": "主句谓语是 shows。",
+      "difficulty": 2,
+      "question_en": "The report shows a rise in sales. Main clause:",
+      "options": [
+        "The report shows a rise in sales.",
+        "The report was released.",
+        "Which was released."
+      ],
+      "answer": "The report shows a rise in sales.",
+      "module_name_zh": "复杂句型结构"
+    }
   ],
   "25": [
-    {"id":"l3q251","type":"fill_choice","instruction_zh":"Choose the best connector","explanation_zh":"Because 表因果。","difficulty":2,"question_en":"_____ the weather was bad, we stayed indoors.","options":["Because","Although","Therefore"],"answer":"Because","module_name_zh":"从句关系"},
-    {"id":"l3q252","type":"sentence_choice","instruction_zh":"Identify the relationship","explanation_zh":"therefore 表结果。","difficulty":2,"options":["Cause and effect","Contrast","Condition"],"answer":"Cause and effect","module_name_zh":"从句关系"},
-    {"id":"l3q253","type":"fill_choice","instruction_zh":"Choose the best connector","explanation_zh":"Unless = if not。","difficulty":2,"question_en":"_____ you submit by Friday, you will lose points.","options":["Unless","If","Although"],"answer":"Unless","module_name_zh":"从句关系"},
-    {"id":"l3q254","type":"sentence_choice","instruction_zh":"Rewrite with different connector","explanation_zh":"Because 和 so 可互换表因果。","difficulty":2,"options":["Because he was tired, he went to bed early.","Although he was tired, he went to bed early.","When he was tired, he went to bed."],"answer":"Because he was tired, he went to bed early.","module_name_zh":"从句关系"},
-    {"id":"l3q255","type":"fill_choice","instruction_zh":"Choose the best connector","explanation_zh":"so that 表目的。","difficulty":2,"question_en":"She took a taxi _____ she wouldn't be late.","options":["so that","because","although"],"answer":"so that","module_name_zh":"从句关系"},
-    {"id":"l3q256","type":"sentence_choice","instruction_zh":"Choose the better connector","explanation_zh":"However 更正式。","difficulty":2,"options":["However","But","So"],"answer":"However","module_name_zh":"从句关系"},
-    {"id":"l3q257","type":"fill_choice","instruction_zh":"Identify relationship","explanation_zh":"Although 表让步。","difficulty":2,"question_en":"\"Although it was raining, we still went\" shows:","options":["Contrast","Cause","Time"],"answer":"Contrast","module_name_zh":"从句关系"},
-    {"id":"l3q258","type":"sentence_choice","instruction_zh":"Choose best connector","explanation_zh":"After 表时间先后。","difficulty":2,"options":["After the deadline passed, no more submissions.","Because the deadline passed.","Although the deadline passed."],"answer":"After the deadline passed, no more submissions.","module_name_zh":"从句关系"},
-    {"id":"l3q259","type":"fill_choice","instruction_zh":"Rewrite with contrast connector","explanation_zh":"Although 表让步。","difficulty":2,"options":["Although it was raining, we still went for a walk.","Because it was raining, we went.","When it rained, we went."],"answer":"Although it was raining, we still went for a walk.","module_name_zh":"从句关系"},
-    {"id":"l3q260","type":"fill_choice","instruction_zh":"Choose connector","explanation_zh":"However 表转折。","difficulty":2,"question_en":"The data suggests a trend. _____, more research is needed.","options":["However","But","So"],"answer":"However","module_name_zh":"从句关系"}
+    {
+      "id": "l3q251",
+      "type": "fill_choice",
+      "instruction_zh": "Choose the best connector",
+      "explanation_zh": "Because 表因果。",
+      "difficulty": 2,
+      "question_en": "_____ the weather was bad, we stayed indoors.",
+      "options": [
+        "Because",
+        "Although",
+        "Therefore"
+      ],
+      "answer": "Because",
+      "module_name_zh": "从句关系"
+    },
+    {
+      "id": "l3q252",
+      "type": "sentence_choice",
+      "instruction_zh": "Identify the relationship",
+      "explanation_zh": "therefore 表结果。",
+      "difficulty": 2,
+      "options": [
+        "Cause and effect",
+        "Contrast",
+        "Condition"
+      ],
+      "answer": "Cause and effect",
+      "module_name_zh": "从句关系"
+    },
+    {
+      "id": "l3q253",
+      "type": "fill_choice",
+      "instruction_zh": "Choose the best connector",
+      "explanation_zh": "Unless = if not。",
+      "difficulty": 2,
+      "question_en": "_____ you submit by Friday, you will lose points.",
+      "options": [
+        "Unless",
+        "If",
+        "Although"
+      ],
+      "answer": "Unless",
+      "module_name_zh": "从句关系"
+    },
+    {
+      "id": "l3q254",
+      "type": "sentence_choice",
+      "instruction_zh": "Rewrite with different connector",
+      "explanation_zh": "Because 和 so 可互换表因果。",
+      "difficulty": 2,
+      "options": [
+        "Because he was tired, he went to bed early.",
+        "Although he was tired, he went to bed early.",
+        "When he was tired, he went to bed."
+      ],
+      "answer": "Because he was tired, he went to bed early.",
+      "module_name_zh": "从句关系"
+    },
+    {
+      "id": "l3q255",
+      "type": "fill_choice",
+      "instruction_zh": "Choose the best connector",
+      "explanation_zh": "so that 表目的。",
+      "difficulty": 2,
+      "question_en": "She took a taxi _____ she wouldn't be late.",
+      "options": [
+        "so that",
+        "because",
+        "although"
+      ],
+      "answer": "so that",
+      "module_name_zh": "从句关系"
+    },
+    {
+      "id": "l3q256",
+      "type": "sentence_choice",
+      "instruction_zh": "Choose the better connector",
+      "explanation_zh": "However 更正式。",
+      "difficulty": 2,
+      "options": [
+        "However",
+        "But",
+        "So"
+      ],
+      "answer": "However",
+      "module_name_zh": "从句关系"
+    },
+    {
+      "id": "l3q257",
+      "type": "fill_choice",
+      "instruction_zh": "Identify relationship",
+      "explanation_zh": "Although 表让步。",
+      "difficulty": 2,
+      "question_en": "\"Although it was raining, we still went\" shows:",
+      "options": [
+        "Contrast",
+        "Cause",
+        "Time"
+      ],
+      "answer": "Contrast",
+      "module_name_zh": "从句关系"
+    },
+    {
+      "id": "l3q258",
+      "type": "sentence_choice",
+      "instruction_zh": "Choose best connector",
+      "explanation_zh": "After 表时间先后。",
+      "difficulty": 2,
+      "options": [
+        "After the deadline passed, no more submissions.",
+        "Because the deadline passed.",
+        "Although the deadline passed."
+      ],
+      "answer": "After the deadline passed, no more submissions.",
+      "module_name_zh": "从句关系"
+    },
+    {
+      "id": "l3q259",
+      "type": "fill_choice",
+      "instruction_zh": "Rewrite with contrast connector",
+      "explanation_zh": "Although 表让步。",
+      "difficulty": 2,
+      "options": [
+        "Although it was raining, we still went for a walk.",
+        "Because it was raining, we went.",
+        "When it rained, we went."
+      ],
+      "answer": "Although it was raining, we still went for a walk.",
+      "module_name_zh": "从句关系"
+    },
+    {
+      "id": "l3q260",
+      "type": "fill_choice",
+      "instruction_zh": "Choose connector",
+      "explanation_zh": "However 表转折。",
+      "difficulty": 2,
+      "question_en": "The data suggests a trend. _____, more research is needed.",
+      "options": [
+        "However",
+        "But",
+        "So"
+      ],
+      "answer": "However",
+      "module_name_zh": "从句关系"
+    }
   ],
   "26": [
-    {"id":"l3q261","type":"fill_choice","instruction_zh":"Fill the transition","explanation_zh":"First... Second 列举。","difficulty":2,"question_en":"Online learning offers flexibility. _____, it can be affordable.","options":["First","Second","Furthermore"],"answer":"Furthermore","module_name_zh":"段落衔接与过渡"},
-    {"id":"l3q262","type":"sentence_choice","instruction_zh":"Choose best transition","explanation_zh":"In contrast 表对比。","difficulty":2,"options":["In contrast","Therefore","For example"],"answer":"In contrast","module_name_zh":"段落衔接与过渡"},
-    {"id":"l3q263","type":"fill_choice","instruction_zh":"Fill the transition","explanation_zh":"For instance 举例说明局限。","difficulty":2,"question_en":"The study had limitations. _____, the sample was small.","options":["For instance","However","Therefore"],"answer":"For instance","module_name_zh":"段落衔接与过渡"},
-    {"id":"l3q264","type":"sentence_choice","instruction_zh":"Which sentence fits best","explanation_zh":"Furthermore 延续论点。","difficulty":2,"options":["Furthermore, it can reduce stress.","However, many avoid it.","In conclusion, exercise matters."],"answer":"Furthermore, it can reduce stress.","module_name_zh":"段落衔接与过渡"},
-    {"id":"l3q265","type":"fill_choice","instruction_zh":"Choose best transition","explanation_zh":"However 表转折。","difficulty":2,"question_en":"The experiment showed positive results. _____, we cannot generalize.","options":["However","Furthermore","For example"],"answer":"However","module_name_zh":"段落衔接与过渡"},
-    {"id":"l3q266","type":"sentence_choice","instruction_zh":"Which should come last","explanation_zh":"In conclusion 引导总结。","difficulty":2,"options":["In conclusion, switching to renewables benefits both.","First, renewable energy reduces emissions.","Second, it can create jobs."],"answer":"In conclusion, switching to renewables benefits both.","module_name_zh":"段落衔接与过渡"},
-    {"id":"l3q267","type":"fill_choice","instruction_zh":"Fill the transition","explanation_zh":"Additionally 表示递进。","difficulty":2,"question_en":"Reading improves vocabulary. _____, it expands knowledge.","options":["Additionally","However","Therefore"],"answer":"Additionally","module_name_zh":"段落衔接与过渡"},
-    {"id":"l3q268","type":"sentence_choice","instruction_zh":"Where does \"This supports the main argument\" fit","explanation_zh":"应在证据之后。","difficulty":2,"options":["After presenting evidence","At the start","In conclusion only"],"answer":"After presenting evidence","module_name_zh":"段落衔接与过渡"},
-    {"id":"l3q269","type":"fill_choice","instruction_zh":"Choose best transition","explanation_zh":"However 表转折。","difficulty":2,"options":["However","Therefore","For example"],"answer":"However","module_name_zh":"段落衔接与过渡"},
-    {"id":"l3q270","type":"fill_choice","instruction_zh":"Fill for conclusion","explanation_zh":"In conclusion 引出总结。","difficulty":2,"question_en":"_____, education shapes future opportunities.","options":["In conclusion","First","For example"],"answer":"In conclusion","module_name_zh":"段落衔接与过渡"}
+    {
+      "id": "l3q261",
+      "type": "fill_choice",
+      "instruction_zh": "Fill the transition",
+      "explanation_zh": "First... Second 列举。",
+      "difficulty": 2,
+      "question_en": "Online learning offers flexibility. _____, it can be affordable.",
+      "options": [
+        "First",
+        "Second",
+        "Furthermore"
+      ],
+      "answer": "Furthermore",
+      "module_name_zh": "段落衔接与过渡"
+    },
+    {
+      "id": "l3q262",
+      "type": "sentence_choice",
+      "instruction_zh": "Choose best transition",
+      "explanation_zh": "In contrast 表对比。",
+      "difficulty": 2,
+      "options": [
+        "In contrast",
+        "Therefore",
+        "For example"
+      ],
+      "answer": "In contrast",
+      "module_name_zh": "段落衔接与过渡"
+    },
+    {
+      "id": "l3q263",
+      "type": "fill_choice",
+      "instruction_zh": "Fill the transition",
+      "explanation_zh": "For instance 举例说明局限。",
+      "difficulty": 2,
+      "question_en": "The study had limitations. _____, the sample was small.",
+      "options": [
+        "For instance",
+        "However",
+        "Therefore"
+      ],
+      "answer": "For instance",
+      "module_name_zh": "段落衔接与过渡"
+    },
+    {
+      "id": "l3q264",
+      "type": "sentence_choice",
+      "instruction_zh": "Which sentence fits best",
+      "explanation_zh": "Furthermore 延续论点。",
+      "difficulty": 2,
+      "options": [
+        "Furthermore, it can reduce stress.",
+        "However, many avoid it.",
+        "In conclusion, exercise matters."
+      ],
+      "answer": "Furthermore, it can reduce stress.",
+      "module_name_zh": "段落衔接与过渡"
+    },
+    {
+      "id": "l3q265",
+      "type": "fill_choice",
+      "instruction_zh": "Choose best transition",
+      "explanation_zh": "However 表转折。",
+      "difficulty": 2,
+      "question_en": "The experiment showed positive results. _____, we cannot generalize.",
+      "options": [
+        "However",
+        "Furthermore",
+        "For example"
+      ],
+      "answer": "However",
+      "module_name_zh": "段落衔接与过渡"
+    },
+    {
+      "id": "l3q266",
+      "type": "sentence_choice",
+      "instruction_zh": "Which should come last",
+      "explanation_zh": "In conclusion 引导总结。",
+      "difficulty": 2,
+      "options": [
+        "In conclusion, switching to renewables benefits both.",
+        "First, renewable energy reduces emissions.",
+        "Second, it can create jobs."
+      ],
+      "answer": "In conclusion, switching to renewables benefits both.",
+      "module_name_zh": "段落衔接与过渡"
+    },
+    {
+      "id": "l3q267",
+      "type": "fill_choice",
+      "instruction_zh": "Fill the transition",
+      "explanation_zh": "Additionally 表示递进。",
+      "difficulty": 2,
+      "question_en": "Reading improves vocabulary. _____, it expands knowledge.",
+      "options": [
+        "Additionally",
+        "However",
+        "Therefore"
+      ],
+      "answer": "Additionally",
+      "module_name_zh": "段落衔接与过渡"
+    },
+    {
+      "id": "l3q268",
+      "type": "sentence_choice",
+      "instruction_zh": "Where does \"This supports the main argument\" fit",
+      "explanation_zh": "应在证据之后。",
+      "difficulty": 2,
+      "options": [
+        "After presenting evidence",
+        "At the start",
+        "In conclusion only"
+      ],
+      "answer": "After presenting evidence",
+      "module_name_zh": "段落衔接与过渡"
+    },
+    {
+      "id": "l3q269",
+      "type": "fill_choice",
+      "instruction_zh": "Choose best transition",
+      "explanation_zh": "However 表转折。",
+      "difficulty": 2,
+      "options": [
+        "However",
+        "Therefore",
+        "For example"
+      ],
+      "answer": "However",
+      "module_name_zh": "段落衔接与过渡"
+    },
+    {
+      "id": "l3q270",
+      "type": "fill_choice",
+      "instruction_zh": "Fill for conclusion",
+      "explanation_zh": "In conclusion 引出总结。",
+      "difficulty": 2,
+      "question_en": "_____, education shapes future opportunities.",
+      "options": [
+        "In conclusion",
+        "First",
+        "For example"
+      ],
+      "answer": "In conclusion",
+      "module_name_zh": "段落衔接与过渡"
+    }
   ],
   "27": [
-    {"id":"l3q271","type":"sentence_choice","instruction_zh":"Combine the sentences","explanation_zh":"so 连接因果。","difficulty":2,"options":["The weather was bad, so we stayed home.","The weather was bad. We stayed.","We stayed because bad weather."],"answer":"The weather was bad, so we stayed home.","module_name_zh":"句子合并与升级"},
-    {"id":"l3q272","type":"sentence_choice","instruction_zh":"Choose smoother version","explanation_zh":"分词结构更流畅。","difficulty":2,"options":["After finishing the report, she sent it to her boss.","She finished the report. Then she sent it.","She finished. She sent."],"answer":"After finishing the report, she sent it to her boss.","module_name_zh":"句子合并与升级"},
-    {"id":"l3q273","type":"sentence_choice","instruction_zh":"Choose stronger version","explanation_zh":"While 连接对比，用词更丰富。","difficulty":2,"options":["While many see technology as beneficial, others have concerns.","Many think technology is good. But some think it is bad.","Technology: good or bad?"],"answer":"While many see technology as beneficial, others have concerns.","module_name_zh":"句子合并与升级"},
-    {"id":"l3q274","type":"fill_choice","instruction_zh":"Combine using connector","explanation_zh":"so 表因果。","difficulty":2,"options":["He studied hard, so he passed the exam.","He studied hard. He passed.","Studying hard, pass exam."],"answer":"He studied hard, so he passed the exam.","module_name_zh":"句子合并与升级"},
-    {"id":"l3q275","type":"sentence_choice","instruction_zh":"Expand the sentence","explanation_zh":"定语从句拓展。","difficulty":2,"options":["Cities are crowded, which can lead to stress and pollution.","Cities. Crowded.","Cities are very very crowded."],"answer":"Cities are crowded, which can lead to stress and pollution.","module_name_zh":"句子合并与升级"},
-    {"id":"l3q276","type":"sentence_choice","instruction_zh":"Rewrite smoother","explanation_zh":"so...that 自然表达程度与结果。","difficulty":2,"options":["The book was so interesting that I read it in one day.","The book is interesting. I read it in one day.","Interesting book. Read one day."],"answer":"The book was so interesting that I read it in one day.","module_name_zh":"句子合并与升级"},
-    {"id":"l3q277","type":"sentence_choice","instruction_zh":"Choose more natural version","explanation_zh":"简洁，避免重复。","difficulty":2,"options":["Cost and time are among the main considerations.","There are many reasons. One is cost. Another is time.","Reasons: cost, time."],"answer":"Cost and time are among the main considerations.","module_name_zh":"句子合并与升级"},
-    {"id":"l3q278","type":"fill_choice","instruction_zh":"Combine sentences","explanation_zh":"so 连接因果。","difficulty":2,"options":["The meeting was cancelled, so we had more time to prepare.","The meeting was cancelled. We had more time.","Because cancel, we had time."],"answer":"The meeting was cancelled, so we had more time to prepare.","module_name_zh":"句子合并与升级"},
-    {"id":"l3q279","type":"sentence_choice","instruction_zh":"Expand the sentence","explanation_zh":"because 从句说明原因。","difficulty":2,"options":["Online learning is popular because it offers flexibility.","Online learning. Popular.","Online learning is very popular."],"answer":"Online learning is popular because it offers flexibility.","module_name_zh":"句子合并与升级"},
-    {"id":"l3q280","type":"sentence_choice","instruction_zh":"Choose stronger version","explanation_zh":"定语从句和正式词汇。","difficulty":2,"options":["Reading is a valuable habit that contributes to learning.","I like reading. It helps me learn.","Reading = good."],"answer":"Reading is a valuable habit that contributes to learning.","module_name_zh":"句子合并与升级"}
+    {
+      "id": "l3q271",
+      "type": "sentence_choice",
+      "instruction_zh": "Combine the sentences",
+      "explanation_zh": "so 连接因果。",
+      "difficulty": 2,
+      "options": [
+        "The weather was bad, so we stayed home.",
+        "The weather was bad. We stayed.",
+        "We stayed because bad weather."
+      ],
+      "answer": "The weather was bad, so we stayed home.",
+      "module_name_zh": "句子合并与升级"
+    },
+    {
+      "id": "l3q272",
+      "type": "sentence_choice",
+      "instruction_zh": "Choose smoother version",
+      "explanation_zh": "分词结构更流畅。",
+      "difficulty": 2,
+      "options": [
+        "After finishing the report, she sent it to her boss.",
+        "She finished the report. Then she sent it.",
+        "She finished. She sent."
+      ],
+      "answer": "After finishing the report, she sent it to her boss.",
+      "module_name_zh": "句子合并与升级"
+    },
+    {
+      "id": "l3q273",
+      "type": "sentence_choice",
+      "instruction_zh": "Choose stronger version",
+      "explanation_zh": "While 连接对比，用词更丰富。",
+      "difficulty": 2,
+      "options": [
+        "While many see technology as beneficial, others have concerns.",
+        "Many think technology is good. But some think it is bad.",
+        "Technology: good or bad?"
+      ],
+      "answer": "While many see technology as beneficial, others have concerns.",
+      "module_name_zh": "句子合并与升级"
+    },
+    {
+      "id": "l3q274",
+      "type": "fill_choice",
+      "instruction_zh": "Combine using connector",
+      "explanation_zh": "so 表因果。",
+      "difficulty": 2,
+      "options": [
+        "He studied hard, so he passed the exam.",
+        "He studied hard. He passed.",
+        "Studying hard, pass exam."
+      ],
+      "answer": "He studied hard, so he passed the exam.",
+      "module_name_zh": "句子合并与升级"
+    },
+    {
+      "id": "l3q275",
+      "type": "sentence_choice",
+      "instruction_zh": "Expand the sentence",
+      "explanation_zh": "定语从句拓展。",
+      "difficulty": 2,
+      "options": [
+        "Cities are crowded, which can lead to stress and pollution.",
+        "Cities. Crowded.",
+        "Cities are very very crowded."
+      ],
+      "answer": "Cities are crowded, which can lead to stress and pollution.",
+      "module_name_zh": "句子合并与升级"
+    },
+    {
+      "id": "l3q276",
+      "type": "sentence_choice",
+      "instruction_zh": "Rewrite smoother",
+      "explanation_zh": "so...that 自然表达程度与结果。",
+      "difficulty": 2,
+      "options": [
+        "The book was so interesting that I read it in one day.",
+        "The book is interesting. I read it in one day.",
+        "Interesting book. Read one day."
+      ],
+      "answer": "The book was so interesting that I read it in one day.",
+      "module_name_zh": "句子合并与升级"
+    },
+    {
+      "id": "l3q277",
+      "type": "sentence_choice",
+      "instruction_zh": "Choose more natural version",
+      "explanation_zh": "简洁，避免重复。",
+      "difficulty": 2,
+      "options": [
+        "Cost and time are among the main considerations.",
+        "There are many reasons. One is cost. Another is time.",
+        "Reasons: cost, time."
+      ],
+      "answer": "Cost and time are among the main considerations.",
+      "module_name_zh": "句子合并与升级"
+    },
+    {
+      "id": "l3q278",
+      "type": "fill_choice",
+      "instruction_zh": "Combine sentences",
+      "explanation_zh": "so 连接因果。",
+      "difficulty": 2,
+      "options": [
+        "The meeting was cancelled, so we had more time to prepare.",
+        "The meeting was cancelled. We had more time.",
+        "Because cancel, we had time."
+      ],
+      "answer": "The meeting was cancelled, so we had more time to prepare.",
+      "module_name_zh": "句子合并与升级"
+    },
+    {
+      "id": "l3q279",
+      "type": "sentence_choice",
+      "instruction_zh": "Expand the sentence",
+      "explanation_zh": "because 从句说明原因。",
+      "difficulty": 2,
+      "options": [
+        "Online learning is popular because it offers flexibility.",
+        "Online learning. Popular.",
+        "Online learning is very popular."
+      ],
+      "answer": "Online learning is popular because it offers flexibility.",
+      "module_name_zh": "句子合并与升级"
+    },
+    {
+      "id": "l3q280",
+      "type": "sentence_choice",
+      "instruction_zh": "Choose stronger version",
+      "explanation_zh": "定语从句和正式词汇。",
+      "difficulty": 2,
+      "options": [
+        "Reading is a valuable habit that contributes to learning.",
+        "I like reading. It helps me learn.",
+        "Reading = good."
+      ],
+      "answer": "Reading is a valuable habit that contributes to learning.",
+      "module_name_zh": "句子合并与升级"
+    }
   ]
 }

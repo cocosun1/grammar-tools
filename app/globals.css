@@ -151,6 +151,38 @@ body {
   line-height: 1.6;
 }
 
+/* Home page: percentage completed (intro + L1 + L2 per module) */
+.home-progress {
+  margin-bottom: var(--space-xl);
+}
+.home-progress-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: var(--space-xs);
+}
+.home-progress-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text);
+}
+.home-progress-value {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+.home-progress-track {
+  height: 10px;
+  background: var(--border-soft);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.home-progress-fill {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 999px;
+  transition: width 0.3s ease;
+}
+
 /* Layer 3 · Complex Language: distinct advanced-application feel */
 .layer-page.layer-3-complex {
   border-left: 4px solid var(--accent);

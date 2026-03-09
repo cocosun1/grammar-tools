@@ -8,8 +8,10 @@ import { questions } from "@/lib/questions";
 import { LAYERS } from "@/types/curriculum";
 import type { Question } from "@/types/question";
 import layer3ApplicationData from "@/data/layer3Application.json";
+import layer3ArgumentData from "@/data/layer3ArgumentData.json";
 import level3QuestionsData from "@/data/level3Questions.json";
 import type { Layer3ApplicationContentMap } from "@/types/layer3Application";
+import type { Layer3ArgumentContentMap } from "@/types/layer3Argument";
 import styles from "./question-bank.module.css";
 
 const TYPE_LABELS: Record<string, string> = {
@@ -20,6 +22,8 @@ const TYPE_LABELS: Record<string, string> = {
   natural_choice: "自然 vs 不自然",
   judgement: "判断",
   guided_completion: "引导产出",
+  listening_backbone: "听力主干",
+  argument_prompt: "论点题",
 };
 
 interface DisplayQuestion {
@@ -73,7 +77,7 @@ export default function QuestionBankPage() {
           byLayer[layerId][moduleId].push({
             id: q.id,
             type: q.type,
-            instruction_zh: q.prompt_en,
+            instruction_zh: q.instruction_zh,
             prompt_en: q.prompt_en,
             options: "options" in q ? q.options : undefined,
             answer: q.answer,
@@ -100,6 +104,25 @@ export default function QuestionBankPage() {
           explanation_zh: q.explanation_zh,
           difficulty: q.difficulty,
           module_name_zh: (q as { module_name_zh?: string }).module_name_zh,
+        });
+      }
+    }
+
+    const layer3Arg = layer3ArgumentData as Layer3ArgumentContentMap;
+    for (const [moduleKey, prompts] of Object.entries(layer3Arg)) {
+      const moduleId = Number(moduleKey);
+      if (Number.isNaN(moduleId) || !Array.isArray(prompts)) continue;
+      const layerId = getLayerForModule(moduleId);
+      if (!byLayer[layerId]) byLayer[layerId] = {};
+      byLayer[layerId][moduleId] = byLayer[layerId][moduleId] ?? [];
+      for (const p of prompts) {
+        byLayer[layerId][moduleId].push({
+          id: p.id,
+          type: "argument_prompt",
+          prompt_en: p.prompt_en,
+          instruction_zh: `${p.topic} · ${p.questionType.replace(/_/g, " ")}`,
+          answer: `一方 ${p.argumentsOneSide.length} 条 / 另一方 ${p.argumentsOtherSide.length} 条`,
+          explanation_zh: undefined,
         });
       }
     }

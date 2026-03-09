@@ -6,7 +6,7 @@ import { ModulePractice } from "./ModulePractice";
 import { QuestionRenderer } from "./QuestionRenderer";
 import { answersMatch } from "@/lib/answerUtils";
 import { saveModuleProgress, scoreToStars } from "@/lib/moduleProgress";
-import { selectBalancedQuestions, selectRandomItems } from "@/lib/randomQuestions";
+import { questionSignature, selectBalancedQuestions, selectRandomItems } from "@/lib/randomQuestions";
 import level3TasksData from "@/data/level3Tasks.json";
 import level3QuestionsData from "@/data/level3Questions.json";
 import layer3ApplicationData from "@/data/layer3Application.json";
@@ -150,7 +150,14 @@ export function LevelGameplay({
         ...translations.map((t) => ({ kind: "translation" as const, ...t })),
         ...l3Questions.map((q) => ({ kind: "question" as const, question: q })),
       ];
-      return selectRandomItems(items, Math.min(10, items.length));
+      return selectRandomItems(
+        items,
+        Math.min(10, items.length),
+        (item) =>
+          item.kind === "question"
+            ? questionSignature(item.question)
+            : item.id
+      );
     }, [moduleId]);
     if (selectedItems.length === 0) {
       const fallbackSection = layer3Content.sections[2];
@@ -245,7 +252,14 @@ export function LevelGameplay({
         ...translations.map((t) => ({ kind: "translation" as const, ...t })),
         ...questions.map((q) => ({ kind: "question" as const, question: q })),
       ];
-      return selectRandomItems(combined, 10);
+      return selectRandomItems(
+        combined,
+        10,
+        (item) =>
+          item.kind === "question"
+            ? questionSignature(item.question)
+            : item.id
+      );
     }, [moduleId]);
     return (
       <Level3Task

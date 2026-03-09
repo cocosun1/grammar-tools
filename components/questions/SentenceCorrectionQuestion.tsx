@@ -120,6 +120,7 @@ export function SentenceCorrectionQuestion({
       onAnswerCheck?.(true);
     } else {
       setFeedback("wrong");
+      onAnswerCheck?.(false);
     }
   }, [allCorrect, onAnswerCheck]);
 
@@ -232,9 +233,8 @@ export function SentenceCorrectionQuestion({
           type="button"
           className="btn"
           onClick={handleSubmitAll}
-          disabled={!allCorrect}
         >
-          {allCorrect ? "完成" : `请先修正 ${pairs.filter((p) => normalizeAnswer(corrections[p.index] ?? "") !== normalizeAnswer(p.correct)).length} 处错误`}
+          {allCorrect ? "完成" : `提交并下一题（已修正 ${pairs.filter((p) => normalizeAnswer(corrections[p.index] ?? "") === normalizeAnswer(p.correct)).length}/${pairs.length} 处）`}
         </button>
       )}
 

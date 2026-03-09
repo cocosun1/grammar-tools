@@ -153,6 +153,776 @@
             "answer": "The report shows a rise in sales.",
             "explanation_zh": "主句是 The report shows a rise in sales。定语从句 \"which was released yesterday\" 提供时间信息。",
             "wrong_note_zh": "\"was released\" 属于定语从句，不是主句谓语。"
+          },
+          {
+            "id": "l3-24-11",
+            "type": "fill_choice",
+            "instruction_zh": "这句话中，哪一部分是主句？",
+            "prompt_en": "Although he was busy, he attended the meeting.",
+            "options": [
+              "Although he was busy",
+              "he attended the meeting",
+              "he attended"
+            ],
+            "answer": "he attended the meeting",
+            "explanation_zh": "主句是「he attended the meeting」，有完整的主谓结构。",
+            "wrong_note_zh": "从句从属于主句。"
+          },
+          {
+            "id": "l3-24-12",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The company, which was founded in 2010, now employs over 500 people.",
+            "options": [
+              "The company now employs over 500 people.",
+              "The company was founded in 2010.",
+              "Which was founded employs people."
+            ],
+            "answer": "The company now employs over 500 people.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-13",
+            "type": "fill_choice",
+            "instruction_zh": "这句话中，哪一部分是主句？",
+            "prompt_en": "Because the flight was delayed, we missed the connection.",
+            "options": [
+              "Because the flight was delayed",
+              "we missed the connection",
+              "we missed"
+            ],
+            "answer": "we missed the connection",
+            "explanation_zh": "主句是「we missed the connection」，有完整的主谓结构。",
+            "wrong_note_zh": "从句从属于主句。"
+          },
+          {
+            "id": "l3-24-14",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The study, conducted over three years, showed significant improvements.",
+            "options": [
+              "The study showed significant improvements.",
+              "The study was conducted.",
+              "Conducted over three years showed."
+            ],
+            "answer": "The study showed significant improvements.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-15",
+            "type": "fill_choice",
+            "instruction_zh": "这句话中，哪一部分是主句？",
+            "prompt_en": "When the bell rang, students left the classroom.",
+            "options": [
+              "When the bell rang",
+              "students left the classroom",
+              "students left"
+            ],
+            "answer": "students left the classroom",
+            "explanation_zh": "主句是「students left the classroom」，有完整的主谓结构。",
+            "wrong_note_zh": "从句从属于主句。"
+          },
+          {
+            "id": "l3-24-16",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The proposal, which has been under review, will be decided next week.",
+            "options": [
+              "The proposal will be decided next week.",
+              "The proposal has been under review.",
+              "Which has been under review will be decided."
+            ],
+            "answer": "The proposal will be decided next week.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-17",
+            "type": "fill_choice",
+            "instruction_zh": "这句话中，哪一部分是主句？",
+            "prompt_en": "If you need help, you can ask the assistant.",
+            "options": [
+              "If you need help",
+              "you can ask the assistant",
+              "you can ask"
+            ],
+            "answer": "you can ask the assistant",
+            "explanation_zh": "主句是「you can ask the assistant」，有完整的主谓结构。",
+            "wrong_note_zh": "从句从属于主句。"
+          },
+          {
+            "id": "l3-24-18",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The film, starring several well-known actors, received critical acclaim.",
+            "options": [
+              "The film received critical acclaim.",
+              "The film stars several actors.",
+              "Starring several actors received acclaim."
+            ],
+            "answer": "The film received critical acclaim.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-19",
+            "type": "fill_choice",
+            "instruction_zh": "这句话中，哪一部分是主句？",
+            "prompt_en": "Unless you hurry, you will miss the train.",
+            "options": [
+              "Unless you hurry",
+              "you will miss the train",
+              "you will miss"
+            ],
+            "answer": "you will miss the train",
+            "explanation_zh": "主句是「you will miss the train」，有完整的主谓结构。",
+            "wrong_note_zh": "从句从属于主句。"
+          },
+          {
+            "id": "l3-24-20",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The policy, introduced last year, has reduced emissions by 20%.",
+            "options": [
+              "The policy has reduced emissions by 20%.",
+              "The policy was introduced last year.",
+              "Introduced last year has reduced."
+            ],
+            "answer": "The policy has reduced emissions by 20%.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-21",
+            "type": "fill_choice",
+            "instruction_zh": "这句话中，哪一部分是主句？",
+            "prompt_en": "While I was cooking, she set the table.",
+            "options": [
+              "While I was cooking",
+              "she set the table",
+              "she set"
+            ],
+            "answer": "she set the table",
+            "explanation_zh": "主句是「she set the table」，有完整的主谓结构。",
+            "wrong_note_zh": "从句从属于主句。"
+          },
+          {
+            "id": "l3-24-22",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The hotel, located near the airport, offers a free shuttle service.",
+            "options": [
+              "The hotel offers a free shuttle service.",
+              "The hotel is located near the airport.",
+              "Located near the airport offers shuttle."
+            ],
+            "answer": "The hotel offers a free shuttle service.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-23",
+            "type": "fill_choice",
+            "instruction_zh": "这句话中，哪一部分是主句？",
+            "prompt_en": "Since the store was closed, we went home.",
+            "options": [
+              "Since the store was closed",
+              "we went home",
+              "we went"
+            ],
+            "answer": "we went home",
+            "explanation_zh": "主句是「we went home」，有完整的主谓结构。",
+            "wrong_note_zh": "从句从属于主句。"
+          },
+          {
+            "id": "l3-24-24",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The report, prepared by the finance team, was presented to the board.",
+            "options": [
+              "The report was presented to the board.",
+              "The report was prepared by the finance team.",
+              "Prepared by the finance team was presented."
+            ],
+            "answer": "The report was presented to the board.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-25",
+            "type": "fill_choice",
+            "instruction_zh": "这句话中，哪一部分是主句？",
+            "prompt_en": "After the meeting ended, everyone went back to work.",
+            "options": [
+              "After the meeting ended",
+              "everyone went back to work",
+              "everyone went"
+            ],
+            "answer": "everyone went back to work",
+            "explanation_zh": "主句是「everyone went back to work」，有完整的主谓结构。",
+            "wrong_note_zh": "从句从属于主句。"
+          },
+          {
+            "id": "l3-24-26",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The survey, which included 1,000 participants, found high satisfaction.",
+            "options": [
+              "The survey found high satisfaction.",
+              "The survey included 1,000 participants.",
+              "Which included 1,000 found satisfaction."
+            ],
+            "answer": "The survey found high satisfaction.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-27",
+            "type": "fill_choice",
+            "instruction_zh": "这句话中，哪一部分是主句？",
+            "prompt_en": "Before the exam, students reviewed their notes.",
+            "options": [
+              "Before the exam",
+              "students reviewed their notes",
+              "students reviewed"
+            ],
+            "answer": "students reviewed their notes",
+            "explanation_zh": "主句是「students reviewed their notes」，有完整的主谓结构。",
+            "wrong_note_zh": "从句从属于主句。"
+          },
+          {
+            "id": "l3-24-28",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The building, constructed in the 1920s, has been restored.",
+            "options": [
+              "The building has been restored.",
+              "The building was constructed in the 1920s.",
+              "Constructed in the 1920s has been restored."
+            ],
+            "answer": "The building has been restored.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-29",
+            "type": "fill_choice",
+            "instruction_zh": "这句话中，哪一部分是主句？",
+            "prompt_en": "Even though it was cold, they went for a run.",
+            "options": [
+              "Even though it was cold",
+              "they went for a run",
+              "they went"
+            ],
+            "answer": "they went for a run",
+            "explanation_zh": "主句是「they went for a run」，有完整的主谓结构。",
+            "wrong_note_zh": "从句从属于主句。"
+          },
+          {
+            "id": "l3-24-30",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The program, designed for beginners, covers basic concepts.",
+            "options": [
+              "The program covers basic concepts.",
+              "The program is designed for beginners.",
+              "Designed for beginners covers concepts."
+            ],
+            "answer": "The program covers basic concepts.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-31",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The company, which was founded in 2010, now employs over 500 people.",
+            "options": [
+              "The company now employs over 500 people.",
+              "The company was founded in 2010.",
+              "Which was founded employs people."
+            ],
+            "answer": "The company now employs over 500 people.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-32",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The company, which was founded in 2010, now employs over 500 people.",
+            "options": [
+              "The company now employs over 500 people.",
+              "The company was founded in 2010.",
+              "Which was founded employs people."
+            ],
+            "answer": "The company now employs over 500 people.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-33",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The study, conducted over three years, showed significant improvements.",
+            "options": [
+              "The study showed significant improvements.",
+              "The study was conducted.",
+              "Conducted over three years showed."
+            ],
+            "answer": "The study showed significant improvements.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-34",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The study, conducted over three years, showed significant improvements.",
+            "options": [
+              "The study showed significant improvements.",
+              "The study was conducted.",
+              "Conducted over three years showed."
+            ],
+            "answer": "The study showed significant improvements.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-35",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The proposal, which has been under review, will be decided next week.",
+            "options": [
+              "The proposal will be decided next week.",
+              "The proposal has been under review.",
+              "Which has been under review will be decided."
+            ],
+            "answer": "The proposal will be decided next week.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-36",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The proposal, which has been under review, will be decided next week.",
+            "options": [
+              "The proposal will be decided next week.",
+              "The proposal has been under review.",
+              "Which has been under review will be decided."
+            ],
+            "answer": "The proposal will be decided next week.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-37",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The film, starring several well-known actors, received critical acclaim.",
+            "options": [
+              "The film received critical acclaim.",
+              "The film stars several actors.",
+              "Starring several actors received acclaim."
+            ],
+            "answer": "The film received critical acclaim.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-38",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The film, starring several well-known actors, received critical acclaim.",
+            "options": [
+              "The film received critical acclaim.",
+              "The film stars several actors.",
+              "Starring several actors received acclaim."
+            ],
+            "answer": "The film received critical acclaim.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-39",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The policy, introduced last year, has reduced emissions by 20%.",
+            "options": [
+              "The policy has reduced emissions by 20%.",
+              "The policy was introduced last year.",
+              "Introduced last year has reduced."
+            ],
+            "answer": "The policy has reduced emissions by 20%.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-40",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The policy, introduced last year, has reduced emissions by 20%.",
+            "options": [
+              "The policy has reduced emissions by 20%.",
+              "The policy was introduced last year.",
+              "Introduced last year has reduced."
+            ],
+            "answer": "The policy has reduced emissions by 20%.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-41",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The hotel, located near the airport, offers a free shuttle service.",
+            "options": [
+              "The hotel offers a free shuttle service.",
+              "The hotel is located near the airport.",
+              "Located near the airport offers shuttle."
+            ],
+            "answer": "The hotel offers a free shuttle service.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-42",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The hotel, located near the airport, offers a free shuttle service.",
+            "options": [
+              "The hotel offers a free shuttle service.",
+              "The hotel is located near the airport.",
+              "Located near the airport offers shuttle."
+            ],
+            "answer": "The hotel offers a free shuttle service.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-43",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The report, prepared by the finance team, was presented to the board.",
+            "options": [
+              "The report was presented to the board.",
+              "The report was prepared by the finance team.",
+              "Prepared by the finance team was presented."
+            ],
+            "answer": "The report was presented to the board.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-44",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The report, prepared by the finance team, was presented to the board.",
+            "options": [
+              "The report was presented to the board.",
+              "The report was prepared by the finance team.",
+              "Prepared by the finance team was presented."
+            ],
+            "answer": "The report was presented to the board.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-45",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The survey, which included 1,000 participants, found high satisfaction.",
+            "options": [
+              "The survey found high satisfaction.",
+              "The survey included 1,000 participants.",
+              "Which included 1,000 found satisfaction."
+            ],
+            "answer": "The survey found high satisfaction.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-46",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The survey, which included 1,000 participants, found high satisfaction.",
+            "options": [
+              "The survey found high satisfaction.",
+              "The survey included 1,000 participants.",
+              "Which included 1,000 found satisfaction."
+            ],
+            "answer": "The survey found high satisfaction.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-47",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The building, constructed in the 1920s, has been restored.",
+            "options": [
+              "The building has been restored.",
+              "The building was constructed in the 1920s.",
+              "Constructed in the 1920s has been restored."
+            ],
+            "answer": "The building has been restored.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-48",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The building, constructed in the 1920s, has been restored.",
+            "options": [
+              "The building has been restored.",
+              "The building was constructed in the 1920s.",
+              "Constructed in the 1920s has been restored."
+            ],
+            "answer": "The building has been restored.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-49",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The program, designed for beginners, covers basic concepts.",
+            "options": [
+              "The program covers basic concepts.",
+              "The program is designed for beginners.",
+              "Designed for beginners covers concepts."
+            ],
+            "answer": "The program covers basic concepts.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-50",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The program, designed for beginners, covers basic concepts.",
+            "options": [
+              "The program covers basic concepts.",
+              "The program is designed for beginners.",
+              "Designed for beginners covers concepts."
+            ],
+            "answer": "The program covers basic concepts.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-51",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The company, which was founded in 2010, now employs over 500 people.",
+            "options": [
+              "The company now employs over 500 people.",
+              "The company was founded in 2010.",
+              "Which was founded employs people."
+            ],
+            "answer": "The company now employs over 500 people.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-52",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The company, which was founded in 2010, now employs over 500 people.",
+            "options": [
+              "The company now employs over 500 people.",
+              "The company was founded in 2010.",
+              "Which was founded employs people."
+            ],
+            "answer": "The company now employs over 500 people.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-53",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The study, conducted over three years, showed significant improvements.",
+            "options": [
+              "The study showed significant improvements.",
+              "The study was conducted.",
+              "Conducted over three years showed."
+            ],
+            "answer": "The study showed significant improvements.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-54",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The study, conducted over three years, showed significant improvements.",
+            "options": [
+              "The study showed significant improvements.",
+              "The study was conducted.",
+              "Conducted over three years showed."
+            ],
+            "answer": "The study showed significant improvements.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-55",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The proposal, which has been under review, will be decided next week.",
+            "options": [
+              "The proposal will be decided next week.",
+              "The proposal has been under review.",
+              "Which has been under review will be decided."
+            ],
+            "answer": "The proposal will be decided next week.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-56",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The proposal, which has been under review, will be decided next week.",
+            "options": [
+              "The proposal will be decided next week.",
+              "The proposal has been under review.",
+              "Which has been under review will be decided."
+            ],
+            "answer": "The proposal will be decided next week.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-57",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The film, starring several well-known actors, received critical acclaim.",
+            "options": [
+              "The film received critical acclaim.",
+              "The film stars several actors.",
+              "Starring several actors received acclaim."
+            ],
+            "answer": "The film received critical acclaim.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-58",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The film, starring several well-known actors, received critical acclaim.",
+            "options": [
+              "The film received critical acclaim.",
+              "The film stars several actors.",
+              "Starring several actors received acclaim."
+            ],
+            "answer": "The film received critical acclaim.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-59",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The policy, introduced last year, has reduced emissions by 20%.",
+            "options": [
+              "The policy has reduced emissions by 20%.",
+              "The policy was introduced last year.",
+              "Introduced last year has reduced."
+            ],
+            "answer": "The policy has reduced emissions by 20%.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-60",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The policy, introduced last year, has reduced emissions by 20%.",
+            "options": [
+              "The policy has reduced emissions by 20%.",
+              "The policy was introduced last year.",
+              "Introduced last year has reduced."
+            ],
+            "answer": "The policy has reduced emissions by 20%.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-61",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The hotel, located near the airport, offers a free shuttle service.",
+            "options": [
+              "The hotel offers a free shuttle service.",
+              "The hotel is located near the airport.",
+              "Located near the airport offers shuttle."
+            ],
+            "answer": "The hotel offers a free shuttle service.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-62",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The hotel, located near the airport, offers a free shuttle service.",
+            "options": [
+              "The hotel offers a free shuttle service.",
+              "The hotel is located near the airport.",
+              "Located near the airport offers shuttle."
+            ],
+            "answer": "The hotel offers a free shuttle service.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-63",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The report, prepared by the finance team, was presented to the board.",
+            "options": [
+              "The report was presented to the board.",
+              "The report was prepared by the finance team.",
+              "Prepared by the finance team was presented."
+            ],
+            "answer": "The report was presented to the board.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-64",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The report, prepared by the finance team, was presented to the board.",
+            "options": [
+              "The report was presented to the board.",
+              "The report was prepared by the finance team.",
+              "Prepared by the finance team was presented."
+            ],
+            "answer": "The report was presented to the board.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
+          },
+          {
+            "id": "l3-24-65",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "The survey, which included 1,000 participants, found high satisfaction.",
+            "options": [
+              "The survey found high satisfaction.",
+              "The survey included 1,000 participants.",
+              "Which included 1,000 found satisfaction."
+            ],
+            "answer": "The survey found high satisfaction.",
+            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
+            "wrong_note_zh": "定语从句中的内容不是主干。"
           }
         ]
       },
@@ -320,7 +1090,12 @@
             "type": "fill_choice",
             "instruction_zh": "选择最合适的连接词填空：",
             "prompt_en": "_____ the weather was bad, we decided to stay indoors.",
-            "options": ["Because", "Although", "Therefore", "Meanwhile"],
+            "options": [
+              "Because",
+              "Although",
+              "Therefore",
+              "Meanwhile"
+            ],
             "answer": "Because",
             "explanation_zh": "因果关系：天气不好导致我们决定留在室内。Because 表示原因。",
             "wrong_note_zh": "Although 表示让步（尽管），不符合因果逻辑。"
@@ -345,7 +1120,12 @@
             "type": "fill_choice",
             "instruction_zh": "选择最合适的连接词填空：",
             "prompt_en": "_____ you submit the essay by Friday, you will lose points.",
-            "options": ["If", "Unless", "Although", "Because"],
+            "options": [
+              "If",
+              "Unless",
+              "Although",
+              "Because"
+            ],
             "answer": "Unless",
             "explanation_zh": "条件关系：Unless = 如果不。不按时交就会扣分。",
             "wrong_note_zh": "If 需搭配 \"do not submit\" 才能表达相同意思。Unless = if not。"
@@ -368,7 +1148,12 @@
             "id": "l3-25-5",
             "type": "fill_choice",
             "prompt_en": "Compare: _____ the two options, \"however\" is more formal than \"but\" in academic writing.",
-            "options": ["Whereas", "While", "Between", "Although"],
+            "options": [
+              "Whereas",
+              "While",
+              "Between",
+              "Although"
+            ],
             "answer": "Between",
             "explanation_zh": "compare + between 表示「比较两者」。Between the two options 是正确搭配。",
             "wrong_note_zh": "Whereas/While 用于连接两个从句表示对比，不用于 \"compare...\" 结构。"
@@ -393,7 +1178,12 @@
             "type": "fill_choice",
             "instruction_zh": "选择表示目的的连接词填空：",
             "prompt_en": "She took a taxi _____ she wouldn't be late.",
-            "options": ["because", "so that", "although", "when"],
+            "options": [
+              "because",
+              "so that",
+              "although",
+              "when"
+            ],
             "answer": "so that",
             "explanation_zh": "目的关系：为了不迟到而打车。so that 表目的。",
             "wrong_note_zh": "because 表原因；这里「打车」是手段，「不迟到」是目的。"
@@ -403,7 +1193,12 @@
             "type": "guided_completion",
             "prompt_en": "Choose the better connector for academic writing: \"The data suggests a trend. _____, more research is needed.\"",
             "cue_zh": "选更正式、自然的连接词",
-            "options": ["But", "However", "So", "And"],
+            "options": [
+              "But",
+              "However",
+              "So",
+              "And"
+            ],
             "answer": "However",
             "explanation_zh": "However 比 but 更正式，适合学术写作，表示转折。",
             "wrong_note_zh": "But 较口语；So/And 不表示转折。"
@@ -427,10 +1222,925 @@
             "type": "fill_choice",
             "instruction_zh": "选择表示时间先后的连接词填空：",
             "prompt_en": "_____ the deadline passed, no more submissions were accepted.",
-            "options": ["After", "Because", "Although", "So that"],
+            "options": [
+              "After",
+              "Because",
+              "Although",
+              "So that"
+            ],
             "answer": "After",
             "explanation_zh": "时间关系：截止日期过后，不再接受提交。After 表时间先后。",
             "wrong_note_zh": "逻辑上是时间先后，而非因果或目的。"
+          },
+          {
+            "id": "l3-25-11",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ she had a headache, she went to the meeting.",
+            "options": [
+              "Although",
+              "Because",
+              "Therefore"
+            ],
+            "answer": "Although",
+            "explanation_zh": "让步关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-12",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ the budget was cut, the project was completed on time.",
+            "options": [
+              "Despite",
+              "Because",
+              "So that"
+            ],
+            "answer": "Despite",
+            "explanation_zh": "让步关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-13",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ you follow the instructions, the device will work properly.",
+            "options": [
+              "If",
+              "Although",
+              "Therefore"
+            ],
+            "answer": "If",
+            "explanation_zh": "条件关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-14",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ finishing the report, she sent it to her supervisor.",
+            "options": [
+              "After",
+              "Because",
+              "Although"
+            ],
+            "answer": "After",
+            "explanation_zh": "时间关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-15",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "The results were inconclusive. _____, more research is needed.",
+            "options": [
+              "Therefore",
+              "Although",
+              "Meanwhile"
+            ],
+            "answer": "Therefore",
+            "explanation_zh": "结果关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-16",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ the data supports the hypothesis, we should remain cautious.",
+            "options": [
+              "Although",
+              "Because",
+              "So that"
+            ],
+            "answer": "Although",
+            "explanation_zh": "让步关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-17",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "She left early _____ she could catch the last train.",
+            "options": [
+              "so that",
+              "because",
+              "although"
+            ],
+            "answer": "so that",
+            "explanation_zh": "目的关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-18",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ the experiment failed, valuable lessons were learned.",
+            "options": [
+              "Although",
+              "Because",
+              "Therefore"
+            ],
+            "answer": "Although",
+            "explanation_zh": "让步关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-19",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ arriving at the airport, he realized he had forgotten his passport.",
+            "options": [
+              "After",
+              "Because",
+              "If"
+            ],
+            "answer": "After",
+            "explanation_zh": "时间关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-20",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ you practice regularly, you will improve.",
+            "options": [
+              "If",
+              "Although",
+              "Therefore"
+            ],
+            "answer": "If",
+            "explanation_zh": "条件关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-21",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ she had a headache, she went to the meeting.",
+            "options": [
+              "Although",
+              "Because",
+              "Therefore"
+            ],
+            "answer": "Although",
+            "explanation_zh": "让步关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-22",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ the budget was cut, the project was completed on time.",
+            "options": [
+              "Despite",
+              "Because",
+              "So that"
+            ],
+            "answer": "Despite",
+            "explanation_zh": "让步关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-23",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ you follow the instructions, the device will work properly.",
+            "options": [
+              "If",
+              "Although",
+              "Therefore"
+            ],
+            "answer": "If",
+            "explanation_zh": "条件关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-24",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ finishing the report, she sent it to her supervisor.",
+            "options": [
+              "After",
+              "Because",
+              "Although"
+            ],
+            "answer": "After",
+            "explanation_zh": "时间关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-25",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "The results were inconclusive. _____, more research is needed.",
+            "options": [
+              "Therefore",
+              "Although",
+              "Meanwhile"
+            ],
+            "answer": "Therefore",
+            "explanation_zh": "结果关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-26",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ the data supports the hypothesis, we should remain cautious.",
+            "options": [
+              "Although",
+              "Because",
+              "So that"
+            ],
+            "answer": "Although",
+            "explanation_zh": "让步关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-27",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "She left early _____ she could catch the last train.",
+            "options": [
+              "so that",
+              "because",
+              "although"
+            ],
+            "answer": "so that",
+            "explanation_zh": "目的关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-28",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ the experiment failed, valuable lessons were learned.",
+            "options": [
+              "Although",
+              "Because",
+              "Therefore"
+            ],
+            "answer": "Although",
+            "explanation_zh": "让步关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-29",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ arriving at the airport, he realized he had forgotten his passport.",
+            "options": [
+              "After",
+              "Because",
+              "If"
+            ],
+            "answer": "After",
+            "explanation_zh": "时间关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-30",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ you practice regularly, you will improve.",
+            "options": [
+              "If",
+              "Although",
+              "Therefore"
+            ],
+            "answer": "If",
+            "explanation_zh": "条件关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-31",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ she had a headache, she went to the meeting.",
+            "options": [
+              "Although",
+              "Because",
+              "Therefore"
+            ],
+            "answer": "Although",
+            "explanation_zh": "让步关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-32",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ the budget was cut, the project was completed on time.",
+            "options": [
+              "Despite",
+              "Because",
+              "So that"
+            ],
+            "answer": "Despite",
+            "explanation_zh": "让步关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-33",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ you follow the instructions, the device will work properly.",
+            "options": [
+              "If",
+              "Although",
+              "Therefore"
+            ],
+            "answer": "If",
+            "explanation_zh": "条件关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-34",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ finishing the report, she sent it to her supervisor.",
+            "options": [
+              "After",
+              "Because",
+              "Although"
+            ],
+            "answer": "After",
+            "explanation_zh": "时间关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-35",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "The results were inconclusive. _____, more research is needed.",
+            "options": [
+              "Therefore",
+              "Although",
+              "Meanwhile"
+            ],
+            "answer": "Therefore",
+            "explanation_zh": "结果关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-36",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ the data supports the hypothesis, we should remain cautious.",
+            "options": [
+              "Although",
+              "Because",
+              "So that"
+            ],
+            "answer": "Although",
+            "explanation_zh": "让步关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-37",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "She left early _____ she could catch the last train.",
+            "options": [
+              "so that",
+              "because",
+              "although"
+            ],
+            "answer": "so that",
+            "explanation_zh": "目的关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-38",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ the experiment failed, valuable lessons were learned.",
+            "options": [
+              "Although",
+              "Because",
+              "Therefore"
+            ],
+            "answer": "Although",
+            "explanation_zh": "让步关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-39",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ arriving at the airport, he realized he had forgotten his passport.",
+            "options": [
+              "After",
+              "Because",
+              "If"
+            ],
+            "answer": "After",
+            "explanation_zh": "时间关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-40",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ you practice regularly, you will improve.",
+            "options": [
+              "If",
+              "Although",
+              "Therefore"
+            ],
+            "answer": "If",
+            "explanation_zh": "条件关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-41",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ she had a headache, she went to the meeting.",
+            "options": [
+              "Although",
+              "Because",
+              "Therefore"
+            ],
+            "answer": "Although",
+            "explanation_zh": "让步关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-42",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ the budget was cut, the project was completed on time.",
+            "options": [
+              "Despite",
+              "Because",
+              "So that"
+            ],
+            "answer": "Despite",
+            "explanation_zh": "让步关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-43",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ you follow the instructions, the device will work properly.",
+            "options": [
+              "If",
+              "Although",
+              "Therefore"
+            ],
+            "answer": "If",
+            "explanation_zh": "条件关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-44",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ finishing the report, she sent it to her supervisor.",
+            "options": [
+              "After",
+              "Because",
+              "Although"
+            ],
+            "answer": "After",
+            "explanation_zh": "时间关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-45",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "The results were inconclusive. _____, more research is needed.",
+            "options": [
+              "Therefore",
+              "Although",
+              "Meanwhile"
+            ],
+            "answer": "Therefore",
+            "explanation_zh": "结果关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-46",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ the data supports the hypothesis, we should remain cautious.",
+            "options": [
+              "Although",
+              "Because",
+              "So that"
+            ],
+            "answer": "Although",
+            "explanation_zh": "让步关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-47",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "She left early _____ she could catch the last train.",
+            "options": [
+              "so that",
+              "because",
+              "although"
+            ],
+            "answer": "so that",
+            "explanation_zh": "目的关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-48",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ the experiment failed, valuable lessons were learned.",
+            "options": [
+              "Although",
+              "Because",
+              "Therefore"
+            ],
+            "answer": "Although",
+            "explanation_zh": "让步关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-49",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ arriving at the airport, he realized he had forgotten his passport.",
+            "options": [
+              "After",
+              "Because",
+              "If"
+            ],
+            "answer": "After",
+            "explanation_zh": "时间关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-50",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ you practice regularly, you will improve.",
+            "options": [
+              "If",
+              "Although",
+              "Therefore"
+            ],
+            "answer": "If",
+            "explanation_zh": "条件关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-51",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ she had a headache, she went to the meeting.",
+            "options": [
+              "Although",
+              "Because",
+              "Therefore"
+            ],
+            "answer": "Although",
+            "explanation_zh": "让步关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-52",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ the budget was cut, the project was completed on time.",
+            "options": [
+              "Despite",
+              "Because",
+              "So that"
+            ],
+            "answer": "Despite",
+            "explanation_zh": "让步关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-53",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ you follow the instructions, the device will work properly.",
+            "options": [
+              "If",
+              "Although",
+              "Therefore"
+            ],
+            "answer": "If",
+            "explanation_zh": "条件关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-54",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ finishing the report, she sent it to her supervisor.",
+            "options": [
+              "After",
+              "Because",
+              "Although"
+            ],
+            "answer": "After",
+            "explanation_zh": "时间关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-55",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "The results were inconclusive. _____, more research is needed.",
+            "options": [
+              "Therefore",
+              "Although",
+              "Meanwhile"
+            ],
+            "answer": "Therefore",
+            "explanation_zh": "结果关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-56",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ the data supports the hypothesis, we should remain cautious.",
+            "options": [
+              "Although",
+              "Because",
+              "So that"
+            ],
+            "answer": "Although",
+            "explanation_zh": "让步关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-57",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "She left early _____ she could catch the last train.",
+            "options": [
+              "so that",
+              "because",
+              "although"
+            ],
+            "answer": "so that",
+            "explanation_zh": "目的关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-58",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ the experiment failed, valuable lessons were learned.",
+            "options": [
+              "Although",
+              "Because",
+              "Therefore"
+            ],
+            "answer": "Although",
+            "explanation_zh": "让步关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-59",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ arriving at the airport, he realized he had forgotten his passport.",
+            "options": [
+              "After",
+              "Because",
+              "If"
+            ],
+            "answer": "After",
+            "explanation_zh": "时间关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-60",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ you practice regularly, you will improve.",
+            "options": [
+              "If",
+              "Although",
+              "Therefore"
+            ],
+            "answer": "If",
+            "explanation_zh": "条件关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-61",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ she had a headache, she went to the meeting.",
+            "options": [
+              "Although",
+              "Because",
+              "Therefore"
+            ],
+            "answer": "Although",
+            "explanation_zh": "让步关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-62",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ the budget was cut, the project was completed on time.",
+            "options": [
+              "Despite",
+              "Because",
+              "So that"
+            ],
+            "answer": "Despite",
+            "explanation_zh": "让步关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-63",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ you follow the instructions, the device will work properly.",
+            "options": [
+              "If",
+              "Although",
+              "Therefore"
+            ],
+            "answer": "If",
+            "explanation_zh": "条件关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-64",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ finishing the report, she sent it to her supervisor.",
+            "options": [
+              "After",
+              "Because",
+              "Although"
+            ],
+            "answer": "After",
+            "explanation_zh": "时间关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-65",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "The results were inconclusive. _____, more research is needed.",
+            "options": [
+              "Therefore",
+              "Although",
+              "Meanwhile"
+            ],
+            "answer": "Therefore",
+            "explanation_zh": "结果关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-66",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ the data supports the hypothesis, we should remain cautious.",
+            "options": [
+              "Although",
+              "Because",
+              "So that"
+            ],
+            "answer": "Although",
+            "explanation_zh": "让步关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-67",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "She left early _____ she could catch the last train.",
+            "options": [
+              "so that",
+              "because",
+              "although"
+            ],
+            "answer": "so that",
+            "explanation_zh": "目的关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-68",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ the experiment failed, valuable lessons were learned.",
+            "options": [
+              "Although",
+              "Because",
+              "Therefore"
+            ],
+            "answer": "Although",
+            "explanation_zh": "让步关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-69",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ arriving at the airport, he realized he had forgotten his passport.",
+            "options": [
+              "After",
+              "Because",
+              "If"
+            ],
+            "answer": "After",
+            "explanation_zh": "时间关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-70",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ you practice regularly, you will improve.",
+            "options": [
+              "If",
+              "Although",
+              "Therefore"
+            ],
+            "answer": "If",
+            "explanation_zh": "条件关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-71",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ she had a headache, she went to the meeting.",
+            "options": [
+              "Although",
+              "Because",
+              "Therefore"
+            ],
+            "answer": "Although",
+            "explanation_zh": "让步关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-72",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ the budget was cut, the project was completed on time.",
+            "options": [
+              "Despite",
+              "Because",
+              "So that"
+            ],
+            "answer": "Despite",
+            "explanation_zh": "让步关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-73",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ you follow the instructions, the device will work properly.",
+            "options": [
+              "If",
+              "Although",
+              "Therefore"
+            ],
+            "answer": "If",
+            "explanation_zh": "条件关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-74",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ finishing the report, she sent it to her supervisor.",
+            "options": [
+              "After",
+              "Because",
+              "Although"
+            ],
+            "answer": "After",
+            "explanation_zh": "时间关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
+          },
+          {
+            "id": "l3-25-75",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "The results were inconclusive. _____, more research is needed.",
+            "options": [
+              "Therefore",
+              "Although",
+              "Meanwhile"
+            ],
+            "answer": "Therefore",
+            "explanation_zh": "结果关系。",
+            "wrong_note_zh": "根据前后逻辑选择连接词。"
           }
         ]
       }
@@ -520,7 +2230,12 @@
             "type": "fill_choice",
             "instruction_zh": "选择最合适的过渡词填空：",
             "prompt_en": "The experiment showed positive results. _____, we cannot generalize to all populations.",
-            "options": ["However", "Furthermore", "For example", "First"],
+            "options": [
+              "However",
+              "Furthermore",
+              "For example",
+              "First"
+            ],
             "answer": "However",
             "explanation_zh": "However 表示转折：尽管有积极结果，但不能泛化。",
             "wrong_note_zh": "Furthermore 表示递进；这里需要转折。"
@@ -573,7 +2288,12 @@
             "type": "guided_completion",
             "prompt_en": "Choose the best transition: \"Many students struggle with time management. _____, they can improve with practice.\"",
             "cue_zh": "选择表示「尽管如此/然而可以」的过渡词",
-            "options": ["Therefore", "However", "For example", "In addition"],
+            "options": [
+              "Therefore",
+              "However",
+              "For example",
+              "In addition"
+            ],
             "answer": "However",
             "explanation_zh": "However 表示转折：虽然有困难，但可以通过练习改进。",
             "wrong_note_zh": "Therefore 表因果；这里强调转折和希望。"
@@ -592,6 +2312,916 @@
             "answer": "In conclusion / Ultimately",
             "explanation_zh": "In conclusion 引出总结；Ultimately 强调最终要点。",
             "wrong_note_zh": "First/Second 用于列举，不适合总结段；For example 不用于结论。"
+          },
+          {
+            "id": "l3-26-11",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "The first point is cost. _____, quality matters too.",
+            "options": [
+              "Furthermore",
+              "However",
+              "In conclusion"
+            ],
+            "answer": "Furthermore",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-12",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "Some support the plan. _____, others have concerns.",
+            "options": [
+              "However",
+              "Therefore",
+              "First"
+            ],
+            "answer": "However",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-13",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "_____, the main benefit is time saved.",
+            "options": [
+              "First",
+              "In conclusion",
+              "For example"
+            ],
+            "answer": "First",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-14",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "The data is limited. _____, we can draw some conclusions.",
+            "options": [
+              "However",
+              "Therefore",
+              "Furthermore"
+            ],
+            "answer": "However",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-15",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "_____, let me explain the methodology.",
+            "options": [
+              "First",
+              "In conclusion",
+              "Therefore"
+            ],
+            "answer": "First",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-16",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "Online courses offer flexibility. _____, they can be more affordable.",
+            "options": [
+              "Additionally",
+              "However",
+              "In conclusion"
+            ],
+            "answer": "Additionally",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-17",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "The study had flaws. _____, the sample was small.",
+            "options": [
+              "For instance",
+              "Therefore",
+              "Furthermore"
+            ],
+            "answer": "For instance",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-18",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "_____, both sides have valid points.",
+            "options": [
+              "In conclusion",
+              "First",
+              "For example"
+            ],
+            "answer": "In conclusion",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-19",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "Technology has benefits. _____, it also poses risks.",
+            "options": [
+              "However",
+              "Therefore",
+              "First"
+            ],
+            "answer": "However",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-20",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "_____, consider the long-term effects.",
+            "options": [
+              "Furthermore",
+              "In conclusion",
+              "For example"
+            ],
+            "answer": "Furthermore",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-21",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "The first point is cost. _____, quality matters too.",
+            "options": [
+              "Furthermore",
+              "However",
+              "In conclusion"
+            ],
+            "answer": "Furthermore",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-22",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "Some support the plan. _____, others have concerns.",
+            "options": [
+              "However",
+              "Therefore",
+              "First"
+            ],
+            "answer": "However",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-23",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "_____, the main benefit is time saved.",
+            "options": [
+              "First",
+              "In conclusion",
+              "For example"
+            ],
+            "answer": "First",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-24",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "The data is limited. _____, we can draw some conclusions.",
+            "options": [
+              "However",
+              "Therefore",
+              "Furthermore"
+            ],
+            "answer": "However",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-25",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "_____, let me explain the methodology.",
+            "options": [
+              "First",
+              "In conclusion",
+              "Therefore"
+            ],
+            "answer": "First",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-26",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "Online courses offer flexibility. _____, they can be more affordable.",
+            "options": [
+              "Additionally",
+              "However",
+              "In conclusion"
+            ],
+            "answer": "Additionally",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-27",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "The study had flaws. _____, the sample was small.",
+            "options": [
+              "For instance",
+              "Therefore",
+              "Furthermore"
+            ],
+            "answer": "For instance",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-28",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "_____, both sides have valid points.",
+            "options": [
+              "In conclusion",
+              "First",
+              "For example"
+            ],
+            "answer": "In conclusion",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-29",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "Technology has benefits. _____, it also poses risks.",
+            "options": [
+              "However",
+              "Therefore",
+              "First"
+            ],
+            "answer": "However",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-30",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "_____, consider the long-term effects.",
+            "options": [
+              "Furthermore",
+              "In conclusion",
+              "For example"
+            ],
+            "answer": "Furthermore",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-31",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "The first point is cost. _____, quality matters too.",
+            "options": [
+              "Furthermore",
+              "However",
+              "In conclusion"
+            ],
+            "answer": "Furthermore",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-32",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "Some support the plan. _____, others have concerns.",
+            "options": [
+              "However",
+              "Therefore",
+              "First"
+            ],
+            "answer": "However",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-33",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "_____, the main benefit is time saved.",
+            "options": [
+              "First",
+              "In conclusion",
+              "For example"
+            ],
+            "answer": "First",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-34",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "The data is limited. _____, we can draw some conclusions.",
+            "options": [
+              "However",
+              "Therefore",
+              "Furthermore"
+            ],
+            "answer": "However",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-35",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "_____, let me explain the methodology.",
+            "options": [
+              "First",
+              "In conclusion",
+              "Therefore"
+            ],
+            "answer": "First",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-36",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "Online courses offer flexibility. _____, they can be more affordable.",
+            "options": [
+              "Additionally",
+              "However",
+              "In conclusion"
+            ],
+            "answer": "Additionally",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-37",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "The study had flaws. _____, the sample was small.",
+            "options": [
+              "For instance",
+              "Therefore",
+              "Furthermore"
+            ],
+            "answer": "For instance",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-38",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "_____, both sides have valid points.",
+            "options": [
+              "In conclusion",
+              "First",
+              "For example"
+            ],
+            "answer": "In conclusion",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-39",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "Technology has benefits. _____, it also poses risks.",
+            "options": [
+              "However",
+              "Therefore",
+              "First"
+            ],
+            "answer": "However",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-40",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "_____, consider the long-term effects.",
+            "options": [
+              "Furthermore",
+              "In conclusion",
+              "For example"
+            ],
+            "answer": "Furthermore",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-41",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "The first point is cost. _____, quality matters too.",
+            "options": [
+              "Furthermore",
+              "However",
+              "In conclusion"
+            ],
+            "answer": "Furthermore",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-42",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "Some support the plan. _____, others have concerns.",
+            "options": [
+              "However",
+              "Therefore",
+              "First"
+            ],
+            "answer": "However",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-43",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "_____, the main benefit is time saved.",
+            "options": [
+              "First",
+              "In conclusion",
+              "For example"
+            ],
+            "answer": "First",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-44",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "The data is limited. _____, we can draw some conclusions.",
+            "options": [
+              "However",
+              "Therefore",
+              "Furthermore"
+            ],
+            "answer": "However",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-45",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "_____, let me explain the methodology.",
+            "options": [
+              "First",
+              "In conclusion",
+              "Therefore"
+            ],
+            "answer": "First",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-46",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "Online courses offer flexibility. _____, they can be more affordable.",
+            "options": [
+              "Additionally",
+              "However",
+              "In conclusion"
+            ],
+            "answer": "Additionally",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-47",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "The study had flaws. _____, the sample was small.",
+            "options": [
+              "For instance",
+              "Therefore",
+              "Furthermore"
+            ],
+            "answer": "For instance",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-48",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "_____, both sides have valid points.",
+            "options": [
+              "In conclusion",
+              "First",
+              "For example"
+            ],
+            "answer": "In conclusion",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-49",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "Technology has benefits. _____, it also poses risks.",
+            "options": [
+              "However",
+              "Therefore",
+              "First"
+            ],
+            "answer": "However",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-50",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "_____, consider the long-term effects.",
+            "options": [
+              "Furthermore",
+              "In conclusion",
+              "For example"
+            ],
+            "answer": "Furthermore",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-51",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "The first point is cost. _____, quality matters too.",
+            "options": [
+              "Furthermore",
+              "However",
+              "In conclusion"
+            ],
+            "answer": "Furthermore",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-52",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "Some support the plan. _____, others have concerns.",
+            "options": [
+              "However",
+              "Therefore",
+              "First"
+            ],
+            "answer": "However",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-53",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "_____, the main benefit is time saved.",
+            "options": [
+              "First",
+              "In conclusion",
+              "For example"
+            ],
+            "answer": "First",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-54",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "The data is limited. _____, we can draw some conclusions.",
+            "options": [
+              "However",
+              "Therefore",
+              "Furthermore"
+            ],
+            "answer": "However",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-55",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "_____, let me explain the methodology.",
+            "options": [
+              "First",
+              "In conclusion",
+              "Therefore"
+            ],
+            "answer": "First",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-56",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "Online courses offer flexibility. _____, they can be more affordable.",
+            "options": [
+              "Additionally",
+              "However",
+              "In conclusion"
+            ],
+            "answer": "Additionally",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-57",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "The study had flaws. _____, the sample was small.",
+            "options": [
+              "For instance",
+              "Therefore",
+              "Furthermore"
+            ],
+            "answer": "For instance",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-58",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "_____, both sides have valid points.",
+            "options": [
+              "In conclusion",
+              "First",
+              "For example"
+            ],
+            "answer": "In conclusion",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-59",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "Technology has benefits. _____, it also poses risks.",
+            "options": [
+              "However",
+              "Therefore",
+              "First"
+            ],
+            "answer": "However",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-60",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "_____, consider the long-term effects.",
+            "options": [
+              "Furthermore",
+              "In conclusion",
+              "For example"
+            ],
+            "answer": "Furthermore",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-61",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "The first point is cost. _____, quality matters too.",
+            "options": [
+              "Furthermore",
+              "However",
+              "In conclusion"
+            ],
+            "answer": "Furthermore",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-62",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "Some support the plan. _____, others have concerns.",
+            "options": [
+              "However",
+              "Therefore",
+              "First"
+            ],
+            "answer": "However",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-63",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "_____, the main benefit is time saved.",
+            "options": [
+              "First",
+              "In conclusion",
+              "For example"
+            ],
+            "answer": "First",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-64",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "The data is limited. _____, we can draw some conclusions.",
+            "options": [
+              "However",
+              "Therefore",
+              "Furthermore"
+            ],
+            "answer": "However",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-65",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "_____, let me explain the methodology.",
+            "options": [
+              "First",
+              "In conclusion",
+              "Therefore"
+            ],
+            "answer": "First",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-66",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "Online courses offer flexibility. _____, they can be more affordable.",
+            "options": [
+              "Additionally",
+              "However",
+              "In conclusion"
+            ],
+            "answer": "Additionally",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-67",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "The study had flaws. _____, the sample was small.",
+            "options": [
+              "For instance",
+              "Therefore",
+              "Furthermore"
+            ],
+            "answer": "For instance",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-68",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "_____, both sides have valid points.",
+            "options": [
+              "In conclusion",
+              "First",
+              "For example"
+            ],
+            "answer": "In conclusion",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-69",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "Technology has benefits. _____, it also poses risks.",
+            "options": [
+              "However",
+              "Therefore",
+              "First"
+            ],
+            "answer": "However",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-70",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "_____, consider the long-term effects.",
+            "options": [
+              "Furthermore",
+              "In conclusion",
+              "For example"
+            ],
+            "answer": "Furthermore",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-71",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "The first point is cost. _____, quality matters too.",
+            "options": [
+              "Furthermore",
+              "However",
+              "In conclusion"
+            ],
+            "answer": "Furthermore",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-72",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "Some support the plan. _____, others have concerns.",
+            "options": [
+              "However",
+              "Therefore",
+              "First"
+            ],
+            "answer": "However",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-73",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "_____, the main benefit is time saved.",
+            "options": [
+              "First",
+              "In conclusion",
+              "For example"
+            ],
+            "answer": "First",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-74",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "The data is limited. _____, we can draw some conclusions.",
+            "options": [
+              "However",
+              "Therefore",
+              "Furthermore"
+            ],
+            "answer": "However",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
+          },
+          {
+            "id": "l3-26-75",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "_____, let me explain the methodology.",
+            "options": [
+              "First",
+              "In conclusion",
+              "Therefore"
+            ],
+            "answer": "First",
+            "explanation_zh": "根据段落逻辑选择过渡词。",
+            "wrong_note_zh": "注意转折、递进、举例、结论等不同功能。"
           }
         ]
       }
@@ -690,6 +3320,678 @@
             "answer": "Online learning is popular because it offers flexibility.",
             "explanation_zh": "用 because 从句说明原因。",
             "hint_zh": "试试用 because 从句说明原因"
+          },
+          {
+            "id": "l3-27-8",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "He was late. He missed the bus.",
+            "answer": "He was late, so he missed the bus.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so 或 because 连接因果",
+            "acceptable_answers": [
+              "He was late, so he missed the bus.",
+              "He missed the bus because he was late."
+            ]
+          },
+          {
+            "id": "l3-27-9",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "She completed the project. She submitted it on time.",
+            "answer": "After completing the project, she submitted it on time.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 After completing 的分词结构"
+          },
+          {
+            "id": "l3-27-10",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The movie was long. I fell asleep.",
+            "answer": "The movie was so long that I fell asleep.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so...that 表达程度与结果"
+          },
+          {
+            "id": "l3-27-11",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The restaurant was busy. We had to wait.",
+            "answer": "The restaurant was so busy that we had to wait.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so...that"
+          },
+          {
+            "id": "l3-27-12",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The train was delayed. Many passengers were upset.",
+            "answer": "The train was delayed, which upset many passengers.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 which 引导定语从句"
+          },
+          {
+            "id": "l3-27-13",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The project succeeded. The team worked hard.",
+            "answer": "The project succeeded because the team worked hard.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 because 或 so",
+            "acceptable_answers": [
+              "The project succeeded because the team worked hard.",
+              "The team worked hard, so the project succeeded."
+            ]
+          },
+          {
+            "id": "l3-27-14",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The price dropped. Sales increased.",
+            "answer": "The price dropped, so sales increased.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so 或 because",
+            "acceptable_answers": [
+              "The price dropped, so sales increased.",
+              "Sales increased because the price dropped."
+            ]
+          },
+          {
+            "id": "l3-27-15",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "She lost her keys. She could not enter.",
+            "answer": "She lost her keys, so she could not enter.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so 或 because",
+            "acceptable_answers": [
+              "She lost her keys, so she could not enter.",
+              "Because she lost her keys, she could not enter."
+            ]
+          },
+          {
+            "id": "l3-27-16",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The weather improved. We went outside.",
+            "answer": "After the weather improved, we went outside.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 After 或 When",
+            "acceptable_answers": [
+              "After the weather improved, we went outside.",
+              "When the weather improved, we went outside."
+            ]
+          },
+          {
+            "id": "l3-27-17",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The report was comprehensive. It covered all aspects.",
+            "answer": "The report was comprehensive and covered all aspects.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 and 连接"
+          },
+          {
+            "id": "l3-27-18",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The service was slow. Customers complained.",
+            "answer": "The service was so slow that customers complained.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so...that"
+          },
+          {
+            "id": "l3-27-19",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "He forgot the deadline. He submitted late.",
+            "answer": "He forgot the deadline, so he submitted late.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so 或 because"
+          },
+          {
+            "id": "l3-27-20",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The store closed early. We could not buy supplies.",
+            "answer": "The store closed early, so we could not buy supplies.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so"
+          },
+          {
+            "id": "l3-27-21",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "She received feedback. She revised the draft.",
+            "answer": "After receiving feedback, she revised the draft.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 After -ing"
+          },
+          {
+            "id": "l3-27-22",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The issue was complex. It required a team.",
+            "answer": "The issue was so complex that it required a team.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so...that"
+          },
+          {
+            "id": "l3-27-23",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "Demand rose. Prices increased.",
+            "answer": "Demand rose, so prices increased.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so 或 because"
+          },
+          {
+            "id": "l3-27-24",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The policy changed. Employees were confused.",
+            "answer": "The policy changed, which confused employees.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 which"
+          },
+          {
+            "id": "l3-27-25",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The meeting ran long. We missed lunch.",
+            "answer": "The meeting ran so long that we missed lunch.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so...that"
+          },
+          {
+            "id": "l3-27-26",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "He saved money. He bought a car.",
+            "answer": "He saved money, so he bought a car.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so 或 because"
+          },
+          {
+            "id": "l3-27-27",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The problem was identified. A solution was found.",
+            "answer": "After the problem was identified, a solution was found.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 After"
+          },
+          {
+            "id": "l3-27-28",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "Traffic was heavy. She arrived late.",
+            "answer": "Traffic was heavy, so she arrived late.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so"
+          },
+          {
+            "id": "l3-27-29",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The book was popular. It sold out quickly.",
+            "answer": "The book was so popular that it sold out quickly.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so...that"
+          },
+          {
+            "id": "l3-27-30",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "Funding was secured. The project could begin.",
+            "answer": "After funding was secured, the project could begin.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 After"
+          },
+          {
+            "id": "l3-27-31",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The system was outdated. It needed upgrading.",
+            "answer": "The system was outdated, which meant it needed upgrading.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 which"
+          },
+          {
+            "id": "l3-27-32",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "He was late. He missed the bus.",
+            "answer": "He was late, so he missed the bus.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so 或 because 连接因果",
+            "acceptable_answers": [
+              "He was late, so he missed the bus.",
+              "He missed the bus because he was late."
+            ]
+          },
+          {
+            "id": "l3-27-33",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "She completed the project. She submitted it on time.",
+            "answer": "After completing the project, she submitted it on time.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 After completing 的分词结构"
+          },
+          {
+            "id": "l3-27-34",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The movie was long. I fell asleep.",
+            "answer": "The movie was so long that I fell asleep.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so...that 表达程度与结果"
+          },
+          {
+            "id": "l3-27-35",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The restaurant was busy. We had to wait.",
+            "answer": "The restaurant was so busy that we had to wait.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so...that"
+          },
+          {
+            "id": "l3-27-36",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The train was delayed. Many passengers were upset.",
+            "answer": "The train was delayed, which upset many passengers.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 which 引导定语从句"
+          },
+          {
+            "id": "l3-27-37",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The project succeeded. The team worked hard.",
+            "answer": "The project succeeded because the team worked hard.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 because 或 so",
+            "acceptable_answers": [
+              "The project succeeded because the team worked hard.",
+              "The team worked hard, so the project succeeded."
+            ]
+          },
+          {
+            "id": "l3-27-38",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The price dropped. Sales increased.",
+            "answer": "The price dropped, so sales increased.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so 或 because",
+            "acceptable_answers": [
+              "The price dropped, so sales increased.",
+              "Sales increased because the price dropped."
+            ]
+          },
+          {
+            "id": "l3-27-39",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "She lost her keys. She could not enter.",
+            "answer": "She lost her keys, so she could not enter.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so 或 because",
+            "acceptable_answers": [
+              "She lost her keys, so she could not enter.",
+              "Because she lost her keys, she could not enter."
+            ]
+          },
+          {
+            "id": "l3-27-40",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The weather improved. We went outside.",
+            "answer": "After the weather improved, we went outside.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 After 或 When",
+            "acceptable_answers": [
+              "After the weather improved, we went outside.",
+              "When the weather improved, we went outside."
+            ]
+          },
+          {
+            "id": "l3-27-41",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The report was comprehensive. It covered all aspects.",
+            "answer": "The report was comprehensive and covered all aspects.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 and 连接"
+          },
+          {
+            "id": "l3-27-42",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The service was slow. Customers complained.",
+            "answer": "The service was so slow that customers complained.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so...that"
+          },
+          {
+            "id": "l3-27-43",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "He forgot the deadline. He submitted late.",
+            "answer": "He forgot the deadline, so he submitted late.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so 或 because"
+          },
+          {
+            "id": "l3-27-44",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The store closed early. We could not buy supplies.",
+            "answer": "The store closed early, so we could not buy supplies.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so"
+          },
+          {
+            "id": "l3-27-45",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "She received feedback. She revised the draft.",
+            "answer": "After receiving feedback, she revised the draft.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 After -ing"
+          },
+          {
+            "id": "l3-27-46",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The issue was complex. It required a team.",
+            "answer": "The issue was so complex that it required a team.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so...that"
+          },
+          {
+            "id": "l3-27-47",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "Demand rose. Prices increased.",
+            "answer": "Demand rose, so prices increased.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so 或 because"
+          },
+          {
+            "id": "l3-27-48",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The policy changed. Employees were confused.",
+            "answer": "The policy changed, which confused employees.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 which"
+          },
+          {
+            "id": "l3-27-49",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The meeting ran long. We missed lunch.",
+            "answer": "The meeting ran so long that we missed lunch.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so...that"
+          },
+          {
+            "id": "l3-27-50",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "He saved money. He bought a car.",
+            "answer": "He saved money, so he bought a car.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so 或 because"
+          },
+          {
+            "id": "l3-27-51",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The problem was identified. A solution was found.",
+            "answer": "After the problem was identified, a solution was found.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 After"
+          },
+          {
+            "id": "l3-27-52",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "Traffic was heavy. She arrived late.",
+            "answer": "Traffic was heavy, so she arrived late.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so"
+          },
+          {
+            "id": "l3-27-53",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The book was popular. It sold out quickly.",
+            "answer": "The book was so popular that it sold out quickly.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so...that"
+          },
+          {
+            "id": "l3-27-54",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "Funding was secured. The project could begin.",
+            "answer": "After funding was secured, the project could begin.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 After"
+          },
+          {
+            "id": "l3-27-55",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The system was outdated. It needed upgrading.",
+            "answer": "The system was outdated, which meant it needed upgrading.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 which"
+          },
+          {
+            "id": "l3-27-56",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "He was late. He missed the bus.",
+            "answer": "He was late, so he missed the bus.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so 或 because 连接因果",
+            "acceptable_answers": [
+              "He was late, so he missed the bus.",
+              "He missed the bus because he was late."
+            ]
+          },
+          {
+            "id": "l3-27-57",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "She completed the project. She submitted it on time.",
+            "answer": "After completing the project, she submitted it on time.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 After completing 的分词结构"
+          },
+          {
+            "id": "l3-27-58",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The movie was long. I fell asleep.",
+            "answer": "The movie was so long that I fell asleep.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so...that 表达程度与结果"
+          },
+          {
+            "id": "l3-27-59",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The restaurant was busy. We had to wait.",
+            "answer": "The restaurant was so busy that we had to wait.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so...that"
+          },
+          {
+            "id": "l3-27-60",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The train was delayed. Many passengers were upset.",
+            "answer": "The train was delayed, which upset many passengers.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 which 引导定语从句"
+          },
+          {
+            "id": "l3-27-61",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The project succeeded. The team worked hard.",
+            "answer": "The project succeeded because the team worked hard.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 because 或 so",
+            "acceptable_answers": [
+              "The project succeeded because the team worked hard.",
+              "The team worked hard, so the project succeeded."
+            ]
+          },
+          {
+            "id": "l3-27-62",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The price dropped. Sales increased.",
+            "answer": "The price dropped, so sales increased.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so 或 because",
+            "acceptable_answers": [
+              "The price dropped, so sales increased.",
+              "Sales increased because the price dropped."
+            ]
+          },
+          {
+            "id": "l3-27-63",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "She lost her keys. She could not enter.",
+            "answer": "She lost her keys, so she could not enter.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so 或 because",
+            "acceptable_answers": [
+              "She lost her keys, so she could not enter.",
+              "Because she lost her keys, she could not enter."
+            ]
+          },
+          {
+            "id": "l3-27-64",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The weather improved. We went outside.",
+            "answer": "After the weather improved, we went outside.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 After 或 When",
+            "acceptable_answers": [
+              "After the weather improved, we went outside.",
+              "When the weather improved, we went outside."
+            ]
+          },
+          {
+            "id": "l3-27-65",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The report was comprehensive. It covered all aspects.",
+            "answer": "The report was comprehensive and covered all aspects.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 and 连接"
+          },
+          {
+            "id": "l3-27-66",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The service was slow. Customers complained.",
+            "answer": "The service was so slow that customers complained.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so...that"
+          },
+          {
+            "id": "l3-27-67",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "He forgot the deadline. He submitted late.",
+            "answer": "He forgot the deadline, so he submitted late.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so 或 because"
+          },
+          {
+            "id": "l3-27-68",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The store closed early. We could not buy supplies.",
+            "answer": "The store closed early, so we could not buy supplies.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so"
+          },
+          {
+            "id": "l3-27-69",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "She received feedback. She revised the draft.",
+            "answer": "After receiving feedback, she revised the draft.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 After -ing"
+          },
+          {
+            "id": "l3-27-70",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The issue was complex. It required a team.",
+            "answer": "The issue was so complex that it required a team.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so...that"
+          },
+          {
+            "id": "l3-27-71",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "Demand rose. Prices increased.",
+            "answer": "Demand rose, so prices increased.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so 或 because"
+          },
+          {
+            "id": "l3-27-72",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The policy changed. Employees were confused.",
+            "answer": "The policy changed, which confused employees.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 which"
+          },
+          {
+            "id": "l3-27-73",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The meeting ran long. We missed lunch.",
+            "answer": "The meeting ran so long that we missed lunch.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so...that"
+          },
+          {
+            "id": "l3-27-74",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "He saved money. He bought a car.",
+            "answer": "He saved money, so he bought a car.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 so 或 because"
+          },
+          {
+            "id": "l3-27-75",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The problem was identified. A solution was found.",
+            "answer": "After the problem was identified, a solution was found.",
+            "explanation_zh": "用连接词或从句合并两句话。",
+            "hint_zh": "试试用 After"
           }
         ]
       }
@@ -720,7 +4022,10 @@
             "instruction_zh": "将句中的 good 替换为更正式的表达，在输入框写出替换词。",
             "prompt_en": "Regular exercise is good for mental health.",
             "answer": "beneficial",
-            "acceptable_answers": ["beneficial", "positive"],
+            "acceptable_answers": [
+              "beneficial",
+              "positive"
+            ],
             "explanation_zh": "beneficial 表示「有益的」，比 good 更准确、正式。",
             "hint_zh": "beneficial / positive"
           },
@@ -739,7 +4044,10 @@
             "instruction_zh": "将句中的 bad 替换为更正式的表达，在输入框写出替换词。",
             "prompt_en": "Smoking is bad for your health.",
             "answer": "harmful",
-            "acceptable_answers": ["harmful", "negative"],
+            "acceptable_answers": [
+              "harmful",
+              "negative"
+            ],
             "explanation_zh": "harmful 明确表示「有害的」，比 bad 更准确。",
             "hint_zh": "harmful / negative"
           },
@@ -749,7 +4057,10 @@
             "instruction_zh": "将句中的 very 替换为更正式的表达，在输入框写出替换词。",
             "prompt_en": "The results were very significant.",
             "answer": "extremely",
-            "acceptable_answers": ["extremely", "highly"],
+            "acceptable_answers": [
+              "extremely",
+              "highly"
+            ],
             "explanation_zh": "extremely / highly 比 very 更正式。",
             "hint_zh": "extremely / highly"
           },
@@ -759,7 +4070,11 @@
             "instruction_zh": "将句中的 many 替换为更正式的表达，在输入框写出替换词。",
             "prompt_en": "Many students participated in the survey.",
             "answer": "Numerous",
-            "acceptable_answers": ["numerous", "a large number of", "many"],
+            "acceptable_answers": [
+              "numerous",
+              "a large number of",
+              "many"
+            ],
             "explanation_zh": "numerous 或 a large number of 比 many 更正式。",
             "hint_zh": "numerous / a large number of"
           },
@@ -769,7 +4084,12 @@
             "instruction_zh": "将句中的 important 替换为更正式的表达，在输入框写出替换词。",
             "prompt_en": "It is important to protect the environment.",
             "answer": "crucial",
-            "acceptable_answers": ["crucial", "important", "significant", "essential"],
+            "acceptable_answers": [
+              "crucial",
+              "important",
+              "significant",
+              "essential"
+            ],
             "explanation_zh": "crucial 表示「至关重要的」，比 important 更有力度。",
             "hint_zh": "crucial / significant / essential"
           },
@@ -779,7 +4099,10 @@
             "instruction_zh": "将句中的 got 替换为更正式的表达，在输入框写出替换词。",
             "prompt_en": "She got a scholarship to study abroad.",
             "answer": "obtained",
-            "acceptable_answers": ["obtained", "received"],
+            "acceptable_answers": [
+              "obtained",
+              "received"
+            ],
             "explanation_zh": "obtained / received 表示「获得」，比 got 更正式。",
             "hint_zh": "obtained / received"
           },
@@ -789,7 +4112,12 @@
             "instruction_zh": "将句中的 think 替换为更正式的表达，在输入框写出替换词。",
             "prompt_en": "Researchers think that the new method is more effective.",
             "answer": "believe",
-            "acceptable_answers": ["believe", "argue", "suggest", "state"],
+            "acceptable_answers": [
+              "believe",
+              "argue",
+              "suggest",
+              "state"
+            ],
             "explanation_zh": "学术语境中 believe / argue 比 think 更正式。",
             "hint_zh": "believe / argue / suggest"
           },
@@ -799,7 +4127,12 @@
             "instruction_zh": "将句中的 important 替换为更正式的表达，在输入框写出替换词。",
             "prompt_en": "Time management is important for academic success.",
             "answer": "crucial",
-            "acceptable_answers": ["crucial", "important", "significant", "essential"],
+            "acceptable_answers": [
+              "crucial",
+              "important",
+              "significant",
+              "essential"
+            ],
             "explanation_zh": "crucial 强调「关键性的」。",
             "hint_zh": "crucial / significant / essential"
           },
@@ -809,7 +4142,10 @@
             "instruction_zh": "将句中的 big 替换为更正式的表达，在输入框写出替换词。",
             "prompt_en": "The study found a big difference between the two groups.",
             "answer": "significant",
-            "acceptable_answers": ["significant", "substantial"],
+            "acceptable_answers": [
+              "significant",
+              "substantial"
+            ],
             "explanation_zh": "significant 在学术写作中常表示「显著的（差异/影响）」。",
             "hint_zh": "significant / substantial"
           },
@@ -819,7 +4155,10 @@
             "instruction_zh": "将句中的 good 替换为更正式的表达，在输入框写出替换词。",
             "prompt_en": "The experiment produced good results.",
             "answer": "positive",
-            "acceptable_answers": ["positive", "beneficial"],
+            "acceptable_answers": [
+              "positive",
+              "beneficial"
+            ],
             "explanation_zh": "positive results 是学术写作中的常见搭配。",
             "hint_zh": "positive / beneficial"
           },
@@ -829,7 +4168,11 @@
             "instruction_zh": "将句中的 shows 替换为更正式的表达，在输入框写出替换词。",
             "prompt_en": "The report shows that the situation is deteriorating.",
             "answer": "indicates",
-            "acceptable_answers": ["indicates", "shows", "demonstrates"],
+            "acceptable_answers": [
+              "indicates",
+              "shows",
+              "demonstrates"
+            ],
             "explanation_zh": "indicates / demonstrates 比 shows 稍正式。",
             "hint_zh": "indicates / demonstrates"
           },
@@ -839,7 +4182,11 @@
             "instruction_zh": "将句中的 get 替换为更正式的表达，在输入框写出替换词。",
             "prompt_en": "People use the internet to get information on a daily basis.",
             "answer": "obtain",
-            "acceptable_answers": ["obtain", "get", "access"],
+            "acceptable_answers": [
+              "obtain",
+              "get",
+              "access"
+            ],
             "explanation_zh": "obtain 比 get 更正式。",
             "hint_zh": "obtain"
           },
@@ -849,7 +4196,12 @@
             "instruction_zh": "将句中的 shows 替换为更正式的表达，在输入框写出替换词。",
             "prompt_en": "The data shows a clear trend.",
             "answer": "suggests",
-            "acceptable_answers": ["suggests", "indicates", "shows", "demonstrates"],
+            "acceptable_answers": [
+              "suggests",
+              "indicates",
+              "shows",
+              "demonstrates"
+            ],
             "explanation_zh": "suggests / indicates 比 shows 更正式。",
             "hint_zh": "suggests / indicates / demonstrates"
           },
@@ -868,7 +4220,11 @@
             "instruction_zh": "将句中的 very bad 替换为更正式的表达，在输入框写出替换词。",
             "prompt_en": "The problem is very bad and affects numerous people.",
             "answer": "serious",
-            "acceptable_answers": ["serious", "significant", "severe"],
+            "acceptable_answers": [
+              "serious",
+              "significant",
+              "severe"
+            ],
             "explanation_zh": "serious 替换 very bad，更正式。",
             "hint_zh": "serious / significant / severe"
           },
@@ -878,7 +4234,11 @@
             "instruction_zh": "将句中的 give 替换为更正式的表达，在输入框写出替换词。",
             "prompt_en": "Schools give students the skills they need.",
             "answer": "provide",
-            "acceptable_answers": ["provide", "give", "offer"],
+            "acceptable_answers": [
+              "provide",
+              "give",
+              "offer"
+            ],
             "explanation_zh": "provide 比 give 更正式。",
             "hint_zh": "provide / offer"
           },
@@ -888,7 +4248,11 @@
             "instruction_zh": "将句中的 tried 替换为更正式的表达，在输入框写出替换词。",
             "prompt_en": "Researchers tried to find a solution.",
             "answer": "attempted",
-            "acceptable_answers": ["attempted", "tried", "sought"],
+            "acceptable_answers": [
+              "attempted",
+              "tried",
+              "sought"
+            ],
             "explanation_zh": "attempted 比 tried 更正式。",
             "hint_zh": "attempted / sought"
           },
@@ -898,7 +4262,11 @@
             "instruction_zh": "将句中的 enough 替换为更正式的表达，在输入框写出替换词。",
             "prompt_en": "Getting enough sleep is crucial for students.",
             "answer": "sufficient",
-            "acceptable_answers": ["sufficient", "enough", "adequate"],
+            "acceptable_answers": [
+              "sufficient",
+              "enough",
+              "adequate"
+            ],
             "explanation_zh": "sufficient / adequate 比 enough 更正式。",
             "hint_zh": "sufficient / adequate"
           },
@@ -908,9 +4276,686 @@
             "instruction_zh": "将句中的 changed 替换为更正式的表达，在输入框写出替换词。",
             "prompt_en": "Technology has changed how people communicate.",
             "answer": "transformed",
-            "acceptable_answers": ["transformed", "changed", "altered"],
+            "acceptable_answers": [
+              "transformed",
+              "changed",
+              "altered"
+            ],
             "explanation_zh": "transformed 比 changed 更有力度、更正式。",
             "hint_zh": "transformed / altered"
+          },
+          {
+            "id": "l3-28-21",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 good 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "The results look good.",
+            "answer": "positive",
+            "explanation_zh": "positive 比 good 更正式。",
+            "hint_zh": "positive / beneficial",
+            "acceptable_answers": [
+              "positive",
+              "beneficial"
+            ]
+          },
+          {
+            "id": "l3-28-22",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 bad 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "The impact was bad.",
+            "answer": "negative",
+            "explanation_zh": "negative 比 bad 更正式。",
+            "hint_zh": "negative / harmful",
+            "acceptable_answers": [
+              "negative",
+              "harmful"
+            ]
+          },
+          {
+            "id": "l3-28-23",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 very 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "The test was very difficult.",
+            "answer": "extremely",
+            "explanation_zh": "extremely 比 very 更正式。",
+            "hint_zh": "extremely / highly",
+            "acceptable_answers": [
+              "extremely",
+              "highly"
+            ]
+          },
+          {
+            "id": "l3-28-24",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 many 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "Many people attended.",
+            "answer": "numerous",
+            "explanation_zh": "numerous 比 many 更正式。",
+            "hint_zh": "numerous / a large number of",
+            "acceptable_answers": [
+              "numerous",
+              "a large number of"
+            ]
+          },
+          {
+            "id": "l3-28-25",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 important 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "It is important to act now.",
+            "answer": "crucial",
+            "explanation_zh": "crucial 比 important 更正式。",
+            "hint_zh": "crucial / significant / essential",
+            "acceptable_answers": [
+              "crucial",
+              "significant",
+              "essential"
+            ]
+          },
+          {
+            "id": "l3-28-26",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 get 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "Students get feedback regularly.",
+            "answer": "receive",
+            "explanation_zh": "receive 比 get 更正式。",
+            "hint_zh": "receive / obtain",
+            "acceptable_answers": [
+              "receive",
+              "obtain"
+            ]
+          },
+          {
+            "id": "l3-28-27",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 think 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "Experts think the approach works.",
+            "answer": "believe",
+            "explanation_zh": "believe 比 think 更正式。",
+            "hint_zh": "believe / argue / suggest",
+            "acceptable_answers": [
+              "believe",
+              "argue",
+              "suggest"
+            ]
+          },
+          {
+            "id": "l3-28-28",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 big 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "There was a big change.",
+            "answer": "significant",
+            "explanation_zh": "significant 比 big 更正式。",
+            "hint_zh": "significant / substantial",
+            "acceptable_answers": [
+              "significant",
+              "substantial"
+            ]
+          },
+          {
+            "id": "l3-28-29",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 show 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "The graph shows a decline.",
+            "answer": "indicates",
+            "explanation_zh": "indicates 比 show 更正式。",
+            "hint_zh": "indicates / demonstrates",
+            "acceptable_answers": [
+              "indicates",
+              "demonstrates"
+            ]
+          },
+          {
+            "id": "l3-28-30",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 use 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "Researchers use this method.",
+            "answer": "utilize",
+            "explanation_zh": "utilize 比 use 更正式。",
+            "hint_zh": "utilize / employ",
+            "acceptable_answers": [
+              "utilize",
+              "employ"
+            ]
+          },
+          {
+            "id": "l3-28-31",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 want 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "Companies want to reduce costs.",
+            "answer": "desire",
+            "explanation_zh": "desire 比 want 更正式。",
+            "hint_zh": "desire / seek to",
+            "acceptable_answers": [
+              "desire",
+              "seek to"
+            ]
+          },
+          {
+            "id": "l3-28-32",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 need 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "We need more data.",
+            "answer": "require",
+            "explanation_zh": "require 比 need 更正式。",
+            "hint_zh": "require"
+          },
+          {
+            "id": "l3-28-33",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 keep 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "We must keep the momentum.",
+            "answer": "maintain",
+            "explanation_zh": "maintain 比 keep 更正式。",
+            "hint_zh": "maintain / preserve",
+            "acceptable_answers": [
+              "maintain",
+              "preserve"
+            ]
+          },
+          {
+            "id": "l3-28-34",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 try 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "We will try to improve.",
+            "answer": "attempt",
+            "explanation_zh": "attempt 比 try 更正式。",
+            "hint_zh": "attempt / seek to",
+            "acceptable_answers": [
+              "attempt",
+              "seek to"
+            ]
+          },
+          {
+            "id": "l3-28-35",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 start 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "The program will start next month.",
+            "answer": "begin",
+            "explanation_zh": "begin 比 start 更正式。",
+            "hint_zh": "begin / commence",
+            "acceptable_answers": [
+              "begin",
+              "commence"
+            ]
+          },
+          {
+            "id": "l3-28-36",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 help 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "The guide will help you.",
+            "answer": "assist",
+            "explanation_zh": "assist 比 help 更正式。",
+            "hint_zh": "assist / support"
+          },
+          {
+            "id": "l3-28-37",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 give 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "The course gives practical skills.",
+            "answer": "provide",
+            "explanation_zh": "provide 比 give 更正式。",
+            "hint_zh": "provide / offer"
+          },
+          {
+            "id": "l3-28-38",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 make 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "This will make a difference.",
+            "answer": "create",
+            "explanation_zh": "create 比 make 更正式。",
+            "hint_zh": "create / lead to",
+            "acceptable_answers": [
+              "create",
+              "lead to"
+            ]
+          },
+          {
+            "id": "l3-28-39",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 say 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "The author says that change is needed.",
+            "answer": "states",
+            "explanation_zh": "states 比 say 更正式。",
+            "hint_zh": "states / argues"
+          },
+          {
+            "id": "l3-28-40",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 small 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "The improvement was small.",
+            "answer": "limited",
+            "explanation_zh": "limited 比 small 更正式。",
+            "hint_zh": "limited / modest",
+            "acceptable_answers": [
+              "limited",
+              "modest"
+            ]
+          },
+          {
+            "id": "l3-28-41",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 enough 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "We have enough evidence.",
+            "answer": "sufficient",
+            "explanation_zh": "sufficient 比 enough 更正式。",
+            "hint_zh": "sufficient / adequate"
+          },
+          {
+            "id": "l3-28-42",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 change 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "Technology will change education.",
+            "answer": "transform",
+            "explanation_zh": "transform 比 change 更正式。",
+            "hint_zh": "transform / alter"
+          },
+          {
+            "id": "l3-28-43",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 good 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "The results look good.",
+            "answer": "positive",
+            "explanation_zh": "positive 比 good 更正式。",
+            "hint_zh": "positive / beneficial",
+            "acceptable_answers": [
+              "positive",
+              "beneficial"
+            ]
+          },
+          {
+            "id": "l3-28-44",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 bad 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "The impact was bad.",
+            "answer": "negative",
+            "explanation_zh": "negative 比 bad 更正式。",
+            "hint_zh": "negative / harmful",
+            "acceptable_answers": [
+              "negative",
+              "harmful"
+            ]
+          },
+          {
+            "id": "l3-28-45",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 very 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "The test was very difficult.",
+            "answer": "extremely",
+            "explanation_zh": "extremely 比 very 更正式。",
+            "hint_zh": "extremely / highly",
+            "acceptable_answers": [
+              "extremely",
+              "highly"
+            ]
+          },
+          {
+            "id": "l3-28-46",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 many 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "Many people attended.",
+            "answer": "numerous",
+            "explanation_zh": "numerous 比 many 更正式。",
+            "hint_zh": "numerous / a large number of",
+            "acceptable_answers": [
+              "numerous",
+              "a large number of"
+            ]
+          },
+          {
+            "id": "l3-28-47",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 important 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "It is important to act now.",
+            "answer": "crucial",
+            "explanation_zh": "crucial 比 important 更正式。",
+            "hint_zh": "crucial / significant / essential",
+            "acceptable_answers": [
+              "crucial",
+              "significant",
+              "essential"
+            ]
+          },
+          {
+            "id": "l3-28-48",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 get 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "Students get feedback regularly.",
+            "answer": "receive",
+            "explanation_zh": "receive 比 get 更正式。",
+            "hint_zh": "receive / obtain",
+            "acceptable_answers": [
+              "receive",
+              "obtain"
+            ]
+          },
+          {
+            "id": "l3-28-49",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 think 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "Experts think the approach works.",
+            "answer": "believe",
+            "explanation_zh": "believe 比 think 更正式。",
+            "hint_zh": "believe / argue / suggest",
+            "acceptable_answers": [
+              "believe",
+              "argue",
+              "suggest"
+            ]
+          },
+          {
+            "id": "l3-28-50",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 big 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "There was a big change.",
+            "answer": "significant",
+            "explanation_zh": "significant 比 big 更正式。",
+            "hint_zh": "significant / substantial",
+            "acceptable_answers": [
+              "significant",
+              "substantial"
+            ]
+          },
+          {
+            "id": "l3-28-51",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 show 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "The graph shows a decline.",
+            "answer": "indicates",
+            "explanation_zh": "indicates 比 show 更正式。",
+            "hint_zh": "indicates / demonstrates",
+            "acceptable_answers": [
+              "indicates",
+              "demonstrates"
+            ]
+          },
+          {
+            "id": "l3-28-52",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 use 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "Researchers use this method.",
+            "answer": "utilize",
+            "explanation_zh": "utilize 比 use 更正式。",
+            "hint_zh": "utilize / employ",
+            "acceptable_answers": [
+              "utilize",
+              "employ"
+            ]
+          },
+          {
+            "id": "l3-28-53",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 want 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "Companies want to reduce costs.",
+            "answer": "desire",
+            "explanation_zh": "desire 比 want 更正式。",
+            "hint_zh": "desire / seek to",
+            "acceptable_answers": [
+              "desire",
+              "seek to"
+            ]
+          },
+          {
+            "id": "l3-28-54",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 need 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "We need more data.",
+            "answer": "require",
+            "explanation_zh": "require 比 need 更正式。",
+            "hint_zh": "require"
+          },
+          {
+            "id": "l3-28-55",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 keep 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "We must keep the momentum.",
+            "answer": "maintain",
+            "explanation_zh": "maintain 比 keep 更正式。",
+            "hint_zh": "maintain / preserve",
+            "acceptable_answers": [
+              "maintain",
+              "preserve"
+            ]
+          },
+          {
+            "id": "l3-28-56",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 try 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "We will try to improve.",
+            "answer": "attempt",
+            "explanation_zh": "attempt 比 try 更正式。",
+            "hint_zh": "attempt / seek to",
+            "acceptable_answers": [
+              "attempt",
+              "seek to"
+            ]
+          },
+          {
+            "id": "l3-28-57",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 start 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "The program will start next month.",
+            "answer": "begin",
+            "explanation_zh": "begin 比 start 更正式。",
+            "hint_zh": "begin / commence",
+            "acceptable_answers": [
+              "begin",
+              "commence"
+            ]
+          },
+          {
+            "id": "l3-28-58",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 help 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "The guide will help you.",
+            "answer": "assist",
+            "explanation_zh": "assist 比 help 更正式。",
+            "hint_zh": "assist / support"
+          },
+          {
+            "id": "l3-28-59",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 give 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "The course gives practical skills.",
+            "answer": "provide",
+            "explanation_zh": "provide 比 give 更正式。",
+            "hint_zh": "provide / offer"
+          },
+          {
+            "id": "l3-28-60",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 make 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "This will make a difference.",
+            "answer": "create",
+            "explanation_zh": "create 比 make 更正式。",
+            "hint_zh": "create / lead to",
+            "acceptable_answers": [
+              "create",
+              "lead to"
+            ]
+          },
+          {
+            "id": "l3-28-61",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 say 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "The author says that change is needed.",
+            "answer": "states",
+            "explanation_zh": "states 比 say 更正式。",
+            "hint_zh": "states / argues"
+          },
+          {
+            "id": "l3-28-62",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 small 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "The improvement was small.",
+            "answer": "limited",
+            "explanation_zh": "limited 比 small 更正式。",
+            "hint_zh": "limited / modest",
+            "acceptable_answers": [
+              "limited",
+              "modest"
+            ]
+          },
+          {
+            "id": "l3-28-63",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 enough 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "We have enough evidence.",
+            "answer": "sufficient",
+            "explanation_zh": "sufficient 比 enough 更正式。",
+            "hint_zh": "sufficient / adequate"
+          },
+          {
+            "id": "l3-28-64",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 change 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "Technology will change education.",
+            "answer": "transform",
+            "explanation_zh": "transform 比 change 更正式。",
+            "hint_zh": "transform / alter"
+          },
+          {
+            "id": "l3-28-65",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 good 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "The results look good.",
+            "answer": "positive",
+            "explanation_zh": "positive 比 good 更正式。",
+            "hint_zh": "positive / beneficial",
+            "acceptable_answers": [
+              "positive",
+              "beneficial"
+            ]
+          },
+          {
+            "id": "l3-28-66",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 bad 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "The impact was bad.",
+            "answer": "negative",
+            "explanation_zh": "negative 比 bad 更正式。",
+            "hint_zh": "negative / harmful",
+            "acceptable_answers": [
+              "negative",
+              "harmful"
+            ]
+          },
+          {
+            "id": "l3-28-67",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 very 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "The test was very difficult.",
+            "answer": "extremely",
+            "explanation_zh": "extremely 比 very 更正式。",
+            "hint_zh": "extremely / highly",
+            "acceptable_answers": [
+              "extremely",
+              "highly"
+            ]
+          },
+          {
+            "id": "l3-28-68",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 many 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "Many people attended.",
+            "answer": "numerous",
+            "explanation_zh": "numerous 比 many 更正式。",
+            "hint_zh": "numerous / a large number of",
+            "acceptable_answers": [
+              "numerous",
+              "a large number of"
+            ]
+          },
+          {
+            "id": "l3-28-69",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 important 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "It is important to act now.",
+            "answer": "crucial",
+            "explanation_zh": "crucial 比 important 更正式。",
+            "hint_zh": "crucial / significant / essential",
+            "acceptable_answers": [
+              "crucial",
+              "significant",
+              "essential"
+            ]
+          },
+          {
+            "id": "l3-28-70",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 get 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "Students get feedback regularly.",
+            "answer": "receive",
+            "explanation_zh": "receive 比 get 更正式。",
+            "hint_zh": "receive / obtain",
+            "acceptable_answers": [
+              "receive",
+              "obtain"
+            ]
+          },
+          {
+            "id": "l3-28-71",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 think 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "Experts think the approach works.",
+            "answer": "believe",
+            "explanation_zh": "believe 比 think 更正式。",
+            "hint_zh": "believe / argue / suggest",
+            "acceptable_answers": [
+              "believe",
+              "argue",
+              "suggest"
+            ]
+          },
+          {
+            "id": "l3-28-72",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 big 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "There was a big change.",
+            "answer": "significant",
+            "explanation_zh": "significant 比 big 更正式。",
+            "hint_zh": "significant / substantial",
+            "acceptable_answers": [
+              "significant",
+              "substantial"
+            ]
+          },
+          {
+            "id": "l3-28-73",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 show 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "The graph shows a decline.",
+            "answer": "indicates",
+            "explanation_zh": "indicates 比 show 更正式。",
+            "hint_zh": "indicates / demonstrates",
+            "acceptable_answers": [
+              "indicates",
+              "demonstrates"
+            ]
+          },
+          {
+            "id": "l3-28-74",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 use 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "Researchers use this method.",
+            "answer": "utilize",
+            "explanation_zh": "utilize 比 use 更正式。",
+            "hint_zh": "utilize / employ",
+            "acceptable_answers": [
+              "utilize",
+              "employ"
+            ]
+          },
+          {
+            "id": "l3-28-75",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 want 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "Companies want to reduce costs.",
+            "answer": "desire",
+            "explanation_zh": "desire 比 want 更正式。",
+            "hint_zh": "desire / seek to",
+            "acceptable_answers": [
+              "desire",
+              "seek to"
+            ]
           }
         ]
       }

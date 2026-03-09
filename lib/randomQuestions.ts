@@ -12,9 +12,34 @@ function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
+/** Normalize pronoun variants (He/She/I/We/They/You) to a single token for dedup. */
+function canonicalPrompt(s: string): string {
+  if (!s || typeof s !== "string") return "";
+  return s
+    .trim()
+    .replace(/\b(He|She)\b/gi, "X")
+    .replace(/\b(I|me|my)\b/gi, "Y")
+    .replace(/\b(We|us|our)\b/gi, "Z")
+    .replace(/\b(They|them|their)\b/gi, "W")
+    .replace(/\b(You|your)\b/gi, "V")
+    .replace(/\s+/g, " ")
+    .toLowerCase();
+}
+
+/** Signature for deduplication: type + canonical prompt + answer/options pattern. */
+export function questionSignature(q: Question): string {
+  const qq = q as { prompt_en?: string; question_en?: string };
+  const prompt = (qq.prompt_en ?? qq.question_en ?? "").toString();
+  const answer = (q.answer ?? "").toString();
+  const opts = Array.isArray((q as { options?: string[] }).options)
+    ? (q as { options: string[] }).options.join("|")
+    : "";
+  return `${q.type}:${canonicalPrompt(prompt)}:${canonicalPrompt(answer)}:${canonicalPrompt(opts)}`;
+}
+
 /**
  * Select n questions with a balanced mix of types when possible.
- * Ensures different question types are represented before filling remaining slots.
+ * Avoids picking multiple questions with the same canonical form (e.g. He vs She variants).
  */
 export function selectBalancedQuestions(
   questions: Question[],
@@ -33,9 +58,20 @@ export function selectBalancedQuestions(
 
   const types = Array.from(byType.keys());
   const result: Question[] = [];
-  const used = new Set<string>();
+  const usedIds = new Set<string>();
+  const usedSignatures = new Set<string>();
 
-  // First pass: take at least one from each type (up to n total)
+  const addIfNovel = (q: Question): boolean => {
+    if (usedIds.has(q.id)) return false;
+    const sig = questionSignature(q);
+    if (usedSignatures.has(sig)) return false;
+    usedIds.add(q.id);
+    usedSignatures.add(sig);
+    result.push(q);
+    return true;
+  };
+
+  // First pass: take at least one from each type, preferring novel signatures
   const shuffledTypes = shuffle(types);
   for (const type of shuffledTypes) {
     if (result.length >= n) break;
@@ -43,18 +79,25 @@ export function selectBalancedQuestions(
     const shuffled = shuffle(pool);
     for (const q of shuffled) {
       if (result.length >= n) break;
-      if (!used.has(q.id)) {
-        used.add(q.id);
-        result.push(q);
-      }
+      addIfNovel(q);
     }
   }
 
-  // Second pass: fill remaining slots with random questions
+  // Second pass: fill remaining with novel questions
   if (result.length < n) {
-    const remaining = shuffle(questions.filter((q) => !used.has(q.id)));
+    const remaining = shuffle(questions.filter((q) => !usedIds.has(q.id)));
     for (const q of remaining) {
       if (result.length >= n) break;
+      addIfNovel(q);
+    }
+  }
+
+  // Third pass: if still short (many duplicates), allow same signature
+  if (result.length < n) {
+    const remaining = shuffle(questions.filter((q) => !usedIds.has(q.id)));
+    for (const q of remaining) {
+      if (result.length >= n) break;
+      usedIds.add(q.id);
       result.push(q);
     }
   }
@@ -75,8 +118,26 @@ export function selectRandomQuestions(
 
 /**
  * Select n random items from an array (generic).
+ * For items where getSignature returns a string, avoids picking multiple with the same signature.
  */
-export function selectRandomItems<T>(items: T[], n: number): T[] {
+export function selectRandomItems<T>(
+  items: T[],
+  n: number,
+  getSignature?: (item: T) => string | null
+): T[] {
   if (items.length <= n) return shuffle(items);
+  if (getSignature) {
+    const usedSigs = new Set<string>();
+    const selected: T[] = [];
+    const shuffled = shuffle(items);
+    for (const item of shuffled) {
+      if (selected.length >= n) break;
+      const sig = getSignature(item);
+      if (sig != null && usedSigs.has(sig)) continue;
+      if (sig != null) usedSigs.add(sig);
+      selected.push(item);
+    }
+    if (selected.length >= n) return selected;
+  }
   return shuffle(items).slice(0, n);
 }

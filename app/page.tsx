@@ -1,11 +1,14 @@
 import Link from "next/link";
 import { LAYERS } from "@/types/curriculum";
+import { HomeProgressBar } from "@/components/HomeProgressBar";
 
 export default function HomePage() {
   return (
     <div>
       <h1 className="page-title">英语语法练习</h1>
       <p className="page-desc">通过短练习巩固英语语法。请选择学习层级。</p>
+
+      <HomeProgressBar />
 
       <section className="layer-list">
         {LAYERS.map((layer) => (
