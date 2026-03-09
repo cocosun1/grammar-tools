@@ -14,6 +14,7 @@ interface Props {
   onChange?: (value: string) => void;
   submittedResult?: SubmittedResult;
   hideCheckButton?: boolean;
+  hideExplanation?: boolean;
 }
 
 export function SentenceChoiceQuestion({

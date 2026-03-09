@@ -293,10 +293,14 @@ function QuestionBlock({
     question.type === "sentence_choice" ||
     (question.type === "guided_completion" && question.options?.length);
 
+  const instructionOrCue =
+    question.instruction_zh ??
+    (question.type === "guided_completion" ? question.cue_zh : undefined);
+
   return (
     <div className={styles.questionBlock}>
-      {(question.instruction_zh || (question.type === "guided_completion" && question.cue_zh)) && (
-        <p className={styles.cue}>{question.instruction_zh ?? question.cue_zh}</p>
+      {instructionOrCue && (
+        <p className={styles.cue}>{instructionOrCue}</p>
       )}
       {question.prompt_en && (
         <p className={styles.prompt}>{question.prompt_en}</p>

@@ -65,8 +65,10 @@ export function loadModuleProgress(moduleId: number): ModuleProgress | null {
 /** Saves progress, keeping the highest score and stars (never overwrites with lower). */
 export function saveModuleProgress(moduleId: number, level: 1 | 2 | 3, progress: LevelProgress): void {
   if (typeof window === "undefined") return;
+  const storageKey = getStorageKey("module_progress");
+  if (!storageKey) return;
   try {
-    const raw = localStorage.getItem(STORAGE_KEY);
+    const raw = localStorage.getItem(storageKey);
     const data = raw ? (JSON.parse(raw) as Record<string, unknown>) : {};
     const key = `m${moduleId}`;
     const existing = (data[key] as ModuleProgress) ?? { module: moduleId };
