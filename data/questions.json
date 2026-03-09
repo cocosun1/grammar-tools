@@ -310,7 +310,7 @@
     "module_name_zh": "不可数名词",
     "type": "judgement",
     "instruction_zh": "这个名词是可数还是不可数？",
-    "explanation_zh": "water 为物质名词，不可数；表示“一杯水”用 a glass of water。",
+    "explanation_zh": "resource 为不可数名词，不能用 numerous 修饰，应改为 much。",
     "difficulty": 1,
     "question_en": "resource",
     "options": [
@@ -368,8 +368,8 @@
     "instruction_zh": "请修改以下句子中的错误",
     "explanation_zh": "milk 为不可数名词，不能用 numerous 修饰，应改为 much。",
     "difficulty": 1,
-    "question_en": "He don't require numerous milk.",
-    "answer": "He don't require substantial milk."
+    "question_en": "He doesn't require numerous milk.",
+    "answer": "He doesn't require much milk."
   },
   {
     "id": "q014",
@@ -2028,7 +2028,7 @@
     "module_name_zh": "可数 vs 不可数名词",
     "type": "fill_choice",
     "instruction_zh": "请选择正确的词",
-    "explanation_zh": "money 为不可数名词，谓语用单数 is。",
+    "explanation_zh": "funds 为复数名词，谓语用复数 are。",
     "difficulty": 1,
     "question_en": "The funds ____ on the table.",
     "options": [
@@ -2472,7 +2472,7 @@
     "instruction_zh": "请选择正确的词",
     "explanation_zh": "milk 不可数，用 much 修饰。",
     "difficulty": 1,
-    "question_en": "He don't have ____ milk left.",
+    "question_en": "He doesn't have ____ milk left.",
     "options": [
       "much",
       "numerous",
@@ -3355,7 +3355,7 @@
     "module_name_zh": "冠词 (a / an / the)",
     "type": "fill_choice",
     "instruction_zh": "请选择正确的冠词",
-    "explanation_zh": "apple 以元音音素开头，用 an。",
+    "explanation_zh": "computer 以辅音音素开头，用 a。",
     "difficulty": 1,
     "question_en": "There is ____ computer on the table.",
     "options": [
@@ -3371,7 +3371,7 @@
     "module_name_zh": "冠词 (a / an / the)",
     "type": "fill_choice",
     "instruction_zh": "请选择正确的冠词",
-    "explanation_zh": "orange 以元音音素开头，用 an。",
+    "explanation_zh": "table 以辅音音素开头，用 a。（注意：句中 table 重复，表意略怪）",
     "difficulty": 1,
     "question_en": "There is ____ table on the table.",
     "options": [
@@ -3387,7 +3387,7 @@
     "module_name_zh": "冠词 (a / an / the)",
     "type": "fill_choice",
     "instruction_zh": "请选择正确的冠词",
-    "explanation_zh": "banana 以元音音素开头，用 an。",
+    "explanation_zh": "phone 以辅音音素开头，用 a。",
     "difficulty": 1,
     "question_en": "There is ____ phone on the table.",
     "options": [
@@ -3447,7 +3447,7 @@
     "module_name_zh": "冠词 (a / an / the)",
     "type": "fill_choice",
     "instruction_zh": "请选择正确的冠词",
-    "explanation_zh": "book 以辅音音素开头，用 a。",
+    "explanation_zh": "publication 以辅音音素开头，用 a。",
     "difficulty": 1,
     "question_en": "She is reading ____ publication.",
     "options": [
@@ -3463,7 +3463,7 @@
     "module_name_zh": "冠词 (a / an / the)",
     "type": "fill_choice",
     "instruction_zh": "请选择正确的冠词",
-    "explanation_zh": "gift 以辅音音素开头，用 a。",
+    "explanation_zh": "publication 以辅音音素开头，用 a。",
     "difficulty": 1,
     "question_en": "He is reading ____ publication.",
     "options": [
@@ -3479,7 +3479,7 @@
     "module_name_zh": "冠词 (a / an / the)",
     "type": "fill_choice",
     "instruction_zh": "请选择正确的冠词",
-    "explanation_zh": "magazine 以辅音音素开头，用 a。",
+    "explanation_zh": "publication 以辅音音素开头，用 a。",
     "difficulty": 1,
     "question_en": "They are reading ____ publication.",
     "options": [
@@ -3495,7 +3495,7 @@
     "module_name_zh": "冠词 (a / an / the)",
     "type": "sentence_correction",
     "instruction_zh": "请修改以下句子中的错误",
-    "explanation_zh": "old 以元音音素开头，用 an。",
+    "explanation_zh": "previous 以辅音音素开头，用 a。",
     "difficulty": 1,
     "question_en": "He lives in a previous residence.",
     "answer": "He lives in an previous residence."
@@ -3507,7 +3507,7 @@
     "module_name_zh": "冠词 (a / an / the)",
     "type": "sentence_correction",
     "instruction_zh": "请修改以下句子中的错误",
-    "explanation_zh": "old 以元音音素开头，用 an。",
+    "explanation_zh": "previous 以辅音音素开头，用 a。",
     "difficulty": 1,
     "question_en": "She lives in a previous residence.",
     "answer": "She lives in an previous residence."
@@ -4197,7 +4197,7 @@
       "a few"
     ],
     "answer": "a little",
-    "explanation_zh": "time 不可数，用 a little。"
+    "explanation_zh": "period 表「时间」时，可用 a little / much 等；这里用 limited 或 a short 等。"
   },
   {
     "id": "q139",
@@ -4377,7 +4377,7 @@
       "I require numerous moneys."
     ],
     "answer": "I require some funds.",
-    "explanation_zh": "money 不可数。"
+    "explanation_zh": "funds 为复数，谓语用复数。____ 填 are。"
   },
   {
     "id": "q905",
@@ -4386,7 +4386,7 @@
     "module_name_zh": "不可数名词",
     "type": "sentence_choice",
     "instruction_zh": "请选择语法正确的句子",
-    "explanation_zh": "money 不可数。",
+    "explanation_zh": "funds 为复数，谓语用复数。",
     "difficulty": 1,
     "options": [
       "We require some funds.",
@@ -4402,7 +4402,7 @@
     "module_name_zh": "不可数名词",
     "type": "sentence_choice",
     "instruction_zh": "请选择语法正确的句子",
-    "explanation_zh": "money 不可数。",
+    "explanation_zh": "funds 为复数，谓语用复数。",
     "difficulty": 1,
     "options": [
       "He require some funds.",
@@ -4546,7 +4546,7 @@
     "instruction_zh": "请修改以下句子中的错误",
     "question_en": "Substantial individuals attended.",
     "answer": "Numerous individuals attended.",
-    "explanation_zh": "people 可数，用 numerous。"
+    "explanation_zh": "individuals 为可数名词复数，用 numerous 或 many 修饰。"
   },
   {
     "id": "q154",
@@ -4658,7 +4658,7 @@
       "There is few resource left."
     ],
     "answer": "There is little resource left.",
-    "explanation_zh": "water 不可数，用 little。"
+    "explanation_zh": "resource 为不可数名词，用 much 修饰。"
   },
   {
     "id": "q157",
@@ -12757,7 +12757,7 @@
     "instruction_zh": "请选择正确的词",
     "explanation_zh": "milk 不可数，用 much 修饰。",
     "difficulty": 1,
-    "question_en": "She don't have ____ milk left.",
+    "question_en": "She doesn't have ____ milk left.",
     "options": [
       "much",
       "numerous",
@@ -12830,8 +12830,8 @@
     "instruction_zh": "请修改以下句子中的错误",
     "explanation_zh": "time 表「时间」时不可数，用 much 而非 numerous。",
     "difficulty": 1,
-    "question_en": "He don't have numerous period.",
-    "answer": "He don't have substantial period."
+    "question_en": "He doesn't have numerous time.",
+    "answer": "He doesn't have much time."
   },
   {
     "id": "q-exp-mod1-019",
@@ -13111,7 +13111,7 @@
       "a few"
     ],
     "answer": "a little",
-    "explanation_zh": "time 不可数，用 a little。"
+    "explanation_zh": "period 表「时间」时，可用 limited 或 a short 等；不可用 numerous。"
   },
   {
     "id": "q-exp-mod3-006",
@@ -13159,7 +13159,7 @@
       "a few"
     ],
     "answer": "a little",
-    "explanation_zh": "time 不可数，用 a little。"
+    "explanation_zh": "period 表「时间」时，可用 limited 或 a short 等；不可用 numerous。"
   },
   {
     "id": "q-exp-mod3-009",
@@ -13170,8 +13170,8 @@
     "instruction_zh": "请修改以下句子中的错误",
     "explanation_zh": "milk 为不可数名词，不能用 numerous 修饰，应改为 much。",
     "difficulty": 1,
-    "question_en": "She don't require numerous milk.",
-    "answer": "She don't require substantial milk."
+    "question_en": "She doesn't require numerous milk.",
+    "answer": "She doesn't require much milk."
   },
   {
     "id": "q-exp-mod3-010",
@@ -13199,7 +13199,7 @@
       "a few"
     ],
     "answer": "a little",
-    "explanation_zh": "time 不可数，用 a little。"
+    "explanation_zh": "period 表「时间」时，可用 limited 或 a short 等；不可用 numerous。"
   },
   {
     "id": "q-exp-mod3-012",
@@ -13251,7 +13251,7 @@
       "a few"
     ],
     "answer": "a little",
-    "explanation_zh": "time 不可数，用 a little。"
+    "explanation_zh": "period 表「时间」时，可用 limited 或 a short 等；不可用 numerous。"
   },
   {
     "id": "q-exp-mod3-016",
@@ -13440,7 +13440,7 @@
     "module_name_zh": "一般现在时",
     "type": "fill_choice",
     "instruction_zh": "请选择正确的词",
-    "explanation_zh": "She 为第三人称单数，谓语动词要用 studies。",
+    "explanation_zh": "We 是第一人称复数，谓语用原形 study。",
     "difficulty": 1,
     "question_en": "We ____ English every morning.",
     "options": [
@@ -13480,7 +13480,7 @@
     "module_name_zh": "一般现在时",
     "type": "fill_choice",
     "instruction_zh": "请选择正确的词",
-    "explanation_zh": "He 为第三人称单数，谓语动词要用 studies。",
+    "explanation_zh": "I 是第一人称单数，谓语用原形 study。",
     "difficulty": 1,
     "question_en": "I ____ English every morning.",
     "options": [
@@ -14407,7 +14407,7 @@
     "module_name_zh": "过去进行时",
     "type": "sentence_correction",
     "instruction_zh": "请修改以下句子中的错误",
-    "explanation_zh": "过去进行时用 was/were + -ing，主语 They 为复数，用 were watching。",
+    "explanation_zh": "We 是第一人称复数，过去进行时用 were watching。",
     "difficulty": 1,
     "question_en": "We was watching TV at 8 pm previously.",
     "answer": "We were watching TV at 8 pm previously."
@@ -14467,7 +14467,7 @@
     "module_name_zh": "过去进行时",
     "type": "sentence_correction",
     "instruction_zh": "请修改以下句子中的错误",
-    "explanation_zh": "过去进行时用 was/were + -ing，主语 They 为复数，用 were watching。",
+    "explanation_zh": "I 是第一人称单数，过去进行时用 was watching。",
     "difficulty": 1,
     "question_en": "I was watching TV at 8 pm previously.",
     "answer": "I were watching TV at 8 pm previously."
@@ -14527,10 +14527,10 @@
     "module_name_zh": "过去进行时",
     "type": "sentence_correction",
     "instruction_zh": "请修改以下句子中的错误",
-    "explanation_zh": "过去进行时用 was/were + -ing，主语 They 为复数，用 were watching。",
+    "explanation_zh": "She 是第三人称单数，过去进行时用 was watching。",
     "difficulty": 1,
-    "question_en": "She was watching TV at 8 pm previously.",
-    "answer": "She were watching TV at 8 pm previously."
+    "question_en": "She were watching TV at 8 pm previously.",
+    "answer": "She was watching TV at 8 pm previously."
   },
   {
     "id": "q-exp-mod8-015",
@@ -14699,7 +14699,7 @@
     "module_name_zh": "过去进行时",
     "type": "sentence_correction",
     "instruction_zh": "请修改以下句子中的错误",
-    "explanation_zh": "过去进行时用 was/were + -ing，主语 They 为复数，用 were watching。",
+    "explanation_zh": "He 是第三人称单数，过去进行时用 was watching。",
     "difficulty": 1,
     "question_en": "He was watching TV at 8 pm previously.",
     "answer": "He were watching TV at 8 pm previously."
@@ -16857,7 +16857,7 @@
     "module_name_zh": "不可数名词",
     "type": "sentence_choice",
     "instruction_zh": "请选择语法正确的句子",
-    "explanation_zh": "tea 不可数，表示“一杯咖啡”用 a cup of tea。",
+    "explanation_zh": "period 表「时间」时，可用 limited 或 a short 等；不可用 numerous。",
     "difficulty": 1,
     "options": [
       "She wants a tea.",
@@ -17493,7 +17493,7 @@
     "module_name_zh": "过去进行时",
     "type": "word_form",
     "instruction_zh": "请用过去进行时填空（was/were + 动词 -ing）",
-    "explanation_zh": "过去进行时：was/were + 动词 -ing。They 用 was，write 去 e 加 -ing。",
+    "explanation_zh": "We 是第一人称复数，过去进行时用 were watching。",
     "difficulty": 1,
     "prompt_en": "We (write) a letter when the phone rang.",
     "answer": "was writing"
@@ -17553,7 +17553,7 @@
     "module_name_zh": "过去进行时",
     "type": "fill_choice",
     "instruction_zh": "请选择正确的词",
-    "explanation_zh": "过去进行时结构为 was/were + 动词 -ing。主语为 I，用 was doing。",
+    "explanation_zh": "I 是第一人称单数，过去进行时用 was watching。",
     "difficulty": 1,
     "question_en": "We ____ Our exercise when you contacted.",
     "options": [
@@ -18465,7 +18465,7 @@
     "module_name_zh": "过去进行时",
     "type": "fill_choice",
     "instruction_zh": "请选择正确的词",
-    "explanation_zh": "过去某时正在进行的动作用 were + -ing。",
+    "explanation_zh": "We 是第一人称复数，过去进行时用 were watching。",
     "difficulty": 1,
     "question_en": "The children ____ when mom called.",
     "options": [
@@ -18529,7 +18529,7 @@
     "module_name_zh": "过去进行时",
     "type": "fill_choice",
     "instruction_zh": "请选择正确的词",
-    "explanation_zh": "过去某时正在进行的动作用 was washing。",
+    "explanation_zh": "I 是第一人称单数，过去进行时用 was watching。",
     "difficulty": 1,
     "question_en": "Tom ____ his car when I saw him.",
     "options": [
@@ -18587,13 +18587,13 @@
     "answer": "was taking"
   },
   {
-    "id": "q-exp-mod8-014",
+    "id": "q-exp-mod8-014b",
     "layer": 1,
     "module": 8,
     "module_name_zh": "过去进行时",
     "type": "fill_choice",
     "instruction_zh": "请选择正确的词",
-    "explanation_zh": "过去某时正在进行的动作用 were writing。",
+    "explanation_zh": "students 是复数，过去进行时用 were writing。",
     "difficulty": 1,
     "question_en": "The students ____ when the bell rang.",
     "options": [
@@ -22372,7 +22372,7 @@
     "module_name_zh": "形容词 vs 副词",
     "type": "natural_choice",
     "instruction_zh": "请选择听起来更自然的英语句子",
-    "explanation_zh": "修饰动词用副词 well，good 是形容词。",
+    "explanation_zh": "修饰动词用副词 well，不用形容词 good。",
     "difficulty": 2,
     "options": [
       "She speaks English well.",

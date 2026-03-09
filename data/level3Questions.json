@@ -4,7 +4,7 @@
       "id": "l3q001",
       "type": "fill_choice",
       "instruction_zh": "请选择正确的词",
-      "explanation_zh": "定语从句中，先行词 news 不可数，从句谓语用单数 is。",
+      "explanation_zh": "information 不可数，定语从句谓语用单数 is。",
       "difficulty": 3,
       "question_en": "The information that she provided us ____ insufficient for the document.",
       "options": [
@@ -70,7 +70,7 @@
       "id": "l3q006",
       "type": "fill_choice",
       "instruction_zh": "请选择正确的词",
-      "explanation_zh": "news 不可数，谓语用单数。",
+      "explanation_zh": "information 不可数，定语从句谓语用单数 is。",
       "difficulty": 3,
       "question_en": "The information that he shared with us ____ shocking.",
       "options": [
@@ -84,7 +84,7 @@
       "id": "l3q007",
       "type": "sentence_choice",
       "instruction_zh": "请选择语法正确的句子",
-      "explanation_zh": "water 不可数用 little；books 可数用 few。",
+      "explanation_zh": "resource 不可数，用 much 修饰。",
       "difficulty": 3,
       "options": [
         "There is few resource left, but there are a few publications on the shelf.",
@@ -122,7 +122,7 @@
       "id": "l3q010",
       "type": "fill_choice",
       "instruction_zh": "请选择正确的词",
-      "explanation_zh": "money 不可数，谓语用单数。",
+      "explanation_zh": "funds 为复数，谓语用复数 were。",
       "difficulty": 3,
       "question_en": "All the funds that she saved ____ stolen.",
       "options": [
@@ -289,7 +289,7 @@
       "id": "l3q023",
       "type": "fill_choice",
       "instruction_zh": "请选择正确的词",
-      "explanation_zh": " news 不可数，谓语用单数。",
+      "explanation_zh": "information 不可数，谓语用单数 is。",
       "difficulty": 3,
       "question_en": "All the information that we require ____ available online.",
       "options": [
@@ -317,7 +317,7 @@
       "id": "l3q025",
       "type": "fill_choice",
       "instruction_zh": "请选择正确的词",
-      "explanation_zh": " news 不可数，谓语用单数。",
+      "explanation_zh": "information 不可数，相关谓语用单数。",
       "difficulty": 3,
       "question_en": "The information that was ____ previously was concerning.",
       "options": [
@@ -510,7 +510,7 @@
       "id": "l3q040",
       "type": "fill_choice",
       "instruction_zh": "请选择正确的词",
-      "explanation_zh": " apple 以元音音素开头用 an。",
+      "explanation_zh": "computer 以辅音音素开头，用 a。",
       "difficulty": 3,
       "question_en": "She provided him ____ computer and pointed to the door.",
       "options": [
