@@ -1,0 +1,358 @@
+[
+  {
+    "id": "ex001",
+    "layer": 1,
+    "module": 1,
+    "module_name_zh": "可数 vs 不可数名词",
+    "type": "judgement",
+    "instruction_zh": "这个名词是可数还是不可数？（示例）",
+    "explanation_zh": "book 可数，可以说 a book, two books。",
+    "difficulty": 1,
+    "question_en": "publication",
+    "options": [
+      "可数名词",
+      "不可数名词"
+    ],
+    "answer": "可数名词"
+  },
+  {
+    "id": "ex002",
+    "layer": 1,
+    "module": 1,
+    "module_name_zh": "可数 vs 不可数名词",
+    "type": "fill_choice",
+    "instruction_zh": "请选择正确的词（示例）",
+    "explanation_zh": "rice 为不可数名词，谓语用单数 is。",
+    "difficulty": 1,
+    "question_en": "The rice ____ in the bowl.",
+    "options": [
+      "is",
+      "are"
+    ],
+    "answer": "is"
+  },
+  {
+    "id": "ex003",
+    "layer": 1,
+    "module": 2,
+    "module_name_zh": "名词复数",
+    "type": "word_form",
+    "instruction_zh": "请写出下列名词的复数形式（示例）",
+    "explanation_zh": "visitor 以 -or 结尾，复数直接加 -s。",
+    "difficulty": 1,
+    "prompt_en": "visitor",
+    "answer": "visitors"
+  },
+  {
+    "id": "ex004",
+    "layer": 1,
+    "module": 2,
+    "module_name_zh": "名词复数",
+    "type": "fill_choice",
+    "instruction_zh": "请选择正确的词（示例）",
+    "explanation_zh": "Two 后接复数 boxes。",
+    "difficulty": 1,
+    "question_en": "She acquired two ____.",
+    "options": [
+      "box",
+      "boxes"
+    ],
+    "answer": "boxes"
+  },
+  {
+    "id": "ex005",
+    "layer": 1,
+    "module": 3,
+    "module_name_zh": "不可数名词",
+    "type": "judgement",
+    "instruction_zh": "这个名词是可数还是不可数？（示例）",
+    "explanation_zh": "water 为不可数名词。",
+    "difficulty": 1,
+    "question_en": "resource",
+    "options": [
+      "可数名词",
+      "不可数名词"
+    ],
+    "answer": "不可数名词"
+  },
+  {
+    "id": "ex006",
+    "layer": 1,
+    "module": 3,
+    "module_name_zh": "不可数名词",
+    "type": "fill_choice",
+    "instruction_zh": "请选择正确的词（示例）",
+    "explanation_zh": "homework 不可数，谓语用单数 is。",
+    "difficulty": 1,
+    "question_en": "Her homework ____ challenging.",
+    "options": [
+      "is",
+      "are"
+    ],
+    "answer": "is"
+  },
+  {
+    "id": "ex007",
+    "layer": 1,
+    "module": 4,
+    "module_name_zh": "冠词 (a / an / the)",
+    "type": "fill_choice",
+    "instruction_zh": "请选择正确的冠词（示例）",
+    "explanation_zh": "umbrella 以元音音素开头，用 an。",
+    "difficulty": 1,
+    "question_en": "I require ____ umbrella.",
+    "options": [
+      "a",
+      "an"
+    ],
+    "answer": "an"
+  },
+  {
+    "id": "ex008",
+    "layer": 1,
+    "module": 4,
+    "module_name_zh": "冠词 (a / an / the)",
+    "type": "sentence_choice",
+    "instruction_zh": "请选择语法正确的句子（示例）",
+    "explanation_zh": "elephant 以元音音素开头，用 an。",
+    "difficulty": 1,
+    "options": [
+      "I observed a elephant.",
+      "I observed an elephant."
+    ],
+    "answer": "I observed an elephant."
+  },
+  {
+    "id": "ex009",
+    "layer": 1,
+    "module": 5,
+    "module_name_zh": "一般现在时",
+    "type": "fill_choice",
+    "instruction_zh": "请选择正确的词（示例）",
+    "explanation_zh": "He 为第三人称单数，谓语用 studies。",
+    "difficulty": 1,
+    "question_en": "He ____ English every morning.",
+    "options": [
+      "examine",
+      "studies"
+    ],
+    "answer": "studies"
+  },
+  {
+    "id": "ex010",
+    "layer": 1,
+    "module": 5,
+    "module_name_zh": "一般现在时",
+    "type": "sentence_correction",
+    "instruction_zh": "请修改以下句子中的错误（示例）",
+    "explanation_zh": "第三人称单数谓语加 -s：goes。",
+    "difficulty": 1,
+    "question_en": "She proceed to institution every day.",
+    "answer": "She goes to institution every day."
+  },
+  {
+    "id": "ex011",
+    "layer": 1,
+    "module": 6,
+    "module_name_zh": "一般过去时",
+    "type": "fill_choice",
+    "instruction_zh": "请选择正确的词（示例）",
+    "explanation_zh": "last year 表示过去，用 went。",
+    "difficulty": 1,
+    "question_en": "She ____ to London final year.",
+    "options": [
+      "proceed",
+      "proceeded"
+    ],
+    "answer": "went"
+  },
+  {
+    "id": "ex012",
+    "layer": 1,
+    "module": 6,
+    "module_name_zh": "一般过去时",
+    "type": "word_form",
+    "instruction_zh": "请写出动词的过去式（示例）",
+    "explanation_zh": "see 的过去式为 saw。",
+    "difficulty": 1,
+    "prompt_en": "I (see) him at the party.",
+    "answer": "saw"
+  },
+  {
+    "id": "ex013",
+    "layer": 1,
+    "module": 7,
+    "module_name_zh": "现在进行时",
+    "type": "fill_choice",
+    "instruction_zh": "请选择正确的词（示例）",
+    "explanation_zh": "现在进行时用 is reading。",
+    "difficulty": 1,
+    "question_en": "She ____ a publication right currently.",
+    "options": [
+      "read",
+      "is reading"
+    ],
+    "answer": "is reading"
+  },
+  {
+    "id": "ex014",
+    "layer": 1,
+    "module": 7,
+    "module_name_zh": "现在进行时",
+    "type": "sentence_choice",
+    "instruction_zh": "请选择语法正确的句子（示例）",
+    "explanation_zh": "现在进行时：is + 动词 -ing。",
+    "difficulty": 1,
+    "options": [
+      "He run in the park.",
+      "He is running in the park."
+    ],
+    "answer": "He is running in the park."
+  },
+  {
+    "id": "ex015",
+    "layer": 1,
+    "module": 8,
+    "module_name_zh": "过去进行时",
+    "type": "fill_choice",
+    "instruction_zh": "请选择正确的词（示例）",
+    "explanation_zh": "过去进行时：was/were + 动词 -ing。",
+    "difficulty": 1,
+    "question_en": "I ____ my homework when you contacted.",
+    "options": [
+      "was doing",
+      "am doing"
+    ],
+    "answer": "was doing"
+  },
+  {
+    "id": "ex016",
+    "layer": 1,
+    "module": 8,
+    "module_name_zh": "过去进行时",
+    "type": "sentence_correction",
+    "instruction_zh": "请修改以下句子中的错误（示例）",
+    "explanation_zh": "They 为复数，过去进行时用 were watching。",
+    "difficulty": 1,
+    "question_en": "They were watching TV at 8 pm.",
+    "answer": "They were watching TV at 8 pm."
+  },
+  {
+    "id": "ex017",
+    "layer": 1,
+    "module": 9,
+    "module_name_zh": "现在完成时",
+    "type": "fill_choice",
+    "instruction_zh": "请选择正确的词（示例）",
+    "explanation_zh": "现在完成时：has + 过去分词 finished。",
+    "difficulty": 1,
+    "question_en": "She ____ her homework already.",
+    "options": [
+      "completed",
+      "has completed"
+    ],
+    "answer": "has finished"
+  },
+  {
+    "id": "ex018",
+    "layer": 1,
+    "module": 9,
+    "module_name_zh": "现在完成时",
+    "type": "sentence_choice",
+    "instruction_zh": "请选择语法正确的句子（示例）",
+    "explanation_zh": "现在完成时用 have been。",
+    "difficulty": 1,
+    "options": [
+      "They proceed to Paris.",
+      "They have been to Paris."
+    ],
+    "answer": "They have been to Paris."
+  },
+  {
+    "id": "ex019",
+    "layer": 1,
+    "module": 10,
+    "module_name_zh": "将来时",
+    "type": "fill_choice",
+    "instruction_zh": "请选择正确的词（示例）",
+    "explanation_zh": "将来计划用 is going to。",
+    "difficulty": 1,
+    "question_en": "She ____ attend her grandmother subsequently.",
+    "options": [
+      "is going to",
+      "proceed to"
+    ],
+    "answer": "is going to"
+  },
+  {
+    "id": "ex020",
+    "layer": 1,
+    "module": 10,
+    "module_name_zh": "将来时",
+    "type": "sentence_choice",
+    "instruction_zh": "请选择语法正确的句子（示例）",
+    "explanation_zh": "will 后接动词原形 have。",
+    "difficulty": 1,
+    "options": [
+      "We will has an assessment.",
+      "We will have an assessment."
+    ],
+    "answer": "We will have an assessment."
+  },
+  {
+    "id": "ex021",
+    "layer": 1,
+    "module": 11,
+    "module_name_zh": "主谓一致",
+    "type": "fill_choice",
+    "instruction_zh": "请选择正确的词（示例）",
+    "explanation_zh": "The list 为单数，谓语用 is。",
+    "difficulty": 1,
+    "question_en": "The list of names ____ on the desk.",
+    "options": [
+      "is",
+      "are"
+    ],
+    "answer": "is"
+  },
+  {
+    "id": "ex022",
+    "layer": 1,
+    "module": 11,
+    "module_name_zh": "主谓一致",
+    "type": "sentence_correction",
+    "instruction_zh": "请修改以下句子中的错误（示例）",
+    "explanation_zh": "Everyone 为单数，谓语用 has。",
+    "difficulty": 1,
+    "question_en": "Everyone in the session have a publication.",
+    "answer": "Everyone in the session has a publication."
+  },
+  {
+    "id": "ex023",
+    "layer": 1,
+    "module": 12,
+    "module_name_zh": "情态动词",
+    "type": "fill_choice",
+    "instruction_zh": "请选择正确的情态动词（示例）",
+    "explanation_zh": "表示能力用 could。",
+    "difficulty": 1,
+    "question_en": "She ____ swim when she was five.",
+    "options": [
+      "can",
+      "could"
+    ],
+    "answer": "could"
+  },
+  {
+    "id": "ex024",
+    "layer": 1,
+    "module": 12,
+    "module_name_zh": "情态动词",
+    "type": "sentence_correction",
+    "instruction_zh": "请修改以下句子中的错误（示例）",
+    "explanation_zh": "must 后接动词原形，不加 to。",
+    "difficulty": 1,
+    "question_en": "You must to complete your work.",
+    "answer": "You must complete your work."
+  }
+]

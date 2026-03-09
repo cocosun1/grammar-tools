@@ -1,0 +1,81 @@
+{
+  "module": 1,
+  "tasks": [
+    {
+      "id": "t1",
+      "prompt_zh": "许多学生参观了博物馆",
+      "grammar_checks": [
+        { "required": "students", "wrong": "student", "hint": "many 后接可数名词复数，应为 students" },
+        { "required": "visited", "wrong": "visit", "hint": "过去时应用 visited" }
+      ]
+    },
+    {
+      "id": "t2",
+      "prompt_zh": "我喝了很多水",
+      "grammar_checks": [
+        { "required": "water", "wrong": "waters", "hint": "water 是不可数名词，不加 -s" },
+        { "required": "much", "wrong": "many", "hint": "water 不可数，用 much 而非 many" }
+      ]
+    },
+    {
+      "id": "t3",
+      "prompt_zh": "她买了几支铅笔",
+      "grammar_checks": [
+        { "required": "pencils", "wrong": "pencil", "hint": "a few 后接可数名词复数，应为 pencils" }
+      ]
+    },
+    {
+      "id": "t4",
+      "prompt_zh": "我需要一点建议",
+      "grammar_checks": [
+        { "required": "advice", "wrong": "advices", "hint": "advice 是不可数名词，不加 -s" },
+        { "required": "a little", "wrong": "a few", "hint": "advice 不可数，用 a little/some 而非 a few", "accept_also": ["some", "a bit of", "bit of"] }
+      ]
+    },
+    {
+      "id": "t5",
+      "prompt_zh": "桌上有三本书",
+      "grammar_checks": [
+        { "required": "books", "wrong": "book", "hint": "three 后接可数名词复数，应为 books" }
+      ]
+    },
+    {
+      "id": "t6",
+      "prompt_zh": "许多学生读了很多书",
+      "grammar_checks": [
+        { "required": "students", "wrong": "student", "hint": "many 后接可数名词复数，应为 students" },
+        { "required": "books", "wrong": "book", "hint": "many 后接可数名词复数，应为 books" }
+      ]
+    },
+    {
+      "id": "t7",
+      "prompt_zh": "瓶子里几乎没有水了",
+      "grammar_checks": [
+        { "required": "water", "wrong": "waters", "hint": "water 是不可数名词，不加 -s" },
+        { "required": "little", "wrong": "few", "hint": "water 不可数，用 little/no 而非 few", "accept_also": ["no", "none", "almost"] }
+      ]
+    },
+    {
+      "id": "t8",
+      "prompt_zh": "她给了我几条有用的建议",
+      "grammar_checks": [
+        { "required": "advice", "wrong": "advices", "hint": "advice 是不可数名词，不加 -s" }
+      ]
+    },
+    {
+      "id": "t9",
+      "prompt_zh": "我需要买几个苹果",
+      "grammar_checks": [
+        { "required": "apples", "wrong": "apple", "hint": "a few / 几个 后接可数名词复数，应为 apples" }
+      ]
+    },
+    {
+      "id": "t10",
+      "prompt_zh": "杯子里有很多牛奶",
+      "grammar_checks": [
+        { "required": "milk", "wrong": "milks", "hint": "milk 是不可数名词，不加 -s" },
+        { "required": "much", "wrong": "many", "hint": "milk 不可数，用 much 而非 many" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,768 @@
+{
+  "1": {
+    "moduleId": 1,
+    "moduleName_zh": "可数 vs 不可数名词",
+    "learning_goal_zh": "在真实语境中正确选用可数/不可数形式，区分 many/much、a few/a little，并纠正常见错误。",
+    "quick_reminder_zh": [
+      "可数名词有复数（books, computers）；不可数名词不加 -s（water, advice）。",
+      "many / a few 接可数复数；much / a little 接不可数。",
+      "表示「一些」时：some 可数复数或不可数；a piece of 常与不可数连用。"
+    ],
+    "sections": [
+      {
+        "id": "context_drill",
+        "title_zh": "A. 情境练习",
+        "description_zh": "在短句或小对话中选择正确形式。",
+        "questions": [
+          {
+            "id": "l3a1-cd1",
+            "type": "fill_choice",
+            "prompt_en": "At the supermarket: \"I need ____ for the soup.\"",
+            "options": ["some water", "many waters", "a water"],
+            "answer": "some water",
+            "explanation_zh": "water 不可数，用 some water；不能说 many waters 或 a water。",
+            "wrong_note_zh": "很多学习者会按中文「很多水」直译成 many water，但 many 只能接可数复数。"
+          },
+          {
+            "id": "l3a1-cd2",
+            "type": "fill_choice",
+            "prompt_en": "In class: \"She has ____ to share with the group.\"",
+            "options": ["a few ideas", "a little ideas", "much ideas"],
+            "answer": "a few ideas",
+            "explanation_zh": "idea 可数，复数 ideas；「几个想法」用 a few ideas。a little 和 much 接不可数。",
+            "wrong_note_zh": "a little 只能修饰不可数名词，不能接 ideas。"
+          },
+          {
+            "id": "l3a1-cd3",
+            "type": "fill_choice",
+            "prompt_en": "At the café: \"There is ____ left in the bottle.\"",
+            "options": ["a little milk", "a few milk", "many milk"],
+            "answer": "a little milk",
+            "explanation_zh": "milk 不可数，用 a little milk 表示「一点牛奶」。a few 和 many 接可数。",
+            "wrong_note_zh": "a few 后必须接可数名词复数，不能接 milk。"
+          }
+        ]
+      },
+      {
+        "id": "contrast_repair",
+        "title_zh": "B. 对比与纠错",
+        "description_zh": "比较相似句子，找出错误并理解正确用法。",
+        "questions": [
+          {
+            "id": "l3a1-cr1",
+            "type": "sentence_choice",
+            "prompt_en": "Which sentence is correct?",
+            "options": [
+              "I need some information about the course.",
+              "I need some informations about the course.",
+              "I need many information about the course."
+            ],
+            "answer": "I need some information about the course.",
+            "explanation_zh": "information 不可数，没有复数形式，也不能用 many 修饰。用 some information。",
+            "wrong_note_zh": "information 不能加 -s；many 只能接可数复数。"
+          },
+          {
+            "id": "l3a1-cr2",
+            "type": "sentence_correction",
+            "prompt_en": "She gave me many good advices.",
+            "answer": "She gave me a lot of good advice.",
+            "explanation_zh": "advice 不可数，没有 advices。表示「很多建议」用 a lot of advice 或 much advice。",
+            "wrong_note_zh": "advice 和 information 一样，没有复数形式，容易误加 -s。"
+          },
+          {
+            "id": "l3a1-cr3",
+            "type": "sentence_choice",
+            "prompt_en": "Which sentence is correct?",
+            "options": [
+              "There are many books on the shelf.",
+              "There are much books on the shelf.",
+              "There is many books on the shelf."
+            ],
+            "answer": "There are many books on the shelf.",
+            "explanation_zh": "books 可数复数，用 many；谓语用复数 are。much 接不可数；many books 与 are 搭配。",
+            "wrong_note_zh": "much 只能修饰不可数名词；many + 复数名词时谓语要用 are。"
+          }
+        ]
+      },
+      {
+        "id": "guided_production",
+        "title_zh": "C. 引导产出",
+        "description_zh": "根据提示完成或选择最自然的表达。",
+        "questions": [
+          {
+            "id": "l3a1-gp1",
+            "type": "guided_completion",
+            "prompt_en": "Complete naturally: \"I don't have ____ time today.\"",
+            "cue_zh": "用表示「很多」的词组（时间不可数）",
+            "options": ["many", "much", "a few"],
+            "answer": "much",
+            "explanation_zh": "time 不可数，用 much time。many 和 a few 接可数。",
+            "wrong_note_zh": "time 作「时间」讲时不可数，不能说 many time。"
+          },
+          {
+            "id": "l3a1-gp2",
+            "type": "guided_completion",
+            "prompt_en": "Choose the best reply: \"How much rice do you want?\"",
+            "cue_zh": "选择最自然的回答",
+            "options": [
+              "Just a little, please.",
+              "Just a few, please.",
+              "Just many, please."
+            ],
+            "answer": "Just a little, please.",
+            "explanation_zh": "rice 不可数，问句用 How much；回答用 a little 表示「一点」。",
+            "wrong_note_zh": "a few 用于可数，不能用来回答「多少米」。"
+          },
+          {
+            "id": "l3a1-gp3",
+            "type": "guided_completion",
+            "prompt_en": "Complete: \"There are ____ students in the classroom.\"",
+            "cue_zh": "用表示「很多」的词（学生可数）",
+            "options": ["much", "a little", "many"],
+            "answer": "many",
+            "explanation_zh": "students 可数复数，用 many。much 和 a little 接不可数。",
+            "wrong_note_zh": "students 是可数复数，必须用 many 或 a few 等，不能用 much。"
+          },
+          {
+            "id": "l3a1-gp4",
+            "type": "guided_completion",
+            "prompt_en": "Choose the correct form: \"I need ____ to make the cake.\"",
+            "cue_zh": "面粉不可数",
+            "options": ["some flour", "many flours", "a flour"],
+            "answer": "some flour",
+            "explanation_zh": "flour 不可数，用 some flour。没有 many flours 或 a flour 的说法。",
+            "wrong_note_zh": "flour 和 rice、sugar 一样不可数，不能加 -s 或与 a 直接连用表「一份」。"
+          }
+        ]
+      }
+    ],
+    "summary_card": {
+      "title_zh": "本关小结",
+      "body_zh": "你练习了在情境中区分可数与不可数名词，并纠正了 information、advice 等不可数名词的常见错误。记住：many/a few + 可数复数，much/a little + 不可数；不可数名词没有复数形式。继续在其他模块中应用这些规则吧。"
+    }
+  },
+  "19": {
+    "moduleId": 19,
+    "moduleName_zh": "观点表达",
+    "learning_goal_zh": "在真实语境中选用恰当的观点表达方式，区分 I think / In my opinion / It seems to me，并纠正常见错误。",
+    "quick_reminder_zh": [
+      "I think / I believe / In my opinion 常用于引出观点；避免重复使用（不说 In my opinion, I think）。",
+      "It seems to me that 表示「在我看来似乎……」；From my point of view 表示「从我的角度看」。",
+      "观点动词用一般现在时：I think（不说 I am think）；I would say 表示委婉表达。"
+    ],
+    "sections": [
+      {
+        "id": "context_drill",
+        "title_zh": "A. 情境练习",
+        "description_zh": "在短句或小对话中选择恰当的观点表达。",
+        "questions": [
+          {
+            "id": "l3a19-cd1",
+            "type": "fill_choice",
+            "prompt_en": "At a meeting: \"____, we should start the project next week.\"",
+            "options": ["In my opinion", "I am think", "From my opinion"],
+            "answer": "In my opinion",
+            "explanation_zh": "In my opinion 是固定搭配，表示「在我看来」。不能说 I am think 或 From my opinion。",
+            "wrong_note_zh": "think 是动词，不说 I am think；opinion 用 In my opinion，不用 From。"
+          },
+          {
+            "id": "l3a19-cd2",
+            "type": "fill_choice",
+            "prompt_en": "In a discussion: \"____ that this plan will work.\"",
+            "options": ["It seems to me", "It seem to me", "It is seem to me"],
+            "answer": "It seems to me",
+            "explanation_zh": "It seems to me that 是固定结构，seems 用第三人称单数。",
+            "wrong_note_zh": "seem 作谓语时主语是 It，动词用 seems；不说 It is seem。"
+          },
+          {
+            "id": "l3a19-cd3",
+            "type": "fill_choice",
+            "prompt_en": "When asked for your view: \"____ the new policy is fair.\"",
+            "options": ["I believe", "I am believe", "I believing"],
+            "answer": "I believe",
+            "explanation_zh": "I believe (that) 引出观点，动词用原形。believe 不加 -ing 或 am。",
+            "wrong_note_zh": "believe 是实义动词，不说 I am believe；不说 I believing。"
+          },
+          {
+            "id": "l3a19-cd4",
+            "type": "fill_choice",
+            "prompt_en": "In a survey: \"____, online learning is effective.\"",
+            "options": ["In my opinion", "I am of opinion", "According my opinion"],
+            "answer": "In my opinion",
+            "explanation_zh": "In my opinion 是固定搭配。不说 I am of opinion 或 According my opinion。",
+            "wrong_note_zh": "表达「在我看来」用 In my opinion；according to 后接他人。"
+          },
+          {
+            "id": "l3a19-cd5",
+            "type": "fill_choice",
+            "prompt_en": "Discussing a film: \"____ that the ending was surprising.\"",
+            "options": ["It seemed to me", "It seem to me", "I seemed that"],
+            "answer": "It seemed to me",
+            "explanation_zh": "It seemed to me (that) 过去式表示「当时在我看来」。seemed 用过去式。",
+            "wrong_note_zh": "主语是 It，动词用 seemed；不说 I seemed that。"
+          },
+          {
+            "id": "l3a19-cd6",
+            "type": "fill_choice",
+            "prompt_en": "Sharing a view: \"____ this is the best option.\"",
+            "options": ["I think", "I am think", "I thinking"],
+            "answer": "I think",
+            "explanation_zh": "I think (that) 引出观点，用一般现在时。think 不加 am 或 -ing。",
+            "wrong_note_zh": "think 表示「认为」时用 I think，不用进行时。"
+          },
+          {
+            "id": "l3a19-cd7",
+            "type": "fill_choice",
+            "prompt_en": "Giving feedback: \"____, we need to revise the draft.\"",
+            "options": ["From my point of view", "From my opinion", "In my point of view"],
+            "answer": "From my point of view",
+            "explanation_zh": "From my point of view 是固定搭配。opinion 用 In my opinion；point of view 用 From。",
+            "wrong_note_zh": "point of view 与 From 搭配；opinion 与 In 搭配，介词不同。"
+          },
+          {
+            "id": "l3a19-cd8",
+            "type": "fill_choice",
+            "prompt_en": "Answering a question: \"What do you think?\" — \"____ it's a good idea.\"",
+            "options": ["I would say", "I would to say", "I would saying"],
+            "answer": "I would say",
+            "explanation_zh": "I would say (that) 委婉表达观点，would 后接动词原形 say。",
+            "wrong_note_zh": "would 后直接接动词原形，不加 to 或 -ing。"
+          },
+          {
+            "id": "l3a19-cd9",
+            "type": "fill_choice",
+            "prompt_en": "At a conference: \"____ that we should invest more in research.\"",
+            "options": ["I believe", "I am believing", "I believes"],
+            "answer": "I believe",
+            "explanation_zh": "I believe 表示观点，用一般现在时。believe 不加 -ing，主语 I 时不用 believes。",
+            "wrong_note_zh": "believe 接 I 时用原形；believes 用于第三人称单数。"
+          },
+          {
+            "id": "l3a19-cd10",
+            "type": "fill_choice",
+            "prompt_en": "Expressing agreement: \"____, the plan makes sense.\"",
+            "options": ["From my point of view", "In my point of view", "According to my view"],
+            "answer": "From my point of view",
+            "explanation_zh": "From my point of view 表示「从我的角度看」。不说 In my point of view。",
+            "wrong_note_zh": "point of view 固定搭配 From；according to 后接信息来源。"
+          }
+        ]
+      },
+      {
+        "id": "contrast_repair",
+        "title_zh": "B. 对比与纠错",
+        "description_zh": "比较相似句子，找出错误并理解正确用法。",
+        "questions": [
+          {
+            "id": "l3a19-cr1",
+            "type": "sentence_choice",
+            "prompt_en": "Which sentence is correct?",
+            "options": [
+              "In my opinion, I think the movie is good.",
+              "I think the movie is good.",
+              "I am think the movie is good."
+            ],
+            "answer": "I think the movie is good.",
+            "explanation_zh": "I think 已表达观点，不必再加 In my opinion（重复）。I am think 语法错误，think 是动词。",
+            "wrong_note_zh": "In my opinion 和 I think 意思相近，不宜连用；think 是动词，不说 I am think。"
+          },
+          {
+            "id": "l3a19-cr2",
+            "type": "sentence_correction",
+            "prompt_en": "From my point of view, I believe that we need more time.",
+            "answer": "From my point of view, we need more time.",
+            "explanation_zh": "From my point of view 已引出观点，I believe that 多余。保留一个即可。",
+            "wrong_note_zh": "多个观点引入语连用会显得啰嗦，选一个即可。"
+          },
+          {
+            "id": "l3a19-cr3",
+            "type": "sentence_choice",
+            "prompt_en": "Which sentence is more natural?",
+            "options": [
+              "I would say that learning English takes time.",
+              "I would say learning English takes time.",
+              "I would to say that learning English takes time."
+            ],
+            "answer": "I would say that learning English takes time.",
+            "explanation_zh": "I would say (that) 表示委婉观点，that 可省略。would 后接动词原形 say，不说 would to say。",
+            "wrong_note_zh": "would 后直接接动词原形，不加 to；I would say 比 I would to say 正确。"
+          }
+        ]
+      },
+      {
+        "id": "guided_production",
+        "title_zh": "C. 引导产出",
+        "description_zh": "根据提示完成或选择最自然的表达。",
+        "questions": [
+          {
+            "id": "l3a19-gp1",
+            "type": "guided_completion",
+            "prompt_en": "Complete naturally: \"____, the idea is worth trying.\"",
+            "cue_zh": "用表示「在我看来」的短语",
+            "options": ["In my opinion", "I think", "It seems to me"],
+            "answer": "In my opinion",
+            "explanation_zh": "句首用 In my opinion 引出观点，后面直接接从句或名词短语。",
+            "wrong_note_zh": "I think 和 It seems to me 通常后接 that 从句；In my opinion 后可接名词短语。"
+          },
+          {
+            "id": "l3a19-gp2",
+            "type": "guided_completion",
+            "prompt_en": "Choose the best reply: \"What do you think about the plan?\"",
+            "cue_zh": "选择自然的观点表达",
+            "options": [
+              "I think it's a good idea.",
+              "I am thinking it's a good idea.",
+              "In my opinion, I think it's a good idea."
+            ],
+            "answer": "I think it's a good idea.",
+            "explanation_zh": "I think 是表达观点的常用方式；用一般现在时。避免 I am thinking（表示「正在想」）或重复 In my opinion, I think。",
+            "wrong_note_zh": "I am thinking 强调「正在思考」，不是「我认为」；In my opinion 和 I think 不宜连用。"
+          },
+          {
+            "id": "l3a19-gp3",
+            "type": "guided_completion",
+            "prompt_en": "Complete: \"____ that we should wait for more information.\"",
+            "cue_zh": "用委婉表达观点的结构",
+            "options": ["It seems to me", "It seem to me", "I seem to me"],
+            "answer": "It seems to me",
+            "explanation_zh": "It seems to me that 表示「在我看来似乎……」，seems 用第三人称单数。",
+            "wrong_note_zh": "主语是 It，动词用 seems；不说 I seem to me。"
+          },
+          {
+            "id": "l3a19-gp4",
+            "type": "guided_completion",
+            "prompt_en": "Choose the correct form: \"____, this approach is more effective.\"",
+            "cue_zh": "用「从我的角度看」的表达",
+            "options": [
+              "From my point of view",
+              "From my opinion",
+              "In my point of view"
+            ],
+            "answer": "From my point of view",
+            "explanation_zh": "From my point of view 是固定搭配。不说 From my opinion 或 In my point of view。",
+            "wrong_note_zh": "opinion 用 In my opinion；point of view 用 From my point of view，介词不同。"
+          }
+        ]
+      }
+    ],
+    "summary_card": {
+      "title_zh": "本关小结",
+      "body_zh": "你练习了在语境中选用恰当的观点表达：In my opinion、I think、I believe、It seems to me that、From my point of view。记住了避免重复（不说 In my opinion, I think）、观点动词用一般现在时（I think 不说 I am think）。继续在写作和口语中应用这些表达吧。"
+    }
+  },
+  "20": {
+    "moduleId": 20,
+    "moduleName_zh": "举例表达",
+    "learning_goal_zh": "在写作和口语中正确选用 for example、such as、for instance、like 等举例表达，并纠正常见错误（如 such like）。",
+    "quick_reminder_zh": [
+      "for example / for instance 可放句首或句中，后接逗号引出完整例子。",
+      "such as 和 like 用于列举，直接接名词；没有 such like 的说法。",
+      "including 也可用于举例：We have several options, including A and B。"
+    ],
+    "sections": [
+      {
+        "id": "context_drill",
+        "title_zh": "A. 情境练习",
+        "description_zh": "在短句中选择正确的举例表达。",
+        "questions": [
+          {
+            "id": "l3a20-cd1",
+            "type": "fill_choice",
+            "prompt_en": "When listing hobbies: \"I enjoy sports ____ swimming and tennis.\"",
+            "options": ["such as", "such like", "for example"],
+            "answer": "such as",
+            "explanation_zh": "列举具体项目时用 such as 或 like，直接接名词。没有 such like 的说法。",
+            "wrong_note_zh": "such like 是错误的，应说 such as 或 like。"
+          },
+          {
+            "id": "l3a20-cd2",
+            "type": "fill_choice",
+            "prompt_en": "Starting a new sentence with an example: \"____, I like apples and oranges.\"",
+            "options": ["For example", "Such as", "Like"],
+            "answer": "For example",
+            "explanation_zh": "句首引出例子用 For example 或 For instance，后接逗号。",
+            "wrong_note_zh": "such as 和 like 通常用于列举，不单独放在句首引出完整句。"
+          },
+          {
+            "id": "l3a20-cd3",
+            "type": "fill_choice",
+            "prompt_en": "In an essay: \"Many countries, ____ Japan and Germany, have strong economies.\"",
+            "options": ["such as", "such like", "for example"],
+            "answer": "such as",
+            "explanation_zh": "插入语中列举用 such as 或 including。",
+            "wrong_note_zh": "such like 是错误的。"
+          },
+          {
+            "id": "l3a20-cd4",
+            "type": "fill_choice",
+            "prompt_en": "Describing skills: \"I can use software ____ Microsoft Word and Excel.\"",
+            "options": ["like", "such like", "for instance"],
+            "answer": "like",
+            "explanation_zh": "列举时 like 和 such as 都可，直接接名词。",
+            "wrong_note_zh": "没有 such like 的说法；for instance 通常后接逗号再接完整例。"
+          }
+        ]
+      },
+      {
+        "id": "contrast_repair",
+        "title_zh": "B. 对比与纠错",
+        "description_zh": "比较相似句子，找出错误并理解正确用法。",
+        "questions": [
+          {
+            "id": "l3a20-cr1",
+            "type": "sentence_choice",
+            "prompt_en": "Which sentence is correct?",
+            "options": [
+              "I like fruits such as apples and bananas.",
+              "I like fruits such like apples and bananas.",
+              "I like fruits for example apples and bananas."
+            ],
+            "answer": "I like fruits such as apples and bananas.",
+            "explanation_zh": "such as 正确；such like 错误；for example 后需逗号再接完整句或短语。",
+            "wrong_note_zh": "such like 是常见错误；for example 后通常有逗号。"
+          },
+          {
+            "id": "l3a20-cr2",
+            "type": "sentence_correction",
+            "prompt_en": "Languages such like English and Spanish are widely used.",
+            "answer": "Languages such as English and Spanish are widely used.",
+            "explanation_zh": "没有 such like，应改为 such as 或 like。",
+            "wrong_note_zh": "such like 是中式英语常见的错误，应记住 such as。"
+          },
+          {
+            "id": "l3a20-cr3",
+            "type": "sentence_choice",
+            "prompt_en": "Which sentence is more natural?",
+            "options": [
+              "For instance, she enjoys reading and writing.",
+              "Such as she enjoys reading and writing.",
+              "Like she enjoys reading and writing."
+            ],
+            "answer": "For instance, she enjoys reading and writing.",
+            "explanation_zh": "For instance 或 For example 放句首引出完整例子；such as 和 like 用于列举名词。",
+            "wrong_note_zh": "Such as 和 like 后接名词，不能直接接 she enjoys...。"
+          }
+        ]
+      },
+      {
+        "id": "guided_production",
+        "title_zh": "C. 引导产出",
+        "description_zh": "根据提示完成或选择最自然的表达。",
+        "questions": [
+          {
+            "id": "l3a20-gp1",
+            "type": "guided_completion",
+            "prompt_en": "Complete: \"There are many options, ____ option A and option B.\"",
+            "cue_zh": "用表示「包括」的举例词",
+            "options": ["including", "such like", "for example"],
+            "answer": "including",
+            "explanation_zh": "including 用于列举包含的内容，直接接名词。",
+            "wrong_note_zh": "such like 错误；for example 通常后接逗号再接完整例。"
+          },
+          {
+            "id": "l3a20-gp2",
+            "type": "guided_completion",
+            "prompt_en": "Choose the best phrasing: \"I study subjects ____ math and science.\"",
+            "cue_zh": "选择正确的举例词",
+            "options": ["such as", "such like", "for example"],
+            "answer": "such as",
+            "explanation_zh": "列举名词时用 such as 或 like。",
+            "wrong_note_zh": "such like 错误；for example 后通常有逗号。"
+          },
+          {
+            "id": "l3a20-gp3",
+            "type": "guided_completion",
+            "prompt_en": "Complete: \"____, you could try calling the office.\"",
+            "cue_zh": "用表示「例如」的短语引出建议",
+            "options": ["For example", "Such as", "Like"],
+            "answer": "For example",
+            "explanation_zh": "句首引出完整建议句用 For example 或 For instance。",
+            "wrong_note_zh": "Such as 和 Like 后接名词，不能直接接 you could...。"
+          }
+        ]
+      }
+    ],
+    "summary_card": {
+      "title_zh": "本关小结",
+      "body_zh": "你练习了 for example、such as、for instance、like、including 的用法。记住：such as 和 like 用于列举名词；for example / for instance 可放句首，后接逗号；没有 such like。继续在写作中应用吧。"
+    }
+  },
+  "21": {
+    "moduleId": 21,
+    "moduleName_zh": "连接词",
+    "learning_goal_zh": "在写作中正确选用连接词（递进、转折、因果、顺序），并避免 although...but、because...so 等重复错误。",
+    "quick_reminder_zh": [
+      "递进：moreover、furthermore、also。转折：but、however、although。",
+      "although 和 but 不能同时用；because 和 so 不能同时用（选一个即可）。",
+      "顺序：First、Second、Then、Finally 用于组织论述。"
+    ],
+    "sections": [
+      {
+        "id": "context_drill",
+        "title_zh": "A. 情境练习",
+        "description_zh": "在短句中选择正确的连接词。",
+        "questions": [
+          {
+            "id": "l3a21-cd1",
+            "type": "fill_choice",
+            "prompt_en": "Adding another reason: \"The plan is cheap. ____, it is efficient.\"",
+            "options": ["Moreover", "Although", "However"],
+            "answer": "Moreover",
+            "explanation_zh": "Moreover 表示递进「此外」，补充另一个理由。",
+            "wrong_note_zh": "Although 表转折；However 也表转折，这里需要递进。"
+          },
+          {
+            "id": "l3a21-cd2",
+            "type": "fill_choice",
+            "prompt_en": "Expressing contrast: \"____ it rained, we went out.\"",
+            "options": ["Although", "Because", "Moreover"],
+            "answer": "Although",
+            "explanation_zh": "Although 表示「尽管」，引导让步从句。",
+            "wrong_note_zh": "Because 表原因；Moreover 表递进。"
+          },
+          {
+            "id": "l3a21-cd3",
+            "type": "fill_choice",
+            "prompt_en": "Showing result: \"He was late. ____, he missed the bus.\"",
+            "options": ["Therefore", "However", "Although"],
+            "answer": "Therefore",
+            "explanation_zh": "Therefore 表示「因此」，引出结果。",
+            "wrong_note_zh": "However 表转折；Although 表让步。"
+          },
+          {
+            "id": "l3a21-cd4",
+            "type": "fill_choice",
+            "prompt_en": "Ordering steps: \"____, we need to plan. ____, we need to act.\"",
+            "options": ["First ... Second", "Because ... So", "Although ... But"],
+            "answer": "First ... Second",
+            "explanation_zh": "First、Second 用于列举步骤。",
+            "wrong_note_zh": "Because...So 和 Although...But 是重复错误。"
+          }
+        ]
+      },
+      {
+        "id": "contrast_repair",
+        "title_zh": "B. 对比与纠错",
+        "description_zh": "找出连接词使用的错误。",
+        "questions": [
+          {
+            "id": "l3a21-cr1",
+            "type": "sentence_choice",
+            "prompt_en": "Which sentence is correct?",
+            "options": [
+              "Although it rained, we went out.",
+              "Although it rained, but we went out.",
+              "Although it rained, however we went out."
+            ],
+            "answer": "Although it rained, we went out.",
+            "explanation_zh": "Although 已含转折意，不能再加 but 或 however。",
+            "wrong_note_zh": "中文可说「虽然……但是」，英文只能选一个。"
+          },
+          {
+            "id": "l3a21-cr2",
+            "type": "sentence_correction",
+            "prompt_en": "Because he was late, so he missed the bus.",
+            "answer": "Because he was late, he missed the bus.",
+            "explanation_zh": "Because 和 so 不能同时用，删去 so 即可。",
+            "wrong_note_zh": "中文常说「因为……所以」，英文只能选一个。"
+          },
+          {
+            "id": "l3a21-cr3",
+            "type": "sentence_choice",
+            "prompt_en": "Which sentence is correct?",
+            "options": [
+              "The plan is good. Furthermore, it is cheap.",
+              "The plan is good. Furthermore it is cheap.",
+              "The plan is good, furthermore it is cheap."
+            ],
+            "answer": "The plan is good. Furthermore, it is cheap.",
+            "explanation_zh": "Furthermore 连接两个独立句时，通常另起一句，后接逗号。",
+            "wrong_note_zh": "Furthermore 后应有逗号；两句之间用句号或分号。"
+          }
+        ]
+      },
+      {
+        "id": "guided_production",
+        "title_zh": "C. 引导产出",
+        "description_zh": "根据提示选择正确的连接词。",
+        "questions": [
+          {
+            "id": "l3a21-gp1",
+            "type": "guided_completion",
+            "prompt_en": "Complete: \"She is smart. ____, she works hard.\"",
+            "cue_zh": "用表示「此外」的递进连接词",
+            "options": ["Moreover", "However", "Although"],
+            "answer": "Moreover",
+            "explanation_zh": "Moreover 或 Furthermore 表示递进，补充另一优点。",
+            "wrong_note_zh": "However 表转折；Although 表让步。"
+          },
+          {
+            "id": "l3a21-gp2",
+            "type": "guided_completion",
+            "prompt_en": "Correct the redundancy: \"Because the weather was bad, so we stayed home.\"",
+            "cue_zh": "去掉多余的连接词",
+            "options": [
+              "Because the weather was bad, we stayed home.",
+              "The weather was bad, so we stayed home.",
+              "Because the weather was bad, so we stayed home."
+            ],
+            "answer": "Because the weather was bad, we stayed home.",
+            "explanation_zh": "Because 和 so 只能用一个。",
+            "wrong_note_zh": "可选 Because... 或 ...so，不能同时用。"
+          },
+          {
+            "id": "l3a21-gp3",
+            "type": "guided_completion",
+            "prompt_en": "Complete: \"____ we tried our best, we did not win.\"",
+            "cue_zh": "用表示「尽管」的连接词",
+            "options": ["Although", "Because", "Therefore"],
+            "answer": "Although",
+            "explanation_zh": "Although 表示让步「尽管」。",
+            "wrong_note_zh": "Because 表原因；Therefore 表结果。"
+          }
+        ]
+      }
+    ],
+    "summary_card": {
+      "title_zh": "本关小结",
+      "body_zh": "你练习了连接词的用法：递进（Moreover、Furthermore）、转折（However、Although）、因果（Because、Therefore）、顺序（First、Second）。记住了 Although...but 和 Because...so 不能同时用。继续在写作中应用吧。"
+    }
+  },
+  "22": {
+    "moduleId": 22,
+    "moduleName_zh": "总结句",
+    "learning_goal_zh": "在段落或文章结尾正确使用 In conclusion、To sum up、In summary、Overall 等总结表达，并避免 To conclusion 等错误。",
+    "quick_reminder_zh": [
+      "In conclusion、To sum up、In summary 用于引出总结，后接逗号。",
+      "Overall、On the whole 表示「总体而言」。",
+      "避免 To conclusion（错误），应说 In conclusion。"
+    ],
+    "sections": [
+      {
+        "id": "context_drill",
+        "title_zh": "A. 情境练习",
+        "description_zh": "在短句中选择正确的总结表达。",
+        "questions": [
+          {
+            "id": "l3a22-cd1",
+            "type": "fill_choice",
+            "prompt_en": "Ending an essay: \"____, we should invest more in education.\"",
+            "options": ["In conclusion", "To conclusion", "For conclusion"],
+            "answer": "In conclusion",
+            "explanation_zh": "In conclusion 是固定搭配，表示「总之」。",
+            "wrong_note_zh": "没有 To conclusion 或 For conclusion，应说 In conclusion。"
+          },
+          {
+            "id": "l3a22-cd2",
+            "type": "fill_choice",
+            "prompt_en": "Summarizing a report: \"____, the project was successful.\"",
+            "options": ["To sum up", "To sum", "For sum up"],
+            "answer": "To sum up",
+            "explanation_zh": "To sum up 是固定搭配，表示「总而言之」。",
+            "wrong_note_zh": "To sum 和 For sum up 是错误的，应说 To sum up。"
+          },
+          {
+            "id": "l3a22-cd3",
+            "type": "fill_choice",
+            "prompt_en": "Generalizing: \"____, the results were positive.\"",
+            "options": ["Overall", "In overall", "To overall"],
+            "answer": "Overall",
+            "explanation_zh": "Overall 表示「总体而言」，直接使用，不加 In 或 To。",
+            "wrong_note_zh": "没有 In overall 或 To overall，直接用 Overall。"
+          },
+          {
+            "id": "l3a22-cd4",
+            "type": "fill_choice",
+            "prompt_en": "Concluding a paragraph: \"____, we need to take action now.\"",
+            "options": ["In summary", "To summary", "For summary"],
+            "answer": "In summary",
+            "explanation_zh": "In summary 是固定搭配。",
+            "wrong_note_zh": "To summary 和 For summary 是错误的。"
+          }
+        ]
+      },
+      {
+        "id": "contrast_repair",
+        "title_zh": "B. 对比与纠错",
+        "description_zh": "找出总结表达的错误。",
+        "questions": [
+          {
+            "id": "l3a22-cr1",
+            "type": "sentence_choice",
+            "prompt_en": "Which phrase is correct?",
+            "options": [
+              "In conclusion,",
+              "To conclusion,",
+              "For conclusion,"
+            ],
+            "answer": "In conclusion,",
+            "explanation_zh": "In conclusion 是固定搭配，用 In 不用 To 或 For。",
+            "wrong_note_zh": "To conclusion 是常见错误，受中文「为了总结」影响。"
+          },
+          {
+            "id": "l3a22-cr2",
+            "type": "sentence_correction",
+            "prompt_en": "To conclusion, we should work together.",
+            "answer": "In conclusion, we should work together.",
+            "explanation_zh": "应改为 In conclusion。",
+            "wrong_note_zh": "To conclusion 是错误表达。"
+          },
+          {
+            "id": "l3a22-cr3",
+            "type": "sentence_choice",
+            "prompt_en": "Which sentence is more natural?",
+            "options": [
+              "On the whole, we are satisfied with the outcome.",
+              "On whole, we are satisfied with the outcome.",
+              "In the whole, we are satisfied with the outcome."
+            ],
+            "answer": "On the whole, we are satisfied with the outcome.",
+            "explanation_zh": "On the whole 是固定搭配，表示「总体而言」。",
+            "wrong_note_zh": "On whole 和 In the whole 是错误的。"
+          }
+        ]
+      },
+      {
+        "id": "guided_production",
+        "title_zh": "C. 引导产出",
+        "description_zh": "根据提示选择正确的总结表达。",
+        "questions": [
+          {
+            "id": "l3a22-gp1",
+            "type": "guided_completion",
+            "prompt_en": "Complete the conclusion: \"____, both approaches have merits.\"",
+            "cue_zh": "用表示「总之」的总结短语",
+            "options": ["In conclusion", "To conclusion", "For conclusion"],
+            "answer": "In conclusion",
+            "explanation_zh": "In conclusion 或 To sum up 都可引出总结。",
+            "wrong_note_zh": "To conclusion 和 For conclusion 是错误表达。"
+          },
+          {
+            "id": "l3a22-gp2",
+            "type": "guided_completion",
+            "prompt_en": "Choose the best phrase: \"____, the plan is feasible.\"",
+            "cue_zh": "用表示「总体而言」的短语",
+            "options": ["Overall", "In overall", "To overall"],
+            "answer": "Overall",
+            "explanation_zh": "Overall 或 On the whole 表示总体评价。",
+            "wrong_note_zh": "In overall 和 To overall 是错误的。"
+          },
+          {
+            "id": "l3a22-gp3",
+            "type": "guided_completion",
+            "prompt_en": "Complete: \"____, we have discussed three main points.\"",
+            "cue_zh": "用表示「总而言之」的总结短语",
+            "options": ["To sum up", "To sum", "For sum up"],
+            "answer": "To sum up",
+            "explanation_zh": "To sum up 或 In summary 可用来总结已讨论的内容。",
+            "wrong_note_zh": "To sum 和 For sum up 是错误的。"
+          }
+        ]
+      }
+    ],
+    "summary_card": {
+      "title_zh": "本关小结",
+      "body_zh": "你练习了 In conclusion、To sum up、In summary、Overall、On the whole 的用法。记住：In conclusion 不是 To conclusion；Overall 直接使用。总结句应概括前文，不宜引入新信息。继续在写作中应用吧。"
+    }
+  }
+}

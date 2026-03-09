@@ -1,0 +1,396 @@
+{
+  "24": {
+    "moduleId": 24,
+    "moduleName_zh": "复杂句型结构",
+    "skillOverview_zh": "在英语中，一个长句通常包含主句（main clause）和从句或附加信息（extra information）。\n\n理解长句时，不需要先理解所有细节。最重要的是先找到句子的「主干」。\n\n句子主干通常是：\n\n主语 + 谓语 + 核心信息\n\n先抓住主干，你就能迅速理解句子的核心意思，再回头理解补充信息。\n\n在 TOEFL 阅读、听力、写作和口语中，这个能力都非常重要。",
+    "keyPatterns": [],
+    "quickExamples": [],
+    "backboneSteps": [
+      {
+        "stepTitle_zh": "第一步：找到主要动作（谓语）",
+        "instruction_zh": "先问：这个句子发生了什么？谁做了什么？",
+        "example_en": "\"The book, which was published in 2020, explores climate change.\"",
+        "highlight_zh": "主要动作是：explores"
+      },
+      {
+        "stepTitle_zh": "第二步：找到动作的主体（主语）",
+        "instruction_zh": "\"The book explores climate change.\"",
+        "highlight_zh": "主语是：The book"
+      },
+      {
+        "stepTitle_zh": "第三步：忽略补充信息",
+        "instruction_zh": "很多长句会加入补充说明，例如：定语从句（which / who / that）、状语从句（although / when / because）、插入语或附加说明。这些信息可以暂时忽略，先理解主句。"
+      }
+    ],
+    "signalWords": [
+      {
+        "category_zh": "对比 / 让步",
+        "items": ["although", "even though", "while"]
+      },
+      {
+        "category_zh": "时间",
+        "items": ["when", "while", "after", "before"]
+      },
+      {
+        "category_zh": "原因",
+        "items": ["because", "since"]
+      },
+      {
+        "category_zh": "定语从句",
+        "items": ["which", "who", "that"]
+      }
+    ],
+    "detailedExamples": [
+      {
+        "example_en": "\"Although the experiment failed, the researchers learned valuable information.\"",
+        "structure_zh": "[Although the experiment failed],\nthe researchers learned valuable information.",
+        "backbone_en": "the researchers learned valuable information",
+        "note_zh": "although 引导让步从句。"
+      },
+      {
+        "example_en": "\"The book, which was published in 2020, explores climate change.\"",
+        "structure_zh": "The book,\n[which was published in 2020],\nexplores climate change.",
+        "backbone_en": "The book explores climate change",
+        "note_zh": "which 引导定语从句。"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong_en": "Although the weather was bad, but we went out.",
+        "correct_en": "Although the weather was bad, we went out.",
+        "explanation_zh": "although 已经表达转折，不需要再使用 but。"
+      },
+      {
+        "wrong_en": "把从句当成主句",
+        "correct_en": "The report shows a rise.",
+        "explanation_zh": "在 \"The report, which was released yesterday, shows a rise\" 中，很多学习者会注意到 was released，但这是定语从句的谓语。真正的主句是：The report shows a rise。"
+      }
+    ],
+    "practiceTypes_zh": [
+      "识别句子的主句",
+      "找到句子的主干结构",
+      "判断哪些部分是补充信息",
+      "将复杂句拆分理解"
+    ],
+    "practiceBenefits_zh": [
+      "在 TOEFL 阅读和听力中快速理解长句",
+      "在写作和口语中构建更清晰的句子"
+    ]
+  },
+  "25": {
+    "moduleId": 25,
+    "moduleName_zh": "从句关系",
+    "skillOverview_zh": "在英语中，复杂句往往通过连接词（connectors）来表达句子之间的逻辑关系。\n\n这些关系可能包括：\n\n- 原因（cause）\n- 结果（result）\n- 对比（contrast）\n- 条件（condition）\n- 时间（time）\n- 目的（purpose）\n\n正确选择连接词，可以让表达逻辑清晰、层次分明。\n\n在 TOEFL 写作和口语中，清楚地表达这些逻辑关系是获得高分的重要因素之一。\n\n当你看到两个句子时，可以先问自己：\n\n「这两个句子之间是什么关系？」\n\n然后再选择合适的连接词。",
+    "keyPatterns": [],
+    "quickExamples": [],
+    "relationshipCategories": [
+      {
+        "category_zh": "原因 / 结果",
+        "description_zh": "用于表达为什么发生某件事，或某件事导致什么结果。",
+        "connectorGroups": [
+          { "label_zh": "原因", "items": ["because", "since", "as"] },
+          { "label_zh": "结果", "items": ["so", "therefore", "as a result", "thus"] }
+        ],
+        "example_en": "Because the weather was bad, we decided to stay indoors.",
+        "example_note_zh": "原因：the weather was bad；结果：we decided to stay indoors"
+      },
+      {
+        "category_zh": "对比 / 让步",
+        "description_zh": "用于表达两个情况之间的对比或转折。",
+        "items": ["although", "even though", "while", "whereas", "however"],
+        "example_en": "Although the exam was difficult, many students passed.",
+        "example_note_zh": "前半句表示困难；后半句表示与预期不同的结果"
+      },
+      {
+        "category_zh": "条件",
+        "description_zh": "用于表达在某种条件下才会发生某件事。",
+        "items": ["if", "unless", "as long as", "provided that"],
+        "example_en": "If you study regularly, you will improve your English.",
+        "example_note_zh": "条件：you study regularly；结果：you improve your English"
+      },
+      {
+        "category_zh": "时间",
+        "description_zh": "用于表达事件发生的时间关系。",
+        "items": ["when", "after", "before", "until", "since", "while"],
+        "example_en": "After the lecture ended, students asked questions.",
+        "example_note_zh": "时间关系：先 lecture ended → 再 students asked questions"
+      },
+      {
+        "category_zh": "目的",
+        "description_zh": "用于表达某个行动的目标或目的。",
+        "items": ["so that", "in order to", "so as to"],
+        "example_en": "She took a taxi so that she wouldn't be late.",
+        "example_note_zh": "目的：not be late；行动：took a taxi"
+      }
+    ],
+    "detailedExamples": [
+      {
+        "example_en": "Because the weather was bad, we decided to stay indoors.",
+        "structure_zh": "[Because the weather was bad],\nwe decided to stay indoors.",
+        "note_zh": "because 引导原因从句。"
+      },
+      {
+        "example_en": "She took a taxi so that she wouldn't be late.",
+        "structure_zh": "She took a taxi\n[so that she wouldn't be late].",
+        "note_zh": "so that 引导目的从句。"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong_en": "Because he was tired, so he went to bed early.",
+        "correct_en": "Because he was tired, he went to bed early. / He was tired, so he went to bed early.",
+        "explanation_zh": "because 和 so 不能同时使用。"
+      },
+      {
+        "wrong_en": "But however, the results were surprising.",
+        "correct_en": "However, the results were surprising. / But the results were surprising.",
+        "explanation_zh": "however 更正式，更常见于学术写作和 TOEFL 写作。"
+      }
+    ],
+    "practiceTypes_zh": [
+      "选择最合适的连接词",
+      "判断两句话之间的逻辑关系",
+      "用不同连接词改写句子",
+      "比较相似连接词并选择更自然的一种"
+    ],
+    "practiceBenefits_zh": [
+      "在 TOEFL 写作中表达清晰的逻辑结构",
+      "在口语中更自然地连接观点",
+      "更容易理解阅读和听力中的复杂句"
+    ]
+  },
+  "26": {
+    "moduleId": 26,
+    "moduleName_zh": "段落衔接与过渡",
+    "skillOverview_zh": "本模块帮助你在 TOEFL 风格的段落中建立句间衔接与连贯。段落中正确使用过渡词能让阅卷人轻松跟上你的思路，提高写作和口语的组织分（Organization）。",
+    "keyPatterns": [
+      {
+        "category_zh": "列举",
+        "items": ["First", "Second", "Furthermore", "Additionally"]
+      },
+      {
+        "category_zh": "转折",
+        "items": ["However", "Nevertheless", "In contrast"]
+      },
+      {
+        "category_zh": "举例",
+        "items": ["For example", "For instance", "Such as"]
+      },
+      {
+        "category_zh": "总结",
+        "items": ["In conclusion", "Therefore", "Thus", "Ultimately"]
+      }
+    ],
+    "quickExamples": [
+      {
+        "example_en": "Online learning has many advantages. First, it offers flexibility. Furthermore, it can be more affordable than traditional courses.",
+        "note_zh": "First 和 Furthermore 使段落层次清晰，读者容易跟随。"
+      },
+      {
+        "example_en": "The experiment showed positive results. However, we cannot generalize to all populations.",
+        "note_zh": "However 表示转折，指出研究局限。"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong_en": "段落中重复使用同一个过渡词（如多处用 Also）",
+        "correct_en": "交替使用 First, Second, Furthermore, Additionally 等，使表达多样。",
+        "explanation_zh": "单一过渡词会让段落显得单调；适当变换可提升流畅度。"
+      },
+      {
+        "wrong_en": "In conclusion 放在段落中间",
+        "correct_en": "In conclusion 应引导总结句，放在段落或文章末尾。",
+        "explanation_zh": "In conclusion 暗示「总结前文」，若后面还有新论点则逻辑混乱。"
+      }
+    ],
+    "practiceTypes_zh": [
+      "在短段落中填入过渡词",
+      "为空白选择最佳过渡词",
+      "将句子重排成连贯段落",
+      "判断某句话最适合插入段落中的位置"
+    ]
+  },
+  "27": {
+    "moduleId": 27,
+    "moduleName_zh": "句子合并与升级",
+    "skillOverview_zh": "本模块帮助你将短句合并成更流畅、自然、高级的英语表达。TOEFL 写作和口语评分标准中的「语言使用」部分看重句式多样性和地道表达，本模块的练习能有效提升这一项。",
+    "keyPatterns": [
+      {
+        "category_zh": "因果合并",
+        "items": ["so", "because", "therefore"]
+      },
+      {
+        "category_zh": "分词结构",
+        "items": ["After finishing...", "Having completed...", "Based on..."]
+      },
+      {
+        "category_zh": "从句拓展",
+        "items": ["which...", "that...", "who..."]
+      },
+      {
+        "category_zh": "程度与结果",
+        "items": ["so...that", "such...that"]
+      }
+    ],
+    "quickExamples": [
+      {
+        "example_en": "The weather was bad, so we stayed home.",
+        "note_zh": "用 so 合并两个短句，比分成两句更简洁。"
+      },
+      {
+        "example_en": "After finishing the report, she sent it to her boss.",
+        "note_zh": "分词结构使句子更流畅，避免 \"She finished... Then she sent...\" 的机械感。"
+      }
+    ],
+    "commonMistakes": [
+      {
+        "wrong_en": "Cities are very very crowded.",
+        "correct_en": "Cities are crowded, which can lead to stress and pollution.",
+        "explanation_zh": "重复 very 无法真正拓展句子；用定语从句补充信息更有效。"
+      },
+      {
+        "wrong_en": "Technology is good. But some think it is bad.",
+        "correct_en": "While many see technology as beneficial, others have concerns.",
+        "explanation_zh": "短句堆叠显得幼稚；用 While 连接对比，用词更丰富、正式。"
+      }
+    ],
+    "practiceTypes_zh": [
+      "用连接词合并两个简单句",
+      "改写句子使其更流畅",
+      "选择更强 / 更自然的版本",
+      "将简单句拓展为更完整的表达"
+    ]
+  },
+  "28": {
+    "moduleId": 28,
+    "moduleName_zh": "同义替换与表达升级",
+    "skillOverview_zh": "在 TOEFL 写作和口语中，重复使用简单词（如 good、bad、very、many）会显得词汇单一，影响得分。\n\n本模块帮助你：\n\n- 用更准确、自然的同义表达替换简单词\n- 升级句式（如 to → in order to）\n- 改写句子以减少重复、提升正式度\n\n练习这些技能能让你的表达更丰富、更符合学术写作和口语的要求。",
+    "keyPatterns": [],
+    "quickExamples": [],
+    "synonymBank": [
+      { "simple_en": "to", "upgraded_en": "in order to", "note_zh": "表目的时更正式" },
+      { "simple_en": "good", "upgraded_en": "beneficial / positive", "note_zh": "beneficial 常用于效果、影响" },
+      { "simple_en": "bad", "upgraded_en": "harmful / negative", "note_zh": "harmful 强调有害" },
+      { "simple_en": "very", "upgraded_en": "extremely / highly", "note_zh": "避免重复 very" },
+      { "simple_en": "many", "upgraded_en": "numerous / a large number of", "note_zh": "写作中更自然" },
+      { "simple_en": "important", "upgraded_en": "crucial / significant", "note_zh": "crucial 强调关键" },
+      { "simple_en": "get", "upgraded_en": "obtain / receive", "note_zh": "正式语境" },
+      { "simple_en": "think", "upgraded_en": "believe / argue / consider", "note_zh": "学术表达" },
+      { "simple_en": "want", "upgraded_en": "desire / would like to", "note_zh": "desire 更正式" },
+      { "simple_en": "need", "upgraded_en": "require / necessary", "note_zh": "require 动词，necessary 形容词" },
+      { "simple_en": "use", "upgraded_en": "utilize / employ", "note_zh": "学术写作常用" },
+      { "simple_en": "make", "upgraded_en": "enable / cause / lead to", "note_zh": "依语境选择" },
+      { "simple_en": "show", "upgraded_en": "demonstrate / indicate", "note_zh": "demonstrate 强调证明" },
+      { "simple_en": "say", "upgraded_en": "state / argue / suggest", "note_zh": "state 陈述，argue 论证" },
+      { "simple_en": "big", "upgraded_en": "significant / substantial", "note_zh": "significant 表重要或显著" },
+      { "simple_en": "small", "upgraded_en": "limited / minimal", "note_zh": "limited 有限，minimal 最小" },
+      { "simple_en": "help", "upgraded_en": "assist / support / contribute to", "note_zh": "assist 较正式" },
+      { "simple_en": "give", "upgraded_en": "provide / offer", "note_zh": "provide 提供" },
+      { "simple_en": "keep", "upgraded_en": "maintain / preserve", "note_zh": "maintain 维持" },
+      { "simple_en": "try", "upgraded_en": "attempt / seek to", "note_zh": "attempt 较正式" },
+      { "simple_en": "start", "upgraded_en": "begin / initiate", "note_zh": "initiate 发起" },
+      { "simple_en": "end", "upgraded_en": "conclude / result in", "note_zh": "conclude 结束，result in 导致" },
+      { "simple_en": "change", "upgraded_en": "transform / alter", "note_zh": "transform 转变" },
+      { "simple_en": "enough", "upgraded_en": "sufficient / adequate", "note_zh": "sufficient 足够" }
+    ],
+    "commonMistakes": [
+      {
+        "wrong_en": "Using \"very\" repeatedly: very important, very good, very bad",
+        "correct_en": "extremely important, highly beneficial, harmful",
+        "explanation_zh": "用 extremely / highly / harmful 等替换，减少重复并提升正式度。"
+      },
+      {
+        "wrong_en": "Repeating the same word in one paragraph",
+        "correct_en": "Use synonyms or refer back: \"this issue\", \"the latter\"",
+        "explanation_zh": "同一段落内避免同一关键词重复出现，可用代词或同义替换。"
+      }
+    ],
+    "practiceTypes_zh": [
+      "根据句子和提示，在横线处填入更正式或自然的表达",
+      "答题时忽略大小写与标点"
+    ],
+    "practiceBenefits_zh": [
+      "写作和口语中词汇更丰富",
+      "减少重复、提升连贯与正式度"
+    ]
+  },
+  "29": {
+    "moduleId": 29,
+    "moduleName_zh": "论点生成练习",
+    "skillOverview_zh": "在 TOEFL 口语和写作中，你通常需要：\n\n- 表达一个立场\n- 给出 2 个支持理由\n- 用例子或解释扩展理由\n\n很多学习者的问题不是语言，而是：\n\n「不知道该说什么理由。」\n\n事实上，大多数 TOEFL 话题都可以用几种常见思路来思考。\n\n本模块将帮助你练习快速生成论点，让你在 1 分钟内就能想出 2–3 个理由。",
+    "keyPatterns": [],
+    "quickExamples": [],
+    "commonMistakes": [],
+    "practiceTypes_zh": [],
+    "argumentFramework": {
+      "title_zh": "如何快速想出论点",
+      "angles": [
+        {
+          "title_zh": "个人影响（Personal Impact）",
+          "title_en": "Personal Impact",
+          "description_zh": "这个选择对人的生活有什么影响？",
+          "angles_zh": ["时间", "压力", "幸福感", "学习效果", "工作机会"],
+          "exampleQuestion_zh": "大学应该选择喜欢的专业还是好就业的专业？",
+          "exampleQuestion_en": "Should students choose a major they like or one that leads to good jobs?",
+          "exampleReasonLabel_zh": "喜欢的专业",
+          "exampleReason_en": "Students are more motivated and enjoy studying."
+        },
+        {
+          "title_zh": "社会影响（Social Impact）",
+          "title_en": "Social Impact",
+          "description_zh": "这个选择对社会有什么影响？",
+          "angles_zh": ["经济发展", "公共资源", "社会公平", "环境保护", "科技进步"],
+          "exampleQuestion_zh": "政府是否应该投资公共交通？",
+          "exampleReason_en": "Public transportation reduces traffic and pollution."
+        },
+        {
+          "title_zh": "实际效果（Practical Results）",
+          "title_en": "Practical Results",
+          "description_zh": "这个选择是否更有效、更方便或更现实？",
+          "angles_zh": ["成本", "效率", "可行性", "长期影响"],
+          "exampleQuestion_zh": "Online learning vs traditional classrooms",
+          "exampleReason_en": "Online learning saves commuting time and allows flexible schedules."
+        }
+      ]
+    },
+    "thinkingFormula": {
+      "title_zh": "一个简单的思考公式",
+      "steps_zh": [
+        "观点",
+        "理由 1（个人影响）",
+        "理由 2（实际效果 / 社会影响）"
+      ],
+      "example": {
+        "topic_zh": "大学生应该住校还是住家里？",
+        "view_en": "Students should live on campus.",
+        "reasons_en": [
+          "It is easier to participate in campus activities.",
+          "Students can save commuting time."
+        ]
+      }
+    },
+    "topicAreas_zh": [
+      "教育（education）",
+      "社会（society）",
+      "政府（government）",
+      "工作（work）",
+      "日常生活（daily life）",
+      "商业（business）",
+      "环境（environment）",
+      "科技（technology）",
+      "媒体（media）",
+      "文化与艺术（culture / art）"
+    ],
+    "practiceFlow_zh": [
+      "系统提出一个讨论问题",
+      "你有 1 分钟时间思考",
+      "尝试想出至少两个支持理由",
+      "时间结束后，系统会展示参考论点供你对比和学习"
+    ],
+    "tips_zh": [
+      "这个选择会节省时间还是浪费时间？",
+      "这个选择会让生活更方便吗？",
+      "这个选择对社会或环境有什么影响？"
+    ]
+  }
+}

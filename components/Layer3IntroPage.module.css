@@ -1,0 +1,446 @@
+.page {
+  max-width: 640px;
+  margin: 0 auto;
+  padding-bottom: var(--space-2xl);
+}
+
+.title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin: 0 0 var(--space-xl) 0;
+  color: var(--text);
+  letter-spacing: -0.02em;
+}
+
+.section {
+  margin-bottom: var(--space-xl);
+}
+
+.sectionTitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 0 var(--space-md) 0;
+  color: var(--text);
+  padding-bottom: var(--space-xs);
+  border-bottom: 2px solid var(--accent);
+  display: inline-block;
+}
+
+.sectionContent {
+  line-height: 1.7;
+  color: var(--text-soft);
+  font-size: 0.95rem;
+}
+
+.sectionContent p {
+  margin: 0 0 var(--space-md) 0;
+}
+
+.sectionContent p:last-child {
+  margin-bottom: 0;
+}
+
+.stepIntro {
+  margin: 0 0 var(--space-md) 0;
+  color: var(--text-soft);
+  font-size: 0.95rem;
+}
+
+.stepBox {
+  background: var(--card);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-sm);
+  padding: var(--space-md);
+  margin-bottom: var(--space-md);
+}
+
+.stepBox:last-child {
+  margin-bottom: 0;
+}
+
+.stepTitle {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin: 0 0 var(--space-sm) 0;
+}
+
+.stepInstruction {
+  margin: 0 0 var(--space-xs) 0;
+  color: var(--text-soft);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.stepExample {
+  margin: var(--space-sm) 0 var(--space-xs) 0;
+  font-style: italic;
+  color: var(--text);
+  font-size: 0.9rem;
+}
+
+.stepHighlight {
+  margin: 0;
+  font-weight: 500;
+  color: var(--accent);
+  font-size: 0.9rem;
+}
+
+.synonymBank {
+  background: var(--card);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-sm);
+  padding: var(--space-md);
+  font-size: 0.95rem;
+}
+.synonymRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-xs);
+  margin-bottom: var(--space-sm);
+}
+.synonymRow:last-child {
+  margin-bottom: 0;
+}
+.synonymSimple {
+  color: var(--text-soft);
+}
+.synonymArrow {
+  color: var(--accent);
+  font-weight: 600;
+}
+.synonymUpgraded {
+  color: var(--text);
+  font-weight: 500;
+}
+.synonymNote {
+  margin-left: var(--space-sm);
+  font-size: 0.85em;
+  color: var(--muted);
+}
+
+/* Argument framework (module 29) */
+.argumentAngleBox {
+  background: var(--card);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-sm);
+  padding: var(--space-md);
+  margin-bottom: var(--space-md);
+}
+.argumentAngleBox:last-child {
+  margin-bottom: 0;
+}
+.argumentAngleTitle {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin: 0 0 var(--space-sm) 0;
+}
+.argumentAngleDesc {
+  margin: 0 0 var(--space-sm) 0;
+  color: var(--text-soft);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+.argumentAngleLabel {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-soft);
+  margin: 0 0 var(--space-xs) 0;
+}
+.argumentExample {
+  margin-top: var(--space-sm);
+  padding-top: var(--space-sm);
+  border-top: 1px dashed var(--border-soft);
+}
+.argumentExampleLabel {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-soft);
+  margin: 0 0 var(--space-xs) 0;
+}
+.argumentExampleQuestion {
+  font-style: italic;
+  color: var(--text);
+  margin: 0 0 var(--space-xs) 0;
+  font-size: 0.95rem;
+}
+.argumentExampleReason {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--text-soft);
+}
+
+/* Thinking formula */
+.formulaSteps {
+  margin: var(--space-md) 0;
+}
+.formulaStep {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-xs);
+  font-size: 0.95rem;
+  color: var(--text);
+}
+.formulaStepArrow {
+  color: var(--accent);
+  font-weight: 700;
+}
+.formulaExample {
+  background: var(--card);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-sm);
+  padding: var(--space-md);
+  margin-top: var(--space-md);
+}
+.formulaExampleLabel,
+.formulaExampleTopic,
+.formulaExampleView,
+.formulaExampleReasonsLabel {
+  margin: 0 0 var(--space-sm) 0;
+  font-size: 0.95rem;
+}
+.formulaExampleReasonsLabel {
+  font-weight: 600;
+  color: var(--text-soft);
+  margin-top: var(--space-sm);
+}
+.practiceListOrdered {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+.practiceListOrdered li {
+  margin-bottom: var(--space-xs);
+}
+.practiceFlowNote,
+.tipsNote {
+  margin: var(--space-sm) 0 0 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.signalIntro {
+  margin: 0 0 var(--space-md) 0;
+  color: var(--text-soft);
+  font-size: 0.95rem;
+}
+
+.relationshipBox {
+  background: var(--card);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-sm);
+  padding: var(--space-md);
+  margin-bottom: var(--space-md);
+}
+
+.relationshipBox:last-child {
+  margin-bottom: 0;
+}
+
+.relationshipTitle {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin: 0 0 var(--space-sm) 0;
+}
+
+.relationshipDesc {
+  margin: 0 0 var(--space-sm) 0;
+  color: var(--text-soft);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.connectorGroup {
+  margin-bottom: var(--space-sm);
+}
+
+.connectorGroup:last-child {
+  margin-bottom: 0;
+}
+
+.connectorLabel {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-soft);
+  display: inline-block;
+  margin-right: var(--space-xs);
+}
+
+.relationshipExample {
+  margin-top: var(--space-sm);
+  padding-top: var(--space-sm);
+  border-top: 1px dashed var(--border-soft);
+}
+
+.exampleLabel {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-soft);
+}
+
+.patternsTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.patternsTable th {
+  text-align: left;
+  padding: var(--space-sm) var(--space-md);
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.patternsTable td {
+  padding: var(--space-sm) var(--space-md);
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.patternsTable tr:last-child td {
+  border-bottom: none;
+}
+
+.patternItems {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+}
+
+.patternTag {
+  background: var(--border-soft);
+  padding: 0.2em 0.5em;
+  border-radius: 4px;
+  font-family: ui-monospace, monospace;
+  font-size: 0.9em;
+}
+
+.exampleBox {
+  background: var(--card);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-sm);
+  padding: var(--space-md);
+  margin-bottom: var(--space-sm);
+}
+
+.detailedExampleBox {
+  background: var(--card);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius-sm);
+  padding: var(--space-md);
+  margin-bottom: var(--space-md);
+}
+
+.detailedExampleBox:last-child {
+  margin-bottom: 0;
+}
+
+.exampleText {
+  font-style: italic;
+  color: var(--text);
+  margin: 0;
+}
+
+.structureBlock {
+  margin: var(--space-sm) 0 var(--space-xs) 0;
+}
+
+.structureLabel {
+  font-weight: 600;
+  color: var(--text-soft);
+  font-size: 0.9rem;
+}
+
+.structurePre {
+  margin: var(--space-xs) 0 0 0;
+  font-family: ui-monospace, monospace;
+  font-size: 0.9rem;
+  color: var(--text);
+  white-space: pre-wrap;
+  line-height: 1.5;
+}
+
+.backboneLine {
+  margin: var(--space-sm) 0 0 0;
+  font-size: 0.95rem;
+}
+
+.backboneLabel {
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.exampleNote {
+  font-size: 0.9em;
+  color: var(--muted);
+  margin: var(--space-xs) 0 0 0;
+}
+
+.practiceIntro,
+.benefitsIntro {
+  margin: 0 0 var(--space-sm) 0;
+  color: var(--text-soft);
+  font-size: 0.95rem;
+}
+
+.benefitsIntro {
+  margin-top: var(--space-md);
+}
+
+.mistakeRow {
+  margin-bottom: var(--space-md);
+}
+
+.mistakeWrong {
+  color: var(--wrong);
+  text-decoration: line-through;
+  font-style: italic;
+}
+
+.mistakeCorrect {
+  color: var(--correct);
+  font-weight: 500;
+}
+
+.mistakeExplanation {
+  font-size: 0.9em;
+  color: var(--muted);
+  margin-top: var(--space-xs);
+}
+
+.practiceList {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.practiceList li {
+  margin-bottom: var(--space-xs);
+}
+
+.ctaWrap {
+  margin-top: var(--space-2xl);
+  padding-top: var(--space-xl);
+  border-top: 1px solid var(--border-soft);
+}
+
+.btnStart {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-md) var(--space-xl);
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  background: var(--accent);
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.btnStart:hover {
+  background: var(--accent-hover);
+}

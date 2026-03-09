@@ -1,0 +1,923 @@
+{
+  "24": {
+    "moduleId": 24,
+    "moduleName_zh": "复杂句型结构",
+    "learning_goal_zh": "帮助学习者识别主句、区分主次信息，理解长句的主干结构。",
+    "quick_reminder_zh": [
+      "主句是句子的核心，包含完整的主谓结构。",
+      "从句、插入语、修饰语是附加信息。",
+      "长句的主干 = 谁 + 做了什么 / 是什么。"
+    ],
+    "sections": [
+      {
+        "id": "context_drill",
+        "title_zh": "识别主句与结构",
+        "description_zh": "识别主句、句子主干和核心含义。",
+        "questions": [
+          {
+            "id": "l3-24-1",
+            "type": "fill_choice",
+            "instruction_zh": "这句话中，哪一部分是主句？",
+            "prompt_en": "Although the experiment failed, the researchers learned valuable information.",
+            "options": [
+              "Although the experiment failed",
+              "the researchers learned valuable information",
+              "the experiment"
+            ],
+            "answer": "the researchers learned valuable information",
+            "explanation_zh": "主句是 \"the researchers learned valuable information\"，它有完整的主谓结构。\"Although the experiment failed\" 是从句，起让步作用。",
+            "wrong_note_zh": "\"Although...\" 引导的是让步状语从句，不能单独成句。"
+          },
+          {
+            "id": "l3-24-2",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项最能体现这句话的句子主干？",
+            "prompt_en": "The book, which was published in 2020 and has sold over a million copies, explores climate change.",
+            "options": [
+              "The book explores climate change.",
+              "The book was published in 2020.",
+              "The book has sold over a million copies."
+            ],
+            "answer": "The book explores climate change.",
+            "explanation_zh": "主干是主句的核心：The book + explores + climate change。中间是定语从句的补充信息。",
+            "wrong_note_zh": "定语从句中的内容（出版时间、销量）是附加细节，不是主干。"
+          },
+          {
+            "id": "l3-24-3",
+            "type": "fill_choice",
+            "instruction_zh": "去掉次要信息，保留核心含义。下列哪一项最接近这句话的核心？",
+            "prompt_en": "Students who study regularly, unlike those who cram, tend to perform better.",
+            "options": [
+              "Students tend to perform better.",
+              "Students who study regularly tend to perform better.",
+              "Unlike those who cram, students perform."
+            ],
+            "answer": "Students who study regularly tend to perform better.",
+            "explanation_zh": "核心信息是：有规律学习的学生表现更好。\"unlike those who cram\" 是对比说明，可删去但对比组 \"who study regularly\" 需保留以表达完整含义。",
+            "wrong_note_zh": "\"Students tend to perform better\" 过于笼统；\"unlike those who cram\" 是插入对比，非主干。"
+          },
+          {
+            "id": "l3-24-4",
+            "type": "sentence_choice",
+            "instruction_zh": "这句话中的主句是哪一部分？",
+            "prompt_en": "When the meeting ended, everyone left the room, although a few stayed to ask questions.",
+            "options": [
+              "When the meeting ended",
+              "everyone left the room",
+              "a few stayed to ask questions"
+            ],
+            "answer": "everyone left the room",
+            "explanation_zh": "主句是 \"everyone left the room\"。\"When the meeting ended\" 是时间状语从句，\"although...\" 是让步从句。",
+            "wrong_note_zh": "时间状语和让步从句都从属于主句。"
+          },
+          {
+            "id": "l3-24-5",
+            "type": "fill_choice",
+            "instruction_zh": "将长句拆分后，主要信息是：",
+            "prompt_en": "Despite the rain, the outdoor concert, which had been planned for months, went ahead as scheduled.",
+            "options": [
+              "The concert went ahead as scheduled.",
+              "The concert had been planned for months.",
+              "Despite the rain, the concert."
+            ],
+            "answer": "The concert went ahead as scheduled.",
+            "explanation_zh": "主句核心是 \"The concert went ahead as scheduled\"。\"Despite the rain\" 和 \"which had been planned for months\" 是次要信息。",
+            "wrong_note_zh": "\"had been planned\" 是定语从句中的谓语，不是主句动作。"
+          },
+          {
+            "id": "l3-24-6",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪个选项是这句话的句子主干？",
+            "prompt_en": "In recent years, technology, especially smartphones, has changed how people communicate.",
+            "options": [
+              "In recent years, technology has changed how people communicate.",
+              "Technology has changed how people communicate.",
+              "Smartphones have changed how people communicate."
+            ],
+            "answer": "Technology has changed how people communicate.",
+            "explanation_zh": "主干是 Technology + has changed + how people communicate。\"In recent years\" 和 \"especially smartphones\" 是状语和同位语。",
+            "wrong_note_zh": "\"especially smartphones\" 是举例说明，不是主语。"
+          },
+          {
+            "id": "l3-24-7",
+            "type": "guided_completion",
+            "instruction_zh": "选择主句",
+            "prompt_en": "If you finish early, you may leave the room.",
+            "options": [
+              "If you finish early",
+              "you may leave the room",
+              "finish early"
+            ],
+            "answer": "you may leave the room",
+            "explanation_zh": "主句是 \"you may leave the room\"，条件从句 \"If you finish early\" 从属于它。",
+            "wrong_note_zh": "if 引导的是条件从句，不能单独作主句。"
+          },
+          {
+            "id": "l3-24-8",
+            "type": "fill_choice",
+            "instruction_zh": "去掉次要信息后，保留的是：",
+            "prompt_en": "The professor, who has won several awards, teaches economics at the university.",
+            "options": [
+              "The professor teaches economics at the university.",
+              "The professor has won several awards.",
+              "Who has won several awards teaches economics."
+            ],
+            "answer": "The professor teaches economics at the university.",
+            "explanation_zh": "去掉定语从句后，主干是 The professor teaches economics at the university。",
+            "wrong_note_zh": "\"has won several awards\" 是定语从句内容，可删去。"
+          },
+          {
+            "id": "l3-24-9",
+            "type": "sentence_choice",
+            "instruction_zh": "下面哪一项最能体现这句话的核心？",
+            "prompt_en": "While some prefer coffee, others, including many students, prefer tea for studying.",
+            "options": [
+              "Some prefer coffee.",
+              "Others prefer tea for studying.",
+              "Many students prefer tea."
+            ],
+            "answer": "Others prefer tea for studying.",
+            "explanation_zh": "主句是 \"others prefer tea for studying\"。\"including many students\" 是同位语，\"While some prefer coffee\" 是对比从句。",
+            "wrong_note_zh": "主句的主语是 others，谓语是 prefer；\"including many students\" 只是补充。"
+          },
+          {
+            "id": "l3-24-10",
+            "type": "fill_choice",
+            "instruction_zh": "这句话中的主句是：",
+            "prompt_en": "The report, which was released yesterday, shows a rise in sales.",
+            "options": [
+              "The report shows a rise in sales.",
+              "The report was released yesterday.",
+              "Which was released yesterday, shows a rise."
+            ],
+            "answer": "The report shows a rise in sales.",
+            "explanation_zh": "主句是 The report shows a rise in sales。定语从句 \"which was released yesterday\" 提供时间信息。",
+            "wrong_note_zh": "\"was released\" 属于定语从句，不是主句谓语。"
+          }
+        ]
+      },
+      {
+        "id": "guided_production",
+        "title_zh": "听力：识别句子主干",
+        "description_zh": "听句子后选择最能表达句子主干的选项。答题前不显示原文。",
+        "questions": [
+          {
+            "id": "l3-24-l1",
+            "type": "listening_backbone",
+            "instruction_zh": "请听下面的句子，并选择最能表达句子主干的选项。",
+            "prompt_en": "Although the experiment failed, the researchers learned valuable information.",
+            "options": [
+              "Although the experiment failed",
+              "the researchers learned valuable information",
+              "the experiment"
+            ],
+            "answer": "the researchers learned valuable information",
+            "explanation_zh": "主句是 the researchers learned valuable information。Although 引导让步从句。"
+          },
+          {
+            "id": "l3-24-l2",
+            "type": "listening_backbone",
+            "instruction_zh": "请听下面的句子，并选择最能表达句子主干的选项。",
+            "prompt_en": "The book, which was published in 2020, explores climate change.",
+            "options": [
+              "The book explores climate change.",
+              "The book was published in 2020.",
+              "which was published in 2020"
+            ],
+            "answer": "The book explores climate change.",
+            "explanation_zh": "主干是 The book explores climate change。which 引导定语从句。"
+          },
+          {
+            "id": "l3-24-l3",
+            "type": "listening_backbone",
+            "instruction_zh": "请听下面的句子，并选择最能表达句子主干的选项。",
+            "prompt_en": "When the meeting ended, everyone left the room.",
+            "options": [
+              "When the meeting ended",
+              "everyone left the room",
+              "the meeting ended"
+            ],
+            "answer": "everyone left the room",
+            "explanation_zh": "主句是 everyone left the room。When 引导时间状语从句。"
+          },
+          {
+            "id": "l3-24-l4",
+            "type": "listening_backbone",
+            "instruction_zh": "请听下面的句子，并选择最能表达句子主干的选项。",
+            "prompt_en": "Despite the rain, the outdoor concert went ahead as scheduled.",
+            "options": [
+              "Despite the rain",
+              "the outdoor concert went ahead as scheduled.",
+              "the rain"
+            ],
+            "answer": "the outdoor concert went ahead as scheduled.",
+            "explanation_zh": "主句是 the outdoor concert went ahead as scheduled。Despite the rain 是让步状语。"
+          },
+          {
+            "id": "l3-24-l5",
+            "type": "listening_backbone",
+            "instruction_zh": "请听下面的句子，并选择最能表达句子主干的选项。",
+            "prompt_en": "Technology, especially smartphones, has changed how people communicate.",
+            "options": [
+              "Technology has changed how people communicate.",
+              "especially smartphones",
+              "has changed how people communicate"
+            ],
+            "answer": "Technology has changed how people communicate.",
+            "explanation_zh": "主干是 Technology has changed how people communicate。especially smartphones 是同位语。"
+          },
+          {
+            "id": "l3-24-l6",
+            "type": "listening_backbone",
+            "instruction_zh": "请听下面的句子，并选择最能表达句子主干的选项。",
+            "prompt_en": "The professor, who has won several awards, teaches economics at the university.",
+            "options": [
+              "The professor teaches economics at the university.",
+              "The professor has won several awards.",
+              "who has won several awards"
+            ],
+            "answer": "The professor teaches economics at the university.",
+            "explanation_zh": "主句是 The professor teaches economics at the university。定语从句可删去。"
+          },
+          {
+            "id": "l3-24-l7",
+            "type": "listening_backbone",
+            "instruction_zh": "请听下面的句子，并选择最能表达句子主干的选项。",
+            "prompt_en": "If you finish early, you may leave the room.",
+            "options": [
+              "If you finish early",
+              "you may leave the room",
+              "finish early"
+            ],
+            "answer": "you may leave the room",
+            "explanation_zh": "主句是 you may leave the room。If 引导条件从句。"
+          },
+          {
+            "id": "l3-24-l8",
+            "type": "listening_backbone",
+            "instruction_zh": "请听下面的句子，并选择最能表达句子主干的选项。",
+            "prompt_en": "The report, which was released yesterday, shows a rise in sales.",
+            "options": [
+              "The report shows a rise in sales.",
+              "The report was released yesterday.",
+              "which was released yesterday"
+            ],
+            "answer": "The report shows a rise in sales.",
+            "explanation_zh": "主句是 The report shows a rise in sales。定语从句补充时间信息。"
+          },
+          {
+            "id": "l3-24-l9",
+            "type": "listening_backbone",
+            "instruction_zh": "请听下面的句子，并选择最能表达句子主干的选项。",
+            "prompt_en": "While some prefer coffee, others prefer tea for studying.",
+            "options": [
+              "Some prefer coffee.",
+              "Others prefer tea for studying.",
+              "While some prefer coffee"
+            ],
+            "answer": "Others prefer tea for studying.",
+            "explanation_zh": "主句是 others prefer tea for studying。While 引导对比从句。"
+          },
+          {
+            "id": "l3-24-l10",
+            "type": "listening_backbone",
+            "instruction_zh": "请听下面的句子，并选择最能表达句子主干的选项。",
+            "prompt_en": "In recent years, renewable energy has become more affordable.",
+            "options": [
+              "Renewable energy has become more affordable.",
+              "In recent years",
+              "has become more affordable"
+            ],
+            "answer": "Renewable energy has become more affordable.",
+            "explanation_zh": "主干是 Renewable energy has become more affordable。In recent years 是时间状语。"
+          }
+        ]
+      }
+    ],
+    "summary_card": {
+      "title_zh": "复杂句型结构",
+      "body_zh": "长句的主干 = 主句 = 谁 + 做了什么/是什么。从句、插入语、修饰语是附加信息。练习识别主句能帮你快速把握长句核心。"
+    }
+  },
+  "25": {
+    "moduleId": 25,
+    "moduleName_zh": "从句关系",
+    "learning_goal_zh": "帮助学习者理解从句之间的逻辑关系：因果、对比、条件、时间、目的、结果等。",
+    "quick_reminder_zh": [
+      "因果：because, since, so, therefore",
+      "对比：although, however, whereas, while",
+      "条件：if, unless, as long as",
+      "时间：when, after, before, until"
+    ],
+    "sections": [
+      {
+        "id": "context_drill",
+        "title_zh": "连接词与从句关系",
+        "description_zh": "选择最佳连接词，识别从句之间的逻辑关系。",
+        "questions": [
+          {
+            "id": "l3-25-1",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ the weather was bad, we decided to stay indoors.",
+            "options": ["Because", "Although", "Therefore", "Meanwhile"],
+            "answer": "Because",
+            "explanation_zh": "因果关系：天气不好导致我们决定留在室内。Because 表示原因。",
+            "wrong_note_zh": "Although 表示让步（尽管），不符合因果逻辑。"
+          },
+          {
+            "id": "l3-25-2",
+            "type": "sentence_choice",
+            "instruction_zh": "这两部分之间的逻辑关系是：",
+            "prompt_en": "She studied hard; therefore, she passed the exam.",
+            "options": [
+              "Cause and effect",
+              "Contrast",
+              "Condition",
+              "Time sequence"
+            ],
+            "answer": "Cause and effect",
+            "explanation_zh": "therefore 表示结果：努力学习 → 通过考试，是因果关系。",
+            "wrong_note_zh": "contrast 表示对比，condition 表示条件，这里没有。"
+          },
+          {
+            "id": "l3-25-3",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的连接词填空：",
+            "prompt_en": "_____ you submit the essay by Friday, you will lose points.",
+            "options": ["If", "Unless", "Although", "Because"],
+            "answer": "Unless",
+            "explanation_zh": "条件关系：Unless = 如果不。不按时交就会扣分。",
+            "wrong_note_zh": "If 需搭配 \"do not submit\" 才能表达相同意思。Unless = if not。"
+          },
+          {
+            "id": "l3-25-4",
+            "type": "sentence_choice",
+            "instruction_zh": "用不同的连接词改写原句，保持因果关系。原句：",
+            "prompt_en": "He was tired, so he went to bed early.",
+            "options": [
+              "Because he was tired, he went to bed early.",
+              "Although he was tired, he went to bed early.",
+              "When he was tired, he went to bed early."
+            ],
+            "answer": "Because he was tired, he went to bed early.",
+            "explanation_zh": "so 表结果，because 表原因，二者可互换表达同一因果关系。",
+            "wrong_note_zh": "Although 会改变含义（尽管累却早睡）；When 强调时间而非因果。"
+          },
+          {
+            "id": "l3-25-5",
+            "type": "fill_choice",
+            "prompt_en": "Compare: _____ the two options, \"however\" is more formal than \"but\" in academic writing.",
+            "options": ["Whereas", "While", "Between", "Although"],
+            "answer": "Between",
+            "explanation_zh": "compare + between 表示「比较两者」。Between the two options 是正确搭配。",
+            "wrong_note_zh": "Whereas/While 用于连接两个从句表示对比，不用于 \"compare...\" 结构。"
+          },
+          {
+            "id": "l3-25-6",
+            "type": "sentence_choice",
+            "instruction_zh": "这句话中主句与从句的逻辑关系是：",
+            "prompt_en": "The project failed because the team lacked sufficient funding.",
+            "options": [
+              "Cause and effect (cause stated second)",
+              "Cause and effect (effect stated second)",
+              "Contrast",
+              "Purpose"
+            ],
+            "answer": "Cause and effect (cause stated second)",
+            "explanation_zh": "主句是结果（项目失败），从句是原因（缺乏资金）。because 后接原因。",
+            "wrong_note_zh": "cause 在 because 之后，effect 在主句。"
+          },
+          {
+            "id": "l3-25-7",
+            "type": "fill_choice",
+            "instruction_zh": "选择表示目的的连接词填空：",
+            "prompt_en": "She took a taxi _____ she wouldn't be late.",
+            "options": ["because", "so that", "although", "when"],
+            "answer": "so that",
+            "explanation_zh": "目的关系：为了不迟到而打车。so that 表目的。",
+            "wrong_note_zh": "because 表原因；这里「打车」是手段，「不迟到」是目的。"
+          },
+          {
+            "id": "l3-25-8",
+            "type": "guided_completion",
+            "prompt_en": "Choose the better connector for academic writing: \"The data suggests a trend. _____, more research is needed.\"",
+            "cue_zh": "选更正式、自然的连接词",
+            "options": ["But", "However", "So", "And"],
+            "answer": "However",
+            "explanation_zh": "However 比 but 更正式，适合学术写作，表示转折。",
+            "wrong_note_zh": "But 较口语；So/And 不表示转折。"
+          },
+          {
+            "id": "l3-25-9",
+            "type": "sentence_choice",
+            "instruction_zh": "用表示对比/让步的连接词将两句话合并。原句：",
+            "prompt_en": "It was raining. We still went for a walk.",
+            "options": [
+              "Although it was raining, we still went for a walk.",
+              "Because it was raining, we still went for a walk.",
+              "When it was raining, we still went for a walk."
+            ],
+            "answer": "Although it was raining, we still went for a walk.",
+            "explanation_zh": "Although 表示让步：尽管下雨，仍然去散步。体现对比关系。",
+            "wrong_note_zh": "Because 表因果；When 表时间，都不体现「尽管…仍然」的对比。"
+          },
+          {
+            "id": "l3-25-10",
+            "type": "fill_choice",
+            "instruction_zh": "选择表示时间先后的连接词填空：",
+            "prompt_en": "_____ the deadline passed, no more submissions were accepted.",
+            "options": ["After", "Because", "Although", "So that"],
+            "answer": "After",
+            "explanation_zh": "时间关系：截止日期过后，不再接受提交。After 表时间先后。",
+            "wrong_note_zh": "逻辑上是时间先后，而非因果或目的。"
+          }
+        ]
+      }
+    ],
+    "summary_card": {
+      "title_zh": "从句关系",
+      "body_zh": "掌握连接词和从句关系：因果(because/so)、对比(although/however)、条件(if/unless)、时间(when/after)、目的(so that)。TOEFL 写作中准确使用连接词能提升逻辑清晰度。"
+    }
+  },
+  "26": {
+    "moduleId": 26,
+    "moduleName_zh": "段落衔接与过渡",
+    "learning_goal_zh": "帮助学习者在 TOEFL 风格的段落中建立句间衔接与连贯。",
+    "quick_reminder_zh": [
+      "过渡词连接句子，使段落流畅。",
+      "First, Second, Furthermore, However, In conclusion 等。",
+      "句子顺序影响段落逻辑。"
+    ],
+    "sections": [
+      {
+        "id": "context_drill",
+        "title_zh": "过渡词与衔接",
+        "description_zh": "填空选择过渡词，理解段落逻辑与连贯性。",
+        "questions": [
+          {
+            "id": "l3-26-1",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空（两处）：",
+            "prompt_en": "Online learning has many advantages. _____, it offers flexibility. _____, it can be more affordable.",
+            "options": [
+              "First / Second",
+              "However / Therefore",
+              "In conclusion / For example",
+              "Although / So"
+            ],
+            "answer": "First / Second",
+            "explanation_zh": "列举优点时用 First... Second... 表示顺序。",
+            "wrong_note_zh": "However 表转折；In conclusion 用于结尾；这里需要列举过渡。"
+          },
+          {
+            "id": "l3-26-2",
+            "type": "sentence_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "Some people prefer city life. _____, others enjoy the countryside.",
+            "options": [
+              "Therefore",
+              "In contrast",
+              "For example",
+              "As a result"
+            ],
+            "answer": "In contrast",
+            "explanation_zh": "前后对比两种偏好，In contrast 表示对比。",
+            "wrong_note_zh": "Therefore/As a result 表因果；For example 表举例。"
+          },
+          {
+            "id": "l3-26-3",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空（两处）：",
+            "prompt_en": "The study had limitations. _____, the sample size was small. _____, more research is needed.",
+            "options": [
+              "For instance / Therefore",
+              "However / Although",
+              "In conclusion / First",
+              "Because / So"
+            ],
+            "answer": "For instance / Therefore",
+            "explanation_zh": "For instance 举例说明局限；Therefore 引出结论（需要更多研究）。",
+            "wrong_note_zh": "However 用于转折；这里先举例再结论。"
+          },
+          {
+            "id": "l3-26-4",
+            "type": "sentence_choice",
+            "instruction_zh": "下列哪一句最适合接在「One benefit of exercise is improved mood.」之后？",
+            "prompt_en": "One benefit of exercise is improved mood.",
+            "options": [
+              "However, many people avoid it.",
+              "Furthermore, it can reduce stress.",
+              "In conclusion, exercise is important.",
+              "For example, some prefer running."
+            ],
+            "answer": "Furthermore, it can reduce stress.",
+            "explanation_zh": "Furthermore 延续同一论点（运动的好处），添加另一个优点，保持段落连贯。",
+            "wrong_note_zh": "However 会转折；In conclusion 太早；For example 可接受但 Furthermore 更直接延续「好处」主题。"
+          },
+          {
+            "id": "l3-26-5",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空：",
+            "prompt_en": "The experiment showed positive results. _____, we cannot generalize to all populations.",
+            "options": ["However", "Furthermore", "For example", "First"],
+            "answer": "However",
+            "explanation_zh": "However 表示转折：尽管有积极结果，但不能泛化。",
+            "wrong_note_zh": "Furthermore 表示递进；这里需要转折。"
+          },
+          {
+            "id": "l3-26-6",
+            "type": "sentence_choice",
+            "instruction_zh": "将句子重新排列成连贯段落。下列哪一句应该放在最后？",
+            "options": [
+              "First, renewable energy reduces carbon emissions.",
+              "In conclusion, switching to renewables benefits both the environment and the economy.",
+              "Second, it can create new jobs.",
+              "Furthermore, costs have decreased in recent years."
+            ],
+            "answer": "In conclusion, switching to renewables benefits both the environment and the economy.",
+            "explanation_zh": "In conclusion 引导总结句，应放在段落末尾。",
+            "wrong_note_zh": "First, Second, Furthermore 用于正文；结论句应最后出现。"
+          },
+          {
+            "id": "l3-26-7",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空（两处）：",
+            "prompt_en": "Reading improves vocabulary. _____, it expands knowledge. _____, it is a valuable habit.",
+            "options": [
+              "Additionally / Thus",
+              "However / Although",
+              "In contrast / Therefore",
+              "Because / So"
+            ],
+            "answer": "Additionally / Thus",
+            "explanation_zh": "Additionally 添加另一好处；Thus 引出总结。",
+            "wrong_note_zh": "However/In contrast 表转折；这里需要递进和总结。"
+          },
+          {
+            "id": "l3-26-8",
+            "type": "sentence_choice",
+            "instruction_zh": "\"This supports the main argument.\" 这句话最适合放在哪里？",
+            "options": [
+              "At the start of a paragraph",
+              "After presenting evidence",
+              "In the concluding sentence only",
+              "Between two unrelated ideas"
+            ],
+            "answer": "After presenting evidence",
+            "explanation_zh": "\"This supports\" 指代前文证据，应紧接在证据之后，解释其作用。",
+            "wrong_note_zh": "段落开头缺少前文；结论句通常总结全文；不相关想法之间无法「支持」。"
+          },
+          {
+            "id": "l3-26-9",
+            "type": "guided_completion",
+            "prompt_en": "Choose the best transition: \"Many students struggle with time management. _____, they can improve with practice.\"",
+            "cue_zh": "选择表示「尽管如此/然而可以」的过渡词",
+            "options": ["Therefore", "However", "For example", "In addition"],
+            "answer": "However",
+            "explanation_zh": "However 表示转折：虽然有困难，但可以通过练习改进。",
+            "wrong_note_zh": "Therefore 表因果；这里强调转折和希望。"
+          },
+          {
+            "id": "l3-26-10",
+            "type": "fill_choice",
+            "instruction_zh": "选择最合适的过渡词填空（两处）：",
+            "prompt_en": "_____, let me summarize the key points. _____, education shapes future opportunities.",
+            "options": [
+              "In conclusion / First",
+              "First / Second",
+              "For example / However",
+              "In conclusion / Ultimately"
+            ],
+            "answer": "In conclusion / Ultimately",
+            "explanation_zh": "In conclusion 引出总结；Ultimately 强调最终要点。",
+            "wrong_note_zh": "First/Second 用于列举，不适合总结段；For example 不用于结论。"
+          }
+        ]
+      }
+    ],
+    "summary_card": {
+      "title_zh": "段落衔接与过渡",
+      "body_zh": "过渡词让段落连贯：First/Second 列举，Furthermore 递进，However 转折，For instance 举例，Therefore/Thus 结论，In conclusion 总结。注意句子顺序和逻辑衔接。"
+    }
+  },
+  "27": {
+    "moduleId": 27,
+    "moduleName_zh": "句子合并与升级",
+    "learning_goal_zh": "帮助学习者将短句合并成更流畅、完整的英语句子。",
+    "quick_reminder_zh": [
+      "用连接词（so, because, which 等）合并两句话。",
+      "用分词结构（After finishing...）连接先后动作。",
+      "用 so...that 表达程度与结果。"
+    ],
+    "sections": [
+      {
+        "id": "context_drill",
+        "title_zh": "合并句子",
+        "description_zh": "将下面两句话合并成一句，在输入框中写出合并后的句子。",
+        "questions": [
+          {
+            "id": "l3-27-1",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The weather was bad. We stayed home.",
+            "answer": "The weather was bad, so we stayed home.",
+            "acceptable_answers": [
+              "The weather was bad, so we stayed home.",
+              "We stayed home because the weather was bad."
+            ],
+            "explanation_zh": "用 so 或 because 连接因果，简洁自然。",
+            "hint_zh": "试试用 so 或 because 连接因果"
+          },
+          {
+            "id": "l3-27-2",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "She finished the report. She sent it to her boss.",
+            "answer": "After finishing the report, she sent it to her boss.",
+            "explanation_zh": "分词结构 \"After finishing\" 使句子更流畅，避免两个短句的机械连接。",
+            "hint_zh": "试试用 After finishing 的分词结构"
+          },
+          {
+            "id": "l3-27-3",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "He studied hard. He passed the exam.",
+            "answer": "He studied hard, so he passed the exam.",
+            "acceptable_answers": [
+              "He studied hard, so he passed the exam.",
+              "He passed the exam because he studied hard."
+            ],
+            "explanation_zh": "用 so 或 because 连接因果。",
+            "hint_zh": "试试用 so 或 because 连接因果"
+          },
+          {
+            "id": "l3-27-4",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The book was interesting. I read it in one day.",
+            "answer": "The book was so interesting that I read it in one day.",
+            "explanation_zh": "用 so...that 结构表达程度与结果。",
+            "hint_zh": "试试用 so...that 表达程度与结果"
+          },
+          {
+            "id": "l3-27-5",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "The meeting was cancelled. We had more time to prepare.",
+            "answer": "The meeting was cancelled, so we had more time to prepare.",
+            "acceptable_answers": [
+              "The meeting was cancelled, so we had more time to prepare.",
+              "We had more time to prepare because the meeting was cancelled."
+            ],
+            "explanation_zh": "用 so 或 because 连接因果。",
+            "hint_zh": "试试用 so 连接因果"
+          },
+          {
+            "id": "l3-27-6",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "Cities are crowded. This can lead to stress and pollution.",
+            "answer": "Cities are crowded, which can lead to stress and pollution.",
+            "explanation_zh": "用 which 引导定语从句拓展，说明「拥挤」的后果。",
+            "hint_zh": "试试用 which 引导定语从句"
+          },
+          {
+            "id": "l3-27-7",
+            "type": "sentence_correction",
+            "instruction_zh": "将下面两句话合并为一句。",
+            "prompt_en": "Online learning is popular. It offers flexibility.",
+            "answer": "Online learning is popular because it offers flexibility.",
+            "explanation_zh": "用 because 从句说明原因。",
+            "hint_zh": "试试用 because 从句说明原因"
+          }
+        ]
+      }
+    ],
+    "summary_card": {
+      "title_zh": "句子合并",
+      "body_zh": "合并短句：用 so/because 连接因果；用 After finishing 等分词结构连接先后动作；用 so...that 表达程度与结果；用 which 引导定语从句拓展。"
+    }
+  },
+  "28": {
+    "moduleId": 28,
+    "moduleName_zh": "同义替换与表达升级",
+    "learning_goal_zh": "帮助学习者在写作和口语中避免重复简单词，选用更自然、正式的同义表达。",
+    "quick_reminder_zh": [
+      "用 beneficial / harmful、crucial / significant 等替换 good / bad / important。",
+      "用 in order to 表目的；用 numerous、extremely 等减少 very / many 的重复。",
+      "改写句子时保持原意，提升词汇多样性与正式度。"
+    ],
+    "sections": [
+      {
+        "id": "context_drill",
+        "title_zh": "同义替换填空",
+        "description_zh": "将句中的简单词替换为更正式的表达，在输入框写出替换词。答题时忽略大小写与标点。",
+        "questions": [
+          {
+            "id": "l3-28-1",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 good 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "Regular exercise is good for mental health.",
+            "answer": "beneficial",
+            "acceptable_answers": ["beneficial", "positive"],
+            "explanation_zh": "beneficial 表示「有益的」，比 good 更准确、正式。",
+            "hint_zh": "beneficial / positive"
+          },
+          {
+            "id": "l3-28-2",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 to（表目的）替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "The government introduced the policy to reduce pollution.",
+            "answer": "in order to",
+            "explanation_zh": "表目的时 in order to 比 to 更正式。",
+            "hint_zh": "in order to"
+          },
+          {
+            "id": "l3-28-3",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 bad 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "Smoking is bad for your health.",
+            "answer": "harmful",
+            "acceptable_answers": ["harmful", "negative"],
+            "explanation_zh": "harmful 明确表示「有害的」，比 bad 更准确。",
+            "hint_zh": "harmful / negative"
+          },
+          {
+            "id": "l3-28-4",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 very 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "The results were very significant.",
+            "answer": "extremely",
+            "acceptable_answers": ["extremely", "highly"],
+            "explanation_zh": "extremely / highly 比 very 更正式。",
+            "hint_zh": "extremely / highly"
+          },
+          {
+            "id": "l3-28-5",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 many 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "Many students participated in the survey.",
+            "answer": "Numerous",
+            "acceptable_answers": ["numerous", "a large number of", "many"],
+            "explanation_zh": "numerous 或 a large number of 比 many 更正式。",
+            "hint_zh": "numerous / a large number of"
+          },
+          {
+            "id": "l3-28-6",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 important 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "It is important to protect the environment.",
+            "answer": "crucial",
+            "acceptable_answers": ["crucial", "important", "significant", "essential"],
+            "explanation_zh": "crucial 表示「至关重要的」，比 important 更有力度。",
+            "hint_zh": "crucial / significant / essential"
+          },
+          {
+            "id": "l3-28-7",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 got 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "She got a scholarship to study abroad.",
+            "answer": "obtained",
+            "acceptable_answers": ["obtained", "received"],
+            "explanation_zh": "obtained / received 表示「获得」，比 got 更正式。",
+            "hint_zh": "obtained / received"
+          },
+          {
+            "id": "l3-28-8",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 think 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "Researchers think that the new method is more effective.",
+            "answer": "believe",
+            "acceptable_answers": ["believe", "argue", "suggest", "state"],
+            "explanation_zh": "学术语境中 believe / argue 比 think 更正式。",
+            "hint_zh": "believe / argue / suggest"
+          },
+          {
+            "id": "l3-28-9",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 important 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "Time management is important for academic success.",
+            "answer": "crucial",
+            "acceptable_answers": ["crucial", "important", "significant", "essential"],
+            "explanation_zh": "crucial 强调「关键性的」。",
+            "hint_zh": "crucial / significant / essential"
+          },
+          {
+            "id": "l3-28-10",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 big 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "The study found a big difference between the two groups.",
+            "answer": "significant",
+            "acceptable_answers": ["significant", "substantial"],
+            "explanation_zh": "significant 在学术写作中常表示「显著的（差异/影响）」。",
+            "hint_zh": "significant / substantial"
+          },
+          {
+            "id": "l3-28-11",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 good 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "The experiment produced good results.",
+            "answer": "positive",
+            "acceptable_answers": ["positive", "beneficial"],
+            "explanation_zh": "positive results 是学术写作中的常见搭配。",
+            "hint_zh": "positive / beneficial"
+          },
+          {
+            "id": "l3-28-12",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 shows 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "The report shows that the situation is deteriorating.",
+            "answer": "indicates",
+            "acceptable_answers": ["indicates", "shows", "demonstrates"],
+            "explanation_zh": "indicates / demonstrates 比 shows 稍正式。",
+            "hint_zh": "indicates / demonstrates"
+          },
+          {
+            "id": "l3-28-13",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 get 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "People use the internet to get information on a daily basis.",
+            "answer": "obtain",
+            "acceptable_answers": ["obtain", "get", "access"],
+            "explanation_zh": "obtain 比 get 更正式。",
+            "hint_zh": "obtain"
+          },
+          {
+            "id": "l3-28-14",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 shows 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "The data shows a clear trend.",
+            "answer": "suggests",
+            "acceptable_answers": ["suggests", "indicates", "shows", "demonstrates"],
+            "explanation_zh": "suggests / indicates 比 shows 更正式。",
+            "hint_zh": "suggests / indicates / demonstrates"
+          },
+          {
+            "id": "l3-28-15",
+            "type": "sentence_correction",
+            "instruction_zh": "将 do something 替换为更正式的表达（两个词），在输入框写出。",
+            "prompt_en": "We need to do something to address this issue.",
+            "answer": "take action",
+            "explanation_zh": "take action 比 do something 更正式。",
+            "hint_zh": "take action"
+          },
+          {
+            "id": "l3-28-16",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 very bad 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "The problem is very bad and affects numerous people.",
+            "answer": "serious",
+            "acceptable_answers": ["serious", "significant", "severe"],
+            "explanation_zh": "serious 替换 very bad，更正式。",
+            "hint_zh": "serious / significant / severe"
+          },
+          {
+            "id": "l3-28-17",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 give 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "Schools give students the skills they need.",
+            "answer": "provide",
+            "acceptable_answers": ["provide", "give", "offer"],
+            "explanation_zh": "provide 比 give 更正式。",
+            "hint_zh": "provide / offer"
+          },
+          {
+            "id": "l3-28-18",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 tried 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "Researchers tried to find a solution.",
+            "answer": "attempted",
+            "acceptable_answers": ["attempted", "tried", "sought"],
+            "explanation_zh": "attempted 比 tried 更正式。",
+            "hint_zh": "attempted / sought"
+          },
+          {
+            "id": "l3-28-19",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 enough 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "Getting enough sleep is crucial for students.",
+            "answer": "sufficient",
+            "acceptable_answers": ["sufficient", "enough", "adequate"],
+            "explanation_zh": "sufficient / adequate 比 enough 更正式。",
+            "hint_zh": "sufficient / adequate"
+          },
+          {
+            "id": "l3-28-20",
+            "type": "sentence_correction",
+            "instruction_zh": "将句中的 changed 替换为更正式的表达，在输入框写出替换词。",
+            "prompt_en": "Technology has changed how people communicate.",
+            "answer": "transformed",
+            "acceptable_answers": ["transformed", "changed", "altered"],
+            "explanation_zh": "transformed 比 changed 更有力度、更正式。",
+            "hint_zh": "transformed / altered"
+          }
+        ]
+      }
+    ],
+    "summary_card": {
+      "title_zh": "同义替换与表达升级",
+      "body_zh": "用 beneficial / harmful、crucial / significant、in order to、numerous、extremely 等替换简单词；答题时忽略大小写与标点，重在写出替换词。"
+    }
+  }
+}

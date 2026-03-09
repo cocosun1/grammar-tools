@@ -1,0 +1,139 @@
+.page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: var(--space-lg);
+}
+
+.title {
+  margin: 0 0 var(--space-sm) 0;
+  font-size: 1.5rem;
+  color: var(--text);
+}
+
+.subtitle {
+  margin: 0 0 var(--space-xl) 0;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.denied {
+  color: var(--wrong);
+  margin: 0 0 var(--space-lg) 0;
+}
+
+.layerSection {
+  margin-bottom: var(--space-2xl);
+}
+
+.layerTitle {
+  margin: 0 0 var(--space-md) 0;
+  font-size: 1.2rem;
+  color: var(--accent);
+  border-bottom: 1px solid var(--border);
+  padding-bottom: var(--space-sm);
+}
+
+.moduleBlock {
+  margin-bottom: var(--space-md);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--card);
+}
+
+.moduleSummary {
+  padding: var(--space-md) var(--space-lg);
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+}
+
+.moduleSummary::-webkit-details-marker {
+  display: none;
+}
+
+.moduleSummary::before {
+  content: "▶";
+  display: inline-block;
+  margin-right: var(--space-sm);
+  font-size: 0.75rem;
+  transition: transform 0.2s;
+}
+
+details[open] .moduleSummary::before {
+  transform: rotate(90deg);
+}
+
+.moduleName {
+  color: var(--text);
+}
+
+.moduleCount {
+  font-size: 0.875rem;
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.questionList {
+  list-style: none;
+  margin: 0;
+  padding: var(--space-md) var(--space-lg) var(--space-lg);
+  border-top: 1px solid var(--border-soft);
+}
+
+.questionItem {
+  padding: var(--space-md) 0;
+  border-bottom: 1px solid var(--border-soft);
+}
+
+.questionItem:last-child {
+  border-bottom: none;
+}
+
+.questionMeta {
+  display: flex;
+  gap: var(--space-md);
+  margin-bottom: var(--space-xs);
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.questionId {
+  font-family: monospace;
+}
+
+.questionType {
+  color: var(--accent);
+}
+
+.questionInstruction {
+  margin: 0 0 var(--space-xs) 0;
+  font-size: 0.9rem;
+  color: var(--text-soft);
+}
+
+.questionPrompt {
+  margin: 0 0 var(--space-sm) 0;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.questionOptions {
+  margin: 0 0 var(--space-sm) 0;
+  padding-left: var(--space-lg);
+  font-size: 0.95rem;
+}
+
+.questionAnswer {
+  margin: 0 0 var(--space-xs) 0;
+  font-size: 0.95rem;
+  color: var(--correct);
+}
+
+.questionExplanation {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--muted);
+}

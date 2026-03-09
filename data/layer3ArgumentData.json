@@ -1,0 +1,544 @@
+{
+  "29": [
+    {
+      "id": "arg-1",
+      "prompt_en": "Do you agree or disagree: Students should be required to wear school uniforms.",
+      "topic": "education",
+      "questionType": "agree_disagree",
+      "argumentsOneSide": [
+        "Uniforms reduce peer pressure and bullying based on clothing or brands.",
+        "They create a sense of equality and focus on learning rather than appearance.",
+        "Uniforms can save families money and simplify morning routines.",
+        "They prepare students for environments where dress codes exist (e.g. workplaces)."
+      ],
+      "argumentsOtherSide": [
+        "Uniforms limit self-expression and individuality during formative years.",
+        "They can be expensive for some families and may not suit all body types.",
+        "Forcing conformity may discourage creativity and critical thinking.",
+        "Students may find ways to express identity anyway (e.g. accessories), so the goal is partly undermined."
+      ]
+    },
+    {
+      "id": "arg-2",
+      "prompt_en": "Which is better: living in a big city or living in a small town?",
+      "topic": "life",
+      "questionType": "comparison",
+      "argumentsOneSide": [
+        "Big cities offer more job opportunities, cultural events, and diverse networks.",
+        "Public transport and amenities are often more developed in cities.",
+        "Cities provide greater exposure to different people and ideas.",
+        "Healthcare and education options are often more varied and accessible."
+      ],
+      "argumentsOtherSide": [
+        "Small towns typically have lower cost of living and less stress.",
+        "Stronger sense of community and safety; people know each other.",
+        "Less pollution and traffic; easier access to nature.",
+        "Slower pace of life can improve well-being and family time."
+      ]
+    },
+    {
+      "id": "arg-3",
+      "prompt_en": "What are the advantages and disadvantages of working from home?",
+      "topic": "work",
+      "questionType": "advantages_disadvantages",
+      "argumentsOneSide": [
+        "Saves time and money on commuting; more flexible schedule.",
+        "Better work-life balance and ability to care for family or personal errands.",
+        "Fewer office distractions and often quieter environment.",
+        "Reduces carbon footprint and office costs for companies."
+      ],
+      "argumentsOtherSide": [
+        "Blur between work and home can lead to overworking or stress.",
+        "Less face-to-face collaboration and weaker team bonding.",
+        "Some people lack space or discipline; productivity may drop.",
+        "Isolation can affect mental health and career visibility."
+      ]
+    },
+    {
+      "id": "arg-4",
+      "prompt_en": "Why do you think more young people are delaying marriage and having children?",
+      "topic": "society",
+      "questionType": "explain_phenomenon",
+      "argumentsOneSide": [
+        "Economic factors: housing and childcare are expensive; careers take priority.",
+        "Higher education and career goals extend the period before settling down.",
+        "Social acceptance of living together or staying single has increased.",
+        "Desire for financial stability and personal fulfillment before starting a family."
+      ],
+      "argumentsOtherSide": [
+        "Some argue it is a negative trend that weakens family structures.",
+        "Others say it reflects anxiety about the future (climate, economy).",
+        "Cultural shift toward individualism over traditional family roles.",
+        "Access to contraception and career options gives more choice to women."
+      ]
+    },
+    {
+      "id": "arg-5",
+      "prompt_en": "Do you agree or disagree: Governments should fund space exploration.",
+      "topic": "government",
+      "questionType": "agree_disagree",
+      "argumentsOneSide": [
+        "Space research leads to technological spin-offs (e.g. medical devices, materials).",
+        "It inspires young people to study science and engineering.",
+        "Long-term survival may depend on understanding and using space resources.",
+        "International cooperation in space can improve diplomacy on Earth."
+      ],
+      "argumentsOtherSide": [
+        "Money could be spent on urgent needs: poverty, health, education, climate.",
+        "Private companies are already investing; government funding may duplicate efforts.",
+        "Risk of accidents and environmental impact (e.g. debris) is real.",
+        "Benefits are long-term and uncertain; opportunity cost is high."
+      ]
+    },
+    {
+      "id": "arg-6",
+      "prompt_en": "Do you agree or disagree: Social media does more harm than good.",
+      "topic": "media",
+      "questionType": "agree_disagree",
+      "argumentsOneSide": [
+        "Spreads misinformation and can harm mental health (anxiety, comparison).",
+        "Reduces face-to-face interaction and can encourage addiction.",
+        "Privacy risks and cyberbullying are serious problems.",
+        "Echo chambers can polarize society and spread extremism."
+      ],
+      "argumentsOtherSide": [
+        "Connects people across distances and helps maintain relationships.",
+        "Useful for learning, news, and professional networking.",
+        "Enables social movements and gives voice to marginalized groups.",
+        "Entertainment and creativity (e.g. sharing art, ideas) have value."
+      ]
+    },
+    {
+      "id": "arg-7",
+      "prompt_en": "Which is more important for success: talent or hard work?",
+      "topic": "life",
+      "questionType": "comparison",
+      "argumentsOneSide": [
+        "Talent gives a head start and makes learning faster in some fields.",
+        "Natural ability can make the difference at the highest levels (e.g. sports, music).",
+        "Some skills are hard to fully develop without innate aptitude.",
+        "Talent can motivate people to work hard because they see progress."
+      ],
+      "argumentsOtherSide": [
+        "Hard work leads to improvement in almost any area; talent alone is not enough.",
+        "Many successful people attribute their success to persistence, not just talent.",
+        "Talent can be wasted without discipline and effort.",
+        "Society benefits from valuing effort, so that everyone feels they can improve."
+      ]
+    },
+    {
+      "id": "arg-8",
+      "prompt_en": "What are the advantages and disadvantages of globalization?",
+      "topic": "business",
+      "questionType": "advantages_disadvantages",
+      "argumentsOneSide": [
+        "Creates jobs and raises living standards in many developing countries.",
+        "Consumers get more choices and often lower prices.",
+        "Encourages cultural exchange and international cooperation.",
+        "Technology and ideas spread faster, speeding up innovation."
+      ],
+      "argumentsOtherSide": [
+        "Can widen inequality and lead to job losses in some industries.",
+        "Local cultures and traditions may be weakened.",
+        "Environmental damage can increase (e.g. shipping, production).",
+        "Economic crises in one country can spread quickly to others."
+      ]
+    },
+    {
+      "id": "arg-9",
+      "prompt_en": "Do you agree or disagree: Art and music should be mandatory in schools.",
+      "topic": "education",
+      "questionType": "agree_disagree",
+      "argumentsOneSide": [
+        "They develop creativity, critical thinking, and emotional expression.",
+        "Music and art can improve performance in other subjects (e.g. math, focus).",
+        "Not all students excel in traditional academics; arts offer alternative paths.",
+        "Cultural literacy and appreciation for the arts enrich society."
+      ],
+      "argumentsOtherSide": [
+        "Limited time and budget may be better spent on core subjects (math, language).",
+        "Mandatory courses might make some students dislike art or music.",
+        "Assessment of artistic work is subjective and can be unfair.",
+        "Schools could offer arts as electives so interested students choose them."
+      ]
+    },
+    {
+      "id": "arg-10",
+      "prompt_en": "Why do people prefer watching movies at home rather than in cinemas?",
+      "topic": "media",
+      "questionType": "explain_phenomenon",
+      "argumentsOneSide": [
+        "Lower cost: no tickets, travel, or expensive snacks.",
+        "Comfort and control: pause, rewatch, choose when to watch.",
+        "Better home technology (large screens, sound) has narrowed the gap.",
+        "Avoid crowds, noise, and distractions; more private experience."
+      ],
+      "argumentsOtherSide": [
+        "Cinemas offer bigger screens and shared experience with an audience.",
+        "Going out creates a sense of occasion and reduces screen fatigue at home.",
+        "New releases often appear in cinemas first; some films are designed for big screens.",
+        "Social aspect: watching with friends in a cinema is different from at home."
+      ]
+    },
+    {
+      "id": "arg-11",
+      "prompt_en": "Do you agree or disagree: Companies should be responsible for protecting the environment even if it costs them money.",
+      "topic": "business",
+      "questionType": "agree_disagree",
+      "argumentsOneSide": [
+        "Businesses contribute to pollution and resource use; they should help fix it.",
+        "Long-term benefits: sustainable practices can reduce risk and attract customers.",
+        "Regulation alone is not enough; voluntary action sets a positive example.",
+        "Future generations and ecosystems depend on current choices."
+      ],
+      "argumentsOtherSide": [
+        "Higher costs may lead to job losses or higher prices for consumers.",
+        "Governments should set rules so that all companies compete fairly.",
+        "Small firms may not afford green technology; only large ones could comply.",
+        "Consumers may not be willing to pay more for eco-friendly products."
+      ]
+    },
+    {
+      "id": "arg-12",
+      "prompt_en": "Which is better: reading books in print or reading on electronic devices?",
+      "topic": "culture",
+      "questionType": "comparison",
+      "argumentsOneSide": [
+        "Print books reduce screen time and may improve sleep and focus.",
+        "No need for batteries or internet; durable and easy to share.",
+        "Many people remember and understand better when reading on paper.",
+        "Bookstores and libraries support community and discovery."
+      ],
+      "argumentsOtherSide": [
+        "E-books are portable; you can carry many books and adjust font size.",
+        "Often cheaper and instant; good for the environment (no printing).",
+        "Useful for searching, highlighting, and note-taking in one device.",
+        "Audiobooks and e-books increase access for people with visual or mobility issues."
+      ]
+    },
+    {
+      "id": "arg-13",
+      "prompt_en": "What are the advantages and disadvantages of artificial intelligence in daily life?",
+      "topic": "technology",
+      "questionType": "advantages_disadvantages",
+      "argumentsOneSide": [
+        "Saves time: assistants, recommendations, automation of routine tasks.",
+        "Can improve safety (e.g. in cars, healthcare) and accessibility.",
+        "Helps with learning, translation, and creativity (e.g. writing, art).",
+        "Enables new services and jobs in tech and related fields."
+      ],
+      "argumentsOtherSide": [
+        "Privacy concerns: data collection and surveillance.",
+        "Job displacement in some sectors; need for retraining.",
+        "Bias and errors in AI can reinforce inequality or cause harm.",
+        "Over-reliance may reduce human skills and critical thinking."
+      ]
+    },
+    {
+      "id": "arg-14",
+      "prompt_en": "Do you agree or disagree: The government should provide free university education for all citizens.",
+      "topic": "government",
+      "questionType": "agree_disagree",
+      "argumentsOneSide": [
+        "Education is a right; cost should not block talented students.",
+        "A more educated workforce benefits the economy and society.",
+        "Reduces inequality and gives everyone a fairer chance.",
+        "Many countries already offer free or low-cost higher education successfully."
+      ],
+      "argumentsOtherSide": [
+        "Taxpayers may not want to fund degrees that do not lead to clear public benefit.",
+        "Free tuition could lead to overcrowding or lower quality if not managed well.",
+        "Other priorities (e.g. healthcare, schools) may need funding more.",
+        "Loans and scholarships can target those in need without making all free."
+      ]
+    },
+    {
+      "id": "arg-15",
+      "prompt_en": "Why do some people prefer to live alone rather than with family or roommates?",
+      "topic": "society",
+      "questionType": "explain_phenomenon",
+      "argumentsOneSide": [
+        "More freedom and control over schedule, space, and habits.",
+        "Privacy and quiet; better for focus (work or study) and mental rest.",
+        "Avoid conflicts or compromise on daily decisions.",
+        "Modern life and remote work make solo living more feasible and accepted."
+      ],
+      "argumentsOtherSide": [
+        "Living with others can reduce loneliness and provide support.",
+        "Sharing costs (rent, utilities) makes housing more affordable.",
+        "Family or cultural values may emphasize living together.",
+        "Safety and practical help (e.g. illness, emergencies) are easier with others."
+      ]
+    },
+    {
+      "id": "arg-16",
+      "prompt_en": "Do you agree or disagree: Museums and galleries should be free for everyone.",
+      "topic": "art",
+      "questionType": "agree_disagree",
+      "argumentsOneSide": [
+        "Culture and art should be accessible regardless of income.",
+        "Free entry increases attendance and educates the public.",
+        "Many museums receive public funding; they serve the public good.",
+        "Tourism and local economy can benefit from higher footfall."
+      ],
+      "argumentsOtherSide": [
+        "Museums need revenue to maintain collections and pay staff.",
+        "A small fee can reduce overcrowding and fund special exhibitions.",
+        "Free entry for some (e.g. students, seniors) can balance access and revenue.",
+        "People may value the experience more when they pay something."
+      ]
+    },
+    {
+      "id": "arg-17",
+      "prompt_en": "What are the advantages and disadvantages of living in a multicultural society?",
+      "topic": "society",
+      "questionType": "advantages_disadvantages",
+      "argumentsOneSide": [
+        "Exposure to different foods, languages, and traditions enriches life.",
+        "Diverse perspectives can improve creativity and problem-solving.",
+        "Reduces prejudice when people interact across cultures.",
+        "Economy can benefit from varied skills and international links."
+      ],
+      "argumentsOtherSide": [
+        "Language barriers and misunderstandings can cause tension.",
+        "Some fear loss of traditional identity or values.",
+        "Integration and equal opportunity require resources and policy.",
+        "Conflict can arise over customs, religion, or political views."
+      ]
+    },
+    {
+      "id": "arg-18",
+      "prompt_en": "Do you agree or disagree: Technology makes people lonelier.",
+      "topic": "technology",
+      "questionType": "agree_disagree",
+      "argumentsOneSide": [
+        "Screen time can replace face-to-face interaction and deepen isolation.",
+        "Social media can increase comparison and anxiety rather than connection.",
+        "Working and studying from home reduce casual social contact.",
+        "Superficial online contact may not satisfy the need for real relationships."
+      ],
+      "argumentsOtherSide": [
+        "Technology helps people stay in touch across distance (e.g. video calls).",
+        "Online communities can provide support for niche interests or difficulties.",
+        "Loneliness depends on how we use technology, not technology itself.",
+        "Apps and platforms can facilitate meeting people and organizing events."
+      ]
+    },
+    {
+      "id": "arg-19",
+      "prompt_en": "Which is more effective: learning from books and lectures or learning by doing (e.g. projects, internships)?",
+      "topic": "education",
+      "questionType": "comparison",
+      "argumentsOneSide": [
+        "Books and lectures give structured knowledge and theory efficiently.",
+        "Experts can explain complex ideas and correct misconceptions.",
+        "Scales well: one teacher can reach many students.",
+        "Foundation in theory is needed before safe or effective practice in some fields."
+      ],
+      "argumentsOtherSide": [
+        "Doing reinforces learning and builds skills that theory alone cannot.",
+        "Motivation is often higher when the task is real and meaningful.",
+        "Mistakes in practice lead to deeper understanding.",
+        "Employers value experience; internships and projects prepare for jobs."
+      ]
+    },
+    {
+      "id": "arg-20",
+      "prompt_en": "Why should governments invest in renewable energy instead of fossil fuels?",
+      "topic": "environment",
+      "questionType": "open_ended",
+      "argumentsOneSide": [
+        "Renewable energy reduces greenhouse gas emissions and slows climate change.",
+        "Creates new jobs in manufacturing, installation, and research.",
+        "Reduces dependence on imported oil and gas; more energy security.",
+        "Long-term cost of renewables is falling; fossil fuels have hidden costs (health, environment)."
+      ],
+      "argumentsOtherSide": [
+        "Transition is expensive and may raise energy prices in the short term.",
+        "Some regions depend on fossil fuel jobs; transition must be managed.",
+        "Renewables are not always reliable (e.g. wind, sun); storage and backup needed.",
+        "Developing countries may need affordable energy to grow; fossil fuels are still cheaper in some places."
+      ]
+    },
+    {
+      "id": "arg-21",
+      "prompt_en": "Do you agree or disagree: Advertising does more harm than good.",
+      "topic": "media",
+      "questionType": "agree_disagree",
+      "argumentsOneSide": [
+        "Encourages overconsumption and debt; creates unnecessary wants.",
+        "Can be misleading and exploit vulnerable people (e.g. children, elderly).",
+        "Invades privacy and contributes to information overload.",
+        "Promotes unhealthy products (e.g. junk food, alcohol) and unrealistic body images."
+      ],
+      "argumentsOtherSide": [
+        "Informs consumers about new products and competitive prices.",
+        "Funds free content (e.g. TV, websites, apps).",
+        "Can promote positive behavior (e.g. health campaigns, charity).",
+        "Helps businesses grow and create jobs."
+      ]
+    },
+    {
+      "id": "arg-22",
+      "prompt_en": "What are the advantages and disadvantages of strict laws on pollution?",
+      "topic": "environment",
+      "questionType": "advantages_disadvantages",
+      "argumentsOneSide": [
+        "Clear rules push companies to innovate and reduce harm.",
+        "Improves public health and quality of life (air, water).",
+        "Creates a level playing field so responsible firms are not undercut.",
+        "Protects ecosystems and future generations."
+      ],
+      "argumentsOtherSide": [
+        "Strict laws may raise costs and hurt competitiveness or jobs.",
+        "Enforcement can be difficult and expensive.",
+        "Some industries may move to countries with weaker rules (leakage).",
+        "Balance needed so that transition is gradual and affordable."
+      ]
+    },
+    {
+      "id": "arg-23",
+      "prompt_en": "Do you agree or disagree: People today rely too much on technology.",
+      "topic": "technology",
+      "questionType": "agree_disagree",
+      "argumentsOneSide": [
+        "Basic skills (e.g. mental math, map-reading) are being lost.",
+        "Overuse can harm health (posture, sleep, attention).",
+        "Critical systems (e.g. power, finance) are vulnerable to hacking or failure.",
+        "Human connection and patience may decrease."
+      ],
+      "argumentsOtherSide": [
+        "Technology solves real problems (e.g. medical, communication, efficiency).",
+        "Relying on tools is normal; the goal is to use them wisely.",
+        "Restricting technology would disadvantage those who depend on it (e.g. disabled, remote workers).",
+        "Education and habits can address overuse without rejecting technology."
+      ]
+    },
+    {
+      "id": "arg-24",
+      "prompt_en": "Which is more important for a country: economic growth or protecting the environment?",
+      "topic": "government",
+      "questionType": "comparison",
+      "argumentsOneSide": [
+        "Economic growth provides jobs, tax revenue, and funds for public services.",
+        "Wealthier societies can afford to invest in green technology later.",
+        "Poverty and unemployment cause suffering; growth can reduce them.",
+        "Innovation driven by growth can also lead to cleaner solutions."
+      ],
+      "argumentsOtherSide": [
+        "Environmental damage (climate, pollution) threatens health and stability.",
+        "Clean air, water, and ecosystems have value that is not captured by GDP.",
+        "Sustainable practices can also create jobs and long-term growth.",
+        "Future generations depend on decisions made today."
+      ]
+    },
+    {
+      "id": "arg-25",
+      "prompt_en": "Why do some people choose to change careers in the middle of their life?",
+      "topic": "work",
+      "questionType": "explain_phenomenon",
+      "argumentsOneSide": [
+        "Seek better pay, work-life balance, or meaning.",
+        "Industry decline or burnout pushes them to look elsewhere.",
+        "New skills or interests develop over time.",
+        "Remote work and training make switching more feasible than before."
+      ],
+      "argumentsOtherSide": [
+        "Some prefer stability and seniority in one field.",
+        "Switching can mean lower income or status in the short term.",
+        "Family and financial commitments may limit flexibility.",
+        "Employers may prefer younger or more specialized candidates in the new field."
+      ]
+    },
+    {
+      "id": "arg-26",
+      "prompt_en": "Do you agree or disagree: Schools should teach financial literacy (e.g. budgeting, saving) as a required subject.",
+      "topic": "education",
+      "questionType": "agree_disagree",
+      "argumentsOneSide": [
+        "Many adults struggle with debt and poor financial decisions; early education helps.",
+        "Prepares students for real life (rent, taxes, loans, investments).",
+        "Can reduce inequality by giving everyone basic money skills.",
+        "Other life skills (e.g. cooking, civics) are already taught; money is equally important."
+      ],
+      "argumentsOtherSide": [
+        "Curriculum is already crowded; other subjects might be cut.",
+        "Teachers may not be trained to teach finance well.",
+        "Family and culture also shape habits; school cannot fix everything.",
+        "Some topics (e.g. investing) may be better for older or voluntary courses."
+      ]
+    },
+    {
+      "id": "arg-27",
+      "prompt_en": "What role should the government play in supporting the arts?",
+      "topic": "art",
+      "questionType": "open_ended",
+      "argumentsOneSide": [
+        "Arts enrich society and should be accessible; government can fund museums, grants.",
+        "Creative industries create jobs and attract tourism.",
+        "Education in the arts develops creativity and critical thinking.",
+        "Public funding can support work that the market would not (e.g. experimental, local)."
+      ],
+      "argumentsOtherSide": [
+        "Government funding may lead to censorship or political influence.",
+        "Tax money might be better spent on health, education, or infrastructure.",
+        "Private donors and ticket sales can support the arts without the state.",
+        "Defining \"art\" and allocating funds fairly is difficult and subjective."
+      ]
+    },
+    {
+      "id": "arg-28",
+      "prompt_en": "Why do people value traveling to other countries?",
+      "topic": "culture",
+      "questionType": "explain_phenomenon",
+      "argumentsOneSide": [
+        "Experience new cultures, languages, and perspectives; broadens the mind.",
+        "Break from routine; relaxation and adventure.",
+        "Builds memories and relationships; shared experiences with family or friends.",
+        "Economic and cultural exchange can foster understanding and peace."
+      ],
+      "argumentsOtherSide": [
+        "Travel can be expensive and time-consuming; not everyone can afford it.",
+        "Tourism can harm local environments and cultures if not managed.",
+        "Some prefer to explore their own country or invest in home.",
+        "Carbon footprint of flying is a concern for many."
+      ]
+    },
+    {
+      "id": "arg-29",
+      "prompt_en": "Do you agree or disagree: Celebrities and influencers have too much influence on young people.",
+      "topic": "media",
+      "questionType": "agree_disagree",
+      "argumentsOneSide": [
+        "Young people may copy unhealthy behavior (e.g. diet, spending) or unrealistic standards.",
+        "Time spent following influencers could be used for learning or real relationships.",
+        "Sponsored content is often not clearly labeled; can be misleading.",
+        "Fame and wealth are overvalued; other role models (e.g. teachers, scientists) are underrated."
+      ],
+      "argumentsOtherSide": [
+        "Influencers can spread positive messages (e.g. fitness, charity, education).",
+        "Young people can distinguish between entertainment and reality when guided.",
+        "Influence has always existed (e.g. stars, athletes); format has changed.",
+        "Parents and schools share responsibility for teaching critical thinking."
+      ]
+    },
+    {
+      "id": "arg-30",
+      "prompt_en": "What are the advantages and disadvantages of a four-day work week?",
+      "topic": "work",
+      "questionType": "advantages_disadvantages",
+      "argumentsOneSide": [
+        "Better work-life balance and well-being; less burnout.",
+        "Can increase productivity (rested, focused employees).",
+        "Reduces commuting and can lower carbon emissions.",
+        "Attracts talent and may reduce absenteeism."
+      ],
+      "argumentsOtherSide": [
+        "Some industries (e.g. healthcare, retail) need coverage every day.",
+        "Same pay for fewer hours may raise costs for employers.",
+        "Employees might work longer on the four days, reducing the benefit.",
+        "Coordination with clients or global teams could be harder."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1897 @@
+[
+  {
+    "id": 1,
+    "name_zh": "可数 vs 不可数名词",
+    "title": "可数 vs 不可数名词",
+    "overview_zh": "在英语中，我们可以用三个简单的方法判断名词是否是可数名词。学完本节后，你会掌握可数与不可数名词的常见用法，再进入正式练习。",
+    "blocks": [],
+    "sections": [
+      {
+        "title_zh": "如何判断名词是可数还是不可数",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "方法一：能一个一个数吗？能说 one ___, two ___ 的就是可数名词。",
+            "examples_zh": [
+              "one computer, two computers",
+              "one text, two texts"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请判断下列名词类型",
+            "prompt_en": "computer",
+            "options": [
+              "可数名词",
+              "不可数名词"
+            ],
+            "answer": "可数名词"
+          },
+          {
+            "type": "explanation",
+            "content_zh": "方法二：是物质或抽象概念吗？水、牛奶、信息、建议等不能一个一个数，是不可数名词。",
+            "examples_zh": [
+              "resource（水）",
+              "milk（牛奶）",
+              "news（信息）",
+              "advice（建议）"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请判断下列名词类型",
+            "prompt_en": "resource",
+            "options": [
+              "可数名词",
+              "不可数名词"
+            ],
+            "answer": "不可数名词"
+          },
+          {
+            "type": "explanation",
+            "content_zh": "方法三：看量词。many 后接可数名词复数，much 后接不可数名词。记一句：many 数得清，much 数不清。",
+            "examples_zh": [
+              "multiple texts ✓",
+              "substantial resource ✓"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确搭配（much 后应接哪个？）",
+            "prompt_en": "much →",
+            "options": [
+              "publication",
+              "resource"
+            ],
+            "answer": "resource"
+          }
+        ]
+      },
+      {
+        "title_zh": "可数 vs 不可数的常见用法",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "many 和 a few 后面接可数名词复数，表示「很多 / 几个」可数的事物。",
+            "examples_zh": [
+              "multiple texts",
+              "a few computers"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确形式",
+            "prompt_en": "She has a few ____.",
+            "options": [
+              "pencil",
+              "pencils"
+            ],
+            "answer": "pencils"
+          },
+          {
+            "type": "explanation",
+            "content_zh": "much 和 a little 后面接不可数名词，表示「很多 / 一点」不可数的事物。",
+            "examples_zh": [
+              "substantial resource",
+              "a little sugar"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确形式",
+            "prompt_en": "I have ____ milk in the fridge.",
+            "options": [
+              "a little",
+              "a few"
+            ],
+            "answer": "a little"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name_zh": "名词复数",
+    "title": "名词复数",
+    "overview_zh": "可数名词在表示「多于一个」时要用复数形式。本节学习复数形式的规则变化与常见不规则变化，再通过小练习巩固。",
+    "blocks": [],
+    "sections": [
+      {
+        "title_zh": "复数形式的基本规则",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "many、several 等词后通常接复数名词。",
+            "examples_zh": [
+              "multiple texts",
+              "several museums"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确形式",
+            "prompt_en": "many →",
+            "options": [
+              "publication",
+              "publications"
+            ],
+            "answer": "publications"
+          },
+          {
+            "type": "explanation",
+            "content_zh": "一般变化：词尾加 -s。",
+            "examples_zh": [
+              "text → texts",
+              "learner → learners"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "quick_check",
+            "instruction_zh": "请写出复数形式",
+            "items": [
+              {
+                "prompt_en": "text",
+                "answer": "publications"
+              },
+              {
+                "prompt_en": "learner",
+                "answer": "learners"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "content_zh": "以 s, x, ch, sh 结尾通常加 -es。",
+            "examples_zh": [
+              "bus → buses",
+              "box → boxes",
+              "watch → watches",
+              "dish → dishes"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "match_pairs",
+            "instruction_zh": "请选择每个词的复数形式",
+            "items": [
+              {
+                "prompt_en": "bus",
+                "options": [
+                  "bus",
+                  "buses",
+                  "buss"
+                ],
+                "answer": "buses"
+              },
+              {
+                "prompt_en": "box",
+                "options": [
+                  "box",
+                  "boxs",
+                  "boxes"
+                ],
+                "answer": "boxes"
+              }
+            ]
+          },
+          {
+            "type": "explanation",
+            "content_zh": "辅音 + y 结尾：变 y 为 i 再加 -es。不规则变化需单独记忆。",
+            "examples_zh": [
+              "city → cities",
+              "learner → learners",
+              "individual → individuals"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "match_pairs",
+            "instruction_zh": "请选择正确的复数形式",
+            "items": [
+              {
+                "prompt_en": "city",
+                "options": [
+                  "city",
+                  "citys",
+                  "cities"
+                ],
+                "answer": "cities"
+              },
+              {
+                "prompt_en": "learner",
+                "options": [
+                  "learner",
+                  "childs",
+                  "learners"
+                ],
+                "answer": "learners"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name_zh": "不可数名词",
+    "title": "不可数名词",
+    "overview_zh": "不可数名词没有复数形式，不能与 a/an 或数字直接连用；作主语时谓语用单数。本节梳理用法并做小练习。",
+    "blocks": [],
+    "sections": [
+      {
+        "title_zh": "不可数名词的用法",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "不可数名词没有复数形式，不能与 a/an 或数字直接连用。",
+            "examples_zh": [
+              "resource（不说 a resource）",
+              "news（不说 two informations）"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请判断下列名词类型",
+            "prompt_en": "resource",
+            "options": [
+              "可数名词",
+              "不可数名词"
+            ],
+            "answer": "不可数名词"
+          },
+          {
+            "type": "explanation",
+            "content_zh": "不可数名词作主语时，谓语用单数。",
+            "examples_zh": [
+              "The resource is cold.",
+              "Her homework is challenging."
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确的动词",
+            "prompt_en": "Her homework ____ challenging.",
+            "options": [
+              "is",
+              "are"
+            ],
+            "answer": "is"
+          },
+          {
+            "type": "explanation",
+            "content_zh": "不可数名词前用 much 而不是 many；表示数量时需用量词，如 a glass of water、a slice of bread。",
+            "examples_zh": [
+              "substantial milk",
+              "a glass of resource",
+              "a slice of bread"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确的词",
+            "prompt_en": "I don't require ____ milk.",
+            "options": [
+              "multiple",
+              "substantial"
+            ],
+            "answer": "substantial"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name_zh": "冠词 (a / an / the)",
+    "title": "冠词 (a / an / the)",
+    "overview_zh": "冠词 a/an 表示「一个」，the 表示特指。本节学习 a 与 an 的选用（看发音），以及 a/an 与 the 的基本区别。",
+    "blocks": [],
+    "sections": [
+      {
+        "title_zh": "a 与 an 的选用",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "a 用于辅音音素开头的词前，an 用于元音音素开头的词前（看发音不看字母）。",
+            "examples_zh": [
+              "an computer",
+              "a text",
+              "an hour（h 不发音）",
+              "a university（[j] 音）"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确的冠词",
+            "prompt_en": "____ computer",
+            "options": [
+              "a",
+              "an"
+            ],
+            "answer": "an"
+          },
+          {
+            "type": "explanation",
+            "content_zh": "hour、honest 等虽以字母 h 开头，但发音以元音开头，用 an。university、European 以 [j] 音开头，用 a。",
+            "examples_zh": [
+              "an hour",
+              "a university"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确的冠词",
+            "prompt_en": "____ hour",
+            "options": [
+              "a",
+              "an"
+            ],
+            "answer": "an"
+          }
+        ]
+      },
+      {
+        "title_zh": "a/an 与 the 的区别",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "第一次提到用 a/an，再次提到同一事物用 the。",
+            "examples_zh": [
+              "I have a cat. The cat is black."
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "match_pairs",
+            "instruction_zh": "请选择正确的句子",
+            "items": [
+              {
+                "prompt_en": "第一次提到",
+                "options": [
+                  "I have a cat.",
+                  "I have the cat."
+                ],
+                "answer": "I have a cat."
+              },
+              {
+                "prompt_en": "再次提到同一只猫",
+                "options": [
+                  "A cat is black.",
+                  "The cat is black."
+                ],
+                "answer": "The cat is black."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name_zh": "一般现在时",
+    "title": "一般现在时",
+    "overview_zh": "一般现在时表示习惯、真理或当前状态。第三人称单数（he/she/it）要在动词后加 -s 或 -es，否定用 doesn't + 动词原形。",
+    "blocks": [],
+    "sections": [
+      {
+        "title_zh": "谓语形式与人称",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "第三人称单数（he, she, it）作主语时，谓语动词加 -s 或 -es。复数主语及 I/you 后用动词原形。",
+            "examples_zh": [
+              "She goes to institution.",
+              "They examine English."
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确形式",
+            "prompt_en": "She ____ to institution every day.",
+            "options": [
+              "proceed",
+              "goes"
+            ],
+            "answer": "goes"
+          },
+          {
+            "type": "explanation",
+            "content_zh": "第三人称单数否定用 doesn't + 动词原形。以 ch, sh, s, x 结尾的动词，第三人称单数加 -es。",
+            "examples_zh": [
+              "He doesn't appreciate coffee.",
+              "She watches TV."
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确形式",
+            "prompt_en": "He ____ appreciate coffee.",
+            "options": [
+              "don't",
+              "doesn't"
+            ],
+            "answer": "doesn't"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name_zh": "一般过去时",
+    "title": "一般过去时",
+    "overview_zh": "一般过去时表示过去发生的动作，常与 yesterday、ago、last week 连用。规则动词加 -ed，不规则动词需单独记忆。",
+    "blocks": [],
+    "sections": [
+      {
+        "title_zh": "过去式的构成与使用",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "一般过去时表示过去发生的动作。规则动词在词尾加 -ed。",
+            "examples_zh": [
+              "walk → walked",
+              "attend → attended"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确形式",
+            "prompt_en": "She ____ to London final year.",
+            "options": [
+              "proceed",
+              "proceeded"
+            ],
+            "answer": "proceeded"
+          },
+          {
+            "type": "explanation",
+            "content_zh": "不规则动词的过去式需单独记忆，如 see → saw, buy → bought。",
+            "examples_zh": [
+              "observe → observed",
+              "acquire → acquired"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "match_pairs",
+            "instruction_zh": "请选择正确的过去式",
+            "items": [
+              {
+                "prompt_en": "observe",
+                "options": [
+                  "observe",
+                  "observed",
+                  "seen"
+                ],
+                "answer": "observed"
+              },
+              {
+                "prompt_en": "acquire",
+                "options": [
+                  "acquire",
+                  "acquired",
+                  "buyed"
+                ],
+                "answer": "acquired"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name_zh": "现在进行时",
+    "title": "现在进行时",
+    "overview_zh": "现在进行时由 am/is/are + 动词-ing 构成，表示此刻正在进行的动作。本节学习谓语搭配与 -ing 拼写规则。",
+    "blocks": [],
+    "sections": [
+      {
+        "title_zh": "结构与人称",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "现在进行时结构：am / is / are + 动词-ing。主语为 I 用 am，he/she/it 用 is，复数及 you 用 are。",
+            "examples_zh": [
+              "She is reading.",
+              "They are listening."
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确形式",
+            "prompt_en": "She ____ a publication currently.",
+            "options": [
+              "read",
+              "is reading"
+            ],
+            "answer": "is reading"
+          },
+          {
+            "type": "explanation",
+            "content_zh": "动词-ing：一般直接加 -ing；以 e 结尾去 e 加 -ing；重读闭音节双写辅音加 -ing。",
+            "examples_zh": [
+              "run → running",
+              "compose → writing"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "match_pairs",
+            "instruction_zh": "请选择正确的 -ing 形式",
+            "items": [
+              {
+                "prompt_en": "run",
+                "options": [
+                  "runing",
+                  "running"
+                ],
+                "answer": "running"
+              },
+              {
+                "prompt_en": "compose",
+                "options": [
+                  "writeing",
+                  "writing"
+                ],
+                "answer": "writing"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name_zh": "过去进行时",
+    "title": "过去进行时",
+    "overview_zh": "过去进行时由 was/were + 动词-ing 构成，表示过去某时正在进行的动作，常与 when 从句连用。",
+    "blocks": [],
+    "sections": [
+      {
+        "title_zh": "结构与用法",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "过去进行时结构：was / were + 动词-ing。I/he/she/it 用 was，you/we/they 用 were。常与 when 引导的从句连用。",
+            "examples_zh": [
+              "I was doing my homework when you contacted.",
+              "It was raining when I departed."
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确形式",
+            "prompt_en": "I ____ my homework when you contacted.",
+            "options": [
+              "was doing",
+              "am doing"
+            ],
+            "answer": "was doing"
+          },
+          {
+            "type": "explanation",
+            "content_zh": "They/we/you 作主语时用 were + 动词-ing。",
+            "examples_zh": [
+              "They were watching TV at 8 pm previously."
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确形式",
+            "prompt_en": "They ____ TV at 8 pm previously.",
+            "options": [
+              "was watching",
+              "were watching"
+            ],
+            "answer": "were watching"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name_zh": "现在完成时",
+    "title": "现在完成时",
+    "overview_zh": "现在完成时由 have/has + 过去分词构成，表示过去发生且与现在有关的动作或状态。I/you/we/they 用 have，he/she/it 用 has。",
+    "blocks": [],
+    "sections": [
+      {
+        "title_zh": "结构与过去分词",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "现在完成时结构：have / has + 过去分词。不规则动词的过去分词需记忆，如 go → gone, see → seen。",
+            "examples_zh": [
+              "She has completed her homework.",
+              "Have you ever been to Japan?"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确形式",
+            "prompt_en": "She ____ her homework already.",
+            "options": [
+              "completed",
+              "has completed"
+            ],
+            "answer": "has completed"
+          },
+          {
+            "type": "explanation",
+            "content_zh": "疑问句用 Have/Has + 主语 + 过去分词。",
+            "examples_zh": [
+              "Have you ever been to Japan?"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确形式",
+            "prompt_en": "____ you ever been to Japan?",
+            "options": [
+              "Did",
+              "Have"
+            ],
+            "answer": "Have"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name_zh": "将来时",
+    "title": "将来时",
+    "overview_zh": "将来时常用 will + 动词原形，或 am/is/are going to + 动词原形。will 后接动词原形，不加 -s 或 -ed。",
+    "blocks": [],
+    "sections": [
+      {
+        "title_zh": "will 与 be going to",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "will + 动词原形表示将来；be going to + 动词原形表示计划或打算。will 后不加 -s/-ed。",
+            "examples_zh": [
+              "She will attend her grandmother subsequently.",
+              "We are going to have an assessment."
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确形式",
+            "prompt_en": "She ____ attend her grandmother subsequently.",
+            "options": [
+              "will",
+              "will be"
+            ],
+            "answer": "will"
+          },
+          {
+            "type": "explanation",
+            "content_zh": "We will have / They will come 等，will 后始终用动词原形。",
+            "examples_zh": [
+              "We will have an assessment next week."
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确形式",
+            "prompt_en": "We ____ have an assessment next week.",
+            "options": [
+              "will have",
+              "will has"
+            ],
+            "answer": "will have"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name_zh": "主谓一致",
+    "title": "主谓一致",
+    "overview_zh": "谓语动词在人称和数上须与主语一致。主语为单数则谓语用单数形式；everyone、the news 等作主语时也用单数谓语。",
+    "blocks": [],
+    "sections": [
+      {
+        "title_zh": "单复数与特殊主语",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "主语为单数，谓语用单数形式。主语与谓语之间若有 of 短语，要看真正的主语（of 前的词）。",
+            "examples_zh": [
+              "The list of names is on the desk."
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确的动词",
+            "prompt_en": "The list of names ____ on the desk.",
+            "options": [
+              "is",
+              "are"
+            ],
+            "answer": "is"
+          },
+          {
+            "type": "explanation",
+            "content_zh": "Everyone、someone、nobody 等不定代词作主语时，谓语用单数。The news、physics 等以 -s 结尾但表单数概念，谓语也用单数。",
+            "examples_zh": [
+              "Everyone has a text.",
+              "The news is positive."
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确的动词",
+            "prompt_en": "Everyone ____ a publication.",
+            "options": [
+              "have",
+              "has"
+            ],
+            "answer": "has"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name_zh": "情态动词",
+    "title": "情态动词",
+    "overview_zh": "情态动词 can、could、must、should、may、might 后接动词原形，不加 to。它们表示能力、请求、建议、推测等。",
+    "blocks": [],
+    "sections": [
+      {
+        "title_zh": "形式与含义",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "情态动词后接动词原形，不加 to。表示能力用 can（现在）/ could（过去）；请求可用 Could you...? 或 May I...?。",
+            "examples_zh": [
+              "You must complete your work.",
+              "She could swim when she was five."
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确形式",
+            "prompt_en": "You must ____ your work.",
+            "options": [
+              "complete",
+              "to complete"
+            ],
+            "answer": "complete"
+          },
+          {
+            "type": "explanation",
+            "content_zh": "表示建议用 should；表示推测「可能」用 may 或 might（不用 must）。",
+            "examples_zh": [
+              "You should remainder.",
+              "It might rain."
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确形式",
+            "prompt_en": "She ____ swim when she was five.",
+            "options": [
+              "can",
+              "could"
+            ],
+            "answer": "could"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name_zh": "介词：时间",
+    "title": "介词：时间",
+    "overview_zh": "表示时间时，英语常用 at、on、in 三个介词：at 用于钟点与时刻，on 用于星期与日期，in 用于月份、年份与较长时段。掌握规则后即可在句子中正确选用。",
+    "blocks": [],
+    "sections": [
+      {
+        "title_zh": "at：钟点与时刻",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "at 用于具体的钟点、某一时刻或「在……时」的固定说法。",
+            "examples_zh": [
+              "at 3 o'clock",
+              "at noon",
+              "at midnight",
+              "at the moment",
+              "at night（固定）"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确的时间介词",
+            "prompt_en": "The session starts ____ 9:00.",
+            "options": [
+              "at",
+              "on",
+              "in"
+            ],
+            "answer": "at"
+          },
+          {
+            "type": "explanation",
+            "content_zh": "at night、at noon、at midnight 是固定搭配，用 at。",
+            "examples_zh": [
+              "I work at night.",
+              "We departed at noon."
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确的时间介词",
+            "prompt_en": "She usually goes to bed ____ night.",
+            "options": [
+              "at",
+              "on",
+              "in"
+            ],
+            "answer": "at"
+          }
+        ]
+      },
+      {
+        "title_zh": "on：星期与日期",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "on 用于星期几、具体某一天或某一天的上午/下午/晚上。",
+            "examples_zh": [
+              "on Monday",
+              "on Christmas Day",
+              "on the morning of May 1st",
+              "on weekdays"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确的时间介词",
+            "prompt_en": "We have session ____ Monday.",
+            "options": [
+              "at",
+              "on",
+              "in"
+            ],
+            "answer": "on"
+          },
+          {
+            "type": "explanation",
+            "content_zh": "「在星期几的早上」用 on Monday morning；「在某一日的下午」用 on that afternoon。",
+            "examples_zh": [
+              "on Sunday morning",
+              "on the afternoon of the assessment"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确的时间介词",
+            "prompt_en": "I will observe you ____ the morning of June 15th.",
+            "options": [
+              "at",
+              "on",
+              "in"
+            ],
+            "answer": "on"
+          }
+        ]
+      },
+      {
+        "title_zh": "in：月份、年份与较长时段",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "in 用于月份、年份、季节，以及「在早上/下午/晚上」（不特指某一天时）。",
+            "examples_zh": [
+              "in January",
+              "in 2024",
+              "in the morning",
+              "in summer",
+              "in the past"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确的时间介词",
+            "prompt_en": "She was born ____ 2010.",
+            "options": [
+              "at",
+              "on",
+              "in"
+            ],
+            "answer": "in"
+          },
+          {
+            "type": "explanation",
+            "content_zh": "泛指「在早上、下午、晚上」用 in the morning / afternoon / evening；若说「星期一的早上」则用 on Monday morning。",
+            "examples_zh": [
+              "in the morning",
+              "in the evening",
+              "on Tuesday afternoon"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确的时间介词",
+            "prompt_en": "I consistently consume coffee ____ the morning.",
+            "options": [
+              "at",
+              "on",
+              "in"
+            ],
+            "answer": "in"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name_zh": "介词：地点",
+    "title": "介词：地点",
+    "overview_zh": "表示地点时，英语常用 at、on、in：at 用于具体点或小地点，on 用于表面或线上，in 用于较大范围或封闭空间。掌握规则后即可正确表达位置。",
+    "blocks": [],
+    "sections": [
+      {
+        "title_zh": "at：具体点与小地点",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "at 用于具体地址、某一点或小范围地点。",
+            "examples_zh": [
+              "at the door",
+              "at the station",
+              "at 123 Main Street",
+              "at the corner",
+              "at home",
+              "at work"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确的地点介词",
+            "prompt_en": "I will wait for you ____ the station.",
+            "options": ["at", "on", "in"],
+            "answer": "at"
+          },
+          {
+            "type": "explanation",
+            "content_zh": "at home、at work、at school 是固定搭配。",
+            "examples_zh": [
+              "She is at home.",
+              "He is at work now."
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确的地点介词",
+            "prompt_en": "My mother is ____ home.",
+            "options": ["at", "on", "in"],
+            "answer": "at"
+          }
+        ]
+      },
+      {
+        "title_zh": "on：表面与线",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "on 用于物体的表面、平面或线上（如街道、楼层）。",
+            "examples_zh": [
+              "on the table",
+              "on the wall",
+              "on the floor",
+              "on Main Street",
+              "on the second floor",
+              "on the left"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确的地点介词",
+            "prompt_en": "The keys are ____ the table.",
+            "options": ["at", "on", "in"],
+            "answer": "on"
+          },
+          {
+            "type": "explanation",
+            "content_zh": "「在某一层楼」用 on the first floor；「在街上」用 on the street。",
+            "examples_zh": [
+              "on the third floor",
+              "on Oxford Street"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确的地点介词",
+            "prompt_en": "We reside ____ the second floor.",
+            "options": ["at", "on", "in"],
+            "answer": "on"
+          }
+        ]
+      },
+      {
+        "title_zh": "in：封闭空间与较大范围",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "in 用于封闭空间、房间、城市、国家等较大范围。",
+            "examples_zh": [
+              "in the room",
+              "in the box",
+              "in London",
+              "in China",
+              "in the park",
+              "in the building"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确的地点介词",
+            "prompt_en": "She works ____ a hospital.",
+            "options": ["at", "on", "in"],
+            "answer": "in"
+          },
+          {
+            "type": "explanation",
+            "content_zh": "城市、国家、房间用 in；具体小地点用 at；表面用 on。",
+            "examples_zh": [
+              "in Beijing",
+              "in the office",
+              "at the entrance"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确的地点介词",
+            "prompt_en": "They traveled ____ Japan last year.",
+            "options": ["at", "on", "in"],
+            "answer": "in"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name_zh": "常见介词搭配",
+    "title": "常见介词搭配",
+    "overview_zh": "许多动词、形容词和名词有固定的介词搭配，如 look at、interested in、reason for。本节学习常见搭配，避免中式英语。",
+    "blocks": [],
+    "sections": [
+      {
+        "title_zh": "动词 + 介词",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "常见动词搭配：look at、listen to、wait for、depend on、belong to。",
+            "examples_zh": [
+              "look at the screen",
+              "listen to music",
+              "wait for the bus",
+              "depend on you",
+              "belong to me"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确的介词",
+            "prompt_en": "She is listening ____ music.",
+            "options": ["at", "to", "for"],
+            "answer": "to"
+          },
+          {
+            "type": "explanation",
+            "content_zh": "talk about、think about、worry about 均用 about。",
+            "examples_zh": [
+              "talk about the project",
+              "think about it",
+              "worry about the outcome"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确的介词",
+            "prompt_en": "We need to talk ____ the issue.",
+            "options": ["about", "to", "with"],
+            "answer": "about"
+          }
+        ]
+      },
+      {
+        "title_zh": "形容词 + 介词",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "interested in、good at、afraid of、famous for 是固定搭配。",
+            "examples_zh": [
+              "interested in history",
+              "good at mathematics",
+              "afraid of spiders",
+              "famous for its scenery"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确的介词",
+            "prompt_en": "He is interested ____ science.",
+            "options": ["in", "at", "for"],
+            "answer": "in"
+          },
+          {
+            "type": "explanation",
+            "content_zh": "happy with、satisfied with、angry with 表示「对……满意/生气」。",
+            "examples_zh": [
+              "happy with the outcome",
+              "satisfied with the outcome",
+              "angry with him"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确的介词",
+            "prompt_en": "She is satisfied ____ the outcome.",
+            "options": ["in", "with", "for"],
+            "answer": "with"
+          }
+        ]
+      },
+      {
+        "title_zh": "名词 + 介词",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "reason for、key to、answer to、solution to 常用搭配。",
+            "examples_zh": [
+              "reason for the delay",
+              "key to success",
+              "answer to the inquiry",
+              "solution to the issue"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确的介词",
+            "prompt_en": "The key ____ success is persistence.",
+            "options": ["for", "to", "of"],
+            "answer": "to"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name_zh": "形容词 vs 副词",
+    "title": "形容词 vs 副词",
+    "overview_zh": "形容词修饰名词，副词修饰动词、形容词或其他副词。区分 -ly 副词与形容词形式，避免 He runs quick 这类错误。",
+    "blocks": [],
+    "sections": [
+      {
+        "title_zh": "形容词修饰名词，副词修饰动词",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "形容词描述名词：a quick runner。副词描述动词：He runs quickly。",
+            "examples_zh": [
+              "a quick learner / learns quickly",
+              "a slow vehicle / drives slowly",
+              "beautiful music / plays beautifully",
+              "careful work / works carefully"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确形式",
+            "prompt_en": "She runs ____.",
+            "options": ["quick", "quickly"],
+            "answer": "quickly"
+          },
+          {
+            "type": "explanation",
+            "content_zh": "副词通常以 -ly 结尾，但 well、fast、hard 等为不规则形式。",
+            "examples_zh": [
+              "She speaks English well.",
+              "He works hard.",
+              "The train moves fast."
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确形式",
+            "prompt_en": "She speaks English ____.",
+            "options": ["good", "well"],
+            "answer": "well"
+          }
+        ]
+      },
+      {
+        "title_zh": "系动词后用形容词",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "be、look、sound、feel、seem 等系动词后接形容词，不用副词。",
+            "examples_zh": [
+              "She looks happy.",
+              "It sounds positive.",
+              "I feel well.",
+              "The food tastes delicious."
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确形式",
+            "prompt_en": "She looks ____ today.",
+            "options": ["happily", "happy"],
+            "answer": "happy"
+          },
+          {
+            "type": "explanation",
+            "content_zh": "look/sound/feel + 形容词；若用副词则修饰「看/听/感觉」的方式。",
+            "examples_zh": [
+              "She looked at me sadly.",
+              "He spoke to her angrily."
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确形式",
+            "prompt_en": "The music sounds ____.",
+            "options": ["beautiful", "beautifully"],
+            "answer": "beautiful"
+          }
+        ]
+      },
+      {
+        "title_zh": "易混词：good/well, fast/hard",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "good 是形容词，well 作形容词时表示「身体好」，作副词时表示「做得好」。fast 和 hard 既可作形容词又可作副词。",
+            "examples_zh": [
+              "good work / do well",
+              "a fast vehicle / run fast",
+              "hard work / work hard"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确形式",
+            "prompt_en": "He did ____ on the assessment.",
+            "options": ["good", "well"],
+            "answer": "well"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name_zh": "常见动词搭配",
+    "title": "常见动词搭配",
+    "overview_zh": "动词常与特定词搭配：make a decision、take a break、have a meeting。本节学习常见动宾搭配，使表达更自然。",
+    "blocks": [],
+    "sections": [
+      {
+        "title_zh": "make / do / take + 名词",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "make：make a decision、make a mistake、make progress。do：do homework、do research、do one's best。",
+            "examples_zh": [
+              "make a decision",
+              "make progress",
+              "do homework",
+              "do research",
+              "take a break",
+              "take a photo"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确的动词",
+            "prompt_en": "She needs to ____ a decision.",
+            "options": ["make", "do", "take"],
+            "answer": "make"
+          },
+          {
+            "type": "explanation",
+            "content_zh": "take：take a break、take a photo、take place、take care。",
+            "examples_zh": [
+              "take a break",
+              "take a photo",
+              "The meeting will take place tomorrow."
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确的动词",
+            "prompt_en": "I need to ____ a break.",
+            "options": ["make", "do", "take"],
+            "answer": "take"
+          }
+        ]
+      },
+      {
+        "title_zh": "have / get / give + 名词",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "have：have a meeting、have breakfast、have a problem。get：get permission、get a job。give：give advice、give a presentation。",
+            "examples_zh": [
+              "have a meeting",
+              "have breakfast",
+              "get permission",
+              "give advice",
+              "give a presentation"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确的动词",
+            "prompt_en": "We will ____ a meeting at 3pm.",
+            "options": ["have", "make", "take"],
+            "answer": "have"
+          },
+          {
+            "type": "explanation",
+            "content_zh": "pay attention、pay a visit 用 pay。",
+            "examples_zh": [
+              "pay attention to the instructor",
+              "pay a visit to the museum"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确的动词",
+            "prompt_en": "Please ____ attention to the screen.",
+            "options": ["have", "make", "pay"],
+            "answer": "pay"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name_zh": "基础句型结构",
+    "title": "基础句型结构",
+    "overview_zh": "英语基本句型包括：主谓、主谓宾、主系表、主谓宾宾补等。掌握句型结构有助于写出正确、清晰的句子。",
+    "blocks": [],
+    "sections": [
+      {
+        "title_zh": "主谓 (SV) 与主谓宾 (SVO)",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "主谓：主语 + 谓语（不及物动词）。主谓宾：主语 + 谓语 + 宾语。",
+            "examples_zh": [
+              "She sleeps. (SV)",
+              "Birds fly. (SV)",
+              "She likes coffee. (SVO)",
+              "He opened the door. (SVO)"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择语法正确的句子",
+            "prompt_en": "Which sentence is correct?",
+            "options": [
+              "She arrives.",
+              "She arrives the station.",
+              "She arrives to the station."
+            ],
+            "answer": "She arrives."
+          },
+          {
+            "type": "explanation",
+            "content_zh": "arrive 是不及物动词，需加 at：She arrives at the station。",
+            "examples_zh": [
+              "arrive at the station",
+              "wait for the bus",
+              "listen to music"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确形式",
+            "prompt_en": "She arrived ____ the station.",
+            "options": ["at", "to", "(no preposition)"],
+            "answer": "at"
+          }
+        ]
+      },
+      {
+        "title_zh": "主系表 (SVC)",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "主系表：主语 + 系动词 + 表语。系动词有 be、look、become、feel、seem 等。",
+            "examples_zh": [
+              "She is a learner. (SVC)",
+              "He looks tired. (SVC)",
+              "The food became cold. (SVC)"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确的句子",
+            "prompt_en": "Which is a main-clause structure?",
+            "options": [
+              "She is a teacher.",
+              "Because she is a teacher.",
+              "When she is a teacher."
+            ],
+            "answer": "She is a teacher."
+          },
+          {
+            "type": "explanation",
+            "content_zh": "完整句必须有主语和谓语；because、when 引导的是从句。",
+            "examples_zh": [
+              "She is a teacher. (完整句)",
+              "Because she is a teacher, she works hard. (从句+主句)"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择语法正确的句子",
+            "prompt_en": "Which sentence is complete?",
+            "options": [
+              "She works in a hospital.",
+              "Because she works.",
+              "When she works."
+            ],
+            "answer": "She works in a hospital."
+          }
+        ]
+      },
+      {
+        "title_zh": "主谓宾宾 (SVOO) 与主谓宾补 (SVOC)",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "主谓宾宾：give her a gift、tell me the outcome。主谓宾补：make me happy、call him Tom。",
+            "examples_zh": [
+              "She gave him a gift. (SVOO)",
+              "He told me the outcome. (SVOO)",
+              "The outcome made her happy. (SVOC)",
+              "We call him Tom. (SVOC)"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择符合 SVOO（主谓宾宾）结构的正确句子",
+            "prompt_en": "Which sentence correctly uses the SVOO structure?",
+            "options": [
+              "She gave him a gift.",
+              "She gave to him a gift.",
+              "She gave a gift him."
+            ],
+            "answer": "She gave him a gift."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name_zh": "及物动词 vs 不及物动词",
+    "title": "及物动词 vs 不及物动词",
+    "overview_zh": "及物动词后面必须接宾语，不及物动词不能直接接宾语。有些动词需要搭配介词才能接宾语（如 listen to、wait for）。掌握这些区别能避免 She arrived the station 这类错误。",
+    "blocks": [],
+    "sections": [
+      {
+        "title_zh": "及物动词必须带宾语",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "及物动词（transitive verb）表示动作施加于某物，后面必须接宾语，否则句意不完整。",
+            "examples_zh": [
+              "She opened the door. (open 需要宾语)",
+              "He likes coffee. (like 需要宾语)",
+              "I need help. (need 需要宾语)",
+              "We bought a car. (buy 需要宾语)"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择语法正确的句子",
+            "prompt_en": "Which sentence is correct?",
+            "options": [
+              "She opened the door.",
+              "She opened.",
+              "She opened to the door."
+            ],
+            "answer": "She opened the door."
+          },
+          {
+            "type": "explanation",
+            "content_zh": "常见及物动词：open, close, love, need, want, buy, read, write, make, take（接名词时）。",
+            "examples_zh": [
+              "I love music.",
+              "She reads books every day.",
+              "He made a cake."
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确的句子",
+            "prompt_en": "Which is correct?",
+            "options": [
+              "She likes coffee.",
+              "She likes.",
+              "She likes to coffee."
+            ],
+            "answer": "She likes coffee."
+          }
+        ]
+      },
+      {
+        "title_zh": "不及物动词不接直接宾语",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "不及物动词（intransitive verb）表示的动作不施加于宾语，后面不能直接接名词作宾语。",
+            "examples_zh": [
+              "She arrived. (arrive 不及物)",
+              "The baby slept. (sleep 不及物)",
+              "Birds fly. (fly 在此不及物)",
+              "He disappeared. (disappear 不及物)"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择语法正确的句子",
+            "prompt_en": "Which sentence is correct?",
+            "options": [
+              "She arrived.",
+              "She arrived the station.",
+              "She arrived the station at 9."
+            ],
+            "answer": "She arrived."
+          },
+          {
+            "type": "explanation",
+            "content_zh": "要说「到达某地」须用介词：arrive at the station、arrive in London。常见不及物动词：arrive, go, come, sleep, die, happen, exist。",
+            "examples_zh": [
+              "She arrived at the station.",
+              "We arrived in Beijing.",
+              "What happened?"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确形式",
+            "prompt_en": "She arrived ____ the station.",
+            "options": ["at", "(no word)", "to"],
+            "answer": "at"
+          }
+        ]
+      },
+      {
+        "title_zh": "需搭配介词的动词",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "有些动词本身不及物，要接「对象」时必须用固定介词：listen to、wait for、look at、depend on、belong to。",
+            "examples_zh": [
+              "Listen to me. (不说 Listen me)",
+              "Wait for the bus. (不说 Wait the bus)",
+              "Look at the board. (不说 Look the board)",
+              "It depends on you."
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确的介词",
+            "prompt_en": "Please listen ____ me.",
+            "options": ["to", "at", "(no preposition)"],
+            "answer": "to"
+          },
+          {
+            "type": "explanation",
+            "content_zh": "记不住时可以查词典，看动词后标的是 vt（及物）还是 vi（不及物），以及是否有固定搭配。",
+            "examples_zh": [
+              "wait for someone",
+              "look at something",
+              "talk about a topic",
+              "agree with someone"
+            ]
+          },
+          {
+            "type": "guided",
+            "activity_type": "choose_one",
+            "instruction_zh": "请选择正确的介词",
+            "prompt_en": "I am waiting ____ the bus.",
+            "options": ["for", "to", "at"],
+            "answer": "for"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name_zh": "观点表达",
+    "title": "观点表达",
+    "overview_zh": "表达观点时常用 In my opinion、I think、I believe、It seems to me that、From my point of view 等。学完本节后，你会掌握这些表达的用法，并能在语境中正确选用，避免常见错误。",
+    "blocks": [],
+    "sections": [
+      {
+        "title_zh": "常用观点表达",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "In my opinion 表示「在我看来」；I think / I believe 引出观点；It seems to me that 表示「在我看来似乎……」。",
+            "examples_zh": [
+              "In my opinion, we should wait.",
+              "I think the plan is good.",
+              "It seems to me that we need more time."
+            ]
+          },
+          {
+            "type": "explanation",
+            "content_zh": "From my point of view 表示「从我的角度看」。I would say 表示委婉观点。",
+            "examples_zh": [
+              "From my point of view, this approach works.",
+              "I would say that learning takes time."
+            ]
+          },
+          {
+            "type": "explanation",
+            "content_zh": "注意：think、believe 是动词，用一般现在时（I think，不说 I am think）。In my opinion 和 I think 意思相近，不要重复使用。",
+            "examples_zh": [
+              "I think it's a good idea. ✓",
+              "In my opinion, I think it's a good idea. ✗（重复）"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name_zh": "举例表达",
+    "title": "举例表达",
+    "overview_zh": "举例时常用 for example、such as、for instance、like 等。学完本节后，你会掌握这些表达的用法，并能在写作和口语中正确选用，避免 such like 等错误。",
+    "blocks": [],
+    "sections": [
+      {
+        "title_zh": "常用举例表达",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "for example 和 for instance 可以放在句首或句中，后接逗号，引出完整例子。",
+            "examples_zh": [
+              "For example, I enjoy sports like swimming and running.",
+              "Many fruits, for instance, apples and oranges, are rich in vitamin C."
+            ]
+          },
+          {
+            "type": "explanation",
+            "content_zh": "such as 和 like 用于列举，直接接名词或名词短语，不加逗号分隔（such as 前可有逗号）。",
+            "examples_zh": [
+              "I like sports such as swimming and tennis.",
+              "Languages like English and Spanish are widely used."
+            ]
+          },
+          {
+            "type": "explanation",
+            "content_zh": "注意：没有 such like 的说法，应说 such as 或 like。including 也可用于举例，后接名词。",
+            "examples_zh": [
+              "such as ✓ / like ✓",
+              "such like ✗",
+              "including coffee and tea"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name_zh": "连接词",
+    "title": "连接词",
+    "overview_zh": "连接词用于衔接句子和段落：表示递进（moreover、furthermore）、转折（however、although）、因果（because、therefore）、顺序（first、then、finally）等。学完本节后，你会正确选用连接词，并避免 although...but、because...so 等重复错误。",
+    "blocks": [],
+    "sections": [
+      {
+        "title_zh": "连接词的用法",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "递进：and、also、moreover、furthermore 表示「此外」「而且」。",
+            "examples_zh": [
+              "The plan is cheap. Moreover, it is efficient.",
+              "She is talented. Furthermore, she works hard."
+            ]
+          },
+          {
+            "type": "explanation",
+            "content_zh": "转折：but、however、although、though。注意：although 和 but 不能同时用；because 和 so 不能同时用。",
+            "examples_zh": [
+              "Although it rained, we went out. ✓",
+              "Although it rained, but we went out. ✗",
+              "Because he was late, he missed the bus. ✓",
+              "Because he was late, so he missed the bus. ✗"
+            ]
+          },
+          {
+            "type": "explanation",
+            "content_zh": "顺序：first、second、then、finally、in conclusion 等用于组织论述。",
+            "examples_zh": [
+              "First, we need to plan. Second, we need to act. Finally, we need to review."
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name_zh": "总结句",
+    "title": "总结句",
+    "overview_zh": "总结时常用 In conclusion、To sum up、In summary、Overall 等。学完本节后，你会掌握这些表达的用法，并能在段落或文章结尾正确写出总结句。",
+    "blocks": [],
+    "sections": [
+      {
+        "title_zh": "常用总结表达",
+        "blocks": [
+          {
+            "type": "explanation",
+            "content_zh": "In conclusion、To sum up、In summary 用于引出总结，后接逗号，再写总结内容。",
+            "examples_zh": [
+              "In conclusion, we should invest more in education.",
+              "To sum up, the project has both strengths and weaknesses."
+            ]
+          },
+          {
+            "type": "explanation",
+            "content_zh": "Overall 和 On the whole 表示「总体而言」，可放在句首或句中。",
+            "examples_zh": [
+              "Overall, the results were positive.",
+              "On the whole, we are satisfied with the outcome."
+            ]
+          },
+          {
+            "type": "explanation",
+            "content_zh": "注意：总结句应概括前文要点，不宜引入新信息。避免 To conclusion（错误），应说 In conclusion。",
+            "examples_zh": [
+              "In conclusion ✓",
+              "To conclusion ✗"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name_zh": "复杂句型结构",
+    "title": "复杂句型结构",
+    "overview_zh": "识别主句、区分主次信息，理解长句主干。帮助学习者在 TOEFL 风格的长句中把握核心含义。",
+    "blocks": [{"type": "explanation", "content_zh": "Layer 3 模块介绍请参见下方详细页面。"}],
+    "sections": []
+  },
+  {
+    "id": 25,
+    "name_zh": "从句关系",
+    "title": "从句关系",
+    "overview_zh": "掌握从句之间的逻辑关系：因果、对比、条件、时间、目的、结果等。正确选用连接词提升写作逻辑。",
+    "blocks": [{"type": "explanation", "content_zh": "Layer 3 模块介绍请参见下方详细页面。"}],
+    "sections": []
+  },
+  {
+    "id": 26,
+    "name_zh": "段落衔接与过渡",
+    "title": "段落衔接与过渡",
+    "overview_zh": "在 TOEFL 段落中建立句间衔接与连贯，掌握过渡词和段落组织。",
+    "blocks": [{"type": "explanation", "content_zh": "Layer 3 模块介绍请参见下方详细页面。"}],
+    "sections": []
+  },
+  {
+    "id": 27,
+    "name_zh": "句子合并与升级",
+    "title": "句子合并与升级",
+    "overview_zh": "将短句合并为更流畅、自然的表达，选择更高级、地道的句式。",
+    "blocks": [{"type": "explanation", "content_zh": "Layer 3 模块介绍请参见下方详细页面。"}],
+    "sections": []
+  }
+]

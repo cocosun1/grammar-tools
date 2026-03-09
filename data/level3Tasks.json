@@ -1,0 +1,356 @@
+{
+  "1": [
+    {
+      "id": "t1",
+      "prompt_zh": "许多学生参观了博物馆",
+      "grammar_checks": [
+        { "required": "students", "wrong": "student", "hint": "many 后接可数名词复数，应为 students" },
+        { "required": "visited", "wrong": "visit", "hint": "过去时应用 visited" }
+      ]
+    },
+    {
+      "id": "t2",
+      "prompt_zh": "我喝了很多水",
+      "grammar_checks": [
+        { "required": "water", "wrong": "waters", "hint": "water 是不可数名词，不加 -s" },
+        { "required": "much", "wrong": "many", "hint": "water 不可数，用 much 而非 many" }
+      ]
+    },
+    {
+      "id": "t3",
+      "prompt_zh": "她买了几支铅笔",
+      "grammar_checks": [
+        { "required": "pencils", "wrong": "pencil", "hint": "a few 后接可数名词复数，应为 pencils" }
+      ]
+    },
+    {
+      "id": "t4",
+      "prompt_zh": "我需要一点建议",
+      "grammar_checks": [
+        { "required": "advice", "wrong": "advices", "hint": "advice 是不可数名词，不加 -s" },
+        { "required": "a little", "wrong": "a few", "hint": "advice 不可数，用 a little/some 而非 a few", "accept_also": ["some", "a bit of", "bit of"] }
+      ]
+    },
+    {
+      "id": "t5",
+      "prompt_zh": "桌上有三本书",
+      "grammar_checks": [
+        { "required": "books", "wrong": "book", "hint": "three 后接可数名词复数，应为 books" }
+      ]
+    },
+    {
+      "id": "t6",
+      "prompt_zh": "许多学生读了很多书",
+      "grammar_checks": [
+        { "required": "students", "wrong": "student", "hint": "many 后接可数名词复数，应为 students" },
+        { "required": "books", "wrong": "book", "hint": "many 后接可数名词复数，应为 books" }
+      ]
+    },
+    {
+      "id": "t7",
+      "prompt_zh": "瓶子里几乎没有水了",
+      "grammar_checks": [
+        { "required": "water", "wrong": "waters", "hint": "water 是不可数名词，不加 -s" },
+        { "required": "little", "wrong": "few", "hint": "water 不可数，用 little/no 而非 few", "accept_also": ["no", "none", "almost"] }
+      ]
+    },
+    {
+      "id": "t8",
+      "prompt_zh": "她给了我几条有用的建议",
+      "grammar_checks": [
+        { "required": "advice", "wrong": "advices", "hint": "advice 是不可数名词，不加 -s" }
+      ]
+    },
+    {
+      "id": "t9",
+      "prompt_zh": "我需要买几个苹果",
+      "grammar_checks": [
+        { "required": "apples", "wrong": "apple", "hint": "a few / 几个 后接可数名词复数，应为 apples" }
+      ]
+    },
+    {
+      "id": "t10",
+      "prompt_zh": "杯子里有很多牛奶",
+      "grammar_checks": [
+        { "required": "milk", "wrong": "milks", "hint": "milk 是不可数名词，不加 -s" },
+        { "required": "much", "wrong": "many", "hint": "milk 不可数，用 much 而非 many" }
+      ]
+    }
+  ],
+  "2": [
+    { "id": "t1", "prompt_zh": "两个孩子在公园里玩", "grammar_checks": [{ "required": "children", "wrong": "childs", "hint": "child 的复数是不规则形式 children" }] },
+    { "id": "t2", "prompt_zh": "她买了三盒巧克力", "grammar_checks": [{ "required": "boxes", "wrong": "boxs", "hint": "box 以 x 结尾，复数加 -es：boxes" }] },
+    { "id": "t3", "prompt_zh": "这些英雄救了很多人", "grammar_checks": [{ "required": "heroes", "wrong": "heros", "hint": "hero 以 -o 结尾，复数加 -es：heroes" }] },
+    { "id": "t4", "prompt_zh": "架子上有两把刀", "grammar_checks": [{ "required": "knives", "wrong": "knifes", "hint": "knife 以 -fe 结尾，变 f 为 v 加 -s：knives" }] },
+    { "id": "t5", "prompt_zh": "田里有五只羊", "grammar_checks": [{ "required": "sheep", "wrong": "sheeps", "hint": "sheep 单复数同形，不加 -s" }] },
+    { "id": "t6", "prompt_zh": "我妻子有两个姐姐", "grammar_checks": [{ "required": "wives", "wrong": "wifes", "hint": "wife 以 -fe 结尾，复数 wives" }, { "required": "sisters", "wrong": "sister", "hint": "two 后接可数名词复数 sisters" }] },
+    { "id": "t7", "prompt_zh": "许多代表出席了会议", "grammar_checks": [{ "required": "delegates", "wrong": "delegate", "hint": "many 后接可数名词复数 delegates" }] },
+    { "id": "t8", "prompt_zh": "我们吃了半个苹果", "grammar_checks": [{ "required": "halves", "wrong": "halfs", "hint": "half 复数不规则：halves" }] },
+    { "id": "t9", "prompt_zh": "天上有几只鹅", "grammar_checks": [{ "required": "geese", "wrong": "gooses", "hint": "goose 复数不规则：geese" }] },
+    { "id": "t10", "prompt_zh": "这些博物馆很受欢迎", "grammar_checks": [{ "required": "museums", "wrong": "museum", "hint": "these 后接复数，museum 复数 museums" }] }
+  ],
+  "3": [
+    { "id": "t1", "prompt_zh": "瓶子里没有多少水了", "grammar_checks": [{ "required": "water", "wrong": "waters", "hint": "water 不可数，不加 -s" }, { "required": "much", "wrong": "many", "hint": "水不可数，用 much" }] },
+    { "id": "t2", "prompt_zh": "她给了我一些建议", "grammar_checks": [{ "required": "advice", "wrong": "advices", "hint": "advice 不可数，不加 -s" }] },
+    { "id": "t3", "prompt_zh": "这些家具很贵", "grammar_checks": [{ "required": "furniture", "wrong": "furnitures", "hint": "furniture 不可数" }, { "required": "is", "wrong": "are", "hint": "不可数名词作主语时谓语用单数 is" }] },
+    { "id": "t4", "prompt_zh": "杯子里还有一点咖啡", "grammar_checks": [{ "required": "coffee", "wrong": "coffees", "hint": "coffee 不可数" }, { "required": "a little", "wrong": "a few", "hint": "咖啡不可数，用 a little", "accept_also": ["little", "some"] }] },
+    { "id": "t5", "prompt_zh": "这条新闻很重要", "grammar_checks": [{ "required": "news", "wrong": "newses", "hint": "news 虽以 s 结尾但不可数" }, { "required": "is", "wrong": "are", "hint": "news 作主语谓语用单数" }] },
+    { "id": "t6", "prompt_zh": "我们需要更多信息", "grammar_checks": [{ "required": "information", "wrong": "informations", "hint": "information 不可数" }, { "required": "much", "wrong": "many", "hint": "信息不可数，用 much/more", "accept_also": ["more"] }] },
+    { "id": "t7", "prompt_zh": "糖快用完了", "grammar_checks": [{ "required": "sugar", "wrong": "sugars", "hint": "sugar 不可数" }, { "required": "is", "wrong": "are", "hint": "sugar 作主语谓语用单数" }] },
+    { "id": "t8", "prompt_zh": "她的行李很重", "grammar_checks": [{ "required": "luggage", "wrong": "luggages", "hint": "luggage 不可数" }, { "required": "is", "wrong": "are", "hint": "luggage 作主语谓语用单数" }] },
+    { "id": "t9", "prompt_zh": "我没什么耐心", "grammar_checks": [{ "required": "patience", "wrong": "patiences", "hint": "patience 不可数" }] },
+    { "id": "t10", "prompt_zh": "做了很多研究", "grammar_checks": [{ "required": "research", "wrong": "researches", "hint": "research 常作不可数" }, { "required": "much", "wrong": "many", "hint": "研究不可数时用 much", "accept_also": ["a lot of", "lots of"] }] }
+  ],
+  "4": [
+    { "id": "t1", "prompt_zh": "她是一名工程师", "grammar_checks": [{ "required": "an engineer", "wrong": "a engineer", "hint": "engineer 以元音音素开头，用 an" }] },
+    { "id": "t2", "prompt_zh": "我看到了大象", "grammar_checks": [{ "required": "an elephant", "wrong": "a elephant", "hint": "elephant 以元音音素开头，用 an" }] },
+    { "id": "t3", "prompt_zh": "月亮很圆", "grammar_checks": [{ "required": "the moon", "wrong": "a moon", "hint": "独一无二的事物用 the" }] },
+    { "id": "t4", "prompt_zh": "地球绕着太阳转", "grammar_checks": [{ "required": "the earth", "wrong": "earth", "hint": "地球、太阳等独一无二用 the" }, { "required": "the sun", "wrong": "sun", "hint": "太阳独一无二用 the sun" }] },
+    { "id": "t5", "prompt_zh": "这是条单行道", "grammar_checks": [{ "required": "a one-way", "wrong": "an one-way", "hint": "one 发音以辅音开头，用 a" }] },
+    { "id": "t6", "prompt_zh": "花了一个小时", "grammar_checks": [{ "required": "an hour", "wrong": "a hour", "hint": "hour 发音以元音开头，用 an" }] },
+    { "id": "t7", "prompt_zh": "她是美国人", "grammar_checks": [{ "required": "an American", "wrong": "a American", "hint": "American 以元音音素开头，用 an" }] },
+    { "id": "t8", "prompt_zh": "请开门", "grammar_checks": [{ "required": "the door", "wrong": "a door", "hint": "特指眼前的门用 the" }] },
+    { "id": "t9", "prompt_zh": "他有一个苹果", "grammar_checks": [{ "required": "an apple", "wrong": "a apple", "hint": "apple 以元音音素开头，用 an" }] },
+    { "id": "t10", "prompt_zh": "天空是蓝色的", "grammar_checks": [{ "required": "the sky", "wrong": "a sky", "hint": "特指天空常用 the sky" }] }
+  ],
+  "5": [
+    { "id": "t1", "prompt_zh": "我妹妹喜欢音乐", "grammar_checks": [{ "required": "likes", "wrong": "like", "hint": "我妹妹第三人称单数，谓语加 -s" }] },
+    { "id": "t2", "prompt_zh": "汤姆每天去上学", "grammar_checks": [{ "required": "goes", "wrong": "go", "hint": "Tom 第三人称单数，go 变 goes" }] },
+    { "id": "t3", "prompt_zh": "她不知道答案", "grammar_checks": [{ "required": "doesn't", "wrong": "don't", "hint": "第三人称单数否定用 doesn't" }] },
+    { "id": "t4", "prompt_zh": "我爸爸在医院工作", "grammar_checks": [{ "required": "works", "wrong": "work", "hint": "我爸爸第三人称单数，work 加 -s" }] },
+    { "id": "t5", "prompt_zh": "玛丽每晚看电视", "grammar_checks": [{ "required": "watches", "wrong": "watch", "hint": "Mary 第三人称单数，watch 加 -es" }] },
+    { "id": "t6", "prompt_zh": "猫喜欢喝牛奶", "grammar_checks": [{ "required": "loves", "wrong": "love", "hint": "the cat 第三人称单数，谓语加 -s" }] },
+    { "id": "t7", "prompt_zh": "学生们每天做作业", "grammar_checks": [{ "required": "do", "wrong": "does", "hint": "students 复数主语，谓语用原形 do" }] },
+    { "id": "t8", "prompt_zh": "她在家学习", "grammar_checks": [{ "required": "studies", "wrong": "study", "hint": "she 第三人称单数，study 变 studies" }] },
+    { "id": "t9", "prompt_zh": "鸟在天上飞", "grammar_checks": [{ "required": "fly", "wrong": "flies", "hint": "birds 复数主语，谓语用原形 fly" }] },
+    { "id": "t10", "prompt_zh": "老师教我们英语", "grammar_checks": [{ "required": "teaches", "wrong": "teach", "hint": "the teacher 第三人称单数，teach 加 -es" }] }
+  ],
+  "6": [
+    { "id": "t1", "prompt_zh": "他昨天很晚回家", "grammar_checks": [{ "required": "came", "wrong": "come", "hint": "昨天用过去时，come 的过去式 came" }] },
+    { "id": "t2", "prompt_zh": "她昨天告诉了我", "grammar_checks": [{ "required": "told", "wrong": "tell", "hint": "过去时 tell 的过去式 told" }] },
+    { "id": "t3", "prompt_zh": "我给了他一本书", "grammar_checks": [{ "required": "gave", "wrong": "give", "hint": "过去时 give 的过去式 gave" }] },
+    { "id": "t4", "prompt_zh": "我们上周去了北京", "grammar_checks": [{ "required": "went", "wrong": "go", "hint": "过去时 go 的过去式 went" }] },
+    { "id": "t5", "prompt_zh": "她昨天买了新鞋", "grammar_checks": [{ "required": "bought", "wrong": "buy", "hint": "过去时 buy 的过去式 bought" }] },
+    { "id": "t6", "prompt_zh": "他昨天写了信", "grammar_checks": [{ "required": "wrote", "wrong": "write", "hint": "过去时 write 的过去式 wrote" }] },
+    { "id": "t7", "prompt_zh": "我昨天看见了她", "grammar_checks": [{ "required": "saw", "wrong": "see", "hint": "过去时 see 的过去式 saw" }] },
+    { "id": "t8", "prompt_zh": "他们去年住了伦敦", "grammar_checks": [{ "required": "lived", "wrong": "live", "hint": "过去时 live 加 -d" }] },
+    { "id": "t9", "prompt_zh": "她做了蛋糕", "grammar_checks": [{ "required": "made", "wrong": "make", "hint": "过去时 make 的过去式 made" }] },
+    { "id": "t10", "prompt_zh": "他昨天开始工作", "grammar_checks": [{ "required": "started", "wrong": "start", "hint": "过去时 start 加 -ed" }] }
+  ],
+  "7": [
+    { "id": "t1", "prompt_zh": "他们正在工作", "grammar_checks": [{ "required": "are working", "wrong": "work", "hint": "正在做某事用现在进行时 are working" }] },
+    { "id": "t2", "prompt_zh": "他正在写信", "grammar_checks": [{ "required": "is writing", "wrong": "write", "hint": "现在进行时用 is + -ing" }] },
+    { "id": "t3", "prompt_zh": "她正在睡觉", "grammar_checks": [{ "required": "is sleeping", "wrong": "sleep", "hint": "现在进行时 is sleeping" }] },
+    { "id": "t4", "prompt_zh": "我在听音乐", "grammar_checks": [{ "required": "am listening", "wrong": "listen", "hint": "I 用 am + -ing" }, { "required": "listening", "wrong": "listen", "hint": "进行时动词加 -ing" }] },
+    { "id": "t5", "prompt_zh": "孩子们正在玩游戏", "grammar_checks": [{ "required": "are playing", "wrong": "play", "hint": "复数主语用 are playing" }] },
+    { "id": "t6", "prompt_zh": "她正在做作业", "grammar_checks": [{ "required": "is doing", "wrong": "do", "hint": "现在进行时 is doing" }] },
+    { "id": "t7", "prompt_zh": "雨正在下", "grammar_checks": [{ "required": "is raining", "wrong": "rain", "hint": "it 用 is raining" }] },
+    { "id": "t8", "prompt_zh": "我们正在等公交车", "grammar_checks": [{ "required": "are waiting", "wrong": "wait", "hint": "现在进行时 are waiting" }] },
+    { "id": "t9", "prompt_zh": "他正在吃早饭", "grammar_checks": [{ "required": "is having", "wrong": "have", "hint": "现在进行时 is having", "accept_also": ["is eating"] }] },
+    { "id": "t10", "prompt_zh": "他们正在看电视", "grammar_checks": [{ "required": "are watching", "wrong": "watch", "hint": "现在进行时 are watching" }] }
+  ],
+  "8": [
+    { "id": "t1", "prompt_zh": "我到达时她正在睡觉", "grammar_checks": [{ "required": "was sleeping", "wrong": "is sleeping", "hint": "过去某时正在发生用过去进行时 was sleeping" }] },
+    { "id": "t2", "prompt_zh": "昨晚八点我在看书", "grammar_checks": [{ "required": "was reading", "wrong": "read", "hint": "过去某时正在做用 was/were + -ing" }] },
+    { "id": "t3", "prompt_zh": "他们当时在讨论问题", "grammar_checks": [{ "required": "were discussing", "wrong": "discuss", "hint": "过去进行时复数用 were discussing" }] },
+    { "id": "t4", "prompt_zh": "下雨时我们正在走路", "grammar_checks": [{ "required": "were walking", "wrong": "walk", "hint": "过去进行时 we 用 were walking" }] },
+    { "id": "t5", "prompt_zh": "他进来时我在写邮件", "grammar_checks": [{ "required": "was writing", "wrong": "write", "hint": "过去进行时 I 用 was writing" }] },
+    { "id": "t6", "prompt_zh": "那时她在做饭", "grammar_checks": [{ "required": "was cooking", "wrong": "cook", "hint": "过去进行时 was cooking" }] },
+    { "id": "t7", "prompt_zh": "昨天下午孩子们在踢球", "grammar_checks": [{ "required": "were playing", "wrong": "play", "hint": "过去进行时复数用 were playing" }] },
+    { "id": "t8", "prompt_zh": "电话响时他正在洗澡", "grammar_checks": [{ "required": "was taking", "wrong": "take", "hint": "过去进行时 was taking a shower" }, { "required": "shower", "wrong": "showers", "hint": "take a shower 固定搭配" }] },
+    { "id": "t9", "prompt_zh": "当时没人听", "grammar_checks": [{ "required": "was listening", "wrong": "listen", "hint": "过去进行时 nobody 用 was listening", "accept_also": ["were listening"] }] },
+    { "id": "t10", "prompt_zh": "昨晚此时我在睡觉", "grammar_checks": [{ "required": "was sleeping", "wrong": "sleep", "hint": "过去进行时 was sleeping" }] }
+  ],
+  "9": [
+    { "id": "t1", "prompt_zh": "我看过那部电影", "grammar_checks": [{ "required": "have seen", "wrong": "saw", "hint": "强调对现在的影响用现在完成时 have seen" }] },
+    { "id": "t2", "prompt_zh": "她去了北京", "grammar_checks": [{ "required": "has been", "wrong": "went", "hint": "去过（经历）用 have/has been", "accept_also": ["has gone"] }] },
+    { "id": "t3", "prompt_zh": "他已经完成了作业", "grammar_checks": [{ "required": "has finished", "wrong": "finished", "hint": "现在完成时 has + 过去分词" }] },
+    { "id": "t4", "prompt_zh": "我在这儿住了五年", "grammar_checks": [{ "required": "have lived", "wrong": "lived", "hint": "持续至今用现在完成时 have lived" }] },
+    { "id": "t5", "prompt_zh": "他们还没回来", "grammar_checks": [{ "required": "haven't come", "wrong": "didn't come", "hint": "至今未用现在完成时 haven't come" }] },
+    { "id": "t6", "prompt_zh": "你吃过午饭了吗", "grammar_checks": [{ "required": "Have you had", "wrong": "Did you have", "hint": "询问是否做过用 Have you had" }] },
+    { "id": "t7", "prompt_zh": "她刚离开", "grammar_checks": [{ "required": "has left", "wrong": "left", "hint": "刚发生用现在完成时 has left" }] },
+    { "id": "t8", "prompt_zh": "我们见过面", "grammar_checks": [{ "required": "have met", "wrong": "met", "hint": "经历用现在完成时 have met" }] },
+    { "id": "t9", "prompt_zh": "这本书我读了三遍", "grammar_checks": [{ "required": "have read", "wrong": "read", "hint": "强调次数/经历用 have read" }] },
+    { "id": "t10", "prompt_zh": "他还没吃过早饭", "grammar_checks": [{ "required": "hasn't had", "wrong": "didn't have", "hint": "至今未用 hasn't had" }] }
+  ],
+  "10": [
+    { "id": "t1", "prompt_zh": "我们下周去", "grammar_checks": [{ "required": "will go", "wrong": "go", "hint": "将来时用 will go" }] },
+    { "id": "t2", "prompt_zh": "她会来的", "grammar_checks": [{ "required": "will come", "wrong": "come", "hint": "将来时 will come" }] },
+    { "id": "t3", "prompt_zh": "明天会下雨", "grammar_checks": [{ "required": "will rain", "wrong": "rain", "hint": "将来时 it will rain" }] },
+    { "id": "t4", "prompt_zh": "我明天给你打电话", "grammar_checks": [{ "required": "will call", "wrong": "call", "hint": "将来时 will call" }] },
+    { "id": "t5", "prompt_zh": "他们将要结婚", "grammar_checks": [{ "required": "will get", "wrong": "get", "hint": "将来时 will get married" }, { "required": "married", "wrong": "marry", "hint": "get married 固定搭配" }] },
+    { "id": "t6", "prompt_zh": "会议将在三点开始", "grammar_checks": [{ "required": "will start", "wrong": "start", "hint": "将来时 will start" }] },
+    { "id": "t7", "prompt_zh": "你明年毕业吗", "grammar_checks": [{ "required": "Will you graduate", "wrong": "Do you graduate", "hint": "将来时疑问 Will you graduate" }] },
+    { "id": "t8", "prompt_zh": "他打算学英语", "grammar_checks": [{ "required": "is going to", "wrong": "will", "hint": "打算做用 be going to", "accept_also": ["going to study"] }] },
+    { "id": "t9", "prompt_zh": "我不会告诉任何人", "grammar_checks": [{ "required": "won't tell", "wrong": "don't tell", "hint": "将来否定 won't tell" }] },
+    { "id": "t10", "prompt_zh": "我们很快就会到", "grammar_checks": [{ "required": "will arrive", "wrong": "arrive", "hint": "将来时 will arrive" }] }
+  ],
+  "11": [
+    { "id": "t1", "prompt_zh": "委员会已经同意了", "grammar_checks": [{ "required": "has", "wrong": "have", "hint": "committee 作整体看时谓语用单数 has" }] },
+    { "id": "t2", "prompt_zh": "我们班有三十个学生", "grammar_checks": [{ "required": "has", "wrong": "have", "hint": "our class 作为整体用单数 has" }] },
+    { "id": "t3", "prompt_zh": "每个人都有自己的想法", "grammar_checks": [{ "required": "has", "wrong": "have", "hint": "everyone 第三人称单数，用 has" }] },
+    { "id": "t4", "prompt_zh": "没有人知道答案", "grammar_checks": [{ "required": "knows", "wrong": "know", "hint": "nobody 第三人称单数，谓语用 knows" }] },
+    { "id": "t5", "prompt_zh": "面包和黄油是早餐", "grammar_checks": [{ "required": "is", "wrong": "are", "hint": "bread and butter 作为整体习惯搭配时可用单数 is" }] },
+    { "id": "t6", "prompt_zh": "数据表明进展顺利", "grammar_checks": [{ "required": "shows", "wrong": "show", "hint": "data 常作不可数，谓语用单数 shows" }] },
+    { "id": "t7", "prompt_zh": "团队正在比赛", "grammar_checks": [{ "required": "is playing", "wrong": "are playing", "hint": "team 作整体时用单数 is playing" }] },
+    { "id": "t8", "prompt_zh": "要么你要么他是错的", "grammar_checks": [{ "required": "is", "wrong": "are", "hint": "either...or 就近原则，he 用 is" }] },
+    { "id": "t9", "prompt_zh": "不止一个学生迟到了", "grammar_checks": [{ "required": "was", "wrong": "were", "hint": "more than one 后习惯用单数谓语 was" }] },
+    { "id": "t10", "prompt_zh": "五美元不够", "grammar_checks": [{ "required": "is", "wrong": "are", "hint": "金额作整体用单数 is" }] }
+  ],
+  "12": [
+    { "id": "t1", "prompt_zh": "你应该更努力", "grammar_checks": [{ "required": "should", "wrong": "can", "hint": "建议/应该用 should" }] },
+    { "id": "t2", "prompt_zh": "我可以问你一个问题吗", "grammar_checks": [{ "required": "May I", "wrong": "Can I", "hint": "礼貌请求可用 May I", "accept_also": ["Can I", "Could I"] }] },
+    { "id": "t3", "prompt_zh": "你必须按时完成", "grammar_checks": [{ "required": "must", "wrong": "can", "hint": "必须用 must" }] },
+    { "id": "t4", "prompt_zh": "她可能在家", "grammar_checks": [{ "required": "may be", "wrong": "maybe", "hint": "可能（动词）用 may be 两词" }] },
+    { "id": "t5", "prompt_zh": "你本不该那样说", "grammar_checks": [{ "required": "shouldn't have", "wrong": "shouldn't", "hint": "过去不该做用 shouldn't have said" }] },
+    { "id": "t6", "prompt_zh": "我们能赢", "grammar_checks": [{ "required": "can", "wrong": "may", "hint": "能力/可能用 can" }] },
+    { "id": "t7", "prompt_zh": "你最好现在就走", "grammar_checks": [{ "required": "had better", "wrong": "have better", "hint": "最好做用 had better" }] },
+    { "id": "t8", "prompt_zh": "他可能已经离开了", "grammar_checks": [{ "required": "may have", "wrong": "may", "hint": "对过去的推测用 may have left" }] },
+    { "id": "t9", "prompt_zh": "你不必来", "grammar_checks": [{ "required": "don't have to", "wrong": "mustn't", "hint": "不必用 don't have to", "accept_also": ["needn't"] }] },
+    { "id": "t10", "prompt_zh": "孩子们必须早睡", "grammar_checks": [{ "required": "must", "wrong": "can", "hint": "必须用 must" }] }
+  ],
+  "13": [
+    { "id": "t1", "prompt_zh": "会议在九点开始", "grammar_checks": [{ "required": "at", "wrong": "on", "hint": "钟点用 at" }] },
+    { "id": "t2", "prompt_zh": "我们周一见面", "grammar_checks": [{ "required": "on Monday", "wrong": "in Monday", "hint": "星期几用 on" }] },
+    { "id": "t3", "prompt_zh": "她出生于2020年", "grammar_checks": [{ "required": "in 2020", "wrong": "on 2020", "hint": "年份用 in" }] },
+    { "id": "t4", "prompt_zh": "我晚上睡不着", "grammar_checks": [{ "required": "at night", "wrong": "in night", "hint": "at night 固定搭配" }] },
+    { "id": "t5", "prompt_zh": "我早上锻炼", "grammar_checks": [{ "required": "in the morning", "wrong": "on the morning", "hint": "泛指早上用 in the morning" }] },
+    { "id": "t6", "prompt_zh": "考试在12月20日", "grammar_checks": [{ "required": "on December 20th", "wrong": "in December 20th", "hint": "具体日期用 on" }] },
+    { "id": "t7", "prompt_zh": "我们八月份去旅行", "grammar_checks": [{ "required": "in August", "wrong": "on August", "hint": "月份用 in" }] },
+    { "id": "t8", "prompt_zh": "我们中午吃午饭", "grammar_checks": [{ "required": "at noon", "wrong": "in noon", "hint": "at noon 固定搭配" }] },
+    { "id": "t9", "prompt_zh": "他在星期一的早上给我打了电话", "grammar_checks": [{ "required": "on Monday morning", "wrong": "in Monday morning", "hint": "某天的早上用 on" }] },
+    { "id": "t10", "prompt_zh": "派对在午夜结束", "grammar_checks": [{ "required": "at midnight", "wrong": "in midnight", "hint": "at midnight 固定搭配" }] }
+  ],
+  "14": [
+    { "id": "t1", "prompt_zh": "我在车站等你", "grammar_checks": [{ "required": "at the station", "wrong": "in the station", "hint": "小地点用 at" }] },
+    { "id": "t2", "prompt_zh": "钥匙在桌子上", "grammar_checks": [{ "required": "on the table", "wrong": "at the table", "hint": "表面用 on" }] },
+    { "id": "t3", "prompt_zh": "她在一家医院工作", "grammar_checks": [{ "required": "in a hospital", "wrong": "at a hospital", "hint": "封闭空间用 in" }] },
+    { "id": "t4", "prompt_zh": "我妈妈在家", "grammar_checks": [{ "required": "at home", "wrong": "in home", "hint": "at home 固定搭配" }] },
+    { "id": "t5", "prompt_zh": "我们住在二楼", "grammar_checks": [{ "required": "on the second floor", "wrong": "in the second floor", "hint": "楼层用 on" }] },
+    { "id": "t6", "prompt_zh": "他们去年去了日本", "grammar_checks": [{ "required": "in Japan", "wrong": "at Japan", "hint": "国家用 in" }] },
+    { "id": "t7", "prompt_zh": "有人在门口", "grammar_checks": [{ "required": "at the door", "wrong": "on the door", "hint": "具体点用 at" }] },
+    { "id": "t8", "prompt_zh": "她出生在北京", "grammar_checks": [{ "required": "in Beijing", "wrong": "at Beijing", "hint": "城市用 in" }] },
+    { "id": "t9", "prompt_zh": "商店在牛津街上", "grammar_checks": [{ "required": "on Oxford Street", "wrong": "at Oxford Street", "hint": "街道用 on" }] },
+    { "id": "t10", "prompt_zh": "我们将在入口见面", "grammar_checks": [{ "required": "at the entrance", "wrong": "in the entrance", "hint": "具体点用 at" }] }
+  ],
+  "15": [
+    { "id": "t1", "prompt_zh": "她在听音乐", "grammar_checks": [{ "required": "listening to", "wrong": "listening", "hint": "listen to 固定搭配" }] },
+    { "id": "t2", "prompt_zh": "他对科学感兴趣", "grammar_checks": [{ "required": "interested in", "wrong": "interested at", "hint": "interested in 固定搭配" }] },
+    { "id": "t3", "prompt_zh": "请看看屏幕", "grammar_checks": [{ "required": "look at", "wrong": "look", "hint": "look at 固定搭配" }] },
+    { "id": "t4", "prompt_zh": "我们在等公交车", "grammar_checks": [{ "required": "waiting for", "wrong": "waiting", "hint": "wait for 固定搭配" }] },
+    { "id": "t5", "prompt_zh": "成功的关键是坚持", "grammar_checks": [{ "required": "key to success", "wrong": "key for success", "hint": "key to 固定搭配" }] },
+    { "id": "t6", "prompt_zh": "她对结果很满意", "grammar_checks": [{ "required": "satisfied with", "wrong": "satisfied in", "hint": "satisfied with 固定搭配" }] },
+    { "id": "t7", "prompt_zh": "她数学很好", "grammar_checks": [{ "required": "good at", "wrong": "good in", "hint": "good at 固定搭配" }] },
+    { "id": "t8", "prompt_zh": "我们讨论了这个项目", "grammar_checks": [{ "required": "talked about", "wrong": "talked", "hint": "talk about 固定搭配" }] },
+    { "id": "t9", "prompt_zh": "成功取决于努力", "grammar_checks": [{ "required": "depends on", "wrong": "depends from", "hint": "depend on 固定搭配" }] },
+    { "id": "t10", "prompt_zh": "请关注细节", "grammar_checks": [{ "required": "pay attention to", "wrong": "pay attention", "hint": "pay attention to 固定搭配" }] }
+  ],
+  "16": [
+    { "id": "t1", "prompt_zh": "她跑得很快", "grammar_checks": [{ "required": "runs quickly", "wrong": "runs quick", "hint": "修饰动词用副词" }] },
+    { "id": "t2", "prompt_zh": "她今天看起来很高兴", "grammar_checks": [{ "required": "looks happy", "wrong": "looks happily", "hint": "系动词后接形容词" }] },
+    { "id": "t3", "prompt_zh": "她英语说得很好", "grammar_checks": [{ "required": "speaks well", "wrong": "speaks good", "hint": "修饰动词用 well" }] },
+    { "id": "t4", "prompt_zh": "她开车很小心", "grammar_checks": [{ "required": "drives carefully", "wrong": "drives careful", "hint": "修饰动词用副词" }] },
+    { "id": "t5", "prompt_zh": "音乐听起来很美妙", "grammar_checks": [{ "required": "sounds beautiful", "wrong": "sounds beautifully", "hint": "系动词后接形容词" }] },
+    { "id": "t6", "prompt_zh": "她工作很努力", "grammar_checks": [{ "required": "works hard", "wrong": "works hardly", "hint": "work hard 固定搭配" }] },
+    { "id": "t7", "prompt_zh": "她考试考得好", "grammar_checks": [{ "required": "did well", "wrong": "did good", "hint": "do well 固定搭配" }] },
+    { "id": "t8", "prompt_zh": "他工作很快", "grammar_checks": [{ "required": "works quickly", "wrong": "works quick", "hint": "修饰动词用副词" }] },
+    { "id": "t9", "prompt_zh": "她看起来很累", "grammar_checks": [{ "required": "looks tired", "wrong": "looks tiredly", "hint": "系动词后接形容词" }] },
+    { "id": "t10", "prompt_zh": "食物尝起来很美味", "grammar_checks": [{ "required": "tastes delicious", "wrong": "tastes deliciously", "hint": "系动词后接形容词" }] }
+  ],
+  "17": [
+    { "id": "t1", "prompt_zh": "她需要做决定", "grammar_checks": [{ "required": "make a decision", "wrong": "do a decision", "hint": "make a decision 固定搭配" }] },
+    { "id": "t2", "prompt_zh": "我需要休息一下", "grammar_checks": [{ "required": "take a break", "wrong": "make a break", "hint": "take a break 固定搭配" }] },
+    { "id": "t3", "prompt_zh": "我们三点开会", "grammar_checks": [{ "required": "have a meeting", "wrong": "make a meeting", "hint": "have a meeting 固定搭配" }] },
+    { "id": "t4", "prompt_zh": "请关注屏幕", "grammar_checks": [{ "required": "pay attention", "wrong": "give attention", "hint": "pay attention 固定搭配" }] },
+    { "id": "t5", "prompt_zh": "她取得了很多进步", "grammar_checks": [{ "required": "made progress", "wrong": "did progress", "hint": "make progress 固定搭配" }] },
+    { "id": "t6", "prompt_zh": "我每天吃早餐", "grammar_checks": [{ "required": "have breakfast", "wrong": "make breakfast", "hint": "have breakfast 固定搭配" }] },
+    { "id": "t7", "prompt_zh": "她给了我一些建议", "grammar_checks": [{ "required": "gave advice", "wrong": "made advice", "hint": "give advice 固定搭配" }] },
+    { "id": "t8", "prompt_zh": "会议明天举行", "grammar_checks": [{ "required": "take place", "wrong": "make place", "hint": "take place 固定搭配" }] },
+    { "id": "t9", "prompt_zh": "我拍了一张照片", "grammar_checks": [{ "required": "took a photo", "wrong": "made a photo", "hint": "take a photo 固定搭配" }] },
+    { "id": "t10", "prompt_zh": "她会尽力", "grammar_checks": [{ "required": "do her best", "wrong": "make her best", "hint": "do one's best 固定搭配" }] }
+  ],
+  "18": [
+    { "id": "t1", "prompt_zh": "她到达了车站", "grammar_checks": [{ "required": "arrived at", "wrong": "arrived", "hint": "arrive at 固定搭配" }] },
+    { "id": "t2", "prompt_zh": "她在一家医院工作", "grammar_checks": [{ "required": "works in", "wrong": "work in", "hint": "主谓一致" }] },
+    { "id": "t3", "prompt_zh": "她给了他一个礼物", "grammar_checks": [{ "required": "gave him", "wrong": "gave to him", "hint": "双宾结构" }] },
+    { "id": "t4", "prompt_zh": "请听老师讲", "grammar_checks": [{ "required": "listen to", "wrong": "listen", "hint": "listen to 固定搭配" }] },
+    { "id": "t5", "prompt_zh": "成功取决于努力", "grammar_checks": [{ "required": "depends on", "wrong": "depends from", "hint": "depend on 固定搭配" }] },
+    { "id": "t6", "prompt_zh": "结果让她很高兴", "grammar_checks": [{ "required": "made her happy", "wrong": "made her happily", "hint": "宾补用形容词" }] },
+    { "id": "t7", "prompt_zh": "我们叫她Tom", "grammar_checks": [{ "required": "call him Tom", "wrong": "call to him Tom", "hint": "宾补结构" }] },
+    { "id": "t8", "prompt_zh": "我在等公交车", "grammar_checks": [{ "required": "waiting for", "wrong": "waiting", "hint": "wait for 固定搭配" }] },
+    { "id": "t9", "prompt_zh": "请看看黑板", "grammar_checks": [{ "required": "look at", "wrong": "look", "hint": "look at 固定搭配" }] },
+    { "id": "t10", "prompt_zh": "这个属于我", "grammar_checks": [{ "required": "belongs to", "wrong": "belongs", "hint": "belong to 固定搭配" }] }
+  ],
+  "19": [
+    { "id": "t1", "prompt_zh": "我认为这个计划可行", "grammar_checks": [{ "required": "I think", "wrong": "I am think", "hint": "I think 引出观点，用一般现在时" }] },
+    { "id": "t2", "prompt_zh": "在我看来，我们应该等等", "grammar_checks": [{ "required": "In my opinion", "wrong": "In my view of opinion", "hint": "In my opinion 固定搭配" }] },
+    { "id": "t3", "prompt_zh": "她似乎认为这样更好", "grammar_checks": [{ "required": "It seems to her", "wrong": "She seems that", "hint": "It seems to sb that 固定结构" }] },
+    { "id": "t4", "prompt_zh": "从我的角度看，这个方法有效", "grammar_checks": [{ "required": "From my point of view", "wrong": "From my opinion", "hint": "From my point of view 固定搭配" }] },
+    { "id": "t5", "prompt_zh": "我认为学习需要时间", "grammar_checks": [{ "required": "I think", "wrong": "I thinking", "hint": "I think 用一般现在时" }] },
+    { "id": "t6", "prompt_zh": "我相信这会成功", "grammar_checks": [{ "required": "I believe", "wrong": "I am believe", "hint": "I believe 用一般现在时" }] },
+    { "id": "t7", "prompt_zh": "依我看，这个主意值得一试", "grammar_checks": [{ "required": "In my opinion", "wrong": "In my think", "hint": "In my opinion 表示「在我看来」" }] },
+    { "id": "t8", "prompt_zh": "委婉地说，这需要更多时间", "grammar_checks": [{ "required": "I would say", "wrong": "I would to say", "hint": "I would say 后接动词原形" }] },
+    { "id": "t9", "prompt_zh": "请听我说", "grammar_checks": [{ "required": "listen to me", "wrong": "listen me", "hint": "listen to 固定搭配" }] },
+    { "id": "t10", "prompt_zh": "成功取决于努力", "grammar_checks": [{ "required": "depends on", "wrong": "depends", "hint": "depend on 固定搭配" }] }
+  ],
+  "23": [
+    { "id": "t1", "prompt_zh": "她到达了车站", "grammar_checks": [{ "required": "arrived at", "wrong": "arrived", "hint": "arrive 不及物，用 arrive at" }] },
+    { "id": "t2", "prompt_zh": "请听老师讲", "grammar_checks": [{ "required": "listen to", "wrong": "listen", "hint": "listen to 固定搭配" }] },
+    { "id": "t3", "prompt_zh": "我在等公交车", "grammar_checks": [{ "required": "waiting for", "wrong": "waiting", "hint": "wait for 固定搭配" }] },
+    { "id": "t4", "prompt_zh": "请看黑板", "grammar_checks": [{ "required": "Look at", "wrong": "Look", "hint": "look at 固定搭配" }] },
+    { "id": "t5", "prompt_zh": "她打开了门", "grammar_checks": [{ "required": "opened the door", "wrong": "opened", "hint": "open 及物，需接宾语" }] },
+    { "id": "t6", "prompt_zh": "成功取决于努力", "grammar_checks": [{ "required": "depends on", "wrong": "depends", "hint": "depend on 固定搭配" }] },
+    { "id": "t7", "prompt_zh": "她到达了北京", "grammar_checks": [{ "required": "arrived in", "wrong": "arrived", "hint": "到达城市用 arrive in" }] },
+    { "id": "t8", "prompt_zh": "这本书属于我", "grammar_checks": [{ "required": "belongs to", "wrong": "belongs", "hint": "belong to 固定搭配" }] },
+    { "id": "t9", "prompt_zh": "她每天听音乐", "grammar_checks": [{ "required": "listens to", "wrong": "listens", "hint": "listen to 固定搭配" }] },
+    { "id": "t10", "prompt_zh": "她到了机场", "grammar_checks": [{ "required": "reached the airport", "wrong": "reached to the airport", "hint": "reach 及物，直接接宾语" }] }
+  ],
+  "24": [
+    { "id": "t241", "prompt_zh": "尽管实验失败了，研究人员还是获得了宝贵信息", "grammar_checks": [{ "required": "Although", "wrong": "But", "hint": "Although 表让步，不与 but 连用" }, { "required": "learned", "wrong": "learn", "hint": "主句用过去时与从句一致" }] },
+    { "id": "t242", "prompt_zh": "这本书探讨气候变化", "grammar_checks": [{ "required": "explores", "wrong": "explore", "hint": "第三人称单数" }] },
+    { "id": "t243", "prompt_zh": "有规律学习的学生往往表现更好", "grammar_checks": [{ "required": "who study", "wrong": "study", "hint": "定语从句修饰 students" }, { "required": "tend to", "wrong": "tends to", "hint": "主语 students 复数" }] },
+    { "id": "t244", "prompt_zh": "会议结束后，大家都离开了房间", "grammar_checks": [{ "required": "When", "wrong": "After", "hint": "when 引导时间从句" }, { "required": "left", "wrong": "leave", "hint": "过去时" }] },
+    { "id": "t245", "prompt_zh": "尽管下雨，音乐会仍按计划举行", "grammar_checks": [{ "required": "Despite", "wrong": "Although", "hint": "Despite + 名词" }, { "required": "went ahead", "wrong": "go ahead", "hint": "过去时" }] },
+    { "id": "t246", "prompt_zh": "近年来，技术改变了人们的交流方式", "grammar_checks": [{ "required": "has changed", "wrong": "change", "hint": "完成时强调影响持续" }] },
+    { "id": "t247", "prompt_zh": "如果你提前完成，可以离开房间", "grammar_checks": [{ "required": "If you finish", "wrong": "If you finished", "hint": "条件句用一般现在时" }] },
+    { "id": "t248", "prompt_zh": "这位教授在大学教经济学", "grammar_checks": [{ "required": "teaches", "wrong": "teach", "hint": "第三人称单数" }] },
+    { "id": "t249", "prompt_zh": "有些人喜欢咖啡，而有些人更喜欢茶", "grammar_checks": [{ "required": "While", "wrong": "But", "hint": "While 表对比更正式" }] },
+    { "id": "t250", "prompt_zh": "报告显示销量上升", "grammar_checks": [{ "required": "shows", "wrong": "show", "hint": "第三人称单数" }] }
+  ],
+  "25": [
+    { "id": "t251", "prompt_zh": "因为天气不好，我们决定留在室内", "grammar_checks": [{ "required": "Because", "wrong": "Although", "hint": "因果用 Because" }] },
+    { "id": "t252", "prompt_zh": "她学习很努力，因此通过了考试", "grammar_checks": [{ "required": "therefore", "wrong": "but", "hint": "因此用 therefore" }] },
+    { "id": "t253", "prompt_zh": "除非你周五前提交，否则会扣分", "grammar_checks": [{ "required": "Unless", "wrong": "If", "hint": "Unless = 如果不" }] },
+    { "id": "t254", "prompt_zh": "他累了，所以很早就睡了", "grammar_checks": [{ "required": "so", "wrong": "but", "hint": "因果用 so" }] },
+    { "id": "t255", "prompt_zh": "她打车以免迟到", "grammar_checks": [{ "required": "so that", "wrong": "because", "hint": "目的用 so that" }] },
+    { "id": "t256", "prompt_zh": "数据表明趋势。然而，需要更多研究", "grammar_checks": [{ "required": "However", "wrong": "But", "hint": "学术写作用 However" }] },
+    { "id": "t257", "prompt_zh": "尽管下雨，我们仍然去散步了", "grammar_checks": [{ "required": "Although", "wrong": "Because", "hint": "让步用 Although" }] },
+    { "id": "t258", "prompt_zh": "截止日期过后，不再接受提交", "grammar_checks": [{ "required": "After", "wrong": "Because", "hint": "时间先后用 After" }] },
+    { "id": "t259", "prompt_zh": "实验结果积极。然而，我们不能推广到所有人群", "grammar_checks": [{ "required": "However", "wrong": "Furthermore", "hint": "转折用 However" }] },
+    { "id": "t260", "prompt_zh": "他熬夜学习以便通过考试", "grammar_checks": [{ "required": "so that", "wrong": "because", "hint": "目的用 so that" }] }
+  ],
+  "26": [
+    { "id": "t261", "prompt_zh": "在线学习有许多优势。首先，它提供灵活性", "grammar_checks": [{ "required": "First", "wrong": "But", "hint": "列举用 First" }] },
+    { "id": "t262", "prompt_zh": "有些人喜欢城市生活。相比之下，有些人喜欢乡村", "grammar_checks": [{ "required": "In contrast", "wrong": "Therefore", "hint": "对比用 In contrast" }] },
+    { "id": "t263", "prompt_zh": "例如，样本量很小。因此，需要更多研究", "grammar_checks": [{ "required": "For instance", "wrong": "However", "hint": "举例用 For instance" }] },
+    { "id": "t264", "prompt_zh": "运动的一个好处是改善心情。此外，它可以减压", "grammar_checks": [{ "required": "Furthermore", "wrong": "However", "hint": "递进用 Furthermore" }] },
+    { "id": "t265", "prompt_zh": "实验显示了积极结果。然而，我们不能泛化", "grammar_checks": [{ "required": "However", "wrong": "Furthermore", "hint": "转折用 However" }] },
+    { "id": "t266", "prompt_zh": "总之，转向可再生能源对环境和经济都有益", "grammar_checks": [{ "required": "In conclusion", "wrong": "First", "hint": "总结用 In conclusion" }] },
+    { "id": "t267", "prompt_zh": "阅读提高词汇量。此外，它扩展知识。因此，这是有价值的习惯", "grammar_checks": [{ "required": "Additionally", "wrong": "However", "hint": "递进用 Additionally" }] },
+    { "id": "t268", "prompt_zh": "这支持主要论点", "grammar_checks": [{ "required": "supports", "wrong": "support", "hint": "this 第三人称单数" }] },
+    { "id": "t269", "prompt_zh": "许多学生难以管理时间。然而，他们可以通过练习改进", "grammar_checks": [{ "required": "However", "wrong": "Therefore", "hint": "转折用 However" }] },
+    { "id": "t270", "prompt_zh": "总之，教育塑造未来机会", "grammar_checks": [{ "required": "In conclusion", "wrong": "First", "hint": "总结用 In conclusion" }] }
+  ],
+  "27": [
+    { "id": "t271", "prompt_zh": "天气不好，所以我们待在家里", "grammar_checks": [{ "required": "so", "wrong": "but", "hint": "因果用 so" }] },
+    { "id": "t272", "prompt_zh": "完成报告后，她把它发给了老板", "grammar_checks": [{ "required": "After finishing", "wrong": "After finish", "hint": "分词结构" }] },
+    { "id": "t273", "prompt_zh": "尽管许多人认为技术有益，其他人则有担忧", "grammar_checks": [{ "required": "While", "wrong": "But", "hint": "正式对比用 While" }] },
+    { "id": "t274", "prompt_zh": "他学习努力，所以通过了考试", "grammar_checks": [{ "required": "so", "wrong": "but", "hint": "因果用 so" }] },
+    { "id": "t275", "prompt_zh": "城市拥挤，这可能导致压力和污染", "grammar_checks": [{ "required": "which", "wrong": "that", "hint": "非限定定语从句用 which" }] },
+    { "id": "t276", "prompt_zh": "这本书太有趣了，我一天就读完了", "grammar_checks": [{ "required": "so...that", "wrong": "very...that", "hint": "程度与结果用 so...that" }] },
+    { "id": "t277", "prompt_zh": "成本和时间是主要考虑因素", "grammar_checks": [{ "required": "considerations", "wrong": "consideration", "hint": "复数" }] },
+    { "id": "t278", "prompt_zh": "会议取消了，所以我们有更多时间准备", "grammar_checks": [{ "required": "so", "wrong": "but", "hint": "因果用 so" }] },
+    { "id": "t279", "prompt_zh": "在线学习很受欢迎，因为它提供灵活性", "grammar_checks": [{ "required": "because", "wrong": "so", "hint": "原因用 because" }] },
+    { "id": "t280", "prompt_zh": "阅读是有助于持续学习的宝贵习惯", "grammar_checks": [{ "required": "contributes to", "wrong": "contribute to", "hint": "habit 单数，定语从句谓语用 contributes" }] }
+  ]
+}

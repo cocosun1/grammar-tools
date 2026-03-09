@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "name_zh": "可数 vs 不可数名词",
+    "explanation": [
+      "英语名词分为可数名词和不可数名词。",
+      "可数名词有单复数形式，如 book / books；不可数名词没有复数，如 water, information。",
+      "many, a few 后接可数名词复数；much, a little 后接不可数名词。"
+    ],
+    "examples": [
+      "many books",
+      "a little water",
+      "some information"
+    ]
+  },
+  {
+    "id": 2,
+    "name_zh": "名词复数",
+    "explanation": [
+      "在英语中，可数名词通常需要复数形式。",
+      "many, several 等词后面通常接复数名词。",
+      "规则变化：一般加 -s；以 s, x, ch, sh 结尾加 -es；辅音 + y 变 i 加 -es。不规则形式需单独记忆，如 child → children。"
+    ],
+    "examples": [
+      "many books",
+      "several museums",
+      "two children"
+    ]
+  },
+  {
+    "id": 3,
+    "name_zh": "不可数名词",
+    "explanation": [
+      "不可数名词没有复数形式，不能与 a/an 或数字直接连用。",
+      "表示数量时需用量词：a cup of coffee, a piece of advice, a glass of water。",
+      "不可数名词作主语时，谓语动词用单数。"
+    ],
+    "examples": [
+      "a cup of coffee",
+      "some homework",
+      "much milk"
+    ]
+  },
+  {
+    "id": 4,
+    "name_zh": "冠词 (a / an / the)",
+    "explanation": [
+      "不定冠词 a 用于辅音音素开头的词前，an 用于元音音素开头的词前。",
+      "注意：hour 读作 [aʊə]，以元音开头，用 an；university 读作 [juːnɪˈvɜːrsəti]，以辅音 [j] 开头，用 a。",
+      "定冠词 the 用于特指或上文已提到的事物。"
+    ],
+    "examples": [
+      "an apple",
+      "a university",
+      "the book I bought"
+    ]
+  },
+  {
+    "id": 5,
+    "name_zh": "一般现在时",
+    "explanation": [
+      "一般现在时表示习惯、真理或当前状态。",
+      "第三人称单数作主语时，谓语动词要加 -s 或 -es（如 he goes, she studies）。",
+      "否定和疑问句中第三人称单数用 doesn't + 动词原形。"
+    ],
+    "examples": [
+      "She goes to school every day.",
+      "He doesn't like coffee.",
+      "They live in London."
+    ]
+  },
+  {
+    "id": 6,
+    "name_zh": "一般过去时",
+    "explanation": [
+      "一般过去时表示过去发生的动作或状态，常与 yesterday, last week, ago 等连用。",
+      "规则动词加 -ed；不规则动词需记忆过去式，如 go → went, see → saw。",
+      "否定和疑问句用 did + 动词原形。"
+    ],
+    "examples": [
+      "She went home yesterday.",
+      "I saw him at the party.",
+      "They did their homework."
+    ]
+  },
+  {
+    "id": 7,
+    "name_zh": "现在进行时",
+    "explanation": [
+      "现在进行时表示此刻正在进行的动作，结构为 am / is / are + 动词 -ing。",
+      "常与 now, at the moment, right now 等时间状语连用。",
+      "动词 -ing 形式：一般直接加 -ing；以 e 结尾去 e 加 -ing；重读闭音节双写辅音加 -ing。"
+    ],
+    "examples": [
+      "She is reading a book now.",
+      "They are swimming in the pool.",
+      "I am writing a letter."
+    ]
+  },
+  {
+    "id": 8,
+    "name_zh": "过去进行时",
+    "explanation": [
+      "过去进行时表示过去某时正在进行的动作，结构为 was / were + 动词 -ing。",
+      "常与 at 8 pm yesterday, when he arrived 等连用。",
+      "主语为 I / he / she / it 用 was，复数及 you 用 were。"
+    ],
+    "examples": [
+      "I was doing my homework when you called.",
+      "It was raining when I left home.",
+      "They were watching TV at 8 pm."
+    ]
+  },
+  {
+    "id": 9,
+    "name_zh": "现在完成时",
+    "explanation": [
+      "现在完成时表示过去发生且与现在有关的动作或状态，结构为 have / has + 过去分词。",
+      "常与 already, ever, just, yet 等连用。",
+      "不规则动词的过去分词需单独记忆，如 see → seen, go → been。"
+    ],
+    "examples": [
+      "She has finished her homework.",
+      "I have already seen that film.",
+      "Have you ever been to Japan?"
+    ]
+  },
+  {
+    "id": 10,
+    "name_zh": "将来时",
+    "explanation": [
+      "将来时表示将要发生的动作或计划，常用 will + 动词原形 或 be going to + 动词原形。",
+      "will 后接动词原形，不加 -s 或 -ed。",
+      "常与 tomorrow, next week, next year 等连用。"
+    ],
+    "examples": [
+      "She will visit her grandmother tomorrow.",
+      "We are going to have a test next week.",
+      "They will come to the party."
+    ]
+  },
+  {
+    "id": 11,
+    "name_zh": "主谓一致",
+    "explanation": [
+      "谓语动词在人称和数上须与主语一致。",
+      "不定代词 everyone, someone, nobody 等作主语时，谓语用单数。",
+      "主语由 of 连接时，谓语通常与前面的中心词一致，如 The list of names is ...。"
+    ],
+    "examples": [
+      "Everyone has a book.",
+      "The list of names is on the desk.",
+      "Neither Tom nor John was at home."
+    ]
+  },
+  {
+    "id": 12,
+    "name_zh": "情态动词",
+    "explanation": [
+      "情态动词 can, could, must, should, may, might 等后接动词原形。",
+      "表示能力用 can / could；表示必须用 must；表示建议用 should；表示可能用 may / might。",
+      "情态动词后不加 to，如 You must finish（不说 must to finish）。"
+    ],
+    "examples": [
+      "She could swim when she was five.",
+      "You must finish your work.",
+      "May I borrow your pen?"
+    ]
+  }
+]
