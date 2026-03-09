@@ -17,6 +17,8 @@ export interface Layer3QuestionBase {
   type: Layer3QuestionType;
   /** Instruction in Chinese (题目说明) */
   instruction_zh?: string;
+  /** Optional cue for guided_completion (e.g. "Complete with the correct phrase:") */
+  cue_zh?: string;
   /** Example sentence or passage in English (句子材料) */
   prompt_en: string;
   /** Short explanation in Chinese (解析) */
