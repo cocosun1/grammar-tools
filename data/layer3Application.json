@@ -449,34 +449,6 @@
             "wrong_note_zh": "定语从句中的内容不是主干。"
           },
           {
-            "id": "l3-24-32",
-            "type": "sentence_choice",
-            "instruction_zh": "下面哪个选项是这句话的句子主干？",
-            "prompt_en": "The company, which was founded in 2010, now employs over 500 people.",
-            "options": [
-              "The company now employs over 500 people.",
-              "The company was founded in 2010.",
-              "Which was founded employs people."
-            ],
-            "answer": "The company now employs over 500 people.",
-            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
-            "wrong_note_zh": "定语从句中的内容不是主干。"
-          },
-          {
-            "id": "l3-24-33",
-            "type": "sentence_choice",
-            "instruction_zh": "下面哪个选项是这句话的句子主干？",
-            "prompt_en": "The study, conducted over three years, showed significant improvements.",
-            "options": [
-              "The study showed significant improvements.",
-              "The study was conducted.",
-              "Conducted over three years showed."
-            ],
-            "answer": "The study showed significant improvements.",
-            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
-            "wrong_note_zh": "定语从句中的内容不是主干。"
-          },
-          {
             "id": "l3-24-34",
             "type": "sentence_choice",
             "instruction_zh": "下面哪个选项是这句话的句子主干？",
@@ -533,35 +505,7 @@
             "wrong_note_zh": "定语从句中的内容不是主干。"
           },
           {
-            "id": "l3-24-38",
-            "type": "sentence_choice",
-            "instruction_zh": "下面哪个选项是这句话的句子主干？",
-            "prompt_en": "The film, starring several well-known actors, received critical acclaim.",
-            "options": [
-              "The film received critical acclaim.",
-              "The film stars several actors.",
-              "Starring several actors received acclaim."
-            ],
-            "answer": "The film received critical acclaim.",
-            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
-            "wrong_note_zh": "定语从句中的内容不是主干。"
-          },
-          {
             "id": "l3-24-39",
-            "type": "sentence_choice",
-            "instruction_zh": "下面哪个选项是这句话的句子主干？",
-            "prompt_en": "The policy, introduced last year, has reduced emissions by 20%.",
-            "options": [
-              "The policy has reduced emissions by 20%.",
-              "The policy was introduced last year.",
-              "Introduced last year has reduced."
-            ],
-            "answer": "The policy has reduced emissions by 20%.",
-            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
-            "wrong_note_zh": "定语从句中的内容不是主干。"
-          },
-          {
-            "id": "l3-24-40",
             "type": "sentence_choice",
             "instruction_zh": "下面哪个选项是这句话的句子主干？",
             "prompt_en": "The policy, introduced last year, has reduced emissions by 20%.",
@@ -617,91 +561,7 @@
             "wrong_note_zh": "定语从句中的内容不是主干。"
           },
           {
-            "id": "l3-24-44",
-            "type": "sentence_choice",
-            "instruction_zh": "下面哪个选项是这句话的句子主干？",
-            "prompt_en": "The report, prepared by the finance team, was presented to the board.",
-            "options": [
-              "The report was presented to the board.",
-              "The report was prepared by the finance team.",
-              "Prepared by the finance team was presented."
-            ],
-            "answer": "The report was presented to the board.",
-            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
-            "wrong_note_zh": "定语从句中的内容不是主干。"
-          },
-          {
-            "id": "l3-24-45",
-            "type": "sentence_choice",
-            "instruction_zh": "下面哪个选项是这句话的句子主干？",
-            "prompt_en": "The survey, which included 1,000 participants, found high satisfaction.",
-            "options": [
-              "The survey found high satisfaction.",
-              "The survey included 1,000 participants.",
-              "Which included 1,000 found satisfaction."
-            ],
-            "answer": "The survey found high satisfaction.",
-            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
-            "wrong_note_zh": "定语从句中的内容不是主干。"
-          },
-          {
-            "id": "l3-24-46",
-            "type": "sentence_choice",
-            "instruction_zh": "下面哪个选项是这句话的句子主干？",
-            "prompt_en": "The survey, which included 1,000 participants, found high satisfaction.",
-            "options": [
-              "The survey found high satisfaction.",
-              "The survey included 1,000 participants.",
-              "Which included 1,000 found satisfaction."
-            ],
-            "answer": "The survey found high satisfaction.",
-            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
-            "wrong_note_zh": "定语从句中的内容不是主干。"
-          },
-          {
-            "id": "l3-24-47",
-            "type": "sentence_choice",
-            "instruction_zh": "下面哪个选项是这句话的句子主干？",
-            "prompt_en": "The building, constructed in the 1920s, has been restored.",
-            "options": [
-              "The building has been restored.",
-              "The building was constructed in the 1920s.",
-              "Constructed in the 1920s has been restored."
-            ],
-            "answer": "The building has been restored.",
-            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
-            "wrong_note_zh": "定语从句中的内容不是主干。"
-          },
-          {
-            "id": "l3-24-48",
-            "type": "sentence_choice",
-            "instruction_zh": "下面哪个选项是这句话的句子主干？",
-            "prompt_en": "The building, constructed in the 1920s, has been restored.",
-            "options": [
-              "The building has been restored.",
-              "The building was constructed in the 1920s.",
-              "Constructed in the 1920s has been restored."
-            ],
-            "answer": "The building has been restored.",
-            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
-            "wrong_note_zh": "定语从句中的内容不是主干。"
-          },
-          {
             "id": "l3-24-49",
-            "type": "sentence_choice",
-            "instruction_zh": "下面哪个选项是这句话的句子主干？",
-            "prompt_en": "The program, designed for beginners, covers basic concepts.",
-            "options": [
-              "The program covers basic concepts.",
-              "The program is designed for beginners.",
-              "Designed for beginners covers concepts."
-            ],
-            "answer": "The program covers basic concepts.",
-            "explanation_zh": "主干是主句的核心，定语从句等是补充。",
-            "wrong_note_zh": "定语从句中的内容不是主干。"
-          },
-          {
-            "id": "l3-24-50",
             "type": "sentence_choice",
             "instruction_zh": "下面哪个选项是这句话的句子主干？",
             "prompt_en": "The program, designed for beginners, covers basic concepts.",

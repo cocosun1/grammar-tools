@@ -238,6 +238,20 @@ export function SentenceCorrectionQuestion({
         </button>
       )}
 
+      {/* Fallback: always allow proceeding when not yet identified all errors (fixes stuck-at-question-8) */}
+      {submittedResult === undefined && !hideCheckButton && pairs.length > 0 && !allIdentified && (
+        <button
+          type="button"
+          className="btn btn-outline"
+          onClick={() => {
+            setFeedback("wrong");
+            onAnswerCheck?.(false);
+          }}
+        >
+          跳过并查看答案
+        </button>
+      )}
+
       {showFeedback && (
         <div className="feedback-block">
           <div className={`feedback ${correct ? "correct" : "wrong"}`}>

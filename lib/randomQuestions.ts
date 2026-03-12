@@ -12,29 +12,24 @@ function shuffle<T>(arr: T[]): T[] {
   return a;
 }
 
-/** Normalize pronoun variants (He/She/I/We/They/You) to a single token for dedup. */
+/** Normalize for dedup: collapse all pronouns to P and be-verbs (was/were/am/is/are) to "be" so "He was" and "You were" are treated as same structure. */
 function canonicalPrompt(s: string): string {
   if (!s || typeof s !== "string") return "";
   return s
     .trim()
-    .replace(/\b(He|She)\b/gi, "X")
-    .replace(/\b(I|me|my)\b/gi, "Y")
-    .replace(/\b(We|us|our)\b/gi, "Z")
-    .replace(/\b(They|them|their)\b/gi, "W")
-    .replace(/\b(You|your)\b/gi, "V")
+    .replace(/\b(He|She|I|me|my|We|us|our|They|them|their|You|your)\b/gi, "P")
+    .replace(/\b(was|were|am|is|are)\b/gi, "be")
     .replace(/\s+/g, " ")
     .toLowerCase();
 }
 
-/** Signature for deduplication: type + canonical prompt + answer/options pattern. */
+/** Signature for deduplication: type + canonical prompt + answer. Options are excluded so that
+ * He/She ____ home late (same answer) are treated as the same structure and not both shown. */
 export function questionSignature(q: Question): string {
   const qq = q as { prompt_en?: string; question_en?: string };
   const prompt = (qq.prompt_en ?? qq.question_en ?? "").toString();
   const answer = (q.answer ?? "").toString();
-  const opts = Array.isArray((q as { options?: string[] }).options)
-    ? (q as { options: string[] }).options.join("|")
-    : "";
-  return `${q.type}:${canonicalPrompt(prompt)}:${canonicalPrompt(answer)}:${canonicalPrompt(opts)}`;
+  return `${q.type}:${canonicalPrompt(prompt)}:${canonicalPrompt(answer)}`;
 }
 
 /**
@@ -92,12 +87,15 @@ export function selectBalancedQuestions(
     }
   }
 
-  // Third pass: if still short (many duplicates), allow same signature
+  // Third pass: if still short, allow same id only when signature is novel (brute-force: never allow same structure in batch)
   if (result.length < n) {
     const remaining = shuffle(questions.filter((q) => !usedIds.has(q.id)));
     for (const q of remaining) {
       if (result.length >= n) break;
+      const sig = questionSignature(q);
+      if (usedSignatures.has(sig)) continue; // skip—would be structurally duplicate
       usedIds.add(q.id);
+      usedSignatures.add(sig);
       result.push(q);
     }
   }

@@ -120,18 +120,6 @@
     "answer": "Numerous participants attend the museum."
   },
   {
-    "id": "q605",
-    "layer": 1,
-    "module": 2,
-    "module_name_zh": "名词复数",
-    "type": "sentence_correction",
-    "instruction_zh": "请修改以下句子中的错误",
-    "explanation_zh": "Numerous 后接可数名词复数，student 应改为 students；且主语为复数，谓语用原形 visit。",
-    "difficulty": 1,
-    "question_en": "Numerous student attend the stadium.",
-    "answer": "Numerous students attend the stadium."
-  },
-  {
     "id": "q606",
     "layer": 1,
     "module": 2,
@@ -254,38 +242,6 @@
       "I desire two appleses."
     ],
     "answer": "I desire two computers."
-  },
-  {
-    "id": "q615",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "sentence_choice",
-    "instruction_zh": "请选择语法正确的句子",
-    "explanation_zh": "table 为可数名词，复数用 tables。",
-    "difficulty": 1,
-    "options": [
-      "We desire two table.",
-      "We desire two tables.",
-      "We desire two appleses."
-    ],
-    "answer": "We desire two tables."
-  },
-  {
-    "id": "q616",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "sentence_choice",
-    "instruction_zh": "请选择语法正确的句子",
-    "explanation_zh": "phone 为可数名词，复数用 phones。",
-    "difficulty": 1,
-    "options": [
-      "He desire two phone.",
-      "He desire two phones.",
-      "He desire two appleses."
-    ],
-    "answer": "He desire two phones."
   },
   {
     "id": "q010",
@@ -860,7 +816,7 @@
     "instruction_zh": "请选择正确的词",
     "explanation_zh": "last time 表示过去时间，谓语动词用过去式 went。",
     "difficulty": 1,
-    "question_en": "She ____ to London final period.",
+    "question_en": "She ____ to London last year.",
     "options": [
       "went",
       "proceed",
@@ -877,7 +833,7 @@
     "instruction_zh": "请选择正确的词",
     "explanation_zh": "last time 表示过去时间，谓语动词用过去式 went。",
     "difficulty": 1,
-    "question_en": "He ____ to Paris final period.",
+    "question_en": "He ____ to Paris last year.",
     "options": [
       "went",
       "proceed",
@@ -894,7 +850,7 @@
     "instruction_zh": "请选择正确的词",
     "explanation_zh": "last time 表示过去时间，谓语动词用过去式 went。",
     "difficulty": 1,
-    "question_en": "They ____ to Tokyo final period.",
+    "question_en": "They ____ to Tokyo last year.",
     "options": [
       "went",
       "proceed",
@@ -2082,106 +2038,6 @@
     "answer": "We require substantial equipment for the project."
   },
   {
-    "id": "q070",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "sentence_correction",
-    "instruction_zh": "请修改以下句子中的错误",
-    "explanation_zh": "paper 表“纸”时不可数，不能用 numerous；应改为 much。",
-    "difficulty": 1,
-    "question_en": "I require numerous paper to compose the correspondence.",
-    "answer": "I require substantial paper to compose the correspondence."
-  },
-  {
-    "id": "q737",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "sentence_correction",
-    "instruction_zh": "请修改以下句子中的错误",
-    "explanation_zh": "paper 表“纸”时不可数，不能用 numerous；应改为 much。",
-    "difficulty": 1,
-    "question_en": "We require numerous paper to compose the correspondence.",
-    "answer": "We require substantial paper to compose the correspondence."
-  },
-  {
-    "id": "q738",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "sentence_correction",
-    "instruction_zh": "请修改以下句子中的错误",
-    "explanation_zh": "paper 表“纸”时不可数，不能用 numerous；应改为 much。",
-    "difficulty": 1,
-    "question_en": "He require numerous paper to compose the correspondence.",
-    "answer": "He require substantial paper to compose the correspondence."
-  },
-  {
-    "id": "q071",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "sentence_choice",
-    "instruction_zh": "请选择语法正确的句子",
-    "explanation_zh": "orange 作可数名词指“橙子”，复数用 oranges。",
-    "difficulty": 1,
-    "options": [
-      "She purchased three orange.",
-      "She purchased three oranges.",
-      "She purchased three orangeses."
-    ],
-    "answer": "She purchased three oranges."
-  },
-  {
-    "id": "q739",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "sentence_choice",
-    "instruction_zh": "请选择语法正确的句子",
-    "explanation_zh": "orange 作可数名词指“橙子”，复数用 oranges。",
-    "difficulty": 1,
-    "options": [
-      "He bought three orange.",
-      "He bought three oranges.",
-      "He bought three orangeses."
-    ],
-    "answer": "He bought three oranges."
-  },
-  {
-    "id": "q740",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "sentence_choice",
-    "instruction_zh": "请选择语法正确的句子",
-    "explanation_zh": "orange 作可数名词指“橙子”，复数用 oranges。",
-    "difficulty": 1,
-    "options": [
-      "They ordered three orange.",
-      "They ordered three oranges.",
-      "They ordered three orangeses."
-    ],
-    "answer": "They ordered three oranges."
-  },
-  {
-    "id": "q072",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "sentence_choice",
-    "instruction_zh": "请选择语法正确的句子",
-    "explanation_zh": "可数名词复数前用 numerous；homework 不可数，用 much。",
-    "difficulty": 2,
-    "options": [
-      "I have numerous homeworks currently.",
-      "I have substantial homework currently.",
-      "I have numerous homework currently."
-    ],
-    "answer": "I have substantial homework currently."
-  },
-  {
     "id": "q741",
     "layer": 1,
     "module": 1,
@@ -2196,22 +2052,6 @@
       "We have numerous research currently."
     ],
     "answer": "We have substantial research currently."
-  },
-  {
-    "id": "q742",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "sentence_choice",
-    "instruction_zh": "请选择语法正确的句子",
-    "explanation_zh": "可数名词复数前用 numerous；exercise 不可数，用 much。",
-    "difficulty": 2,
-    "options": [
-      "He has numerous homeworks currently.",
-      "He has substantial exercise currently.",
-      "He has numerous exercise currently."
-    ],
-    "answer": "He has substantial exercise currently."
   },
   {
     "id": "q073",
@@ -2278,62 +2118,6 @@
     "answer": "pencils"
   },
   {
-    "id": "q749",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "fill_choice",
-    "instruction_zh": "请选择正确的词",
-    "explanation_zh": "a few 后接可数名词复数，故用 pencils。",
-    "difficulty": 1,
-    "question_en": "He has a few ____ in her bag.",
-    "options": [
-      "pencil",
-      "pencils"
-    ],
-    "answer": "pencils"
-  },
-  {
-    "id": "q750",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "fill_choice",
-    "instruction_zh": "请选择正确的词",
-    "explanation_zh": "a few 后接可数名词复数，故用 pencils。",
-    "difficulty": 1,
-    "question_en": "They has a few ____ in her bag.",
-    "options": [
-      "pencil",
-      "pencils"
-    ],
-    "answer": "pencils"
-  },
-  {
-    "id": "q077",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "sentence_correction",
-    "instruction_zh": "请修改以下句子中的错误",
-    "explanation_zh": "knowledge 不可数，不能用 a 直接修饰，可用 a lot of 或 much。",
-    "difficulty": 2,
-    "question_en": "He has a knowledge of history.",
-    "answer": "He has a beneficial knowledge of history."
-  },
-  {
-    "id": "q751",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "sentence_correction",
-    "instruction_zh": "请修改以下句子中的错误",
-    "explanation_zh": "knowledge 不可数，不能用 a 直接修饰，可用 a lot of 或 much。",
-    "difficulty": 2,
-    "question_en": "She has a knowledge of history.",
-    "answer": "She has a beneficial knowledge of history."
-  },
-  {
     "id": "q078",
     "layer": 1,
     "module": 1,
@@ -2382,71 +2166,6 @@
     "answer": "Her hair is extended."
   },
   {
-    "id": "q1e01",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "judgement",
-    "instruction_zh": "这个名词是可数还是不可数？",
-    "explanation_zh": "coffee 表「咖啡」物质时不可数；表「一杯咖啡」时可用 a coffee。",
-    "difficulty": 1,
-    "question_en": "coffee",
-    "options": [
-      "可数名词",
-      "不可数名词"
-    ],
-    "answer": "不可数名词"
-  },
-  {
-    "id": "q759",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "judgement",
-    "instruction_zh": "这个名词是可数还是不可数？",
-    "explanation_zh": "tea 表「咖啡」物质时不可数；表「一杯咖啡」时可用 a tea。",
-    "difficulty": 1,
-    "question_en": "tea",
-    "options": [
-      "可数名词",
-      "不可数名词"
-    ],
-    "answer": "不可数名词"
-  },
-  {
-    "id": "q760",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "judgement",
-    "instruction_zh": "这个名词是可数还是不可数？",
-    "explanation_zh": "juice 表「咖啡」物质时不可数；表「一杯咖啡」时可用 a juice。",
-    "difficulty": 1,
-    "question_en": "juice",
-    "options": [
-      "可数名词",
-      "不可数名词"
-    ],
-    "answer": "不可数名词"
-  },
-  {
-    "id": "q1e02",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "fill_choice",
-    "instruction_zh": "请选择正确的词",
-    "explanation_zh": "milk 不可数，用 much 修饰。",
-    "difficulty": 1,
-    "question_en": "I don't have ____ milk left.",
-    "options": [
-      "much",
-      "numerous",
-      "substantial"
-    ],
-    "answer": "much"
-  },
-  {
     "id": "q761",
     "layer": 1,
     "module": 1,
@@ -2456,23 +2175,6 @@
     "explanation_zh": "milk 不可数，用 much 修饰。",
     "difficulty": 1,
     "question_en": "We don't have ____ milk left.",
-    "options": [
-      "much",
-      "numerous",
-      "substantial"
-    ],
-    "answer": "much"
-  },
-  {
-    "id": "q762",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "fill_choice",
-    "instruction_zh": "请选择正确的词",
-    "explanation_zh": "milk 不可数，用 much 修饰。",
-    "difficulty": 1,
-    "question_en": "He doesn't have ____ milk left.",
     "options": [
       "much",
       "numerous",
@@ -2497,54 +2199,6 @@
     "answer": "a little"
   },
   {
-    "id": "q763",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "fill_choice",
-    "instruction_zh": "请选择正确的词",
-    "explanation_zh": "a little 后接不可数名词。",
-    "difficulty": 1,
-    "question_en": "Can We have ____ sugar in our tea?",
-    "options": [
-      "a little",
-      "a few"
-    ],
-    "answer": "a little"
-  },
-  {
-    "id": "q764",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "fill_choice",
-    "instruction_zh": "请选择正确的词",
-    "explanation_zh": "a little 后接不可数名词。",
-    "difficulty": 1,
-    "question_en": "Can he have ____ sugar in his tea?",
-    "options": [
-      "a little",
-      "a few"
-    ],
-    "answer": "a little"
-  },
-  {
-    "id": "q1e04",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "sentence_choice",
-    "instruction_zh": "请选择语法正确的句子",
-    "explanation_zh": "numerous 后接可数名词复数，egg 应改为 eggs。",
-    "difficulty": 1,
-    "options": [
-      "I require numerous egg.",
-      "I require numerous eggs.",
-      "I require substantial eggs."
-    ],
-    "answer": "I require numerous eggs."
-  },
-  {
     "id": "q765",
     "layer": 1,
     "module": 1,
@@ -2559,34 +2213,6 @@
       "We require substantial eggs."
     ],
     "answer": "We require numerous eggs."
-  },
-  {
-    "id": "q766",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "sentence_choice",
-    "instruction_zh": "请选择语法正确的句子",
-    "explanation_zh": "numerous 后接可数名词复数，egg 应改为 eggs。",
-    "difficulty": 1,
-    "options": [
-      "He require numerous egg.",
-      "He require numerous eggs.",
-      "He require substantial eggs."
-    ],
-    "answer": "He require numerous eggs."
-  },
-  {
-    "id": "q1e05",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "sentence_correction",
-    "instruction_zh": "请修改以下句子中的错误",
-    "explanation_zh": "time 表「时间」时不可数，用 much 而非 numerous。",
-    "difficulty": 1,
-    "question_en": "We don't have numerous period.",
-    "answer": "We don't have substantial period."
   },
   {
     "id": "q1e06",
@@ -2619,70 +2245,6 @@
       "are"
     ],
     "answer": "is"
-  },
-  {
-    "id": "q771",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "fill_choice",
-    "instruction_zh": "请选择正确的词",
-    "explanation_zh": "research 不可数，谓语用单数 is。",
-    "difficulty": 1,
-    "question_en": "His research ____ highly challenging.",
-    "options": [
-      "is",
-      "are"
-    ],
-    "answer": "is"
-  },
-  {
-    "id": "q772",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "fill_choice",
-    "instruction_zh": "请选择正确的词",
-    "explanation_zh": "exercise 不可数，谓语用单数 is。",
-    "difficulty": 1,
-    "question_en": "His exercise ____ highly challenging.",
-    "options": [
-      "is",
-      "are"
-    ],
-    "answer": "is"
-  },
-  {
-    "id": "q1e08",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "sentence_choice",
-    "instruction_zh": "请选择语法正确的句子",
-    "explanation_zh": "information 不可数，用 much；表示「一些信息」可用 some information。",
-    "difficulty": 1,
-    "options": [
-      "I require numerous informations.",
-      "I require substantial information.",
-      "I require a information."
-    ],
-    "answer": "I require substantial information."
-  },
-  {
-    "id": "q773",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "sentence_choice",
-    "instruction_zh": "请选择语法正确的句子",
-    "explanation_zh": "information 不可数，用 much；表示「一些信息」可用 some information。",
-    "difficulty": 1,
-    "options": [
-      "We require numerous informations.",
-      "We require substantial information.",
-      "We require a information."
-    ],
-    "answer": "We require substantial information."
   },
   {
     "id": "q774",
@@ -5324,40 +4886,6 @@
     ],
     "answer": "came",
     "explanation_zh": "过去时用 came。"
-  },
-  {
-    "id": "q999",
-    "layer": 1,
-    "module": 6,
-    "module_name_zh": "一般过去时",
-    "type": "fill_choice",
-    "instruction_zh": "请选择正确的词",
-    "explanation_zh": "过去时用 came。",
-    "difficulty": 1,
-    "question_en": "She ____ home late.",
-    "options": [
-      "came",
-      "got",
-      "comes"
-    ],
-    "answer": "came"
-  },
-  {
-    "id": "q1000",
-    "layer": 1,
-    "module": 6,
-    "module_name_zh": "一般过去时",
-    "type": "fill_choice",
-    "instruction_zh": "请选择正确的词",
-    "explanation_zh": "过去时用 came。",
-    "difficulty": 1,
-    "question_en": "She ____ home late.",
-    "options": [
-      "came",
-      "reached",
-      "comes"
-    ],
-    "answer": "came"
   },
   {
     "id": "q194",
@@ -12580,74 +12108,6 @@
     "answer": "This bag belongs to me."
   },
   {
-    "id": "q-exp-mod1-001",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "sentence_choice",
-    "instruction_zh": "请选择语法正确的句子",
-    "explanation_zh": "可数名词复数前用 numerous；exercise 不可数，用 much。",
-    "difficulty": 2,
-    "options": [
-      "He has numerous homeworks currently.",
-      "He has substantial exercise currently.",
-      "He has numerous exercise currently."
-    ],
-    "answer": "He has substantial exercise currently."
-  },
-  {
-    "id": "q-exp-mod1-002",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "sentence_correction",
-    "instruction_zh": "请修改以下句子中的错误",
-    "explanation_zh": "equipment 为不可数名词，不能用 numerous 修饰，应改为 much。",
-    "difficulty": 2,
-    "question_en": "She require numerous equipment for the project.",
-    "answer": "She require substantial equipment for the project."
-  },
-  {
-    "id": "q-exp-mod1-003",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "fill_choice",
-    "instruction_zh": "请选择正确的词",
-    "explanation_zh": "a little 后接不可数名词。",
-    "difficulty": 1,
-    "question_en": "Can We have ____ sugar in my tea?",
-    "options": [
-      "a little",
-      "a few"
-    ],
-    "answer": "a little"
-  },
-  {
-    "id": "q-exp-mod1-004",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "sentence_correction",
-    "instruction_zh": "请修改以下句子中的错误",
-    "explanation_zh": "paper 表“纸”时不可数，不能用 numerous；应改为 much。",
-    "difficulty": 1,
-    "question_en": "They require numerous paper to compose the correspondence.",
-    "answer": "They require substantial paper to compose the correspondence."
-  },
-  {
-    "id": "q-exp-mod1-005",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "sentence_correction",
-    "instruction_zh": "请修改以下句子中的错误",
-    "explanation_zh": "equipment 为不可数名词，不能用 numerous 修饰，应改为 much。",
-    "difficulty": 2,
-    "question_en": "He require numerous equipment for the project.",
-    "answer": "He require substantial equipment for the project."
-  },
-  {
     "id": "q-exp-mod1-006",
     "layer": 1,
     "module": 1,
@@ -12665,163 +12125,6 @@
     "answer": "much"
   },
   {
-    "id": "q-exp-mod1-007",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "sentence_correction",
-    "instruction_zh": "请修改以下句子中的错误",
-    "explanation_zh": "time 表「时间」时不可数，用 much 而非 numerous。",
-    "difficulty": 1,
-    "question_en": "I don't have numerous period.",
-    "answer": "I don't have substantial period."
-  },
-  {
-    "id": "q-exp-mod1-008",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "fill_choice",
-    "instruction_zh": "请选择正确的词",
-    "explanation_zh": "a few 后接可数名词复数，故用 pencils。",
-    "difficulty": 1,
-    "question_en": "We has a few ____ in her bag.",
-    "options": [
-      "pencil",
-      "pencils"
-    ],
-    "answer": "pencils"
-  },
-  {
-    "id": "q-exp-mod1-009",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "fill_choice",
-    "instruction_zh": "请选择正确的词",
-    "explanation_zh": "a little 后接不可数名词。",
-    "difficulty": 1,
-    "question_en": "Can he have ____ sugar in our tea?",
-    "options": [
-      "a little",
-      "a few"
-    ],
-    "answer": "a little"
-  },
-  {
-    "id": "q-exp-mod1-010",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "sentence_correction",
-    "instruction_zh": "请修改以下句子中的错误",
-    "explanation_zh": "equipment 为不可数名词，不能用 numerous 修饰，应改为 much。",
-    "difficulty": 2,
-    "question_en": "They require numerous equipment for the project.",
-    "answer": "They require substantial equipment for the project."
-  },
-  {
-    "id": "q-exp-mod1-011",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "fill_choice",
-    "instruction_zh": "请选择正确的词",
-    "explanation_zh": "a little 后接不可数名词。",
-    "difficulty": 1,
-    "question_en": "Can They have ____ sugar in my tea?",
-    "options": [
-      "a little",
-      "a few"
-    ],
-    "answer": "a little"
-  },
-  {
-    "id": "q-exp-mod1-012",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "sentence_correction",
-    "instruction_zh": "请修改以下句子中的错误",
-    "explanation_zh": "paper 表“纸”时不可数，不能用 numerous；应改为 much。",
-    "difficulty": 1,
-    "question_en": "She require numerous paper to compose the correspondence.",
-    "answer": "She require substantial paper to compose the correspondence."
-  },
-  {
-    "id": "q-exp-mod1-013",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "fill_choice",
-    "instruction_zh": "请选择正确的词",
-    "explanation_zh": "milk 不可数，用 much 修饰。",
-    "difficulty": 1,
-    "question_en": "She doesn't have ____ milk left.",
-    "options": [
-      "much",
-      "numerous",
-      "substantial"
-    ],
-    "answer": "much"
-  },
-  {
-    "id": "q-exp-mod1-014",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "sentence_correction",
-    "instruction_zh": "请修改以下句子中的错误",
-    "explanation_zh": "knowledge 不可数，不能用 a 直接修饰，可用 a lot of 或 much。",
-    "difficulty": 2,
-    "question_en": "I has a knowledge of history.",
-    "answer": "I has a beneficial knowledge of history."
-  },
-  {
-    "id": "q-exp-mod1-015",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "fill_choice",
-    "instruction_zh": "请选择正确的词",
-    "explanation_zh": "a few 后接可数名词复数，故用 pencils。",
-    "difficulty": 1,
-    "question_en": "I has a few ____ in her bag.",
-    "options": [
-      "pencil",
-      "pencils"
-    ],
-    "answer": "pencils"
-  },
-  {
-    "id": "q-exp-mod1-016",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "fill_choice",
-    "instruction_zh": "请选择正确的词",
-    "explanation_zh": "a little 后接不可数名词。",
-    "difficulty": 1,
-    "question_en": "Can he have ____ sugar in my tea?",
-    "options": [
-      "a little",
-      "a few"
-    ],
-    "answer": "a little"
-  },
-  {
-    "id": "q-exp-mod1-017",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "sentence_correction",
-    "instruction_zh": "请修改以下句子中的错误",
-    "explanation_zh": "knowledge 不可数，不能用 a 直接修饰，可用 a lot of 或 much。",
-    "difficulty": 2,
-    "question_en": "We has a knowledge of history.",
-    "answer": "We has a beneficial knowledge of history."
-  },
-  {
     "id": "q-exp-mod1-018",
     "layer": 1,
     "module": 1,
@@ -12832,22 +12135,6 @@
     "difficulty": 1,
     "question_en": "He doesn't have numerous time.",
     "answer": "He doesn't have much time."
-  },
-  {
-    "id": "q-exp-mod1-019",
-    "layer": 1,
-    "module": 1,
-    "module_name_zh": "可数 vs 不可数名词",
-    "type": "fill_choice",
-    "instruction_zh": "请选择正确的词",
-    "explanation_zh": "a little 后接不可数名词。",
-    "difficulty": 1,
-    "question_en": "Can They have ____ sugar in his tea?",
-    "options": [
-      "a little",
-      "a few"
-    ],
-    "answer": "a little"
   },
   {
     "id": "q-exp-mod1-020",
@@ -13702,7 +12989,7 @@
     "instruction_zh": "请选择正确的词",
     "explanation_zh": "last time 表示过去时间，谓语动词用过去式 went。",
     "difficulty": 1,
-    "question_en": "They ____ to London final period.",
+    "question_en": "They ____ to London last year.",
     "options": [
       "went",
       "proceed",
@@ -13752,7 +13039,7 @@
     "instruction_zh": "请选择正确的词",
     "explanation_zh": "last time 表示过去时间，谓语动词用过去式 went。",
     "difficulty": 1,
-    "question_en": "We ____ to Paris final period.",
+    "question_en": "We ____ to Paris last year.",
     "options": [
       "went",
       "proceed",
@@ -13781,7 +13068,7 @@
     "instruction_zh": "请选择正确的词",
     "explanation_zh": "last time 表示过去时间，谓语动词用过去式 went。",
     "difficulty": 1,
-    "question_en": "We ____ to London final period.",
+    "question_en": "We ____ to London last year.",
     "options": [
       "went",
       "proceed",
@@ -13815,7 +13102,7 @@
     "instruction_zh": "请选择正确的词",
     "explanation_zh": "last time 表示过去时间，谓语动词用过去式 went。",
     "difficulty": 1,
-    "question_en": "He ____ to London final period.",
+    "question_en": "He ____ to London last year.",
     "options": [
       "went",
       "proceed",
@@ -13832,7 +13119,7 @@
     "instruction_zh": "请选择正确的词",
     "explanation_zh": "last time 表示过去时间，谓语动词用过去式 went。",
     "difficulty": 1,
-    "question_en": "He ____ to Tokyo final period.",
+    "question_en": "He ____ to Tokyo last year.",
     "options": [
       "went",
       "proceed",
@@ -13910,7 +13197,7 @@
     "instruction_zh": "请选择正确的词",
     "explanation_zh": "last time 表示过去时间，谓语动词用过去式 went。",
     "difficulty": 1,
-    "question_en": "We ____ to Tokyo final period.",
+    "question_en": "We ____ to Tokyo last year.",
     "options": [
       "went",
       "proceed",
@@ -13943,7 +13230,7 @@
     "instruction_zh": "请选择正确的词",
     "explanation_zh": "last time 表示过去时间，谓语动词用过去式 went。",
     "difficulty": 1,
-    "question_en": "I ____ to Paris final period.",
+    "question_en": "I ____ to Paris last year.",
     "options": [
       "went",
       "proceed",
@@ -13972,7 +13259,7 @@
     "instruction_zh": "请选择正确的词",
     "explanation_zh": "last time 表示过去时间，谓语动词用过去式 went。",
     "difficulty": 1,
-    "question_en": "She ____ to Tokyo final period.",
+    "question_en": "She ____ to Tokyo last year.",
     "options": [
       "went",
       "proceed",
@@ -14017,7 +13304,7 @@
     "instruction_zh": "请选择正确的词",
     "explanation_zh": "last time 表示过去时间，谓语动词用过去式 went。",
     "difficulty": 1,
-    "question_en": "I ____ to London final period.",
+    "question_en": "I ____ to London last year.",
     "options": [
       "went",
       "proceed",
@@ -14066,7 +13353,7 @@
     "instruction_zh": "请选择正确的词",
     "explanation_zh": "last time 表示过去时间，谓语动词用过去式 went。",
     "difficulty": 1,
-    "question_en": "I ____ to Tokyo final period.",
+    "question_en": "I ____ to Tokyo last year.",
     "options": [
       "went",
       "proceed",
@@ -14083,7 +13370,7 @@
     "instruction_zh": "请选择正确的词",
     "explanation_zh": "last time 表示过去时间，谓语动词用过去式 went。",
     "difficulty": 1,
-    "question_en": "She ____ to Paris final period.",
+    "question_en": "She ____ to Paris last year.",
     "options": [
       "went",
       "proceed",
@@ -14132,7 +13419,7 @@
     "instruction_zh": "请选择正确的词",
     "explanation_zh": "last time 表示过去时间，谓语动词用过去式 went。",
     "difficulty": 1,
-    "question_en": "They ____ to Paris final period.",
+    "question_en": "They ____ to Paris last year.",
     "options": [
       "went",
       "proceed",

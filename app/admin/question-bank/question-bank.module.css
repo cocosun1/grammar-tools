@@ -11,8 +11,37 @@
 }
 
 .subtitle {
-  margin: 0 0 var(--space-xl) 0;
+  margin: 0 0 var(--space-sm) 0;
   font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.sourceNote {
+  margin: 0 0 var(--space-xl) 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.sourceNote code {
+  background: var(--border-soft);
+  padding: 0.1em 0.35em;
+  border-radius: var(--radius-sm);
+  font-size: 0.85em;
+}
+
+.batchBar {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-md);
+  margin-bottom: var(--space-lg);
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+}
+
+.batchCount {
+  font-size: 0.9rem;
   color: var(--muted);
 }
 
@@ -86,6 +115,126 @@ details[open] .moduleSummary::before {
 .questionItem {
   padding: var(--space-md) 0;
   border-bottom: 1px solid var(--border-soft);
+}
+
+.questionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--space-md);
+}
+
+.questionCheckbox {
+  margin-right: var(--space-xs);
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.questionActions {
+  display: flex;
+  gap: var(--space-sm);
+  flex-shrink: 0;
+  align-items: center;
+}
+
+.actionBtn {
+  padding: var(--space-sm) var(--space-md);
+  font-size: 0.875rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--card);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.actionBtn:hover {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+}
+
+.deleteBtn:hover {
+  background: var(--wrong);
+  border-color: var(--wrong);
+}
+
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: var(--space-lg);
+}
+
+.modal {
+  background: var(--card);
+  border-radius: var(--radius-md);
+  padding: var(--space-xl);
+  max-width: 500px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.modalTitle {
+  margin: 0 0 var(--space-lg) 0;
+  font-size: 1.2rem;
+}
+
+.formGroup {
+  margin-bottom: var(--space-md);
+}
+
+.formGroup label {
+  display: block;
+  font-size: 0.85rem;
+  color: var(--muted);
+  margin-bottom: var(--space-xs);
+}
+
+.formGroup input,
+.formGroup textarea {
+  width: 100%;
+  padding: var(--space-sm);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-family: inherit;
+}
+
+.formGroup textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.modalActions {
+  display: flex;
+  gap: var(--space-md);
+  margin-top: var(--space-xl);
+  justify-content: flex-end;
+}
+
+.errorBanner {
+  padding: var(--space-md);
+  background: #fee;
+  color: var(--wrong);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--space-lg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.errorBanner button {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: inherit;
+  padding: 0 var(--space-xs);
 }
 
 .questionItem:last-child {

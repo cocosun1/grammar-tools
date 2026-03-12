@@ -15,20 +15,6 @@
       "module_name_zh": "可数 vs 不可数名词"
     },
     {
-      "id": "l3q002",
-      "type": "sentence_choice",
-      "instruction_zh": "请选择语法正确的句子",
-      "explanation_zh": "主句中 advice 不可数，从句中 people 可数用 numerous。",
-      "difficulty": 3,
-      "options": [
-        "Substantial of the advice that individuals provide you is worth considering.",
-        "Numerous of the advice that individuals provide you is worth considering.",
-        "Substantial of the advices that individuals provide you are worth considering."
-      ],
-      "answer": "Substantial of the advice that individuals provide you is worth considering.",
-      "module_name_zh": "可数 vs 不可数名词"
-    },
-    {
       "id": "l3q003",
       "type": "judgement",
       "instruction_zh": "这个名词是可数还是不可数？",
@@ -57,16 +43,6 @@
       "module_name_zh": "可数 vs 不可数名词"
     },
     {
-      "id": "l3q005",
-      "type": "sentence_correction",
-      "instruction_zh": "请修改以下句子中的错误",
-      "explanation_zh": "主句中 furniture 不可数，用 much；people 可数用 numerous。",
-      "difficulty": 3,
-      "question_en": "There is numerous furniture in the residence that numerous individuals attended.",
-      "answer": "There is substantial furniture in the residence that numerous individuals attended.",
-      "module_name_zh": "可数 vs 不可数名词"
-    },
-    {
       "id": "l3q006",
       "type": "fill_choice",
       "instruction_zh": "请选择正确的词",
@@ -78,20 +54,6 @@
         "were"
       ],
       "answer": "was",
-      "module_name_zh": "可数 vs 不可数名词"
-    },
-    {
-      "id": "l3q007",
-      "type": "sentence_choice",
-      "instruction_zh": "请选择语法正确的句子",
-      "explanation_zh": "resource 不可数，用 much 修饰。",
-      "difficulty": 3,
-      "options": [
-        "There is few resource left, but there are a few publications on the shelf.",
-        "There is little resource left, but there are a few publications on the shelf.",
-        "Present are little resource left, but there are a few publications on the shelf."
-      ],
-      "answer": "There is little resource left, but there are a few publications on the shelf.",
       "module_name_zh": "可数 vs 不可数名词"
     },
     {
@@ -1163,7 +1125,7 @@
       "instruction_zh": "请选择正确的词",
       "explanation_zh": " have met。",
       "difficulty": 3,
-      "question_en": "We ____ before, at the conference final period.",
+      "question_en": "We ____ before, at the conference last time.",
       "options": [
         "have met",
         "have encountered",
